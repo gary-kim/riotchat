@@ -1,0 +1,12 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base"
+  ],
+  "reviewers": ["gary-kim"],
+  "labels": ["dependencies"],
+  "rangeStrategy": "bump",
+  "semanticCommits": true,
+  "masterIssue": true,
+  "masterIssueTitle": "Renovate Dashboard"
+}

@@ -1,0 +1,7 @@
+# Not used directly
+/3rdparty/riot-web
+/src
+/webpack.common.js
+/webpack.dev.js
+/webpack.prod.js
+/babel.config.js

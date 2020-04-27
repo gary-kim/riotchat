@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>riotchat</id>
+    <name>Riot Chat</name>
+    <summary>Riot IM Chat integrated into Nextcloud</summary>
+    <description><![CDATA[This project is not affiliated, associated, authorized, endorsed by, or in any way officially connected with Riot.im, or any of its subsidiaries or its affiliates.
+
+The name Riot.im as well as related names, marks, emblems and images are registered trademarks of their respective owners.
+
+The upstream project can be found at [https://github.com/vector-im/riot-web](https://github.com/vector-im/riot-web).
+
+Riot Chat for Nextcloud allows you to install Riot easily through Nextcloud and join the Matrix decentralized communication network.]]></description>
+    <version>0.0.1</version>
+    <licence>AGPL-3.0</licence>
+    <author mail="gary@garykim.dev" homepage="https://garykim.dev">Gary Kim</author>
+    <namespace>RiotChat</namespace>
+    <category>social</category>
+	<website>https://github.com/gary-kim/riotchat</website>
+    <bugs>https://github.com/gary-kim/riotchat/issues</bugs>
+	<repository type="git">https://github.com/gary-kim/riotchat.git</repository>
+    <dependencies>
+        <nextcloud min-version="17" max-version="19"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Riot Chat</name>
+            <route>riotchat.app.index</route>
+			<icon>app.svg</icon>
+        </navigation>
+    </navigations>
+</info>
