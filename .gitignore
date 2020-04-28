@@ -1,3 +1,8 @@
+# JS Stuff
 /node_modules
 /js
 /3rdparty/riot
+
+# PHP Stuff
+/vendor/
+/.php_cs.cache

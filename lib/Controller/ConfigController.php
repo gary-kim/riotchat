@@ -1,4 +1,6 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 /**
  * @copyright Copyright (c) 2020 Gary Kim <gary@garykim.dev>
  * @copyright Copyright (c) 2019 Robin Appelman <robin@icewind.nl>
@@ -56,19 +58,21 @@ class ConfigController extends Controller {
 	 * @NoAdminRequired
 	 */
 	public function config() {
-		// TODO: generate the entire config from appConfig
 		// TODO: fill in branding from theming
-		$lang = $this->l10n->getLocaleCode();
+		$lang = $this->l10n->getLanguageCode();
 		$config = [
 			'disable_guests' => true,
 			'piwik' => false,
 			'settingDefaults' => [
+				// TODO: Check if this actually works :)
 				'language' => $lang,
 			],
+			'disable_custom_urls' => $this->config->getAppValue(Application::APP_ID, 'disable_custom_urls', Application::AvailableSettings['disable_custom_urls']) === 'true',
+			'disable_login_language_selector' => $this->config->getAppValue(Application::APP_ID, 'disable_login_language_selector', Application::AvailableSettings['disable_login_language_selector']) === 'true',
 			'default_server_config' => [
 				'm.homeserver' => [
-					'base_url' => $this->config->getAppValue(Application::APP_ID, 'default_server_config.m.homeserver.base_url', 'https://matrix.garykim.dev'),
-					'server_name' => $this->config->getAppValue(Application::APP_ID, 'default_server_config.m.homeserver.server_name', 'Gary Kim Matrix Server'),
+					'base_url' => $this->config->getAppValue(Application::APP_ID, 'base_url', Application::AvailableSettings['base_url']),
+					'server_name' => $this->config->getAppValue(Application::APP_ID, 'server_name', Application::AvailableSettings['server_name']),
 				],
 			],
 		];

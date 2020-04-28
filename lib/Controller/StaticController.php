@@ -1,4 +1,6 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 /**
  * @copyright Copyright (c) 2020 Gary Kim <gary@garykim.dev>
  * @copyright Copyright (c) 2019 Robin Appelman <robin@icewind.nl>
@@ -36,14 +38,14 @@ use OCP\IRequest;
 
 class StaticController extends Controller {
 
-    /** @var IMimeTypeDetector */
-    private $mimeTypeHelper;
+	/** @var IMimeTypeDetector */
+	private $mimeTypeHelper;
 
-    /** @var ContentSecurityPolicyNonceManager */
-    private $nonceManager;
+	/** @var ContentSecurityPolicyNonceManager */
+	private $nonceManager;
 
-    /** @var IL10N */
-    private $l10n;
+	/** @var IL10N */
+	private $l10n;
 
 	/**
 	 * StaticController constructor.
@@ -54,58 +56,57 @@ class StaticController extends Controller {
 	 * @param ContentSecurityPolicyNonceManager $nonceManager
 	 * @param IL10N $l10n
 	 */
-    public function __construct(
-        $appName,
-        IRequest $request,
-        IMimeTypeDetector $mimeTypeHelper,
-        ContentSecurityPolicyNonceManager $nonceManager,
+	public function __construct(
+		$appName,
+		IRequest $request,
+		IMimeTypeDetector $mimeTypeHelper,
+		ContentSecurityPolicyNonceManager $nonceManager,
 		IL10N $l10n
-    ) {
-        parent::__construct($appName, $request);
+	) {
+		parent::__construct($appName, $request);
 
-        $this->mimeTypeHelper = $mimeTypeHelper;
-        $this->nonceManager = $nonceManager;
-        $this->l10n = $l10n;
-    }
+		$this->mimeTypeHelper = $mimeTypeHelper;
+		$this->nonceManager = $nonceManager;
+		$this->l10n = $l10n;
+	}
 
-    /**
-     * @NoCSRFRequired
-     * @NoAdminRequired
-     */
-    public function index() {
-        return $this->riot("index.html");
-    }
+	/**
+	 * @NoCSRFRequired
+	 * @NoAdminRequired
+	 */
+	public function index() {
+		return $this->riot("index.html");
+	}
 
-    /**
-     * @NoCSRFRequired
-     * @NoAdminRequired
+	/**
+	 * @NoCSRFRequired
+	 * @NoAdminRequired
 	 *
 	 * @param string $path
 	 * @throws ForbiddenException
 	 * @return FileResponse
-     */
-    public function riot(string $path) {
-        if (strpos($path, '..') !== false) {
-            throw new ForbiddenException();
-        }
+	 */
+	public function riot(string $path) {
+		if (strpos($path, '..') !== false) {
+			throw new ForbiddenException();
+		}
 
-        $localPath = __DIR__ . '/../../3rdparty/riot/' . $path;
+		$localPath = __DIR__ . '/../../3rdparty/riot/' . $path;
 
-        return $this->createFileResponse($localPath);
-    }
+		return $this->createFileResponse($localPath);
+	}
 
 	/**
 	 * @param $path
 	 * @return FileResponse|NotFoundResponse
 	 */
-    private function createFileResponse($path) {
-
-        if (!file_exists($path)) {
-            return new NotFoundResponse();
-        }
-        $content = file_get_contents($path);
-        return $this->createFileResponseWithContent($path, $content);
-    }
+	private function createFileResponse($path) {
+		if (!file_exists($path)) {
+			return new NotFoundResponse();
+		}
+		$content = file_get_contents($path);
+		return $this->createFileResponseWithContent($path, $content);
+	}
 
 	/**
 	 * @param string $path
@@ -113,67 +114,67 @@ class StaticController extends Controller {
 	 * @param bool $cache
 	 * @return FileResponse
 	 */
-    private function createFileResponseWithContent(string $path, string $content, $cache = true) {
-        $isHTML = pathinfo($path, PATHINFO_EXTENSION) === 'html';
-        if ($isHTML) {
-            $content = $this->addScriptNonce($content, $this->nonceManager->getNonce());
-        }
+	private function createFileResponseWithContent(string $path, string $content, $cache = true) {
+		$isHTML = pathinfo($path, PATHINFO_EXTENSION) === 'html';
+		if ($isHTML) {
+			$content = $this->addScriptNonce($content, $this->nonceManager->getNonce());
+		}
 
-        $mime = $this->mimeTypeHelper->detectPath($path);
-        switch (pathinfo($path, PATHINFO_EXTENSION)) {
+		$mime = $this->mimeTypeHelper->detectPath($path);
+		switch (pathinfo($path, PATHINFO_EXTENSION)) {
 			case 'wasm':
 				$mime = 'application/wasm';
 				break;
 		}
 
-        $response = new FileResponse(
-            $content,
-            strlen($content),
-            filemtime($path),
-            $mime,
-            basename($path)
-        );
+		$response = new FileResponse(
+			$content,
+			strlen($content),
+			filemtime($path),
+			$mime,
+			basename($path)
+		);
 
-        // we can't cache the html since the nonce might need to get updated
-        if ($cache && !$isHTML) {
-            $response->cacheFor(3600);
-        }
+		// we can't cache the html since the nonce might need to get updated
+		if ($cache && !$isHTML) {
+			$response->cacheFor(3600);
+		}
 
-        $csp = new ContentSecurityPolicy();
-        $csp->addAllowedScriptDomain($this->request->getServerHost());
-        $csp->addAllowedScriptDomain('\'unsafe-eval\'');
-        $csp->addAllowedScriptDomain('\'unsafe-inline\'');
-        // TODO: If set to only allow a single server, set this value
+		$csp = new ContentSecurityPolicy();
+		$csp->addAllowedScriptDomain($this->request->getServerHost());
+		$csp->addAllowedScriptDomain('\'unsafe-eval\'');
+		$csp->addAllowedScriptDomain('\'unsafe-inline\'');
+		// TODO: If set to only allow a single server, set this value
 		$csp->addAllowedConnectDomain('*');
-        $csp->addAllowedFrameDomain($this->request->getServerHost());
-        $response->setContentSecurityPolicy($csp);
+		$csp->addAllowedFrameDomain($this->request->getServerHost());
+		$response->setContentSecurityPolicy($csp);
 
-        return $response;
-    }
+		return $response;
+	}
 
-    private function addScriptNonce(string $content, string $nonce): string {
-        return str_replace('<script', "<script nonce=\"$nonce\"", $content);
-    }
+	private function addScriptNonce(string $content, string $nonce): string {
+		return str_replace('<script', "<script nonce=\"$nonce\"", $content);
+	}
 
-    /**
-     * @NoCSRFRequired
-     * @NoAdminRequired
-     */
-    public function config() {
-        // TODO: generate the entire config from appConfig
+	/**
+	 * @NoCSRFRequired
+	 * @NoAdminRequired
+	 */
+	public function config() {
+		// TODO: generate the entire config from appConfig
 		$lang = $this->l10n->getLocaleCode();
-        $config = [
-            'disable_guests' => true,
-            'piwik' => false,
-            'settingDefaults' => [
-                'language' => $lang,
-            ],
+		$config = [
+			'disable_guests' => true,
+			'piwik' => false,
+			'settingDefaults' => [
+				'language' => $lang,
+			],
 			'default_server_config' => [
 				'm.homeserver' => [
 					'base_url' => "https://matrix.garykim.dev"
 				],
 			],
-        ];
-        return new JSONResponse($config);
-    }
+		];
+		return new JSONResponse($config);
+	}
 }

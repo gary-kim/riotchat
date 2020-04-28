@@ -1,0 +1,63 @@
+{
+    "env": {
+        "browser": true,
+        "es2020": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "standard",
+        "plugin:vue/essential",
+        "plugin:vue/recommended"
+    ],
+    "parserOptions": {
+        "parser": "babel-eslint",
+        "sourceType": "module"
+    },
+    "rules": {
+        "indent": [
+            "error",
+            4,
+            {"SwitchCase": 1}
+        ],
+        "vue/html-indent": [
+            "error",
+            4
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "no-unused-vars": [
+            "warn"
+        ],
+        "no-console": [
+            "warn"
+        ],
+        "import/first": [
+            "off"
+        ],
+        "camelcase": [
+            "off"
+        ],
+        "quotes": [
+            "off"
+        ],
+        "comma-dangle": [
+            "error",
+            {
+                "arrays": "always-multiline",
+                "objects": "always-multiline",
+                "imports": "always-multiline",
+                "exports": "always-multiline",
+                "functions": "always-multiline"
+            }
+        ],
+        "quote-props": [
+            "off"
+        ]
+    }
+}

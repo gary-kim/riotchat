@@ -29,4 +29,8 @@ Riot Chat for Nextcloud allows you to install Riot easily through Nextcloud and 
 			<icon>app.svg</icon>
         </navigation>
     </navigations>
+	<settings>
+		<admin>OCA\RiotChat\Settings\Admin</admin>
+		<admin-section>OCA\RiotChat\Settings\AdminSection</admin-section>
+	</settings>
 </info>

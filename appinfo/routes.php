@@ -20,11 +20,11 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 return [
-    'routes' => [
-    	['name' => 'app#index', 'url' => '/', 'verb' => 'GET'],
-	    ['name' => 'static#index', 'url' => '/riot/', 'verb' => 'GET'],
+	'routes' => [
+		['name' => 'app#index', 'url' => '/', 'verb' => 'GET'],
+		['name' => 'static#index', 'url' => '/riot/', 'verb' => 'GET'],
 		['name' => 'config#config', 'url' => '/riot/config.json', 'verb' => 'GET'],
-        ['name' => 'static#riot', 'url' => '/riot/{path}', 'verb' => 'GET', 'requirements' => ['path' => '.+']],
-        ['name' => 'settings#setSetting', 'url' => '/settings/{key}', 'verb' => 'PUT'],
-    ]
+		['name' => 'static#riot', 'url' => '/riot/{path}', 'verb' => 'GET', 'requirements' => ['path' => '.+']],
+		['name' => 'settings#setSetting', 'url' => '/settings/{key}', 'verb' => 'PUT'],
+	]
 ];

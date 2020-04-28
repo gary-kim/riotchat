@@ -1,4 +1,6 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 /**
  * @copyright Copyright (c) 2020 Gary Kim <gary@garykim.dev>
  *
@@ -21,7 +23,7 @@
  *
  */
 
-namespace OCA\Recommendations\Controller;
+namespace OCA\RiotChat\Controller;
 
 use OCA\RiotChat\AppInfo\Application;
 
@@ -33,40 +35,31 @@ use OCP\IRequest;
 
 class SettingsController extends Controller {
 
-    /** @var IConfig */
-    private $config;
+	/** @var IConfig */
+	private $config;
 
-    public function __construct($appName, IRequest $request, IConfig $config) {
-        parent::__construct($appName, $request);
+	public function __construct($appName, IRequest $request, IConfig $config) {
+		parent::__construct($appName, $request);
 
-        $this->config = $config;
-    }
+		$this->config = $config;
+	}
 
-    /**
-     * @param $key
-     * @return JSONResponse
-     */
-    public function setSetting (string $key, string $value): JSONResponse {
-    	// TODO: Get all settings in here
-        $availableSettings = [
-            'default_server_config.m.homeserver.base_url',
-            'default_server_config.m.homeserver.server_name',
-            'disable_custom_urls',
-            'disable_login_language_selector'
-        ];
+	/**
+	 * @param $key
+	 * @return JSONResponse
+	 */
+	public function setSetting(string $key, string $value): JSONResponse {
+		if (!array_key_exists($key, Application::AvailableSettings)) {
+			return new JSONResponse([
+				'message' => 'parameter does not exist',
+			], Http::STATUS_UNPROCESSABLE_ENTITY);
+		}
 
-        if (!in_array($key, $availableSettings)) {
-            return new JSONResponse([
-                'message' => 'parameter does not exist',
-            ], Http::STATUS_UNPROCESSABLE_ENTITY);
-        }
+		$this->config->setAppValue(Application::APP_ID, $key, $value);
 
-        $this->config->setAppValue(Application::APP_ID, $key, $value);
-
-        return new JSONResponse([
-            'key' => $key,
-            'value' => $value,
-        ]);
-    }
-
+		return new JSONResponse([
+			'key' => $key,
+			'value' => $value,
+		]);
+	}
 }

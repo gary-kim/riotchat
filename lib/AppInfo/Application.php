@@ -1,4 +1,6 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 
 /**
  * @copyright Copyright (c) 2020 Gary Kim <gary@garykim.dev>
@@ -26,8 +28,14 @@ namespace OCA\RiotChat\AppInfo;
 use OCP\AppFramework\App;
 
 class Application extends App {
-
 	public const APP_ID = 'riotchat';
+
+	public const AvailableSettings = [
+		'base_url' => 'https://matrix-client.matrix.org',
+		'server_name' => 'Matrix Homeserver',
+		'disable_custom_urls' => 'false',
+		'disable_login_language_selector' => 'false',
+	];
 
 	public function __construct(array $urlParams = []) {
 		parent::__construct(self::APP_ID, $urlParams);

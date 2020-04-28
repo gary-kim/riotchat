@@ -7,7 +7,9 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npx eslint --ext .js,.vue src",
+	"eslint": "npx eslint --ext .js,.vue src",
+	"eslint:fix": "npx eslint --ext .js,.vue src --fix",
     "build": "NODE_ENV=production npx webpack --progress",
     "dev": "npx webpack --progress",
     "watch": "npx webpack --progress --watch"
@@ -27,6 +29,13 @@
     "@babel/preset-env": "^7.9.5",
     "babel-loader": "^8.1.0",
     "css-loader": "^3.5.3",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-vue": "^6.2.2",
     "node-sass": "^4.14.0",
     "sass-loader": "^8.0.2",
     "vue-loader": "^15.9.1",

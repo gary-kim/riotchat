@@ -1,4 +1,6 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 /**
  * @copyright Copyright (c) 2020 Gary Kim <gary@garykim.dev>
  *
@@ -30,8 +32,7 @@ use OCP\AppFramework\Http\TemplateResponse;
 use OCP\AppFramework\Controller;
 
 class AppController extends Controller {
-
-	public function __construct($AppName, IRequest $request){
+	public function __construct($AppName, IRequest $request) {
 		parent::__construct($AppName, $request);
 	}
 
@@ -48,5 +49,4 @@ class AppController extends Controller {
 
 		return $response;
 	}
-
 }
