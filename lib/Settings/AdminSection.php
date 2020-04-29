@@ -48,7 +48,7 @@ class AdminSection implements IIconSection {
 	 * @since 13.0.0
 	 */
 	public function getIcon() {
-		return $this->urlGenerator->imagePath('riotchat', 'app.svg');
+		return $this->urlGenerator->imagePath('riotchat', 'app-dark.svg');
 	}
 
 	/**
