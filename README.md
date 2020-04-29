@@ -21,6 +21,10 @@ Clone the repository into `apps/riotchat` on your server then run
 make
 ```
 
+### Logo
+
+The logo is the logo of the Riot.im project. The file used is from [Fork Awesome](https://github.com/ForkAwesome/Fork-Awesome/pull/232/).
+
 ### License
 
 Copyright © 2020 Gary Kim &lt;<gary@garykim.dev>&gt;
