@@ -43,8 +43,4 @@ source:
 
 .PHONY: appstore
 appstore:
-	rm -rf $(appstore_build_directory)
-	mkdir -p $(appstore_build_directory)
-	tar cvzf $(appstore_package_name).tar.gz ../$(app_name) \
-	--exclude-vcs \
-	--exclude-ignore=.nextcloudignore
+	

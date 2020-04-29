@@ -6,3 +6,6 @@
 # PHP Stuff
 /vendor/
 /.php_cs.cache
+
+# Build stuff
+/build

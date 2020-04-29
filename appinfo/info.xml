@@ -14,7 +14,7 @@ The name Riot.im as well as related names, marks, emblems and images are registe
 
 The upstream project can be found at [https://github.com/vector-im/riot-web](https://github.com/vector-im/riot-web).]]></description>
     <version>0.0.1</version>
-    <licence>AGPL-3.0</licence>
+    <licence>agpl</licence>
     <author mail="gary@garykim.dev" homepage="https://garykim.dev">Gary Kim</author>
     <namespace>RiotChat</namespace>
     <category>social</category>
