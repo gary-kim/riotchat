@@ -9,6 +9,10 @@
         "plugin:vue/essential",
         "plugin:vue/recommended"
     ],
+    "globals": {
+        "t": true,
+        "n": true
+    },
     "parserOptions": {
         "parser": "babel-eslint",
         "sourceType": "module"

@@ -1,0 +1,34 @@
+kind: pipeline
+type: docker
+name: test
+
+steps:
+  - name: node-modules
+    image: node:13
+    commands:
+      - npm ci
+
+  - name: eslint
+    image: node:13
+    commands:
+      - npm run eslint
+
+  - name: php-lint
+    image: composer:1.10
+    commands:
+      - composer i
+      - composer run lint
+      - composer run cs:check
+
+  - name: test-build
+    image: node:13
+    commands:
+      - npm run build -- --no-progress
+
+
+trigger:
+  branch:
+    - master
+  event:
+    - pull_request
+    - push
