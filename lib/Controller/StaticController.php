@@ -25,14 +25,16 @@ declare(strict_types=1);
 
 namespace OCA\RiotChat\Controller;
 
+use OCA\RiotChat\AppInfo\Application;
+
 use OC\ForbiddenException;
 use OC\Security\CSP\ContentSecurityPolicy;
 use OC\Security\CSP\ContentSecurityPolicyNonceManager;
 use OCA\RiotChat\FileResponse;
 use OCP\AppFramework\Controller;
-use OCP\AppFramework\Http\JSONResponse;
 use OCP\AppFramework\Http\NotFoundResponse;
 use OCP\Files\IMimeTypeDetector;
+use OCP\IConfig;
 use OCP\IL10N;
 use OCP\IRequest;
 
@@ -47,6 +49,9 @@ class StaticController extends Controller {
 	/** @var IL10N */
 	private $l10n;
 
+	/** @var IConfig */
+	private $config;
+
 	/**
 	 * StaticController constructor.
 	 *
@@ -55,19 +60,22 @@ class StaticController extends Controller {
 	 * @param IMimeTypeDetector $mimeTypeHelper
 	 * @param ContentSecurityPolicyNonceManager $nonceManager
 	 * @param IL10N $l10n
+	 * @param IConfig $config
 	 */
 	public function __construct(
 		$appName,
 		IRequest $request,
 		IMimeTypeDetector $mimeTypeHelper,
 		ContentSecurityPolicyNonceManager $nonceManager,
-		IL10N $l10n
+		IL10N $l10n,
+		IConfig $config
 	) {
 		parent::__construct($appName, $request);
 
 		$this->mimeTypeHelper = $mimeTypeHelper;
 		$this->nonceManager = $nonceManager;
 		$this->l10n = $l10n;
+		$this->config = $config;
 	}
 
 	/**
@@ -144,8 +152,11 @@ class StaticController extends Controller {
 		$csp->addAllowedScriptDomain($this->request->getServerHost());
 		$csp->addAllowedScriptDomain('\'unsafe-eval\'');
 		$csp->addAllowedScriptDomain('\'unsafe-inline\'');
-		// TODO: If set to only allow a single server, set this value
-		$csp->addAllowedConnectDomain('*');
+		if ($this->config->getAppValue(Application::APP_ID, 'disable_custom_urls', Application::AvailableSettings['disable_custom_urls']) === 'true') {
+			$csp->addAllowedConnectDomain($this->config->getAppValue(Application::APP_ID, 'base_url', Application::AvailableSettings['base_url']));
+		} else {
+			$csp->addAllowedConnectDomain('*');
+		}
 		$csp->addAllowedFrameDomain($this->request->getServerHost());
 		$response->setContentSecurityPolicy($csp);
 
@@ -154,27 +165,5 @@ class StaticController extends Controller {
 
 	private function addScriptNonce(string $content, string $nonce): string {
 		return str_replace('<script', "<script nonce=\"$nonce\"", $content);
-	}
-
-	/**
-	 * @NoCSRFRequired
-	 * @NoAdminRequired
-	 */
-	public function config() {
-		// TODO: generate the entire config from appConfig
-		$lang = $this->l10n->getLocaleCode();
-		$config = [
-			'disable_guests' => true,
-			'piwik' => false,
-			'settingDefaults' => [
-				'language' => $lang,
-			],
-			'default_server_config' => [
-				'm.homeserver' => [
-					'base_url' => "https://matrix.garykim.dev"
-				],
-			],
-		];
-		return new JSONResponse($config);
 	}
 }
