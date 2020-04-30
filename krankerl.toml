@@ -1,0 +1,5 @@
+[package]
+before_cmds = [
+	"git submodule update --init --recursive",
+	"make"
+]

@@ -1,3 +1,4 @@
+---
 kind: pipeline
 type: docker
 name: test
@@ -32,3 +33,56 @@ trigger:
   event:
     - pull_request
     - push
+
+---
+kind: pipeline
+type: docker
+name: release
+
+steps:
+  - name: build
+    image: garykim/personal-tools-image:latest
+    pull: always
+    commands:
+      - krankerl package --shipped
+  - name: integrity-sign
+    image: nextcloudci/server:latest
+    environment:
+      PRIVATE_KEY:
+        from_secret: signing_private_key
+    commands:
+      - mkdir -p $HOME/.nextcloud/certificates
+      - curl --output $HOME/.nextcloud/certificates/riotchat.crt -L https://raw.githubusercontent.com/nextcloud/app-certificate-requests/master/riotchat/riotchat.crt
+      - echo $PRIVATE_KEY > $HOME/.nextcloud/certificates/riotchat.key
+      - php /var/www/html/occ integrity:sign-app --privateKey="$HOME/.nextcloud/certificates/riotchat.key" --certificate="$HOME/.nextcloud/certificates/riotchat.crt" --path="$(pwd)/build/artifacts/riotchat"
+  - name: package
+    image: garykim/personal-tools-image:latest
+    pull: always
+    environment:
+      GITHUB_USER: gary-kim
+      GITHUB_TOKEN:
+        from_secret: github_token
+    commands:
+      - (cd build/artifacts && tar -czf /tmp/riotchat.tar.gz riotchat)
+      - cp /tmp/riotchat.tar.gz ./
+      - hub release create -a /tmp/riotchat.tar.gz $DRONE_TAG
+  - name: release
+    image: garykim/personal-tools-image:latest
+    pull: always
+    environment:
+      NEXTCLOUD_APPS_TOKEN:
+        from_secret: nextcloud_apps_token
+    commands:
+      - krankerl login --appstore $NEXTCLOUD_APPS_TOKEN
+      - krankerl publish https://github.com/gary-kim/riotchat/releases/download/$DRONE_TAG/riotchat.tar.gz
+
+trigger:
+  branch:
+    - master
+  event:
+    - tag
+---
+kind: signature
+hmac: 178a6664c80d949c87cafb04844b7c2b49320f935120c3d7b4a4289320cf986e
+
+...
