@@ -26,15 +26,21 @@
             :title="t('riotchat', 'Riot.im configuration')"
             :description="t('riotchat', 'Configure Riot chat here')"
         >
-            <label for="default_server_url">{{ t('riotchat', 'Default server url') }}</label>
+            <label
+                ref="base_url"
+                for="base_url"
+            >{{ t('riotchat', 'Default server url') }}</label>
             <input
-                id="default_server_url"
+                id="base_url"
                 v-model="base_url"
                 type="text"
                 @change="updateSetting('base_url')"
             >
             <br>
-            <label for="default_server_url">{{ t('riotchat', 'Default server name') }}</label>
+            <label
+                ref="server_name"
+                for="server_name"
+            >{{ t('riotchat', 'Default server name') }}</label>
             <input
                 id="default_server_name"
                 v-model="server_name"
@@ -49,7 +55,10 @@
                 class="checkbox"
                 @change="updateSetting('disable_custom_urls')"
             >
-            <label for="disable_custom_urls">{{ t('riotchat', 'Disable custom urls') }}</label>
+            <label
+                ref="disable_custom_urls"
+                for="disable_custom_urls"
+            >{{ t('riotchat', 'Disable custom urls') }}</label>
             <br>
             <input
                 id="disable_login_language_selector"
@@ -58,13 +67,17 @@
                 class="checkbox"
                 @change="updateSetting('disable_login_language_selector')"
             >
-            <label for="disable_login_language_selector">{{ t('riotchat', 'Disable login language selector') }}</label>
+            <label
+                ref="disable_login_language_selector"
+                for="disable_login_language_selector"
+            >{{ t('riotchat', 'Disable login language selector') }}</label>
         </SettingsSection>
     </div>
 </template>
 
 <script>
 import Axios from '@nextcloud/axios';
+import { showError, showSuccess } from '@nextcloud/dialogs';
 import { generateUrl } from '@nextcloud/router';
 import { loadState } from '@nextcloud/initial-state';
 import { SettingsSection } from '@nextcloud/vue';
@@ -84,8 +97,14 @@ export default {
     },
     methods: {
         updateSetting (setting) {
+            const value = this[setting].toString();
+            const settingName = this.$refs[setting].innerText;
             Axios.put(generateUrl(`apps/riotchat/settings/${setting}`), {
-                value: this[setting].toString(),
+                value,
+            }).then(() => {
+                showSuccess(t('riotchat', '{settingName} has been set to {value}', { settingName, value }));
+            }).catch(() => {
+                showError(t('riotchat', '{settingName} could not be set. Try reloading the page.', { settingName }));
             });
         },
     },
