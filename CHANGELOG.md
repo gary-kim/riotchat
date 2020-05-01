@@ -1,5 +1,17 @@
 # Riot Chat for Nextcloud Changelog
 
+## [v0.1.2](https://github.com/gary-kim/riotchat/tree/v0.1.2) - 2020-05-01
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.1.1...v0.1.2)
+
+### Added
+
+- Add screenshot and fix app compliance [\#11](https://github.com/gary-kim/riotchat/pull/11) ([@gary-kim](https://github.com/gary-kim))
+
+### Fixed
+
+- Release pipeline fix, again [\#10](https://github.com/gary-kim/riotchat/pull/10) ([@gary-kim](https://github.com/gary-kim))
+
 ## [v0.1.1](https://github.com/gary-kim/riotchat/tree/v0.1.1) - 2020-05-01
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.1.0...v0.1.1)
