@@ -53,7 +53,7 @@ steps:
     commands:
       - mkdir -p $HOME/.nextcloud/certificates
       - curl --output $HOME/.nextcloud/certificates/riotchat.crt -L https://raw.githubusercontent.com/nextcloud/app-certificate-requests/master/riotchat/riotchat.crt
-      - echo $PRIVATE_KEY > $HOME/.nextcloud/certificates/riotchat.key
+      - echo -en $PRIVATE_KEY > $HOME/.nextcloud/certificates/riotchat.key
       - php /var/www/html/occ integrity:sign-app --privateKey="$HOME/.nextcloud/certificates/riotchat.key" --certificate="$HOME/.nextcloud/certificates/riotchat.crt" --path="$(pwd)/build/artifacts/riotchat"
   - name: package
     image: garykim/personal-tools-image:latest
@@ -63,17 +63,22 @@ steps:
       GITHUB_TOKEN:
         from_secret: github_token
     commands:
-      - (cd build/artifacts && tar -czf /tmp/riotchat.tar.gz riotchat)
-      - cp /tmp/riotchat.tar.gz ./
-      - hub release create -a /tmp/riotchat.tar.gz $DRONE_TAG
+      - (cd build/artifacts && tar -czf riotchat.tar.gz riotchat)
+      - echo -en "$DRONE_TAG\n\n[See changelog here](https://github.com/gary-kim/riotchat/blob/master/CHANGELOG.md)" > releasemessage.txt
+      - hub release create -a build/artifacts/riotchat.tar.gz -F releasemessage.txt $DRONE_TAG
   - name: release
     image: garykim/personal-tools-image:latest
     pull: always
     environment:
       NEXTCLOUD_APPS_TOKEN:
         from_secret: nextcloud_apps_token
+      PRIVATE_KEY:
+        from_secret: signing_private_key
     commands:
       - krankerl login --appstore $NEXTCLOUD_APPS_TOKEN
+      - mkdir -p $HOME/.nextcloud/certificates
+      - curl --output $HOME/.nextcloud/certificates/riotchat.crt -L https://raw.githubusercontent.com/nextcloud/app-certificate-requests/master/riotchat/riotchat.crt
+      - echo -en $PRIVATE_KEY > $HOME/.nextcloud/certificates/riotchat.key
       - krankerl publish https://github.com/gary-kim/riotchat/releases/download/$DRONE_TAG/riotchat.tar.gz
 
 trigger:
@@ -81,6 +86,6 @@ trigger:
     - tag
 ---
 kind: signature
-hmac: db8fe8cb32f5241aad3fcf760eab014ec23013af466513f83716af5ec5fb69eb
+hmac: 99996886ee32403f6dd9f9007e1a1e82194f6d44dc9a931d7b2021e4b1c578ff
 
 ...
