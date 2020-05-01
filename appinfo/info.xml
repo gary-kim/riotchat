@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
     <id>riotchat</id>
     <name>Riot Chat</name>
@@ -18,21 +18,22 @@ The upstream project can be found at [https://github.com/vector-im/riot-web](htt
     <author mail="gary@garykim.dev" homepage="https://garykim.dev">Gary Kim</author>
     <namespace>RiotChat</namespace>
     <category>social</category>
-	<website>https://github.com/gary-kim/riotchat</website>
+    <website>https://github.com/gary-kim/riotchat</website>
     <bugs>https://github.com/gary-kim/riotchat/issues</bugs>
-	<repository type="git">https://github.com/gary-kim/riotchat.git</repository>
+    <repository type="git">https://github.com/gary-kim/riotchat.git</repository>
+    <screenshot>https://garykim.dev/res/large/riotchat-for-nextcloud/main-screenshot.png</screenshot>
     <dependencies>
         <nextcloud min-version="17" max-version="19"/>
     </dependencies>
+    <settings>
+        <admin>OCA\RiotChat\Settings\Admin</admin>
+        <admin-section>OCA\RiotChat\Settings\AdminSection</admin-section>
+    </settings>
     <navigations>
         <navigation>
             <name>Riot Chat</name>
             <route>riotchat.app.index</route>
-			<icon>app.svg</icon>
+            <icon>app.svg</icon>
         </navigation>
     </navigations>
-	<settings>
-		<admin>OCA\RiotChat\Settings\Admin</admin>
-		<admin-section>OCA\RiotChat\Settings\AdminSection</admin-section>
-	</settings>
 </info>
