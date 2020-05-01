@@ -53,7 +53,7 @@ steps:
     commands:
       - mkdir -p $HOME/.nextcloud/certificates
       - curl --output $HOME/.nextcloud/certificates/riotchat.crt -L https://raw.githubusercontent.com/nextcloud/app-certificate-requests/master/riotchat/riotchat.crt
-      - echo -en $PRIVATE_KEY > $HOME/.nextcloud/certificates/riotchat.key
+      - echo $PRIVATE_KEY > $HOME/.nextcloud/certificates/riotchat.key
       - php /var/www/html/occ integrity:sign-app --privateKey="$HOME/.nextcloud/certificates/riotchat.key" --certificate="$HOME/.nextcloud/certificates/riotchat.crt" --path="$(pwd)/build/artifacts/riotchat"
   - name: package
     image: garykim/personal-tools-image:latest
@@ -78,7 +78,7 @@ steps:
       - krankerl login --appstore $NEXTCLOUD_APPS_TOKEN
       - mkdir -p $HOME/.nextcloud/certificates
       - curl --output $HOME/.nextcloud/certificates/riotchat.crt -L https://raw.githubusercontent.com/nextcloud/app-certificate-requests/master/riotchat/riotchat.crt
-      - echo -en $PRIVATE_KEY > $HOME/.nextcloud/certificates/riotchat.key
+      - echo $PRIVATE_KEY > $HOME/.nextcloud/certificates/riotchat.key
       - krankerl publish https://github.com/gary-kim/riotchat/releases/download/$DRONE_TAG/riotchat.tar.gz
 
 trigger:
@@ -86,6 +86,6 @@ trigger:
     - tag
 ---
 kind: signature
-hmac: 99996886ee32403f6dd9f9007e1a1e82194f6d44dc9a931d7b2021e4b1c578ff
+hmac: 6564942abdf62e7f1640f0d41e56f145dfc925ffdfde13d990cdb0a45d93376f
 
 ...
