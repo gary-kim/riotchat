@@ -21,3 +21,5 @@
 /node_modules/
 /scripts/
 /.git/
+/krankerl.toml
+
