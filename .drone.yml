@@ -78,7 +78,7 @@ steps:
       - krankerl login --appstore $NEXTCLOUD_APPS_TOKEN
       - mkdir -p $HOME/.nextcloud/certificates
       - curl --output $HOME/.nextcloud/certificates/riotchat.crt -L https://raw.githubusercontent.com/nextcloud/app-certificate-requests/master/riotchat/riotchat.crt
-      - echo $PRIVATE_KEY > $HOME/.nextcloud/certificates/riotchat.key
+      - echo -en $PRIVATE_KEY > $HOME/.nextcloud/certificates/riotchat.key
       - krankerl publish https://github.com/gary-kim/riotchat/releases/download/$DRONE_TAG/riotchat.tar.gz
 
 trigger:
@@ -86,6 +86,6 @@ trigger:
     - tag
 ---
 kind: signature
-hmac: 6564942abdf62e7f1640f0d41e56f145dfc925ffdfde13d990cdb0a45d93376f
+hmac: 294769425df04ae4e514a2818917f264e0798781b9b1df77111ad196f09c2dc4
 
 ...
