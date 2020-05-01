@@ -1,5 +1,13 @@
 # Riot Chat for Nextcloud Changelog
 
+## [v0.1.3](https://github.com/gary-kim/riotchat/tree/v0.1.3) - 2020-05-01
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.1.2...v0.1.3)
+
+### Fixed
+
+- Fix release CI again again [\#12](https://github.com/gary-kim/riotchat/pull/12) ([@gary-kim](https://github.com/gary-kim))
+
 ## [v0.1.2](https://github.com/gary-kim/riotchat/tree/v0.1.2) - 2020-05-01
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.1.1...v0.1.2)
