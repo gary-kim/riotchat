@@ -1,5 +1,17 @@
 # Riot Chat for Nextcloud Changelog
 
+## [v0.1.4](https://github.com/gary-kim/riotchat/tree/v0.1.4) - 2020-05-01
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.1.3...v0.1.4)
+
+### Changed
+
+- Update Riot Web to v1.5.15 [\#14](https://github.com/gary-kim/riotchat/pull/14) ([@gary-kim](https://github.com/gary-kim))
+
+### Fixed
+
+- Fix Release CI Final [\#13](https://github.com/gary-kim/riotchat/pull/13) ([@gary-kim](https://github.com/gary-kim))
+
 ## [v0.1.3](https://github.com/gary-kim/riotchat/tree/v0.1.3) - 2020-05-01
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.1.2...v0.1.3)
