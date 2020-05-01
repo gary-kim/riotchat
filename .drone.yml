@@ -77,12 +77,10 @@ steps:
       - krankerl publish https://github.com/gary-kim/riotchat/releases/download/$DRONE_TAG/riotchat.tar.gz
 
 trigger:
-  branch:
-    - master
   event:
     - tag
 ---
 kind: signature
-hmac: 178a6664c80d949c87cafb04844b7c2b49320f935120c3d7b4a4289320cf986e
+hmac: db8fe8cb32f5241aad3fcf760eab014ec23013af466513f83716af5ec5fb69eb
 
 ...
