@@ -1,5 +1,7 @@
 # Riot Chat for Nextcloud
 
+[![Build Status](https://ghdrone.garykim.dev/api/badges/gary-kim/riotchat/status.svg)](https://ghdrone.garykim.dev/gary-kim/riotchat)
+
 Riot Chat for Nextcloud allows you to install Riot easily through Nextcloud and join the Matrix decentralized communication network.
 
 This app does not include a Matrix server, only the client. You will have to either set up your own Matrix homeserver, rent one, or use a public one.
@@ -10,9 +12,15 @@ The name Riot.im as well as related names, marks, emblems and images are registe
 
 The upstream project can be found at [https://github.com/vector-im/riot-web](https://github.com/vector-im/riot-web).
 
+![Screenshot 1](https://garykim.dev/res/large/riotchat-for-nextcloud/main-screenshot.png)
+
+If you want to join the discussion, join the Matrix community here: <https://matrix.to/#/+riotchat-nextcloud:garykim.dev>. There is work going on to get this bridged with Nextcloud Talk.
+
 ### Installation
 
-This Nextcloud app is not yet available on the Nextcloud App Store. Until then, follow these steps to install this app:
+You can install this app from the [Nextcloud App Store](https://apps.nextcloud.com/apps/riotchat).
+
+If you don't want to download the app from the Nextcloud App Store, follow these steps to install this app:
 
 You will need to have **Node**, **npm**, **yarn** (for compiling Riot.im), and **Make** installed.
 
