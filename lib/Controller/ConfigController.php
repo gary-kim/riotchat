@@ -29,6 +29,7 @@ use OCA\RiotChat\AppInfo\Application;
 
 use OCP\AppFramework\Controller;
 use OCP\AppFramework\Http\JSONResponse;
+use OCP\Defaults;
 use OCP\IConfig;
 use OCP\IL10N;
 use OCP\IRequest;
@@ -41,16 +42,20 @@ class ConfigController extends Controller {
 	/** @var IConfig */
 	private $config;
 
+	/** @var Defaults */
+	private $defaults;
+
 	/**
 	 * ConfigController constructor.
 	 *
 	 * @param $appName
 	 * @param IL10N $l10n
 	 */
-	public function __construct(IRequest $request, IL10N $l10n, IConfig $config) {
+	public function __construct(IRequest $request, IL10N $l10n, IConfig $config, Defaults $defaults) {
 		parent::__construct(Application::APP_ID, $request);
 		$this->l10n = $l10n;
 		$this->config = $config;
+		$this->defaults = $defaults;
 	}
 
 	/**
@@ -74,6 +79,10 @@ class ConfigController extends Controller {
 					'base_url' => $this->config->getAppValue(Application::APP_ID, 'base_url', Application::AvailableSettings['base_url']),
 					'server_name' => $this->config->getAppValue(Application::APP_ID, 'server_name', Application::AvailableSettings['server_name']),
 				],
+			],
+			'brand' => $this->defaults->getName(),
+			'branding' => [
+				'authHeaderLogoUrl' => $this->defaults->getLogo(),
 			],
 		];
 		return new JSONResponse($config);
