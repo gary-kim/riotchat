@@ -41,4 +41,10 @@ class Application extends App {
 	public function __construct(array $urlParams = []) {
 		parent::__construct(self::APP_ID, $urlParams);
 	}
+
+	public static function AvailableLabs() {
+		$developConfig = json_decode(file_get_contents(__DIR__ . '/../../3rdparty/riot/develop.config.json'), true);
+		$labs = $developConfig['features'];
+		return array_keys($labs);
+	}
 }

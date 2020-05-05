@@ -49,7 +49,11 @@ class SettingsController extends Controller {
 	 * @return JSONResponse
 	 */
 	public function setSetting(string $key, string $value): JSONResponse {
-		if (!array_key_exists($key, Application::AvailableSettings)) {
+		$labSettingNames = [];
+		foreach (Application::AvailableLabs() as $k) {
+			$labSettingNames[] = "lab_" . $k;
+		}
+		if (!array_key_exists($key, Application::AvailableSettings) && !in_array($key, $labSettingNames)) {
 			return new JSONResponse([
 				'message' => 'parameter does not exist',
 			], Http::STATUS_UNPROCESSABLE_ENTITY);

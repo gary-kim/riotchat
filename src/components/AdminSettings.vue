@@ -87,6 +87,32 @@
                 @change="updateSetting('jitsi_preferred_domain')"
             >
         </SettingsSection>
+        <SettingsSection
+            :title="t('riotchat', 'Features')"
+            :description="t('riotchat', 'Configure experimental features in Riot.im')"
+        >
+            <p v-html="featureDocumentation" />
+            <p>{{ t('riotchat', '"enabled" enables the feature for all users. "disable" disables the feature for all users. "labs" adds the feature to the user\'s settings.') }}</p>
+            <br>
+            <div
+                v-for="(setting, key) in labs"
+                :key="key"
+            >
+                <select
+                    :id="key"
+                    v-model="labs[key]"
+                    @change="updateLabSetting(key)"
+                >
+                    <option>enable</option>
+                    <option>labs</option>
+                    <option>disable</option>
+                </select>
+                <label
+                    :ref="key"
+                    :for="key"
+                >{{ key.substring(4) }}</label>
+            </div>
+        </SettingsSection>
     </div>
 </template>
 
@@ -108,13 +134,29 @@ export default {
             "server_name": loadState('riotchat', 'server_name'),
             "disable_custom_urls": loadState('riotchat', 'disable_custom_urls') === 'true',
             "disable_login_language_selector": loadState('riotchat', 'disable_login_language_selector') === 'true',
-            "jitsi_preferred_domain": loadState('riotchat', 'jitsi_preferrred_domain'),
+            "jitsi_preferred_domain": loadState('riotchat', 'jitsi_preferred_domain'),
+            "labs": JSON.parse(loadState('riotchat', 'labs')),
         };
+    },
+    computed: {
+        featureDocumentation () {
+            return t('riotchat', 'These are experimental features in Riot.im that you can enable. For information on what each feature is, check out the documentation for it {linkstart}here{linkend}')
+                .replace('{linkstart}', `<a href="https://github.com/vector-im/riot-web/blob/${RIOT_WEB_HASH}/docs/feature-flags.md" target="_blank" rel="noopener noreferrer">`)
+                .replace('{linkend}', `</a>`);
+        },
+
     },
     methods: {
         updateSetting (setting) {
             const value = this[setting].toString();
             const settingName = this.$refs[setting].innerText.split("(")[0].split(":")[0].trim();
+            this.sendUpdate(setting, settingName, value);
+        },
+        updateLabSetting (setting) {
+            const value = this.labs[setting].toString();
+            this.sendUpdate(setting, t('riotchat', 'Experimental feature {feature}', { feature: setting }), value);
+        },
+        sendUpdate (setting, settingName, value) {
             Axios.put(generateUrl(`apps/riotchat/settings/${setting}`), {
                 value,
             }).then(() => {

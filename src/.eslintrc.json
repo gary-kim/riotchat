@@ -11,7 +11,8 @@
     ],
     "globals": {
         "t": true,
-        "n": true
+        "n": true,
+		"RIOT_WEB_HASH": true
     },
     "parserOptions": {
         "parser": "babel-eslint",
