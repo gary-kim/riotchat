@@ -85,6 +85,13 @@ class ConfigController extends Controller {
 				'authHeaderLogoUrl' => $this->defaults->getLogo(),
 			],
 		];
+		$jitsi_domain = $this->config->getAppValue(Application::APP_ID, 'jitsi_preferred_domain', Application::AvailableSettings['jitsi_preferred_domain']);
+		if ($jitsi_domain !== "") {
+			$config['jitsi'] = [
+				'preferredDomain' => $jitsi_domain,
+			];
+		}
+
 		return new JSONResponse($config);
 	}
 }

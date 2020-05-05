@@ -35,6 +35,7 @@ class Application extends App {
 		'server_name' => 'Matrix Homeserver',
 		'disable_custom_urls' => 'false',
 		'disable_login_language_selector' => 'false',
+		'jitsi_preferred_domain' => '',
 	];
 
 	public function __construct(array $urlParams = []) {

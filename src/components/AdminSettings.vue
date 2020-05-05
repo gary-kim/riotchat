@@ -23,13 +23,13 @@
 <template>
     <div>
         <SettingsSection
-            :title="t('riotchat', 'Riot.im configuration')"
+            :title="t('riotchat', 'Riot.im common configuration')"
             :description="t('riotchat', 'Configure Riot chat here')"
         >
             <label
                 ref="base_url"
                 for="base_url"
-            >{{ t('riotchat', 'Default server url') }}</label>
+            >{{ t('riotchat', 'Default server url:') }}</label>
             <input
                 id="base_url"
                 v-model="base_url"
@@ -40,7 +40,7 @@
             <label
                 ref="server_name"
                 for="server_name"
-            >{{ t('riotchat', 'Default server name') }}</label>
+            >{{ t('riotchat', 'Default server name:') }}</label>
             <input
                 id="default_server_name"
                 v-model="server_name"
@@ -72,6 +72,21 @@
                 for="disable_login_language_selector"
             >{{ t('riotchat', 'Disable login language selector') }}</label>
         </SettingsSection>
+        <SettingsSection
+            :title="t('riotchat', 'Jitsi settings')"
+            :description="t('riotchat', 'Configure the Jitsi instance that Riot.im will connect to')"
+        >
+            <label
+                ref="jitsi_preferred_domain"
+                for="jitsi_preferred_domain"
+            >{{ t('riotchat', 'Custom Jitsi instance (leave blank to use default Riot.im Jitsi server):') }}</label>
+            <input
+                id="jitsi_preferred_domain"
+                v-model="jitsi_preferred_domain"
+                type="text"
+                @change="updateSetting('jitsi_preferred_domain')"
+            >
+        </SettingsSection>
     </div>
 </template>
 
@@ -93,12 +108,13 @@ export default {
             "server_name": loadState('riotchat', 'server_name'),
             "disable_custom_urls": loadState('riotchat', 'disable_custom_urls') === 'true',
             "disable_login_language_selector": loadState('riotchat', 'disable_login_language_selector') === 'true',
+            "jitsi_preferred_domain": loadState('riotchat', 'jitsi_preferrred_domain'),
         };
     },
     methods: {
         updateSetting (setting) {
             const value = this[setting].toString();
-            const settingName = this.$refs[setting].innerText;
+            const settingName = this.$refs[setting].innerText.split("(")[0].split(":")[0].trim();
             Axios.put(generateUrl(`apps/riotchat/settings/${setting}`), {
                 value,
             }).then(() => {
