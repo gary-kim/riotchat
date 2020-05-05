@@ -1,5 +1,14 @@
 # Riot Chat for Nextcloud Changelog
 
+## [v0.1.6](https://github.com/gary-kim/riotchat/tree/v0.1.6) - 2020-05-05
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.1.5...v0.1.6)
+
+### Fixed
+
+- Revert to wildcard CSPs. [\#24](https://github.com/gary-kim/riotchat/pull/24) ([@gary-kim](https://github.com/gary-kim))
+
+
 ## [v0.1.5](https://github.com/gary-kim/riotchat/tree/v0.1.5) - 2020-05-05
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.1.4...v0.1.5)
