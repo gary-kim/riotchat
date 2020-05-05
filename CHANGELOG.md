@@ -1,5 +1,21 @@
 # Riot Chat for Nextcloud Changelog
 
+## [v0.1.5](https://github.com/gary-kim/riotchat/tree/v0.1.5) - 2020-05-05
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.1.4...v0.1.5)
+
+### Added
+
+- Get auth header image and brand from theming [\#16](https://github.com/gary-kim/riotchat/pull/16) ([@gary-kim](https://github.com/gary-kim))
+
+### Changed
+
+- Update README.md [\#15](https://github.com/gary-kim/riotchat/pull/15) ([@gary-kim](https://github.com/gary-kim))
+
+### Fixed
+
+- Fix media not loading in client [\#20](https://github.com/gary-kim/riotchat/pull/20) ([@gary-kim](https://github.com/gary-kim))
+
 ## [v0.1.4](https://github.com/gary-kim/riotchat/tree/v0.1.4) - 2020-05-01
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.1.3...v0.1.4)
