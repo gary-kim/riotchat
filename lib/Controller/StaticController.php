@@ -25,8 +25,6 @@ declare(strict_types=1);
 
 namespace OCA\RiotChat\Controller;
 
-use OCA\RiotChat\AppInfo\Application;
-
 use OC\ForbiddenException;
 use OC\Security\CSP\ContentSecurityPolicy;
 use OC\Security\CSP\ContentSecurityPolicyNonceManager;
@@ -148,20 +146,20 @@ class StaticController extends Controller {
 			$response->cacheFor(3600);
 		}
 
-		$default_server_domain = $this->config->getAppValue(Application::APP_ID, 'base_url', Application::AvailableSettings['base_url']);
-
 		$csp = new ContentSecurityPolicy();
 		$csp->addAllowedScriptDomain($this->request->getServerHost());
 		$csp->addAllowedScriptDomain('\'unsafe-eval\'');
 		$csp->addAllowedScriptDomain('\'unsafe-inline\'');
-		if ($this->config->getAppValue(Application::APP_ID, 'disable_custom_urls', Application::AvailableSettings['disable_custom_urls']) === 'true') {
-			$csp->addAllowedConnectDomain($default_server_domain);
-			$csp->addAllowedImageDomain($default_server_domain);
-		} else {
-			$csp->addAllowedConnectDomain('*');
-			$csp->addAllowedImageDomain('*');
-		}
-		$csp->addAllowedFrameDomain($this->request->getServerHost());
+
+		// TODO: Slowly make the CSP more strict if `disable_custom_urls` is set. https://github.com/gary-kim/riotchat/issues/23#issuecomment-623920519 https://github.com/gary-kim/riotchat/blob/823260fdbc0d23d07c5413b436221bd0f49f6da9/lib/Controller/StaticController.php#L157-L164
+		$csp->addAllowedConnectDomain('*');
+		$csp->addAllowedImageDomain('*');
+		$csp->addAllowedMediaDomain('*');
+		$csp->addAllowedObjectDomain('*');
+
+		// Needs to include current domain and the Jitsi instance being used
+		$csp->addAllowedFrameDomain('*');
+
 		$response->setContentSecurityPolicy($csp);
 
 		return $response;
