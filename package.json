@@ -27,6 +27,7 @@
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.5",
+    "@nextcloud/browserslist-config": "^1.0.0",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.1.0",
     "css-loader": "^3.5.3",
@@ -53,5 +54,8 @@
     "@nextcloud/vue": "^1.5.0",
     "core-js": "^3.6.5",
     "vue": "^2.6.11"
-  }
+  },
+  "browserslist": [
+    "extends @nextcloud/browserslist-config"
+  ]
 }
