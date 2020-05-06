@@ -62,6 +62,12 @@ class Admin implements ISettings {
 			$this->initialStateService->provideInitialState(Application::APP_ID, $key, $data);
 		}
 
+		$labstr = [];
+		foreach (Application::AvailableLabs() as $k) {
+			$labstr['lab_' . $k] = $this->config->getAppValue(Application::APP_ID, 'lab_' . $k, 'disable');
+		}
+		$this->initialStateService->provideInitialState(Application::APP_ID, 'labs', json_encode($labstr));
+
 		return new TemplateResponse(Application::APP_ID, 'settings/admin');
 	}
 

@@ -1,5 +1,7 @@
 const path = require('path');
+const { execSync } = require('child_process');
 const { VueLoaderPlugin } = require('vue-loader');
+const webpack = require('webpack');
 
 module.exports = {
     entry: {
@@ -35,6 +37,9 @@ module.exports = {
     },
     plugins: [
         new VueLoaderPlugin(),
+		new webpack.DefinePlugin({
+			RIOT_WEB_HASH: JSON.stringify(execSync('git rev-parse HEAD', { cwd: path.resolve(__dirname, './3rdparty/riot-web') }).toString()),
+		}),
     ],
     resolve: {
         extensions: ['.js', '.vue'],

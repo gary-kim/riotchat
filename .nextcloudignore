@@ -22,4 +22,4 @@
 /scripts/
 /.git/
 /krankerl.toml
-
+/.editorconfig
