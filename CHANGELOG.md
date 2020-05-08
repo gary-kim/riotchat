@@ -1,5 +1,20 @@
 # Riot Chat for Nextcloud Changelog
 
+## [v0.3.0](https://github.com/gary-kim/riotchat/tree/v0.3.0) - 2020-05-08
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.2.0...v0.3.0)
+
+### Changed
+
+- Update Riot Web to v1.6.0 [\#35](https://github.com/gary-kim/riotchat/pull/35) ([@gary-kim](https://github.com/gary-kim))
+- Use @nextcloud/browserslist-config [\#30](https://github.com/gary-kim/riotchat/pull/30) ([@gary-kim](https://github.com/gary-kim))
+
+### Dependencies
+
+- chore\(deps\): update dependency vue-loader to ^15.9.2 [\#33](https://github.com/gary-kim/riotchat/pull/33) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- fix\(deps\): update dependency @nextcloud/dialogs to ^1.3.0 [\#32](https://github.com/gary-kim/riotchat/pull/32) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency node-sass to ^4.14.1 [\#28](https://github.com/gary-kim/riotchat/pull/28) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+
 ## [v0.2.0](https://github.com/gary-kim/riotchat/tree/v0.2.0) - 2020-05-06
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.1.6...v0.2.0)
