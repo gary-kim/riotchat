@@ -26,14 +26,27 @@ declare(strict_types=1);
 
 namespace OCA\RiotChat\Controller;
 
+use OCA\RiotChat\AppInfo\Application;
+
 use OC\Security\CSP\ContentSecurityPolicy;
+use OCP\IConfig;
+use OCP\IInitialStateService;
 use OCP\IRequest;
 use OCP\AppFramework\Http\TemplateResponse;
 use OCP\AppFramework\Controller;
 
 class AppController extends Controller {
-	public function __construct($AppName, IRequest $request) {
+
+	/** @var IInitialStateService */
+	private $initialStateService;
+
+	/** @var IConfig */
+	private $config;
+
+	public function __construct($AppName, IRequest $request, IInitialStateService $initialStateService, IConfig $config) {
 		parent::__construct($AppName, $request);
+		$this->initialStateService = $initialStateService;
+		$this->config = $config;
 	}
 
 	/**
@@ -42,6 +55,9 @@ class AppController extends Controller {
 	 */
 	public function index() {
 		$response = new TemplateResponse('riotchat', 'index');
+
+		$this->initialStateService->provideInitialState(Application::APP_ID, 'disable_custom_urls',
+			$this->config->getAppValue(Application::APP_ID, 'disable_custom_urls', Application::AvailableSettings['disable_custom_urls']));
 
 		$csp = new ContentSecurityPolicy();
 		$csp->addAllowedFrameDomain($this->request->getServerHost());
