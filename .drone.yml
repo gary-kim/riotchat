@@ -4,10 +4,11 @@ type: docker
 name: test
 
 steps:
-  - name: node-modules
+  - name: modules
     image: node:13
     commands:
-      - npm ci
+      - npm ci > /dev/null
+      - git submodule update --init --recursive
 
   - name: eslint
     image: node:13
@@ -17,7 +18,7 @@ steps:
   - name: php-lint
     image: composer:1.10
     commands:
-      - composer i
+      - composer i > /dev/null 2>&1
       - composer run lint
       - composer run cs:check
 
@@ -86,6 +87,6 @@ trigger:
     - tag
 ---
 kind: signature
-hmac: 294769425df04ae4e514a2818917f264e0798781b9b1df77111ad196f09c2dc4
+hmac: dfe21e2eacef8ec030f0d6459f1dbfd867851b260e7c3472cd8ef4f8a839d696
 
 ...

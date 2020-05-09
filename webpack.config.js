@@ -38,7 +38,8 @@ module.exports = {
     plugins: [
         new VueLoaderPlugin(),
 		new webpack.DefinePlugin({
-			RIOT_WEB_HASH: JSON.stringify(execSync('git rev-parse HEAD', { cwd: path.resolve(__dirname, './3rdparty/riot-web') }).toString()),
+            RIOT_WEB_HASH: JSON.stringify(execSync('git rev-parse HEAD', { cwd: path.resolve(__dirname, './3rdparty/riot-web') }).toString()),
+            RIOT_WEB_VERSION: JSON.stringify(execSync('git describe --exact-match HEAD', { cwd: path.resolve(__dirname, './3rdparty/riot-web') }).toString()),
 		}),
     ],
     resolve: {
