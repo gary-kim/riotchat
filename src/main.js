@@ -21,6 +21,7 @@
  */
 
 import { generateUrl } from '@nextcloud/router';
+import { loadState } from '@nextcloud/initial-state';
 
 document.addEventListener('DOMContentLoaded', main);
 
@@ -33,7 +34,12 @@ function main () {
     originalTitle = document.title;
 
     iframe = document.getElementById('riot-iframe');
-    iframe.src = generateUrl('/apps/riotchat/riot/') + window.location.hash;
+    if (!window.location.hash && loadState('riotchat', 'disable_custom_urls') === 'true') {
+        iframe.src = generateUrl('/apps/riotchat/riot/') + '#/login';
+        window.location.hash = '#/login';
+    } else {
+        iframe.src = generateUrl('/apps/riotchat/riot/') + window.location.hash;
+    }
     iframe.onload = onIframeLoad;
 }
 
