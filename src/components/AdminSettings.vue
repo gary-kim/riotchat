@@ -26,6 +26,10 @@
             :title="t('riotchat', 'Riot.im common configuration')"
             :description="t('riotchat', 'Configure Riot chat here')"
         >
+            <p
+                class="settings-hint"
+                v-html="riotWebDocumentation"
+            />
             <label
                 ref="base_url"
                 for="base_url"
@@ -140,11 +144,15 @@ export default {
     },
     computed: {
         featureDocumentation () {
-            return t('riotchat', 'These are experimental features in Riot.im that you can enable. For information on what each feature is, check out the documentation for it {linkstart}here{linkend}')
+            return t('riotchat', 'These are experimental features in Riot.im that you can enable. For information on what each feature is, check out the documentation for it {linkstart}here{linkend}.')
                 .replace('{linkstart}', `<a href="https://github.com/vector-im/riot-web/blob/${RIOT_WEB_HASH}/docs/feature-flags.md" target="_blank" rel="noopener noreferrer">`)
                 .replace('{linkend}', `</a>`);
         },
-
+        riotWebDocumentation () {
+            return t('riotchat', 'This version of Riot Chat for Nextcloud is based on Riot Web {riotWebVersion}. Check out the source code for Riot Web {linkstart}here{linkend}.', { riotWebVersion: RIOT_WEB_VERSION })
+                .replace('{linkstart}', `<a href="https://github.com/vector-im/riot-web/tree/${RIOT_WEB_HASH}" target="_blank" rel="noopener noreferrer">`)
+                .replace('{linkend}', `</a>`);
+        },
     },
     methods: {
         updateSetting (setting) {
