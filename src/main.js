@@ -34,7 +34,7 @@ function main () {
     originalTitle = document.title;
 
     iframe = document.getElementById('riot-iframe');
-    if (!window.location.hash && loadState('riotchat', 'disable_custom_urls') === 'true') {
+    if (!window.location.hash && loadState('riotchat', 'disable_custom_urls') === 'true' && !window.localStorage.getItem('mx_user_id')) {
         iframe.src = generateUrl('/apps/riotchat/riot/') + '#/login';
         window.location.hash = '#/login';
     } else {
