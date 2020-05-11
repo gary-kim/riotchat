@@ -1,5 +1,22 @@
 # Riot Chat for Nextcloud Changelog
 
+## [v0.3.2](https://github.com/gary-kim/riotchat/tree/v0.3.2) - 2020-05-11
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.3.1...v0.3.2)
+
+### Added
+
+- Show Riot Web version in settings [\#39](https://github.com/gary-kim/riotchat/pull/39) ([@gary-kim](https://github.com/gary-kim))
+
+### Changed
+
+- Go straight to login page if custom URLs are disabled [\#37](https://github.com/gary-kim/riotchat/pull/37) ([@gary-kim](https://github.com/gary-kim))
+
+### Dependencies
+
+- chore\(deps\): update dependency eslint to v7 [\#38](https://github.com/gary-kim/riotchat/pull/38) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- fix\(deps\): update dependency @nextcloud/vue to v2 [\#34](https://github.com/gary-kim/riotchat/pull/34) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+
 ## [v0.3.1](https://github.com/gary-kim/riotchat/tree/v0.3.1) - 2020-05-08
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.3.0...v0.3.1)
