@@ -96,7 +96,7 @@
             :description="t('riotchat', 'Configure experimental features in Riot.im')"
         >
             <p v-html="featureDocumentation" />
-            <p>{{ t('riotchat', '"enabled" enables the feature for all users. "disable" disables the feature for all users. "labs" adds the feature to the user\'s settings.') }}</p>
+            <p>{{ t('riotchat', '"enable" enables the feature for all users. "disable" disables the feature for all users. "labs" adds the feature to the user\'s settings.') }}</p>
             <br>
             <div
                 v-for="(setting, key) in labs"
