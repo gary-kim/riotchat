@@ -26,6 +26,7 @@ You will need to have **Node**, **npm**, **yarn** (for compiling Riot.im), and *
 
 Clone the repository into `apps/riotchat` on your server then run
 ```bash
+git submodule update --init --recursive
 make
 ```
 
@@ -36,5 +37,7 @@ The logo is the logo of the Riot.im project. The file used is from [Fork Awesome
 ### License
 
 Copyright © 2020 Gary Kim &lt;<gary@garykim.dev>&gt;
+
+Licensed under [AGPL-3.0-or-later](LICENSE).
 
 Using code from the Riot Web project. <https://github.com/vector-im/riot-web>. Huge thanks to the Riot Web developers. They're doing the actual heavy lifting here.
