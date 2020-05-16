@@ -1,5 +1,23 @@
 # Riot Chat for Nextcloud Changelog
 
+## [v0.4.0](https://github.com/gary-kim/riotchat/tree/v0.4.0) - 2020-05-16
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.3.3...v0.4.0)
+
+### Added
+
+- Add translation configuration [\#45](https://github.com/gary-kim/riotchat/pull/45) ([@gary-kim](https://github.com/gary-kim))
+
+### Changed
+
+- Specify New Vector [\#49](https://github.com/gary-kim/riotchat/pull/49) ([@gary-kim](https://github.com/gary-kim))
+- Update README.md [\#43](https://github.com/gary-kim/riotchat/pull/43) ([@gary-kim](https://github.com/gary-kim))
+
+### Fixed
+
+- Add camera, microphone, and display-capture to feat policy [\#51](https://github.com/gary-kim/riotchat/pull/51) ([@gary-kim](https://github.com/gary-kim))
+- Respect exit code of lint run [\#50](https://github.com/gary-kim/riotchat/pull/50) ([@gary-kim](https://github.com/gary-kim))
+
 ## [v0.3.3](https://github.com/gary-kim/riotchat/tree/v0.3.3) - 2020-05-11
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.3.2...v0.3.3)
