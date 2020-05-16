@@ -32,6 +32,7 @@ use OC\Security\CSP\ContentSecurityPolicy;
 use OCP\IConfig;
 use OCP\IInitialStateService;
 use OCP\IRequest;
+use OCP\AppFramework\Http\FeaturePolicy;
 use OCP\AppFramework\Http\TemplateResponse;
 use OCP\AppFramework\Controller;
 
@@ -62,6 +63,12 @@ class AppController extends Controller {
 		$csp = new ContentSecurityPolicy();
 		$csp->addAllowedFrameDomain($this->request->getServerHost());
 		$response->setContentSecurityPolicy($csp);
+
+		$featurePolicy = new FeaturePolicy();
+		$featurePolicy->addAllowedCameraDomain('\'self\'');
+		$featurePolicy->addAllowedMicrophoneDomain('\'self\'');
+
+		$response->setFeaturePolicy($featurePolicy);
 
 		return $response;
 	}

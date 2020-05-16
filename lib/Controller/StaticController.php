@@ -30,6 +30,7 @@ use OC\Security\CSP\ContentSecurityPolicy;
 use OC\Security\CSP\ContentSecurityPolicyNonceManager;
 use OCA\RiotChat\FileResponse;
 use OCP\AppFramework\Controller;
+use OCP\AppFramework\Http\FeaturePolicy;
 use OCP\AppFramework\Http\NotFoundResponse;
 use OCP\Files\IMimeTypeDetector;
 use OCP\IConfig;
@@ -161,6 +162,12 @@ class StaticController extends Controller {
 		$csp->addAllowedFrameDomain('*');
 
 		$response->setContentSecurityPolicy($csp);
+
+		$featurePolicy = new FeaturePolicy();
+		$featurePolicy->addAllowedCameraDomain('\'self\'');
+		$featurePolicy->addAllowedMicrophoneDomain('\'self\'');
+
+		$response->setFeaturePolicy($featurePolicy);
 
 		return $response;
 	}
