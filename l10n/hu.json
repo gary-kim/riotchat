@@ -1,0 +1,21 @@
+{ "translations": {
+    "Riot Chat" : "Riot csevegő",
+    "Riot IM Chat integrated into Nextcloud" : "Riot IM csevegő a Nextcloudba integrálva",
+    "Riot.im common configuration" : "Riot.im általános beállítások",
+    "Configure Riot chat here" : "Itt állítsa be a Riot csevegőt",
+    "Default server url:" : "Alapértelmezett kiszolgáló URL:",
+    "Default server name:" : "Alapértelmezett kiszolgálónév:",
+    "Disable custom urls" : "Egyéni URL-ek letiltása",
+    "Disable login language selector" : "A nyelvválasztó letiltása bejelentkezésnél",
+    "Jitsi settings" : "Jitsi beállítások",
+    "Configure the Jitsi instance that Riot.im will connect to" : "Állítsa be a Jitsi példányt, melyhez a Riot.im kapcsolódni fog",
+    "Custom Jitsi instance (leave blank to use default Riot.im Jitsi server):" : "Egyéni Jitsi példány (a Riot.im alapértelmezett Jitsi kiszolgálója esetén hagyja üresen):",
+    "Features" : "Funkciók",
+    "Configure experimental features in Riot.im" : "A Riot.im-ben lévő kísérleti funkciók beállítása",
+    "These are experimental features in Riot.im that you can enable. For information on what each feature is, check out the documentation for it {linkstart}here{linkend}." : "Ezek a Riot.im-ben engedélyezhető kísérleti funkciók. Az egyes funkciók információiért nézze meg a dokumentációt {linkstart}itt{linkend}.",
+    "This version of Riot Chat for Nextcloud is based on Riot Web {riotWebVersion}. Check out the source code for Riot Web {linkstart}here{linkend}." : "A Riot csevegő nextcloudos verziója a Riot Web {riotWebVersion} alapjaira épül. Nézze meg a Riot Web forráskódját {linkstart}itt{linkend}.",
+    "Experimental feature {feature}" : "„{feature}” kísérleti funkció",
+    "{settingName} has been set to {value}" : "{settingName} beállítva erre: {value}",
+    "{settingName} could not be set. Try reloading the page." : "A(z) {settingName} nem állítható be. Próbálja újratölteni az oldalt."
+},"pluralForm" :"nplurals=2; plural=(n != 1);"
+}
