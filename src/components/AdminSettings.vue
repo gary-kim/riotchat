@@ -33,7 +33,7 @@
             <label
                 ref="base_url"
                 for="base_url"
-            >{{ t('riotchat', 'Default server url:') }}</label>
+            >{{ t('riotchat', 'Default server URL:') }}</label>
             <input
                 id="base_url"
                 v-model="base_url"
@@ -62,7 +62,7 @@
             <label
                 ref="disable_custom_urls"
                 for="disable_custom_urls"
-            >{{ t('riotchat', 'Disable custom urls') }}</label>
+            >{{ t('riotchat', 'Disable custom URLs') }}</label>
             <br>
             <input
                 id="disable_login_language_selector"
