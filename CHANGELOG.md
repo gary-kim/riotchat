@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates likely also include translation updates.
 
+## [v0.4.2](https://github.com/gary-kim/riotchat/tree/v0.4.2) - 2020-05-22
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.4.1...v0.4.2)
+
+### Changed
+
+- Update to Riot Web v1.6.2 [\#57](https://github.com/gary-kim/riotchat/pull/57) ([@gary-kim](https://github.com/gary-kim))
+
+### Fixed
+
+- l10n: Changed spelling of url [\#56](https://github.com/gary-kim/riotchat/pull/56) ([@rakekniven](https://github.com/rakekniven))
+
 ## [v0.4.1](https://github.com/gary-kim/riotchat/tree/v0.4.1) - 2020-05-20
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.4.0...v0.4.1)
