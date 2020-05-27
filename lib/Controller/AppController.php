@@ -60,8 +60,10 @@ class AppController extends Controller {
 		$this->initialStateService->provideInitialState(Application::APP_ID, 'disable_custom_urls',
 			$this->config->getAppValue(Application::APP_ID, 'disable_custom_urls', Application::AvailableSettings['disable_custom_urls']));
 
+		$default_server_domain = $this->config->getAppValue(Application::APP_ID, 'base_url', Application::AvailableSettings['base_url']);
 		$csp = new ContentSecurityPolicy();
 		$csp->addAllowedFrameDomain($this->request->getServerHost());
+		$csp->addAllowedFrameDomain($default_server_domain);
 		$response->setContentSecurityPolicy($csp);
 
 		$featurePolicy = new FeaturePolicy();
