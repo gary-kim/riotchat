@@ -8,6 +8,8 @@ OC.L10N.register(
     "Default server name:" : "Lehenetsitako zerbitzariaren izena:",
     "Jitsi settings" : "Jitsi ezarpenak",
     "Features" : "Ezaugarriak",
-    "Experimental feature {feature}" : "{feature} ezaugarri esperimentala"
+    "Configure experimental features in Riot.im" : "Konfiguratu ezaugarri esperimentalak Riot.im-n",
+    "Experimental feature {feature}" : "{feature} ezaugarri esperimentala",
+    "{settingName} could not be set. Try reloading the page." : "Ezin izan da {settingName} ezin izan da ezarri. Saiatu orria freskatzen."
 },
 "nplurals=2; plural=(n != 1);");
