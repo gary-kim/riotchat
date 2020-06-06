@@ -7,6 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates likely also include translation updates.
 
+## [v0.4.3](https://github.com/gary-kim/riotchat/tree/v0.4.3) - 2020-06-06
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.4.2...v0.4.3)
+
+### Changed
+
+- Update to Riot Web v1.6.4 [\#61](https://github.com/gary-kim/riotchat/pull/61) ([@gary-kim](https://github.com/gary-kim))
+
+### Dependencies
+
+- chore\(deps\): update dependency eslint to ^7.2.0 [\#64](https://github.com/gary-kim/riotchat/pull/64) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- fix\(deps\): update dependency @nextcloud/dialogs to ^1.4.0 [\#63](https://github.com/gary-kim/riotchat/pull/63) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- fix\(deps\): update dependency @nextcloud/dialogs to ^1.3.1 [\#60](https://github.com/gary-kim/riotchat/pull/60) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency eslint to ^7.1.0 [\#59](https://github.com/gary-kim/riotchat/pull/59) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update babel monorepo to ^7.10.2 [\#27](https://github.com/gary-kim/riotchat/pull/27) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+
 ## [v0.4.2](https://github.com/gary-kim/riotchat/tree/v0.4.2) - 2020-05-22
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.4.1...v0.4.2)
