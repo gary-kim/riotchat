@@ -14,7 +14,7 @@ The upstream project can be found at [https://github.com/vector-im/riot-web](htt
 
 ![Screenshot 1](https://garykim.dev/res/large/riotchat-for-nextcloud/main-screenshot.png)
 
-If you want to join the discussion, join the Matrix community here: <https://matrix.to/#/+riotchat-nextcloud:garykim.dev>. There is work going on to get this bridged with Nextcloud Talk.
+If you want to join the discussion, join the Matrix community chat room here: <https://matrix.to/#/#riotchatfornextcloud-general:garykim.dev>. There is work going on to get this bridged with Nextcloud Talk.
 
 ### Installation
 
