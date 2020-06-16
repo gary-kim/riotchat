@@ -142,6 +142,10 @@
                 :class="{ 'riotchat-error': !customConfigValid }"
                 @change="() => { customConfigValid ? updateSetting('custom_json', 'custom_json') : '' }"
             />
+            <div
+                v-else-if="custom_json_loading"
+                class="icon-loading loading-div"
+            />
         </SettingsSection>
     </div>
 </template>
@@ -247,5 +251,8 @@ export default {
     &.riotchat-error {
         border-color: var(--color-error) !important;
     }
+}
+.loading-div {
+    height: 3em;
 }
 </style>
