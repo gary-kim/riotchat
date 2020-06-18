@@ -63,6 +63,12 @@ class ConfigController extends Controller {
 	 * @NoAdminRequired
 	 */
 	public function config() {
+		$custom_json = $this->config->getAppValue(Application::APP_ID, 'custom_json', '');
+		if ($custom_json !== '') {
+			return new JSONResponse(json_decode(($custom_json)));
+		}
+
+
 		// TODO: fill in branding from theming
 		$lang = $this->l10n->getLanguageCode();
 		$config = [

@@ -36,6 +36,7 @@ class Application extends App {
 		'disable_custom_urls' => 'false',
 		'disable_login_language_selector' => 'false',
 		'jitsi_preferred_domain' => '',
+		'custom_json' => '',
 	];
 
 	public function __construct(array $urlParams = []) {
