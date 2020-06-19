@@ -17,7 +17,6 @@
     "These are experimental features in Riot.im that you can enable. For information on what each feature is, check out the documentation for it {linkstart}here{linkend}." : "Riot.im içersinde etkinleştirebileceğiniz deneysel özellikler. Her bir özelliğin ne işe yaradığı ile ilgili bilgi almak için {linkstart}belgeler{linkend} bölümüne bakabilirsiniz.",
     "This version of Riot Chat for Nextcloud is based on Riot Web {riotWebVersion}. Check out the source code for Riot Web {linkstart}here{linkend}." : "Nextcloud için Riot Chat sürümü Riot Web {riotWebVersion} üzerine geliştirilmiştir. Riot Web kaynak koduna {linkstart}buradan{linkend} erişebilirsiniz.",
     "Experimental feature {feature}" : "Deneysel özellik {feature}",
-    "{settingName} has been set to {value}" : "{settingName}, {value} olarak ayarlandı",
-    "{settingName} could not be set. Try reloading the page." : "{settingName} ayarlanamadı. Sayfayı yeniden yüklemeyi deneyin."
+    "{settingName} has been set to {value}" : "{settingName}, {value} olarak ayarlandı"
 },"pluralForm" :"nplurals=2; plural=(n > 1);"
 }

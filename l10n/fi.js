@@ -11,7 +11,6 @@ OC.L10N.register(
     "Features" : "Ominaisuudet",
     "Configure experimental features in Riot.im" : "Määritä Riot.im:n kokeelliset ominaisuudet",
     "Experimental feature {feature}" : "Kokeellinen ominaisuus {feature}",
-    "{settingName} has been set to {value}" : "{settingName} on asetettu arvoon {value}",
-    "{settingName} could not be set. Try reloading the page." : "Asetusta {settingName} ei voitu asettaa. Yritä päivittää sivu."
+    "{settingName} has been set to {value}" : "{settingName} on asetettu arvoon {value}"
 },
 "nplurals=2; plural=(n != 1);");

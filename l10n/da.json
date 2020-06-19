@@ -13,7 +13,6 @@
     "These are experimental features in Riot.im that you can enable. For information on what each feature is, check out the documentation for it {linkstart}here{linkend}." : "Disse er eksperimentelle funktioner i Riot.im, som du kan aktivere. For information om, hvad hver enkelt funktion er, se dokumentationen {linkstart}her{linkend}.",
     "This version of Riot Chat for Nextcloud is based on Riot Web {riotWebVersion}. Check out the source code for Riot Web {linkstart}here{linkend}." : "Denne version af Riot Chat til Nextcloud er baseret på Riot Web {riotWebVersion}. Tjek kildekoden til Riot Web {linkstart}her{linkend}.",
     "Experimental feature {feature}" : "Eksperimentalfunktion {feature}",
-    "{settingName} has been set to {value}" : "{settingName} er blevet indstillet til {value}",
-    "{settingName} could not be set. Try reloading the page." : "{settingName} kunne ikke indstilles. Prøv at indlæse siden igen."
+    "{settingName} has been set to {value}" : "{settingName} er blevet indstillet til {value}"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

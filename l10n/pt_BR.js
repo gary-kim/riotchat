@@ -19,7 +19,6 @@ OC.L10N.register(
     "These are experimental features in Riot.im that you can enable. For information on what each feature is, check out the documentation for it {linkstart}here{linkend}." : "Esses são recursos experimentais no Riot.im que você pode ativar. Para obter informações sobre o que é cada recurso, consulte a documentação {linkstart}aqui{linkend}.",
     "This version of Riot Chat for Nextcloud is based on Riot Web {riotWebVersion}. Check out the source code for Riot Web {linkstart}here{linkend}." : "Esta versão do Chat Riot para Nextcloud é baseada no Riot Web {riotWebVersion}. Confira o código fonte do Riot Web {linkstart}aqui{linkend}.",
     "Experimental feature {feature}" : "Recurso experimental {feature}",
-    "{settingName} has been set to {value}" : "{settingName} foi definido como {value}",
-    "{settingName} could not be set. Try reloading the page." : "{settingName} não pôde ser definido. Tente recarregar a página."
+    "{settingName} has been set to {value}" : "{settingName} foi definido como {value}"
 },
 "nplurals=2; plural=(n > 1);");

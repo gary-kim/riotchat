@@ -19,7 +19,6 @@ OC.L10N.register(
     "These are experimental features in Riot.im that you can enable. For information on what each feature is, check out the documentation for it {linkstart}here{linkend}." : "V Riot.im môžete zapnúť tieto experimentálne funkcie. Informácie o jednotlivých funkciách nájdete v {linkstart}dokumentácii{linkend}.",
     "This version of Riot Chat for Nextcloud is based on Riot Web {riotWebVersion}. Check out the source code for Riot Web {linkstart}here{linkend}." : "Táto verzia aplikácie Riot Chat pre Nextcloud je založená na webe Riot Web {riotWebVersion}. Zdrojový kód pre Riot Web nájdete {linkstart}tu{linkend}.",
     "Experimental feature {feature}" : "Experimentálna funkcia {feature}",
-    "{settingName} has been set to {value}" : "{settingName} bolo nastavené na {value}",
-    "{settingName} could not be set. Try reloading the page." : "{settingName} nebolo možné nastaviť. Skúste stránku načítať znova."
+    "{settingName} has been set to {value}" : "{settingName} bolo nastavené na {value}"
 },
 "nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);");
