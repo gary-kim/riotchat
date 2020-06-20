@@ -16,9 +16,15 @@ OC.L10N.register(
     "Features" : "Funktionen",
     "Configure experimental features in Riot.im" : "Experimentelle Funktionen in Riot.im einrichten",
     "\"enable\" enables the feature for all users. \"disable\" disables the feature for all users. \"labs\" adds the feature to the user's settings." : "\"Aktivieren\" aktiviert die Funktion für alle Benutzer. \"Deaktivieren\" deaktiviert die Funktion für alle Benutzer. \"Labs\" fügt die Funktion den Benutzereinstellungen hinzu.",
+    "Custom Riot.im config" : "Benutzerdefinierte Riot.im Konfiguration",
+    "Specify a custom configuration for Riot" : "Gebe eine benutzerdefinierte Konfiguration für Riot an",
+    "Use a custom configuration" : "Verwende eine benutzerdefinierte Konfiguration",
     "These are experimental features in Riot.im that you can enable. For information on what each feature is, check out the documentation for it {linkstart}here{linkend}." : "Dies sind experimentelle Funktionen in Riot.im die aktiviert werden können. Die Dokumentation für jede dieser Funktionen findet sich {linkstart}hier{linkend}.",
     "This version of Riot Chat for Nextcloud is based on Riot Web {riotWebVersion}. Check out the source code for Riot Web {linkstart}here{linkend}." : "Die Riot Chat Version für Nextcloud basiert auf Riot Web {riotWebVersion}. Der Quellcode für Riot Web kann {linkstart}hier{linkend} eingesehen werden.",
     "Experimental feature {feature}" : "Experimentelle Funktion {feature}",
-    "{settingName} has been set to {value}" : "{settingName} wurde auf {value} geändert"
+    "Custom config has been set" : "Benutzerdefinierte Konfiguration wurde festgelegt",
+    "{settingName} has been set to {value}" : "{settingName} wurde auf {value} geändert",
+    "Custom config could not be set. Try reloading the page" : "Benutzerdefinierte Konfiguration konnte nicht eingestellt werden. Versuche, die Seite neu zu laden",
+    "{settingName} could not be set. Try reloading the page" : "{settingsName} konnte nicht gesetzt werden. Versuche, die Seite neu zu laden"
 },
 "nplurals=2; plural=(n != 1);");

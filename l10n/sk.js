@@ -16,9 +16,15 @@ OC.L10N.register(
     "Features" : "Vlastnosti",
     "Configure experimental features in Riot.im" : "Nastavenie experimentálnych funkcií v Riot.im",
     "\"enable\" enables the feature for all users. \"disable\" disables the feature for all users. \"labs\" adds the feature to the user's settings." : "„Zapnúť“ zapne funkciu pre všetkých používateľov. „Vypnúť“ vypne túto funkciu pre všetkých používateľov. \"labs\" pridá túto funkciu do užívateľských nastavení.",
+    "Custom Riot.im config" : "Vlastné nastavenie Riot.im",
+    "Specify a custom configuration for Riot" : "Zadajte vlastnú konfiguráciu pre Riot",
+    "Use a custom configuration" : "Použite vlastnú konfiguráciu",
     "These are experimental features in Riot.im that you can enable. For information on what each feature is, check out the documentation for it {linkstart}here{linkend}." : "V Riot.im môžete zapnúť tieto experimentálne funkcie. Informácie o jednotlivých funkciách nájdete v {linkstart}dokumentácii{linkend}.",
     "This version of Riot Chat for Nextcloud is based on Riot Web {riotWebVersion}. Check out the source code for Riot Web {linkstart}here{linkend}." : "Táto verzia aplikácie Riot Chat pre Nextcloud je založená na webe Riot Web {riotWebVersion}. Zdrojový kód pre Riot Web nájdete {linkstart}tu{linkend}.",
     "Experimental feature {feature}" : "Experimentálna funkcia {feature}",
-    "{settingName} has been set to {value}" : "{settingName} bolo nastavené na {value}"
+    "Custom config has been set" : "Vlastná konfigurácia bola nastavená",
+    "{settingName} has been set to {value}" : "{settingName} bolo nastavené na {value}",
+    "Custom config could not be set. Try reloading the page" : "Vlastnú konfiguráciu nebolo možné nastaviť. Skúste znova načítať stránku",
+    "{settingName} could not be set. Try reloading the page" : "{settingName} nebolo možné nastaviť. Skúste znova načítať stránku"
 },
 "nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);");
