@@ -16,9 +16,15 @@ OC.L10N.register(
     "Features" : "Özellikler",
     "Configure experimental features in Riot.im" : "Riot.im deneysel özelliklerini etkinleştir",
     "\"enable\" enables the feature for all users. \"disable\" disables the feature for all users. \"labs\" adds the feature to the user's settings." : "\"etkinleştir\" olarak seçildiğinde bu özellik tüm kullanıcılar için etkinleştirilir. \"devre dışı\" olarak seçildiğinde bu özellik tüm kullanıcılar için devre dışı bırakılır. \"lab\" olarak seçildiğinde özellik kullanıcı ayarlarına eklenir.",
+    "Custom Riot.im config" : "Özel Riot.im yapılandırması",
+    "Specify a custom configuration for Riot" : "Riot için özel bir yapılandırma belirleyin",
+    "Use a custom configuration" : "Özel bir yapılandırma kullanılsın",
     "These are experimental features in Riot.im that you can enable. For information on what each feature is, check out the documentation for it {linkstart}here{linkend}." : "Riot.im içersinde etkinleştirebileceğiniz deneysel özellikler. Her bir özelliğin ne işe yaradığı ile ilgili bilgi almak için {linkstart}belgeler{linkend} bölümüne bakabilirsiniz.",
     "This version of Riot Chat for Nextcloud is based on Riot Web {riotWebVersion}. Check out the source code for Riot Web {linkstart}here{linkend}." : "Nextcloud için Riot Chat sürümü Riot Web {riotWebVersion} üzerine geliştirilmiştir. Riot Web kaynak koduna {linkstart}buradan{linkend} erişebilirsiniz.",
     "Experimental feature {feature}" : "Deneysel özellik {feature}",
-    "{settingName} has been set to {value}" : "{settingName}, {value} olarak ayarlandı"
+    "Custom config has been set" : "Özel yapılandırma ayarlandı",
+    "{settingName} has been set to {value}" : "{settingName}, {value} olarak ayarlandı",
+    "Custom config could not be set. Try reloading the page" : "Özel yapılandırma ayarlanamadı. Lütfen sayfayı yeniden yüklemeyi deneyin",
+    "{settingName} could not be set. Try reloading the page" : "{settingName} ayarlanamadı. Lütfen sayfayı yeniden yüklemeyi deneyin"
 },
 "nplurals=2; plural=(n > 1);");
