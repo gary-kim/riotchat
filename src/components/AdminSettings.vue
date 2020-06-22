@@ -220,9 +220,9 @@ export default {
                 }
             }).catch(() => {
                 if (settingName === 'custom_json') {
-                    showSuccess(t('riotchat', 'Custom config could not be set. Try reloading the page'));
+                    showSuccess(t('riotchat', 'Custom config could not be set. Try reloading the page.'));
                 } else {
-                    showError(t('riotchat', '{settingName} could not be set. Try reloading the page', { settingName }));
+                    showError(t('riotchat', '{settingName} could not be set. Try reloading the page.', { settingName }));
                 }
             });
         },
