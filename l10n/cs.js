@@ -24,7 +24,6 @@ OC.L10N.register(
     "Experimental feature {feature}" : "Experimentální funkce {feature}",
     "Custom config has been set" : "Uživatelsky určené nastavení bylo nastaveno",
     "{settingName} has been set to {value}" : "{settingName} bylo nastaveno na {value}",
-    "Custom config could not be set. Try reloading the page" : "Uživatelsky určené nastavení se nepodařilo nastavit. Zkuste stránku znovu načíst",
-    "{settingName} could not be set. Try reloading the page" : "{settingName} se nepodařilo nastavit. Zkuste stránku načíst znovu"
+    "{settingName} could not be set. Try reloading the page." : "{settingName} se nepodařilo nastavit. Zkuste stránku znovu načíst."
 },
 "nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;");

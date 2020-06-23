@@ -23,8 +23,6 @@ OC.L10N.register(
     "This version of Riot Chat for Nextcloud is based on Riot Web {riotWebVersion}. Check out the source code for Riot Web {linkstart}here{linkend}." : "Questa versione di Riot Chat per Nextcloud è basata su Riot Web {riotWebVersion}. Controlla il codice sorgente di Riot Web {linkstart}qui{linkend}.",
     "Experimental feature {feature}" : "Funzionalità sperimentale {feature}",
     "Custom config has been set" : "La configurazione personalizzata è stata impostata",
-    "{settingName} has been set to {value}" : "{settingName} è stato impostato a {value}",
-    "Custom config could not be set. Try reloading the page" : "La configurazione personalizzata non può essere impostata. Prova a ricaricare la pagina",
-    "{settingName} could not be set. Try reloading the page" : "{settingName} non può essere impostata. Prova a ricaricare la pagina"
+    "{settingName} has been set to {value}" : "{settingName} è stato impostato a {value}"
 },
 "nplurals=2; plural=(n != 1);");

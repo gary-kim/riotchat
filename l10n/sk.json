@@ -22,7 +22,6 @@
     "Experimental feature {feature}" : "Experimentálna funkcia {feature}",
     "Custom config has been set" : "Vlastná konfigurácia bola nastavená",
     "{settingName} has been set to {value}" : "{settingName} bolo nastavené na {value}",
-    "Custom config could not be set. Try reloading the page" : "Vlastnú konfiguráciu nebolo možné nastaviť. Skúste znova načítať stránku",
-    "{settingName} could not be set. Try reloading the page" : "{settingName} nebolo možné nastaviť. Skúste znova načítať stránku"
+    "{settingName} could not be set. Try reloading the page." : "{settingName} nebolo možné nastaviť. Skúste stránku načítať znova."
 },"pluralForm" :"nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);"
 }

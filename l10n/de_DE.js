@@ -24,7 +24,6 @@ OC.L10N.register(
     "Experimental feature {feature}" : "Experimentelle Funktion {feature}",
     "Custom config has been set" : "Benutzerdefinierte Konfiguration wurde geladen",
     "{settingName} has been set to {value}" : "{settingName} wurde auf {value} geändert",
-    "Custom config could not be set. Try reloading the page" : "Benutzerdefinierte Konfiguration konnte nicht eingestellt werden. Versuchen Sie, die Seite neu zu laden",
-    "{settingName} could not be set. Try reloading the page" : "{settingsName} konnte nicht gesetzt werden. Versuchen Sie, die Seite neu zu laden"
+    "{settingName} could not be set. Try reloading the page." : "{settingName} konnte nicht geändert werden. Versuchen Sie die Seite neu zu laden."
 },
 "nplurals=2; plural=(n != 1);");

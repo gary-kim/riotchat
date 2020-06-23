@@ -17,6 +17,7 @@
     "These are experimental features in Riot.im that you can enable. For information on what each feature is, check out the documentation for it {linkstart}here{linkend}." : "Ezek a Riot.im-ben engedélyezhető kísérleti funkciók. Az egyes funkciók információiért nézze meg a dokumentációt {linkstart}itt{linkend}.",
     "This version of Riot Chat for Nextcloud is based on Riot Web {riotWebVersion}. Check out the source code for Riot Web {linkstart}here{linkend}." : "A Riot csevegő nextcloudos verziója a Riot Web {riotWebVersion} alapjaira épül. Nézze meg a Riot Web forráskódját {linkstart}itt{linkend}.",
     "Experimental feature {feature}" : "„{feature}” kísérleti funkció",
-    "{settingName} has been set to {value}" : "{settingName} beállítva erre: {value}"
+    "{settingName} has been set to {value}" : "{settingName} beállítva erre: {value}",
+    "{settingName} could not be set. Try reloading the page." : "A(z) {settingName} nem állítható be. Próbálja újratölteni az oldalt."
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

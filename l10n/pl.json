@@ -10,13 +10,17 @@
     "Disable login language selector" : "Wyłącz wybór języka przy logowaniu",
     "Jitsi settings" : "Ustawienia Jitsi",
     "Configure the Jitsi instance that Riot.im will connect to" : "Skonfiguruj instancję Jitsi, z którą Riot.im się połączy",
-    "Custom Jitsi instance (leave blank to use default Riot.im Jitsi server):" : "Niestandardowa instancja Jitsi (pozostaw puste, aby użyć domyślnego serwera Riot.im Jitsi):",
+    "Custom Jitsi instance (leave blank to use default Riot.im Jitsi server):" : "Własna instancja Jitsi (pozostaw puste, aby użyć domyślnego serwera Riot.im Jitsi):",
     "Features" : "Funkcje",
     "Configure experimental features in Riot.im" : "Skonfiguruj eksperymentalne funkcje w Riot.im",
     "\"enable\" enables the feature for all users. \"disable\" disables the feature for all users. \"labs\" adds the feature to the user's settings." : "\"enable\" włącza tę funkcję dla wszystkich użytkowników. \"disable\" wyłącza tę funkcję dla wszystkich użytkowników. \"labs\" dodaje tę funkcję do ustawień użytkownika.",
+    "Custom Riot.im config" : "Własna konfiguracja Riot.im",
+    "Specify a custom configuration for Riot" : "Określ własną konfigurację Riot",
+    "Use a custom configuration" : "Użyj własnej konfiguracji",
     "These are experimental features in Riot.im that you can enable. For information on what each feature is, check out the documentation for it {linkstart}here{linkend}." : "Są to eksperymentalne funkcje Riot.im, które możesz włączyć. Aby uzyskać informacje na temat poszczególnych funkcji, zapoznaj się z dokumentacją {linkstart}tutaj{linkend}.",
     "This version of Riot Chat for Nextcloud is based on Riot Web {riotWebVersion}. Check out the source code for Riot Web {linkstart}here{linkend}." : "Ta wersja Riot Chat dla Nextcloud jest oparta na Riot Web {riotWebVersion}. Sprawdź kod źródłowy Riot Web {linkstart}tutaj{linkend}.",
     "Experimental feature {feature}" : "Funkcja eksperymentalna {feature}",
+    "Custom config has been set" : "Konfiguracja własna została ustawiona",
     "{settingName} has been set to {value}" : "{settingName} ustawiono na {value}"
 },"pluralForm" :"nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);"
 }

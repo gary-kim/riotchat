@@ -23,8 +23,6 @@ OC.L10N.register(
     "This version of Riot Chat for Nextcloud is based on Riot Web {riotWebVersion}. Check out the source code for Riot Web {linkstart}here{linkend}." : "Η έκδοση της εφαρμογής Riot για το Nextcloud βασίζεται στην έκδοση Riot Web {riotWebVersion}. Ελέγξτε τον πηγαίο κώδικα του Riot Web {linkstart}εδώ{linkend}.",
     "Experimental feature {feature}" : "Δοκιμαστικές λειτουργίες {feature}",
     "Custom config has been set" : "Η προσαρμοσμένη ρύθμιση έχει οριστεί",
-    "{settingName} has been set to {value}" : "Το {settingName} άλλαξε σε {value}",
-    "Custom config could not be set. Try reloading the page" : "Δεν ήταν δυνατή η εφαρμογή της προσαρμοσμένης ρύθμισης. Δοκιμάστε να φορτώσετε ξανά τη σελίδα",
-    "{settingName} could not be set. Try reloading the page" : "Το {settingName} δεν μπορεί να ρυθμιστεί. Ανανεώστε την σελίδα."
+    "{settingName} has been set to {value}" : "Το {settingName} άλλαξε σε {value}"
 },
 "nplurals=2; plural=(n != 1);");
