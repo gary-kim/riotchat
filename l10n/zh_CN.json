@@ -7,6 +7,7 @@
     "Disable login language selector" : "禁用登录语言选择器",
     "Jitsi settings" : "Jitsi设置",
     "Experimental feature {feature}" : "实验性功能 {feature}",
-    "{settingName} has been set to {value}" : "{settingName} 已被设置为 {value}"
+    "{settingName} has been set to {value}" : "{settingName} 已被设置为 {value}",
+    "{settingName} could not be set. Try reloading the page." : "无法设置 {settingName} 。试试刷新页面。"
 },"pluralForm" :"nplurals=1; plural=0;"
 }
