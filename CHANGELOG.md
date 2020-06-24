@@ -7,6 +7,32 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates likely also include translation updates.
 
+## [v0.5.0](https://github.com/gary-kim/riotchat/tree/v0.5.0) - 2020-06-24
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.4.3...v0.5.0)
+
+### Added
+
+- Let the admin set a custom config [\#69](https://github.com/gary-kim/riotchat/pull/69) ([@gary-kim](https://github.com/gary-kim))
+
+### Changed
+
+- Update to Riot Web v1.6.6 [\#78](https://github.com/gary-kim/riotchat/pull/78) ([@gary-kim](https://github.com/gary-kim))
+- Update to Riot Web v1.6.5 [\#70](https://github.com/gary-kim/riotchat/pull/70) ([@gary-kim](https://github.com/gary-kim))
+
+### Fixed
+
+- l10n: Add a period character [\#76](https://github.com/gary-kim/riotchat/pull/76) ([@Valdnet](https://github.com/Valdnet))
+- change URL and description [\#66](https://github.com/gary-kim/riotchat/pull/66) ([@jolly-jump](https://github.com/jolly-jump))
+
+### Dependencies
+
+- fix\(deps\): update dependency @nextcloud/vue to ^2.1.0 [\#72](https://github.com/gary-kim/riotchat/pull/72) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency webpack-cli to ^3.3.12 [\#71](https://github.com/gary-kim/riotchat/pull/71) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency css-loader to ^3.6.0 [\#68](https://github.com/gary-kim/riotchat/pull/68) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency eslint-plugin-import to ^2.21.2 [\#65](https://github.com/gary-kim/riotchat/pull/65) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- fix\(deps\): update dependency @nextcloud/router to ^1.1.0 [\#62](https://github.com/gary-kim/riotchat/pull/62) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+
 ## [v0.4.3](https://github.com/gary-kim/riotchat/tree/v0.4.3) - 2020-06-06
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.4.2...v0.4.3)
