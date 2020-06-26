@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates likely also include translation updates.
 
+## [v0.5.1](https://github.com/gary-kim/riotchat/tree/v0.5.1) - 2020-06-26
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.5.0...v0.5.1)
+
+### Fixed
+
+- AppController: add default\_server\_domain to AllowedFrameDomain [\#80](https://github.com/gary-kim/riotchat/pull/80) ([@lorddavidiii](https://github.com/lorddavidiii))
+
+### Dependencies
+
+- chore\(deps\): update dependency vue-loader to ^15.9.3 [\#77](https://github.com/gary-kim/riotchat/pull/77) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update babel monorepo to ^7.10.3 [\#75](https://github.com/gary-kim/riotchat/pull/75) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency eslint to ^7.3.1 [\#74](https://github.com/gary-kim/riotchat/pull/74) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+
 ## [v0.5.0](https://github.com/gary-kim/riotchat/tree/v0.5.0) - 2020-06-24
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.4.3...v0.5.0)
