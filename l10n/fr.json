@@ -14,12 +14,15 @@
     "Features" : "Fonctionnalités",
     "Configure experimental features in Riot.im" : "Configurer les fonctionnalités expérimentales de Riot.im",
     "\"enable\" enables the feature for all users. \"disable\" disables the feature for all users. \"labs\" adds the feature to the user's settings." : "\"activer\" permet d'activer la fonction pour tous les utilisateurs. \"désactiver\" désactive la fonction pour tous les utilisateurs. \"labs\" ajoute la fonction aux paramètres de l'utilisateur",
+    "Custom Riot.im config" : "Configuration Riot.im personnalisée",
+    "Specify a custom configuration for Riot" : "Fournir un paramétrage personnalisé pour Riot",
     "Use a custom configuration" : "Utiliser un paramétrage personnalisé",
     "These are experimental features in Riot.im that you can enable. For information on what each feature is, check out the documentation for it {linkstart}here{linkend}." : "Ceci sont des fonctionnalités expérimentales de Riot.im que vous pouvez activer. Pour de plus amples informations sur ce à quoi chaque fonctionnalité correspond, consultez sa documentation {linkstart}ici{linkend}.",
     "This version of Riot Chat for Nextcloud is based on Riot Web {riotWebVersion}. Check out the source code for Riot Web {linkstart}here{linkend}." : "Cette version de la messagerie instantannée Riot pour Nextcloud utilise Riot Web {riotWebVersion}. Consultez le code source de Riot Web {linkstart}ici{linkend}.",
     "Experimental feature {feature}" : "Fonctionnalité expérimentale {feature}",
     "Custom config has been set" : "Le paramétrage personnalisé a été appliqué",
     "{settingName} has been set to {value}" : "{settingName} a été configuré à {value}",
+    "Custom config could not be set. Try reloading the page." : "Le paramétrage personnalisé n'a pas pu été appliqué. Essayez de recharger la page.",
     "{settingName} could not be set. Try reloading the page." : "{settingName} n'a pas pu être configuré. Tentez de rafraichir la page."
 },"pluralForm" :"nplurals=2; plural=(n > 1);"
 }
