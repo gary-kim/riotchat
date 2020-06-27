@@ -24,6 +24,7 @@ OC.L10N.register(
     "Experimental feature {feature}" : "Δοκιμαστικές λειτουργίες {feature}",
     "Custom config has been set" : "Η προσαρμοσμένη ρύθμιση έχει οριστεί",
     "{settingName} has been set to {value}" : "Το {settingName} άλλαξε σε {value}",
+    "Custom config could not be set. Try reloading the page." : "Δεν ήταν δυνατή η εφαρμογή της προσαρμοσμένης ρύθμισης. Δοκιμάστε να φορτώσετε ξανά τη σελίδα",
     "{settingName} could not be set. Try reloading the page." : "Το {settingName} δεν μπορεί να ρυθμιστεί. Ανανεώστε την σελίδα."
 },
 "nplurals=2; plural=(n != 1);");
