@@ -18,6 +18,7 @@ The upstream project can be found at [https://github.com/vector-im/riot-web](htt
     <author mail="gary@garykim.dev" homepage="https://garykim.dev">Gary Kim</author>
     <namespace>RiotChat</namespace>
     <category>social</category>
+    <category>integration</category>
     <website>https://github.com/gary-kim/riotchat</website>
     <bugs>https://github.com/gary-kim/riotchat/issues</bugs>
     <repository type="git">https://github.com/gary-kim/riotchat.git</repository>
