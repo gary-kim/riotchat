@@ -1,6 +1,9 @@
 # Riot Chat for Nextcloud
 
 [![Build Status](https://ghdrone.garykim.dev/api/badges/gary-kim/riotchat/status.svg)](https://ghdrone.garykim.dev/gary-kim/riotchat)
+[![Matrix Room: #riotchatfornextcloud-general:garykim.dev](https://img.shields.io/matrix/riotchatfornextcloud-general:garykim.dev?label=%23riotchatfornextcloud-general%3Agarykim.dev&logo=matrix&server_fqdn=matrix.org)](https://matrix.to/#/#riotchatfornextcloud-general:garykim.dev)
+[![GitHub Releases](https://img.shields.io/github/downloads/gary-kim/riotchat/latest/total?label=downloads)](https://apps.nextcloud.com/apps/riotchat)
+
 
 Riot Chat for Nextcloud allows you to install Riot easily through Nextcloud and join the Matrix decentralized communication network.
 
