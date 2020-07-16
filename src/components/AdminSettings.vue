@@ -177,7 +177,7 @@ export default {
     computed: {
         featureDocumentation () {
             return t('riotchat', 'These are experimental features in Riot.im that you can enable. For information on what each feature is, check out the documentation for it {linkstart}here{linkend}.')
-                .replace('{linkstart}', `<a href="https://github.com/vector-im/riot-web/blob/${RIOT_WEB_HASH}/docs/feature-flags.md" target="_blank" rel="noopener noreferrer">`)
+                .replace('{linkstart}', `<a href="https://github.com/vector-im/riot-web/blob/${RIOT_WEB_HASH}/docs/labs.md" target="_blank" rel="noopener noreferrer">`)
                 .replace('{linkend}', `</a>`);
         },
         riotWebDocumentation () {
