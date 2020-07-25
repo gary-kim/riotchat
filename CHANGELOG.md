@@ -7,6 +7,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates likely also include translation updates.
 
+## [v0.6.0](https://github.com/gary-kim/riotchat/tree/v0.6.0) - 2020-07-25
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.5.2...v0.6.0)
+
+### Changed
+
+- Update to Riot Web v1.7.1 [\#95](https://github.com/gary-kim/riotchat/pull/95) ([@gary-kim](https://github.com/gary-kim))
+
+### Fixed
+
+- Changed name to "Element for Nextcloud" [\#102](https://github.com/gary-kim/riotchat/pull/102) ([@SamuelLlamzon](https://github.com/SamuelLlamzon))
+- Fix \#53 [\#101](https://github.com/gary-kim/riotchat/pull/101) ([@TheStingray](https://github.com/TheStingray))
+- Correct link for feature documentation [\#94](https://github.com/gary-kim/riotchat/pull/94) ([@gary-kim](https://github.com/gary-kim))
+
+### Dependencies
+
+- chore\(deps\): update dependency webpack to ^4.44.0 [\#100](https://github.com/gary-kim/riotchat/pull/100) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- fix\(deps\): update dependency @nextcloud/vue to ^2.3.0 [\#99](https://github.com/gary-kim/riotchat/pull/99) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency eslint to ^7.5.0 [\#98](https://github.com/gary-kim/riotchat/pull/98) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency @babel/core to ^7.10.5 [\#93](https://github.com/gary-kim/riotchat/pull/93) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+
 ## [v0.5.2](https://github.com/gary-kim/riotchat/tree/v0.5.2) - 2020-07-08
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.5.1...v0.5.2)
