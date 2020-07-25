@@ -1,5 +1,6 @@
 <!--
   - @copyright Copyright (c) 2020 Gary Kim <gary@garykim.dev>
+  - @copyright Copyright (c) 2020 Samuel Llamzon
   -
   - @author Gary Kim <gary@garykim.dev>
   -
@@ -24,8 +25,8 @@
     <div>
         <template v-if="!customConfigEnabled">
             <SettingsSection
-                :title="t('riotchat', 'Riot.im common configuration')"
-                :description="t('riotchat', 'Configure Riot chat here')"
+                :title="t('riotchat', 'Element common configuration')"
+                :description="t('riotchat', 'Configure Element here')"
             >
                 <p
                     class="settings-hint"
@@ -79,12 +80,12 @@
             </SettingsSection>
             <SettingsSection
                 :title="t('riotchat', 'Jitsi settings')"
-                :description="t('riotchat', 'Configure the Jitsi instance that Riot.im will connect to')"
+                :description="t('riotchat', 'Configure the Jitsi instance that Element will connect to')"
             >
                 <label
                     ref="jitsi_preferred_domain"
                     for="jitsi_preferred_domain"
-                >{{ t('riotchat', 'Custom Jitsi instance (leave blank to use default Riot.im Jitsi server):') }}</label>
+                >{{ t('riotchat', 'Custom Jitsi instance (leave blank to use default Element Jitsi server):') }}</label>
                 <input
                     id="jitsi_preferred_domain"
                     v-model="jitsi_preferred_domain"
@@ -94,7 +95,7 @@
             </SettingsSection>
             <SettingsSection
                 :title="t('riotchat', 'Features')"
-                :description="t('riotchat', 'Configure experimental features in Riot.im')"
+                :description="t('riotchat', 'Configure experimental features in Element')"
             >
                 <p v-html="featureDocumentation" />
                 <p>{{ t('riotchat', '"enable" enables the feature for all users. "disable" disables the feature for all users. "labs" adds the feature to the user\'s settings.') }}</p>
@@ -120,8 +121,8 @@
             </SettingsSection>
         </template>
         <SettingsSection
-            :title="t('riotchat', 'Custom Riot.im config')"
-            :description="t('riotchat', 'Specify a custom configuration for Riot')"
+            :title="t('riotchat', 'Custom Element config')"
+            :description="t('riotchat', 'Specify a custom configuration for Element')"
         >
             <input
                 id="enable_custom_json"
@@ -176,12 +177,12 @@ export default {
     },
     computed: {
         featureDocumentation () {
-            return t('riotchat', 'These are experimental features in Riot.im that you can enable. For information on what each feature is, check out the documentation for it {linkstart}here{linkend}.')
+            return t('riotchat', 'These are experimental features in Element that you can enable. For information on what each feature is, check out the documentation for it {linkstart}here{linkend}.')
                 .replace('{linkstart}', `<a href="https://github.com/vector-im/riot-web/blob/${RIOT_WEB_HASH}/docs/labs.md" target="_blank" rel="noopener noreferrer">`)
                 .replace('{linkend}', `</a>`);
         },
         riotWebDocumentation () {
-            return t('riotchat', 'This version of Riot Chat for Nextcloud is based on Riot Web {riotWebVersion}. Check out the source code for Riot Web {linkstart}here{linkend}.', { riotWebVersion: RIOT_WEB_VERSION })
+            return t('riotchat', 'This version of Element for Nextcloud is based on Element Web {riotWebVersion}. Check out the source code for Element Web {linkstart}here{linkend}.', { riotWebVersion: RIOT_WEB_VERSION })
                 .replace('{linkstart}', `<a href="https://github.com/vector-im/riot-web/tree/${RIOT_WEB_HASH}" target="_blank" rel="noopener noreferrer">`)
                 .replace('{linkend}', `</a>`);
         },

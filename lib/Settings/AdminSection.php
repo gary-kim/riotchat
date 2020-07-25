@@ -70,7 +70,7 @@ class AdminSection implements IIconSection {
 	 * @since 9.1
 	 */
 	public function getName() {
-		return $this->l->t('Riot Chat');
+		return $this->l->t('Element');
 	}
 
 	/**
