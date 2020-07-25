@@ -22,11 +22,17 @@ steps:
       - composer run lint
       - composer run cs:check
 
-  - name: test-build
+  - name: test-js-build
     image: node:13
     commands:
       - npm run build -- --no-progress
 
+  - name: test-full-build
+    image: node:13
+    pull: always
+    commands:
+      - npm ci > /dev/null
+      - make > /tmp/log.txt 2>&1 || (cat /tmp/log.txt && exit 1)
 
 trigger:
   branch:
@@ -87,6 +93,6 @@ trigger:
     - tag
 ---
 kind: signature
-hmac: dfe21e2eacef8ec030f0d6459f1dbfd867851b260e7c3472cd8ef4f8a839d696
+hmac: 805a20a9f83f6797551be5cdeea264057dc1682d58704a9fbd43ddb63bdcdb78
 
 ...
