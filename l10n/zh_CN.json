@@ -1,8 +1,4 @@
 { "translations": {
-    "Riot Chat" : "Riot聊天",
-    "Riot IM Chat integrated into Nextcloud" : "Riot IM聊天已整合到Nextcloud中",
-    "Riot.im common configuration" : "Riot.im 一般配置",
-    "Configure Riot chat here" : "在此配置 Riot 聊天",
     "Default server name:" : "默认服务器名称：",
     "Disable login language selector" : "禁用登录语言选择器",
     "Jitsi settings" : "Jitsi设置",

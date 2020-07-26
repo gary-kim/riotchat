@@ -1,23 +1,13 @@
 OC.L10N.register(
     "riotchat",
     {
-    "Riot Chat" : "Riot csevegő",
-    "Riot IM Chat integrated into Nextcloud" : "Riot IM csevegő a Nextcloudba integrálva",
-    "Riot Chat for Nextcloud allows you to install Riot easily through Nextcloud and join the Matrix decentralized communication network.\n\nThis app does not include a Matrix server, only the client. You will have to either set up your own Matrix homeserver, rent one, or use a public one.\n\nThis project is not affiliated, associated, authorized, endorsed by, or in any way officially connected with New Vector or the Riot.im project, or any of its subsidiaries or its affiliates.\n\nThe name Riot.im as well as related names, marks, emblems and images are registered trademarks of their respective owners.\n\nThe upstream project can be found at [https://github.com/vector-im/riot-web](https://github.com/vector-im/riot-web)." : "A nextcloudos Riot csevegővel könnyedén telepítheti a Riotot a Nextcloudon keresztül, és csatlakozhat a Matrix decentralizált kommunikációs hálózathoz.\n\nAz alkalmazás nem tartalmaz Matrix-kiszolgálót, csak klienst. Be kell állítania a saját Matrix-kiszolgálóját, bérelnie kell egyet vagy egy nyilvánosat kell használnia.\n\nA projekt hivatalosan nincs semmilyen kapcsolatban a New Vector vagy a Riot.im projekttel, vagy annak leányvállalataival és érdekeltségeivel.\n\nA Riot.im és a kapcsolódó nevek, jelzések, emblémák és képek a tulajdonosaik bejegyzett védjegyei.\n\nAz upstream projekt itt található: [https://github.com/vector-im/riot-web](https://github.com/vector-im/riot-web).",
-    "Riot.im common configuration" : "Riot.im általános beállítások",
-    "Configure Riot chat here" : "Itt állítsa be a Riot csevegőt",
     "Default server URL:" : "Alapértelmezett kiszolgáló URL:",
     "Default server name:" : "Alapértelmezett kiszolgálónév:",
     "Disable custom URLs" : "Egyéni URL-ek letiltása",
     "Disable login language selector" : "A nyelvválasztó letiltása bejelentkezésnél",
     "Jitsi settings" : "Jitsi beállítások",
-    "Configure the Jitsi instance that Riot.im will connect to" : "Állítsa be a Jitsi példányt, melyhez a Riot.im kapcsolódni fog",
-    "Custom Jitsi instance (leave blank to use default Riot.im Jitsi server):" : "Egyéni Jitsi példány (a Riot.im alapértelmezett Jitsi kiszolgálója esetén hagyja üresen):",
     "Features" : "Funkciók",
-    "Configure experimental features in Riot.im" : "A Riot.im-ben lévő kísérleti funkciók beállítása",
     "\"enable\" enables the feature for all users. \"disable\" disables the feature for all users. \"labs\" adds the feature to the user's settings." : "Az „engedélyezve” bekapcsolja minden felhasználónál. A „letiltás” kikapcsolja minden felhasználónál. A „labs” a felhasználói beállításokhoz adja a funkciót.",
-    "These are experimental features in Riot.im that you can enable. For information on what each feature is, check out the documentation for it {linkstart}here{linkend}." : "Ezek a Riot.im-ben engedélyezhető kísérleti funkciók. Az egyes funkciók információiért nézze meg a dokumentációt {linkstart}itt{linkend}.",
-    "This version of Riot Chat for Nextcloud is based on Riot Web {riotWebVersion}. Check out the source code for Riot Web {linkstart}here{linkend}." : "A Riot csevegő nextcloudos verziója a Riot Web {riotWebVersion} alapjaira épül. Nézze meg a Riot Web forráskódját {linkstart}itt{linkend}.",
     "Experimental feature {feature}" : "„{feature}” kísérleti funkció",
     "{settingName} has been set to {value}" : "{settingName} beállítva erre: {value}",
     "{settingName} could not be set. Try reloading the page." : "A(z) {settingName} nem állítható be. Próbálja újratölteni az oldalt."
