@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates likely also include translation updates.
 
+## [v0.6.1](https://github.com/gary-kim/riotchat/tree/v0.6.1) - 2020-07-27
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.6.0...v0.6.1)
+
+### Changed
+
+- New Logo [\#105](https://github.com/gary-kim/riotchat/pull/105) ([@gary-kim](https://github.com/gary-kim))
+
+### Fixed
+
+- Fix build broken due to riot rename [\#104](https://github.com/gary-kim/riotchat/pull/104) ([@gary-kim](https://github.com/gary-kim))
+
 ## [v0.6.0](https://github.com/gary-kim/riotchat/tree/v0.6.0) - 2020-07-25
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.5.2...v0.6.0)
