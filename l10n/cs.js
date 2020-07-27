@@ -1,6 +1,7 @@
 OC.L10N.register(
     "riotchat",
     {
+    "Element for Nextcloud" : "Element pro Nextcloud",
     "Default server URL:" : "URL adresa výchozího serveru:",
     "Default server name:" : "Název výchozího serveru:",
     "Disable custom URLs" : "Zakázat uživatelsky určené URL adresy",
