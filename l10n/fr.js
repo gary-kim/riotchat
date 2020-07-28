@@ -1,6 +1,7 @@
 OC.L10N.register(
     "riotchat",
     {
+    "Element" : "Élément",
     "Default server URL:" : "URL par défaut du serveur :",
     "Default server name:" : "Nom par défaut du serveur :",
     "Disable custom URLs" : "Désactiver les adresses web personnalisés",
