@@ -1,6 +1,8 @@
 OC.L10N.register(
     "riotchat",
     {
+    "Element" : "Element",
+    "Element for Nextcloud" : "Element Nextcloudille",
     "Default server name:" : "Oletuspalvelimen nimi:",
     "Disable login language selector" : "Poista käytöstä kirjautumisen kielivalinta",
     "Jitsi settings" : "Jitsi-asetukset",
