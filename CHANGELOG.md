@@ -7,6 +7,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates likely also include translation updates.
 
+## [v0.6.3](https://github.com/gary-kim/riotchat/tree/v0.6.3) - 2020-08-12
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.6.2...v0.6.3)
+
+### Changed
+
+- Update Element Web to v1.7.3 [\#116](https://github.com/gary-kim/riotchat/pull/116) ([@gary-kim](https://github.com/gary-kim))
+
+### Fixed
+
+- Fix issues with e2e encrypted files [\#115](https://github.com/gary-kim/riotchat/pull/115) ([@gary-kim](https://github.com/gary-kim))
+
+### Dependencies
+
+- chore\(deps\): update dependency sass-loader to ^9.0.3 [\#112](https://github.com/gary-kim/riotchat/pull/112) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency @babel/core to ^7.11.1 [\#111](https://github.com/gary-kim/riotchat/pull/111) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency eslint to ^7.6.0 [\#109](https://github.com/gary-kim/riotchat/pull/109) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update babel monorepo to ^7.11.0 [\#108](https://github.com/gary-kim/riotchat/pull/108) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency webpack to ^4.44.1 [\#107](https://github.com/gary-kim/riotchat/pull/107) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+
 ## [v0.6.2](https://github.com/gary-kim/riotchat/tree/v0.6.2) - 2020-07-30
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.6.1...v0.6.2)
