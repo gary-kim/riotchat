@@ -14,7 +14,7 @@ dev-setup: 3rdparty/riot
 	npm i
 
 3rdparty/riot: 3rdparty/riot-web
-	(cd 3rdparty/riot-web && npm i && npm i @nextcloud/browserslist-config && npm run build && cp config.sample.json webapp/ && cp element.io/develop/config.json webapp/develop.config.json && mv webapp ../riot && npm remove @nextcloud/browserslist-config)
+	(cd 3rdparty/riot-web && rm -rf ../riot && npm i && npm i @nextcloud/browserslist-config && npm run build && cp config.sample.json webapp/ && cp element.io/develop/config.json webapp/develop.config.json && mv webapp ../riot && npm remove @nextcloud/browserslist-config)
 
 .PHONY: build
 build:

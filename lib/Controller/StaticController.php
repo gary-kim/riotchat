@@ -108,9 +108,15 @@ class StaticController extends Controller {
 	 * @return FileResponse|NotFoundResponse
 	 */
 	private function createFileResponse($path) {
+		// Maybe need to send an index.html file
+		if (substr($path, -1) === "/") {
+			return $this->createFileResponse($path . "index.html");
+		}
+
 		if (!file_exists($path)) {
 			return new NotFoundResponse();
 		}
+
 		$content = file_get_contents($path);
 		return $this->createFileResponseWithContent($path, $content);
 	}
@@ -156,7 +162,9 @@ class StaticController extends Controller {
 		$csp->addAllowedConnectDomain('*');
 		$csp->addAllowedImageDomain('*');
 		$csp->addAllowedMediaDomain('*');
+		$csp->addAllowedMediaDomain('blob: ');
 		$csp->addAllowedObjectDomain('*');
+		$csp->addAllowedFrameDomain('blob: ');
 
 		// Needs to include current domain and the Jitsi instance being used
 		$csp->addAllowedFrameDomain('*');
