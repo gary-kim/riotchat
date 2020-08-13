@@ -1,6 +1,8 @@
 OC.L10N.register(
     "riotchat",
     {
+    "Element" : "Στοιχείο",
+    "Element for Nextcloud" : "Στοιχείο για το Nextcloud",
     "Default server URL:" : "Προεπιλεγμένη διεύθυνση URL διακομιστή:",
     "Default server name:" : "Προεπιλεγμένο όνομα διακομιστή:",
     "Disable custom URLs" : "Απενεργοποίηση προσαρμοσμένων διευθύνσεων URLs",
