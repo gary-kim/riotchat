@@ -36,6 +36,9 @@ class Application extends App {
 		'disable_custom_urls' => 'false',
 		'disable_login_language_selector' => 'false',
 		'jitsi_preferred_domain' => '',
+		'integrations_ui_url' => '',
+		'integrations_rest_url' => '',
+		'integrations_widgets_urls' => '',
 		'custom_json' => '',
 	];
 
