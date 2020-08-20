@@ -42,7 +42,7 @@
     "sass-loader": "^9.0.3",
     "vue-loader": "^15.9.3",
     "vue-style-loader": "^4.1.2",
-    "vue-template-compiler": "^2.6.11",
+    "vue-template-compiler": "^2.6.12",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12"
   },
@@ -53,7 +53,7 @@
     "@nextcloud/router": "^1.1.0",
     "@nextcloud/vue": "^2.3.0",
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "vue": "^2.6.12"
   },
   "browserslist": [
     "extends @nextcloud/browserslist-config"
