@@ -7,6 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates likely also include translation updates.
 
+## [v0.6.4](https://github.com/gary-kim/riotchat/tree/v0.6.4) - 2020-08-24
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.6.3...v0.6.4)
+
+### Changed
+
+- Update Element Web to v1.7.4 [\#124](https://github.com/gary-kim/riotchat/pull/124) ([@gary-kim](https://github.com/gary-kim))
+
+### Dependencies
+
+- fix\(deps\): update vue monorepo to ^2.6.12 [\#123](https://github.com/gary-kim/riotchat/pull/123) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency @babel/core to ^7.11.4 [\#122](https://github.com/gary-kim/riotchat/pull/122) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- fix\(deps\): update dependency @nextcloud/vue to ^2.6.0 [\#121](https://github.com/gary-kim/riotchat/pull/121) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- fix\(deps\): update dependency @nextcloud/dialogs to v2 [\#119](https://github.com/gary-kim/riotchat/pull/119) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency eslint to ^7.7.0 [\#118](https://github.com/gary-kim/riotchat/pull/118) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+
 ## [v0.6.3](https://github.com/gary-kim/riotchat/tree/v0.6.3) - 2020-08-12
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.6.2...v0.6.3)
