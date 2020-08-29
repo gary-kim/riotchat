@@ -94,6 +94,43 @@
                 >
             </SettingsSection>
             <SettingsSection
+                :title="t('riotchat', 'Custom integration server')"
+                :description="t('riotchat', 'Configure a custom integration server for Element (leave empty to use Scalar)')"
+            >
+                <label
+                    ref="integrations_ui_url"
+                    for="integrations_ui_url"
+                >{{ t('riotchat', 'Integration UI url:') }}</label>
+                <input
+                    id="integrations_ui_url"
+                    v-model="integrations_ui_url"
+                    type="text"
+                    @change="updateSetting('integrations_ui_url')"
+                >
+                <br>
+                <label
+                    ref="integrations_rest_url"
+                    for="integrations_rest_url"
+                >{{ t('riotchat', 'Integration REST url:') }}</label>
+                <input
+                    id="integrations_rest_url"
+                    v-model="integrations_rest_url"
+                    type="text"
+                    @change="updateSetting('integrations_rest_url')"
+                >
+                <br>
+                <label
+                    ref="integrations_widgets_urls"
+                    for="integrations_widgets_urls"
+                >{{ t('riotchat', 'Integration widgets url:') }}</label>
+                <input
+                    id="integrations_widgets_urls"
+                    v-model="integrations_widgets_urls"
+                    type="text"
+                    @change="updateSetting('integrations_widgets_urls')"
+                >
+            </SettingsSection>
+            <SettingsSection
                 :title="t('riotchat', 'Features')"
                 :description="t('riotchat', 'Configure experimental features in Element')"
             >
@@ -172,6 +209,9 @@ export default {
             "jitsi_preferred_domain": loadState('riotchat', 'jitsi_preferred_domain'),
             "labs": JSON.parse(loadState('riotchat', 'labs')),
             "custom_json": loadState('riotchat', 'custom_json'),
+            "integrations_ui_url": loadState('riotchat', 'integrations_ui_url'),
+            "integrations_rest_url": loadState('riotchat', 'integrations_rest_url'),
+            "integrations_widgets_urls": loadState('riotchat', 'integrations_widgets_urls'),
             "custom_json_loading": false,
         };
     },

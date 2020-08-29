@@ -92,12 +92,31 @@ class ConfigController extends Controller {
 			],
 			'features' => [],
 		];
+
 		$jitsi_domain = $this->config->getAppValue(Application::APP_ID, 'jitsi_preferred_domain', Application::AvailableSettings['jitsi_preferred_domain']);
 		if ($jitsi_domain !== "") {
 			$config['jitsi'] = [
 				'preferredDomain' => $jitsi_domain,
 			];
 		}
+
+		// Integration UI
+		$integrations_ui_url = $this->config->getAppValue(Application::APP_ID, 'integrations_ui_url', Application::AvailableSettings['integrations_ui_url']);
+		if ($integrations_ui_url !== Application::AvailableSettings['integrations_ui_url']) {
+			$config['integrations_ui_url'] = $integrations_ui_url;
+		}
+
+		$integrations_rest_url = $this->config->getAppValue(Application::APP_ID, 'integrations_rest_url', Application::AvailableSettings['integrations_rest_url']);
+		if ($integrations_rest_url !== Application::AvailableSettings['integrations_rest_url']) {
+			$config['integrations_rest_url'] = $integrations_rest_url;
+		}
+
+		$integrations_widgets_urls = $this->config->getAppValue(Application::APP_ID, 'integrations_widgets_urls', Application::AvailableSettings['integrations_widgets_urls']);
+		if ($integrations_widgets_urls !== Application::AvailableSettings['integrations_widgets_urls']) {
+			$config['integrations_widgets_urls'] = [];
+			$config['integrations_widgets_urls'][0] = $integrations_widgets_urls;
+		}
+
 		foreach (Application::AvailableLabs() as $lab) {
 			$config['features'][$lab] = $this->config->getAppValue(Application::APP_ID, 'lab_' . $lab, 'disable');
 		}
