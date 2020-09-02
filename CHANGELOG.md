@@ -7,6 +7,29 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates likely also include translation updates.
 
+## [v0.6.5](https://github.com/gary-kim/riotchat/tree/v0.6.5) - 2020-09-02
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.6.4...v0.6.5)
+
+### Added
+
+- Nextcloud 20 support [\#131](https://github.com/gary-kim/riotchat/pull/131) ([@gary-kim](https://github.com/gary-kim))
+- Allow setting a custom integration server [\#117](https://github.com/gary-kim/riotchat/pull/117) ([@gary-kim](https://github.com/gary-kim))
+
+### Changed
+
+- Update Element Web to v1.7.5 [\#136](https://github.com/gary-kim/riotchat/pull/136) ([@gary-kim](https://github.com/gary-kim))
+
+### Dependencies
+
+- fix\(deps\): update dependency @nextcloud/router to ^1.2.0 [\#135](https://github.com/gary-kim/riotchat/pull/135) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency eslint to ^7.8.0 [\#134](https://github.com/gary-kim/riotchat/pull/134) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- fix\(deps\): update dependency @nextcloud/axios to ^1.4.0 [\#133](https://github.com/gary-kim/riotchat/pull/133) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update babel monorepo to ^7.11.5 [\#132](https://github.com/gary-kim/riotchat/pull/132) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- fix\(deps\): update dependency @nextcloud/vue to ^2.6.1 [\#129](https://github.com/gary-kim/riotchat/pull/129) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- fix\(deps\): update dependency @nextcloud/dialogs to ^2.0.1 [\#128](https://github.com/gary-kim/riotchat/pull/128) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency sass-loader to ^10.0.1 [\#127](https://github.com/gary-kim/riotchat/pull/127) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+
 ## [v0.6.4](https://github.com/gary-kim/riotchat/tree/v0.6.4) - 2020-08-24
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.6.3...v0.6.4)
