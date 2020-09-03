@@ -90,7 +90,6 @@ class ConfigController extends Controller {
 			'branding' => [
 				'authHeaderLogoUrl' => $this->defaults->getLogo(),
 			],
-			'features' => [],
 		];
 
 		$jitsi_domain = $this->config->getAppValue(Application::APP_ID, 'jitsi_preferred_domain', Application::AvailableSettings['jitsi_preferred_domain']);
@@ -115,10 +114,6 @@ class ConfigController extends Controller {
 		if ($integrations_widgets_urls !== Application::AvailableSettings['integrations_widgets_urls']) {
 			$config['integrations_widgets_urls'] = [];
 			$config['integrations_widgets_urls'][0] = $integrations_widgets_urls;
-		}
-
-		foreach (Application::AvailableLabs() as $lab) {
-			$config['features'][$lab] = $this->config->getAppValue(Application::APP_ID, 'lab_' . $lab, 'disable');
 		}
 
 		return new JSONResponse($config);
