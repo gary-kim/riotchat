@@ -6,7 +6,6 @@ OC.L10N.register(
     "Disable custom URLs" : "השבתת כתובות מותאמות אישית",
     "Disable login language selector" : "השבתת בוחר שפה בכניסה",
     "Jitsi settings" : "הגדרות Jitsi",
-    "Features" : "תכונות",
     "Experimental feature {feature}" : "התכונה הניסיונית {feature}",
     "{settingName} has been set to {value}" : "{settingName} הוגדרה לערך {value}",
     "{settingName} could not be set. Try reloading the page." : "לא ניתן להגדיר את {settingName}. כדאי לנסות לרענן את העמוד."

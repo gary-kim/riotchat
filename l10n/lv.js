@@ -4,7 +4,6 @@ OC.L10N.register(
     "Default server name:" : "Noklusētā servera nosaukums:",
     "Disable login language selector" : "Atspējot pieteikšanās valodas izvēli",
     "Jitsi settings" : "Jitsi iestatījumi",
-    "Features" : "Iespējas",
     "Experimental feature {feature}" : "Eksperimentālās iespējas {feature}",
     "{settingName} has been set to {value}" : "{settingName} ir nomainīts uz {value}",
     "{settingName} could not be set. Try reloading the page." : "{settingName} nevar nomainīt. Mēģiniet pārlādēt lapu."
