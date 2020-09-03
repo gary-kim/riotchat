@@ -130,32 +130,6 @@
                     @change="updateSetting('integrations_widgets_urls')"
                 >
             </SettingsSection>
-            <SettingsSection
-                :title="t('riotchat', 'Features')"
-                :description="t('riotchat', 'Configure experimental features in Element')"
-            >
-                <p v-html="featureDocumentation" />
-                <p>{{ t('riotchat', '"enable" enables the feature for all users. "disable" disables the feature for all users. "labs" adds the feature to the user\'s settings.') }}</p>
-                <br>
-                <div
-                    v-for="(setting, key) in labs"
-                    :key="key"
-                >
-                    <select
-                        :id="key"
-                        v-model="labs[key]"
-                        @change="updateLabSetting(key)"
-                    >
-                        <option>enable</option>
-                        <option>labs</option>
-                        <option>disable</option>
-                    </select>
-                    <label
-                        :ref="key"
-                        :for="key"
-                    >{{ key.substring(4) }}</label>
-                </div>
-            </SettingsSection>
         </template>
         <SettingsSection
             :title="t('riotchat', 'Custom Element config')"
@@ -207,7 +181,6 @@ export default {
             "disable_custom_urls": loadState('riotchat', 'disable_custom_urls') === 'true',
             "disable_login_language_selector": loadState('riotchat', 'disable_login_language_selector') === 'true',
             "jitsi_preferred_domain": loadState('riotchat', 'jitsi_preferred_domain'),
-            "labs": JSON.parse(loadState('riotchat', 'labs')),
             "custom_json": loadState('riotchat', 'custom_json'),
             "integrations_ui_url": loadState('riotchat', 'integrations_ui_url'),
             "integrations_rest_url": loadState('riotchat', 'integrations_rest_url'),

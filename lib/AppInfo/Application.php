@@ -47,8 +47,8 @@ class Application extends App {
 	}
 
 	public static function AvailableLabs() {
-		$developConfig = json_decode(file_get_contents(__DIR__ . '/../../3rdparty/riot/develop.config.json'), true);
-		$labs = $developConfig['features'];
-		return array_keys($labs);
+		// Element Web has removed the current Labs system. https://github.com/gary-kim/riotchat/issues/139
+		// TODO: Remove the labs feature fully
+		return [];
 	}
 }
