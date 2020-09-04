@@ -100,7 +100,7 @@
                 <label
                     ref="integrations_ui_url"
                     for="integrations_ui_url"
-                >{{ t('riotchat', 'Integration UI url:') }}</label>
+                >{{ t('riotchat', 'Integration UI URL:') }}</label>
                 <input
                     id="integrations_ui_url"
                     v-model="integrations_ui_url"
@@ -111,7 +111,7 @@
                 <label
                     ref="integrations_rest_url"
                     for="integrations_rest_url"
-                >{{ t('riotchat', 'Integration REST url:') }}</label>
+                >{{ t('riotchat', 'Integration REST URL:') }}</label>
                 <input
                     id="integrations_rest_url"
                     v-model="integrations_rest_url"
@@ -122,7 +122,7 @@
                 <label
                     ref="integrations_widgets_urls"
                     for="integrations_widgets_urls"
-                >{{ t('riotchat', 'Integration widgets url:') }}</label>
+                >{{ t('riotchat', 'Integration widgets URL:') }}</label>
                 <input
                     id="integrations_widgets_urls"
                     v-model="integrations_widgets_urls"
