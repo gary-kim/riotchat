@@ -1,3 +1,4 @@
 [submodule "3rdparty/riot-web"]
 	path = 3rdparty/riot-web
-	url = https://github.com/vector-im/riot-web
+    url = https://github.com/vector-im/riot-web
+    branch = master
