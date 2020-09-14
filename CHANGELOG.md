@@ -7,6 +7,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates likely also include translation updates.
 
+## [v0.6.7](https://github.com/gary-kim/riotchat/tree/v0.6.7) - 2020-09-14
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.6.6...v0.6.7)
+
+### Changed
+
+- Update to Element Web v1.7.6 [\#147](https://github.com/gary-kim/riotchat/pull/147) ([@gary-kim](https://github.com/gary-kim))
+
+### Fixed
+
+- l10n: Correction of "URL" in the text string [\#144](https://github.com/gary-kim/riotchat/pull/144) ([@Valdnet](https://github.com/Valdnet))
+
+### Dependencies
+
+- chore\(deps\): update dependency eslint to ^7.9.0 [\#146](https://github.com/gary-kim/riotchat/pull/146) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- fix\(deps\): update dependency @nextcloud/vue to ^2.6.4 [\#143](https://github.com/gary-kim/riotchat/pull/143) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency sass-loader to ^10.0.2 [\#142](https://github.com/gary-kim/riotchat/pull/142) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency @babel/core to ^7.11.6 [\#141](https://github.com/gary-kim/riotchat/pull/141) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- fix\(deps\): update dependency @nextcloud/vue to ^2.6.3 [\#138](https://github.com/gary-kim/riotchat/pull/138) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency eslint to ^7.8.1 [\#137](https://github.com/gary-kim/riotchat/pull/137) ([@gary-kim-bot](https://github.com/gary-kim-bot)
+
 ## [v0.6.6](https://github.com/gary-kim/riotchat/tree/v0.6.6) - 2020-09-03
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.6.5...v0.6.6)
