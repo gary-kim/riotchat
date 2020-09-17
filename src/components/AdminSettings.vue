@@ -26,7 +26,7 @@
         <template v-if="!customConfigEnabled">
             <SettingsSection
                 :title="t('riotchat', 'Element common configuration')"
-                :description="t('riotchat', 'Configure Element here.')"
+                :description="t('riotchat', 'Here you can configure Element.')"
             >
                 <p
                     class="settings-hint"
