@@ -26,7 +26,7 @@
         <template v-if="!customConfigEnabled">
             <SettingsSection
                 :title="t('riotchat', 'Element common configuration')"
-                :description="t('riotchat', 'Configure Element here')"
+                :description="t('riotchat', 'Here you can configure Element.')"
             >
                 <p
                     class="settings-hint"
@@ -80,7 +80,7 @@
             </SettingsSection>
             <SettingsSection
                 :title="t('riotchat', 'Jitsi settings')"
-                :description="t('riotchat', 'Configure the Jitsi instance that Element will connect to')"
+                :description="t('riotchat', 'Configure the Jitsi instance that Element will connect to.')"
             >
                 <label
                     ref="jitsi_preferred_domain"
@@ -95,7 +95,7 @@
             </SettingsSection>
             <SettingsSection
                 :title="t('riotchat', 'Custom integration server')"
-                :description="t('riotchat', 'Configure a custom integration server for Element (leave empty to use Scalar)')"
+                :description="t('riotchat', 'Configure a custom integration server for Element (leave empty to use Scalar).')"
             >
                 <label
                     ref="integrations_ui_url"
@@ -133,7 +133,7 @@
         </template>
         <SettingsSection
             :title="t('riotchat', 'Custom Element config')"
-            :description="t('riotchat', 'Specify a custom configuration for Element')"
+            :description="t('riotchat', 'Specify a custom configuration for Element.')"
         >
             <input
                 id="enable_custom_json"
