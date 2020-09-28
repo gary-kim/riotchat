@@ -3,6 +3,9 @@ OC.L10N.register(
     {
     "Element" : "Element",
     "Element for Nextcloud" : "Element Nextcloudille",
+    "Element common configuration" : "Elementin yleiset määritykset",
+    "Here you can configure Element." : "Tässä voit määrittää Elementin.",
+    "Default server URL:" : "Oletuspalvelimen URL:",
     "Default server name:" : "Oletuspalvelimen nimi:",
     "Disable login language selector" : "Poista käytöstä kirjautumisen kielivalinta",
     "Jitsi settings" : "Jitsi-asetukset",
