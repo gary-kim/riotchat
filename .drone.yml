@@ -5,13 +5,13 @@ name: test
 
 steps:
   - name: modules
-    image: node:13
+    image: node:14
     commands:
       - npm ci > /dev/null
       - git submodule update --init --recursive
 
   - name: eslint
-    image: node:13
+    image: node:14
     commands:
       - npm run eslint
 
@@ -23,12 +23,12 @@ steps:
       - composer run cs:check
 
   - name: test-js-build
-    image: node:13
+    image: node:14
     commands:
       - npm run build -- --no-progress
 
   - name: test-full-build
-    image: node:13
+    image: node:14
     pull: always
     commands:
       - npm ci > /dev/null
@@ -93,6 +93,6 @@ trigger:
     - tag
 ---
 kind: signature
-hmac: 805a20a9f83f6797551be5cdeea264057dc1682d58704a9fbd43ddb63bdcdb78
+hmac: bf7c1610e9c00d0e3197a3ee1029415151f6540158c9e7f85d59697336779f73
 
 ...
