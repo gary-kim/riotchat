@@ -7,6 +7,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates likely also include translation updates.
 
+## [v0.6.11](https://github.com/gary-kim/riotchat/tree/v0.6.11) - 2020-09-29
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.6.10...v0.6.11)
+
+### Changed
+
+- Update Element Web to v1.7.8 [\#157](https://github.com/gary-kim/riotchat/pull/157) ([@gary-kim](https://github.com/gary-kim))
+
+### Fixed
+
+- l10n: Add dots [\#152](https://github.com/gary-kim/riotchat/pull/152) ([@Valdnet](https://github.com/Valdnet))
+
+### Dependencies
+
+- chore\(deps\): update dependency eslint-plugin-import to ^2.22.1 [\#156](https://github.com/gary-kim/riotchat/pull/156) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency eslint to ^7.10.0 [\#155](https://github.com/gary-kim/riotchat/pull/155) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency webpack to ^4.44.2 [\#153](https://github.com/gary-kim/riotchat/pull/153) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- fix\(deps\): update dependency @nextcloud/vue to ^2.6.5 [\#148](https://github.com/gary-kim/riotchat/pull/148) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+
 ## [v0.6.10](https://github.com/gary-kim/riotchat/tree/v0.6.10) - 2020-09-15
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.6.9...v0.6.10)
