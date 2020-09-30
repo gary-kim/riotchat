@@ -33,14 +33,10 @@ git submodule update --init --recursive
 make
 ```
 
-### Logo
-
-The logo is the logo of the Element project. The file used is from [Fork Awesome](https://github.com/ForkAwesome/Fork-Awesome/pull/232/).
-
 ### License
 
 Copyright © 2020 Gary Kim &lt;<gary@garykim.dev>&gt;
 
 Licensed under [AGPL-3.0-or-later](LICENSE).
 
-Using code from the Element Web project. <https://github.com/vector-im/riot-web>. Huge thanks to the Element Web developers. They're doing the actual heavy lifting here.
+Using code from the Element Web project. <https://github.com/vector-im/element-web>. Huge thanks to the Element Web developers. They're doing the actual heavy lifting here.
