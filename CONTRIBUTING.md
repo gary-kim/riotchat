@@ -2,7 +2,7 @@
 
 Thank you for getting involved in the development of Riot Chat for Nextcloud. 
 
-To get started, first set up a Nextcloud development environment. Refer to the [Nextcloud Developer Documentation](https://docs.nextcloud.com/server/latest/developer_manual/general/devenv.html) for information on how to do that.
+To get started, first set up a Nextcloud development environment. Refer to the [Nextcloud Developer Documentation](https://docs.nextcloud.com/server/19/developer_manual/general/devenv.html) for information on how to do that.
 
 Once you get your Nextcloud development environment set up, clone this repo into `apps/riotchat` in your Nextcloud directory then go in to the directory and run the following commands:
 ```bash
