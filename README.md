@@ -15,7 +15,8 @@ The name Element as well as related names, marks, emblems and images are registe
 
 The upstream project can be found at [https://github.com/vector-im/riot-web](https://github.com/vector-im/riot-web).
 
-![Screenshot 1](https://garykim.dev/res/large/riotchat-for-nextcloud/main-screenshot.png)
+![Screenshot 2](https://garykim.dev/res/large/riotchat-for-nextcloud/screenshot-2.png)
+![Screenshot 3](https://garykim.dev/res/large/riotchat-for-nextcloud/screenshot-3.png)
 
 If you want to join the discussion, join the Matrix community chat room here: <https://matrix.to/#/#riotchatfornextcloud-general:garykim.dev>. There is work going on to get this bridged with Nextcloud Talk.
 
