@@ -7,6 +7,33 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates likely also include translation updates.
 
+## [v0.6.12](https://github.com/gary-kim/riotchat/tree/v0.6.12) - 2020-10-13
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.6.11...v0.6.12)
+
+### Changed
+
+- Update Element Web to v1.7.9 [\#176](https://github.com/gary-kim/riotchat/pull/176) ([@gary-kim](https://github.com/gary-kim))
+- Update screenshots in info.xml [\#166](https://github.com/gary-kim/riotchat/pull/166) ([@gary-kim](https://github.com/gary-kim))
+- Update screenshots [\#165](https://github.com/gary-kim/riotchat/pull/165) ([@gary-kim](https://github.com/gary-kim))
+
+### Fixed
+
+- A few fixes for the readme [\#161](https://github.com/gary-kim/riotchat/pull/161) ([@gary-kim](https://github.com/gary-kim))
+
+### Dependencies
+
+- chore\(deps\): update dependency eslint to ^7.11.0 [\#173](https://github.com/gary-kim/riotchat/pull/173) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency sass-loader to ^10.0.3 [\#172](https://github.com/gary-kim/riotchat/pull/172) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- fix\(deps\): update dependency @nextcloud/initial-state to ^1.2.0 [\#171](https://github.com/gary-kim/riotchat/pull/171) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- fix\(deps\): update dependency @nextcloud/dialogs to v3 [\#169](https://github.com/gary-kim/riotchat/pull/169) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- fix\(deps\): update dependency @nextcloud/vue to ^2.7.0 [\#168](https://github.com/gary-kim/riotchat/pull/168) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency eslint-plugin-vue to ^7.0.1 [\#167](https://github.com/gary-kim/riotchat/pull/167) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- fix\(deps\): update dependency @nextcloud/vue to ^2.6.8 [\#162](https://github.com/gary-kim/riotchat/pull/162) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- fix\(deps\): update dependency @nextcloud/vue to ^2.6.6 [\#160](https://github.com/gary-kim/riotchat/pull/160) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency eslint-plugin-vue to v7 [\#159](https://github.com/gary-kim/riotchat/pull/159) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency css-loader to v4 [\#103](https://github.com/gary-kim/riotchat/pull/103) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+
 ## [v0.6.11](https://github.com/gary-kim/riotchat/tree/v0.6.11) - 2020-09-29
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.6.10...v0.6.11)
