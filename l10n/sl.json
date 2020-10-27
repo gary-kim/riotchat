@@ -1,10 +1,24 @@
 { "translations": {
+    "Element" : "Element",
+    "Element for Nextcloud" : "Element za Nextcloud",
+    "Element Web integrated into Nextcloud" : "Podpora Nextcloud za Element Web",
+    "Element common configuration" : "Splošne nastavitve okolja Element",
+    "Here you can configure Element." : "Možnosti nastavitev okolja Element",
     "Default server URL:" : "Privzeti naslov URL strežnika:",
-    "Default server name:" : "Privzeto ime stražnika",
+    "Default server name:" : "Privzeto ime stražnika:",
     "Disable custom URLs" : "Onemogoči naslove URL po meri",
+    "Disable login language selector" : "Onemogoči izbirnik jezika ob prijavi",
     "Jitsi settings" : "Nastavitve Jitsi",
+    "Configure the Jitsi instance that Element will connect to." : "Nastavitve strežnika Jitsi, s katerim se povezuje Element.",
+    "Custom Jitsi instance (leave blank to use default Element Jitsi server):" : "Strežnik Jitsi po meri (prazno polje določa privzeti strežnik Jitsi Element):",
+    "Custom integration server" : "Strežniška podpora po meri",
+    "Custom Element config" : "Nastavitve Element po meri",
+    "Specify a custom configuration for Element." : "Določitev nastavitev strežnika Element po meri",
     "Use a custom configuration" : "Uporabi nastavitve po meri",
     "Experimental feature {feature}" : "Preizkusna možnost {feature}",
-    "Custom config has been set" : "Nastavitve po meri so omogočene"
+    "Custom config has been set" : "Nastavitve po meri so omogočene",
+    "{settingName} has been set to {value}" : "Nastavitev {settingName} je bila nastavljena na vrednost {value}",
+    "Custom config could not be set. Try reloading the page." : "Nastavitev po meri ni mogoče shraniti. Poskusite ponovno naložiti stran.",
+    "{settingName} could not be set. Try reloading the page." : "Možnosti {settingName} ni mogoče nastaviti. Poskusite ponovno naložiti stran."
 },"pluralForm" :"nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);"
 }
