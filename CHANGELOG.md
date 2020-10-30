@@ -7,6 +7,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates likely also include translation updates.
 
+## [v0.6.14](https://github.com/gary-kim/riotchat/tree/v0.6.14) - 2020-10-30
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.6.13...v0.6.14)
+
+### Changed
+
+- Update Element Web to v1.7.12 [\#191](https://github.com/gary-kim/riotchat/pull/191) ([@gary-kim](https://github.com/gary-kim))
+- Update Element Web to v1.7.11 [\#189](https://github.com/gary-kim/riotchat/pull/189) ([@gary-kim](https://github.com/gary-kim))
+
+### Dependencies
+
+- fix\(deps\): update dependency @nextcloud/vue to ^3.1.1 [\#190](https://github.com/gary-kim/riotchat/pull/190) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- fix\(deps\): update dependency @nextcloud/axios to ^1.5.0 [\#188](https://github.com/gary-kim/riotchat/pull/188) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency vue-loader to ^15.9.4 [\#187](https://github.com/gary-kim/riotchat/pull/187) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency eslint to ^7.12.1 [\#186](https://github.com/gary-kim/riotchat/pull/186) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency sass-loader to ^10.0.4 [\#185](https://github.com/gary-kim/riotchat/pull/185) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- fix\(deps\): update dependency @nextcloud/vue to v3 [\#181](https://github.com/gary-kim/riotchat/pull/181) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency eslint-plugin-vue to ^7.1.0 [\#179](https://github.com/gary-kim/riotchat/pull/179) ([@gary-kim-bot](https://github.com/gary-kim-bot
+
 ## [v0.6.13](https://github.com/gary-kim/riotchat/tree/v0.6.13) - 2020-10-23
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.6.12...v0.6.13)
