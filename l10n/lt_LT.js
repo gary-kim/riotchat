@@ -1,6 +1,8 @@
 OC.L10N.register(
     "riotchat",
     {
+    "Default server URL:" : "Numatytojo serverio URL:",
+    "Default server name:" : "Numatytojo serverio pavadinimas:",
     "Jitsi settings" : "Jitsi nustatymai",
     "Experimental feature {feature}" : "Eksperimentinė ypatybė {feature}"
 },
