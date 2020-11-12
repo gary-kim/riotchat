@@ -7,6 +7,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates likely also include translation updates.
 
+## [v0.6.15](https://github.com/gary-kim/riotchat/tree/v0.6.15) - 2020-11-12
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.6.14...v0.6.15)
+
+### Changed
+
+- Update to Element Web v1.7.13 [\#203](https://github.com/gary-kim/riotchat/pull/203) ([@gary-kim](https://github.com/gary-kim))
+
+### Dependencies
+
+- chore\(deps\): update dependency babel-loader to ^8.2.1 [\#202](https://github.com/gary-kim/riotchat/pull/202) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- fix\(deps\): update dependency @nextcloud/dialogs to ^3.1.0 [\#201](https://github.com/gary-kim/riotchat/pull/201) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency eslint to ^7.13.0 [\#200](https://github.com/gary-kim/riotchat/pull/200) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- fix\(deps\): update dependency core-js to ^3.7.0 [\#199](https://github.com/gary-kim/riotchat/pull/199) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency css-loader to ^5.0.1 [\#198](https://github.com/gary-kim/riotchat/pull/198) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- fix\(deps\): update dependency @nextcloud/vue to ^3.2.0 [\#195](https://github.com/gary-kim/riotchat/pull/195) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency vue-loader to ^15.9.5 [\#194](https://github.com/gary-kim/riotchat/pull/194) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+
 ## [v0.6.14](https://github.com/gary-kim/riotchat/tree/v0.6.14) - 2020-10-30
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.6.13...v0.6.14)
