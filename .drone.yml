@@ -25,7 +25,7 @@ steps:
   - name: test-js-build
     image: node:14
     commands:
-      - npm run build -- --no-progress
+      - NODE_ENV=production npx webpack
 
   - name: test-full-build
     image: node:14
@@ -93,6 +93,6 @@ trigger:
     - tag
 ---
 kind: signature
-hmac: bf7c1610e9c00d0e3197a3ee1029415151f6540158c9e7f85d59697336779f73
+hmac: 7733150c4dbe1b9dd0d86eeaa444921b8902159116080b50776587ff43f82027
 
 ...
