@@ -7,6 +7,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates likely also include translation updates.
 
+## [v0.6.16](https://github.com/gary-kim/riotchat/tree/v0.6.16) - 2020-11-30
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.6.15...v0.6.16)
+
+### Changed
+
+- Update to Element Web v1.7.14 [\#210](https://github.com/gary-kim/riotchat/pull/210) ([@gary-kim](https://github.com/gary-kim))
+
+### Dependencies
+
+- chore\(deps\): update dependency eslint to ^7.14.0 [\#209](https://github.com/gary-kim/riotchat/pull/209) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency webpack to ^5.6.0 [\#207](https://github.com/gary-kim/riotchat/pull/207) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency webpack to ^5.5.0 [\#205](https://github.com/gary-kim/riotchat/pull/205) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- fix\(deps\): update dependency @nextcloud/dialogs to ^3.1.1 [\#204](https://github.com/gary-kim/riotchat/pull/204) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency sass-loader to ^10.1.0 [\#196](https://github.com/gary-kim/riotchat/pull/196) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency eslint-config-standard to v16 [\#192](https://github.com/gary-kim/riotchat/pull/192) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency webpack to v5 [\#175](https://github.com/gary-kim/riotchat/pull/175) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency webpack-cli to v4 [\#174](https://github.com/gary-kim/riotchat/pull/174) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+
 ## [v0.6.15](https://github.com/gary-kim/riotchat/tree/v0.6.15) - 2020-11-12
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.6.14...v0.6.15)
