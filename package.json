@@ -52,7 +52,7 @@
     "@nextcloud/initial-state": "^1.2.0",
     "@nextcloud/router": "^1.2.0",
     "@nextcloud/vue": "^3.3.0",
-    "core-js": "^3.8.0",
+    "core-js": "^3.8.1",
     "vue": "^2.6.12"
   },
   "browserslist": [
