@@ -7,6 +7,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates likely also include translation updates.
 
+## [v0.6.17](https://github.com/gary-kim/riotchat/tree/v0.6.17) - 2020-12-10
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.6.16...v0.6.17)
+
+### Changed
+
+- Update to Element Web v1.7.15 [\#219](https://github.com/gary-kim/riotchat/pull/219) ([@gary-kim](https://github.com/gary-kim))
+
+### Dependencies
+
+- fix\(deps\): update dependency core-js to ^3.8.1 [\#218](https://github.com/gary-kim/riotchat/pull/218) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency eslint to ^7.15.0 [\#217](https://github.com/gary-kim/riotchat/pull/217) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency eslint-plugin-vue to ^7.2.0 [\#215](https://github.com/gary-kim/riotchat/pull/215) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- fix\(deps\): update dependency @nextcloud/vue to ^3.3.0 [\#213](https://github.com/gary-kim/riotchat/pull/213) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency webpack to ^5.9.0 [\#212](https://github.com/gary-kim/riotchat/pull/212) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- fix\(deps\): update dependency core-js to ^3.8.0 [\#211](https://github.com/gary-kim/riotchat/pull/211) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update babel monorepo [\#208](https://github.com/gary-kim/riotchat/pull/208) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency eslint-config-standard to ^16.0.2 [\#206](https://github.com/gary-kim/riotchat/pull/206) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency node-sass to v5 [\#193](https://github.com/gary-kim/riotchat/pull/193) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency eslint-plugin-standard to ^4.1.0 [\#183](https://github.com/gary-kim/riotchat/pull/183) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+
 ## [v0.6.16](https://github.com/gary-kim/riotchat/tree/v0.6.16) - 2020-11-30
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.6.15...v0.6.16)
