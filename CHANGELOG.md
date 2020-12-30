@@ -7,6 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates likely also include translation updates.
 
+## [v0.6.18](https://github.com/gary-kim/riotchat/tree/v0.6.18) - 2020-12-30
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.6.17...v0.6.18)
+
+### Changed
+
+- Update to Element v1.7.16 [\#225](https://github.com/gary-kim/riotchat/pull/225) ([@gary-kim](https://github.com/gary-kim))
+
+### Dependencies
+
+- chore\(deps\): update dependency eslint to ^7.16.0 [\#224](https://github.com/gary-kim/riotchat/pull/224) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency nextcloud/coding-standard to ^0.4.0 [\#221](https://github.com/gary-kim/riotchat/pull/221) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update babel monorepo [\#220](https://github.com/gary-kim/riotchat/pull/220) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency webpack to ^5.11.0 [\#216](https://github.com/gary-kim/riotchat/pull/216) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+
 ## [v0.6.17](https://github.com/gary-kim/riotchat/tree/v0.6.17) - 2020-12-10
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.6.16...v0.6.17)
