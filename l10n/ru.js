@@ -13,6 +13,7 @@ OC.L10N.register(
     "Disable login language selector" : "Отключить выбор языка при входе в систему",
     "Jitsi settings" : "Настройки Jitsi",
     "Configure the Jitsi instance that Element will connect to." : "Настройте экземпляр Jitsi, к которому будет подключаться Element.",
-    "Custom Jitsi instance (leave blank to use default Element Jitsi server):" : "Пользовательский экземпляр Jitsi (оставьте поле пустым, чтобы использовать сервер Element Jitsi по умолчанию):"
+    "Custom Jitsi instance (leave blank to use default Element Jitsi server):" : "Пользовательский экземпляр Jitsi (оставьте поле пустым, чтобы использовать сервер Element Jitsi по умолчанию):",
+    "Experimental feature {feature}" : "Экпериментальная функция {feature} "
 },
 "nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);");
