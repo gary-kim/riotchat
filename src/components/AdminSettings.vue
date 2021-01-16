@@ -77,6 +77,18 @@
                     ref="disable_login_language_selector"
                     for="disable_login_language_selector"
                 >{{ t('riotchat', 'Disable login language selector') }}</label>
+                <br>
+                <input
+                    id="show_labs_settings"
+                    v-model="show_labs_settings"
+                    type="checkbox"
+                    class="checkbox"
+                    @change="updateSetting('show_labs_settings')"
+                >
+                <label
+                    ref="show_labs_settings"
+                    for="show_labs_settings"
+                >{{ t('riotchat', 'Show labs settings') }}</label>
             </SettingsSection>
             <SettingsSection
                 :title="t('riotchat', 'Jitsi settings')"
@@ -185,6 +197,7 @@ export default {
             "integrations_ui_url": loadState('riotchat', 'integrations_ui_url'),
             "integrations_rest_url": loadState('riotchat', 'integrations_rest_url'),
             "integrations_widgets_urls": loadState('riotchat', 'integrations_widgets_urls'),
+            "show_labs_settings": loadState('riotchat', "show_labs_settings"),
             "custom_json_loading": false,
         };
     },

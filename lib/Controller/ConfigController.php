@@ -90,6 +90,7 @@ class ConfigController extends Controller {
 			'branding' => [
 				'authHeaderLogoUrl' => $this->defaults->getLogo(),
 			],
+			'showLabsSettings' => $this->config->getAppValue(Application::APP_ID, 'show_labs_settings', Application::AvailableSettings['show_labs_settings']) === 'true',
 		];
 
 		$jitsi_domain = $this->config->getAppValue(Application::APP_ID, 'jitsi_preferred_domain', Application::AvailableSettings['jitsi_preferred_domain']);
