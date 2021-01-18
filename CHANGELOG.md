@@ -7,6 +7,33 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates likely also include translation updates.
 
+## [v0.6.19](https://github.com/gary-kim/riotchat/tree/v0.6.19) - 2021-01-18
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.6.18...v0.6.19)
+
+### Changed
+
+- Update to Element Web v1.7.17 [\#237](https://github.com/gary-kim/riotchat/pull/237) ([@gary-kim](https://github.com/gary-kim))
+- enh: Expose show labs settings config [\#236](https://github.com/gary-kim/riotchat/pull/236) ([@gary-kim](https://github.com/gary-kim))
+
+### Fixed
+
+- fix: sso logins [\#235](https://github.com/gary-kim/riotchat/pull/235) ([@gary-kim](https://github.com/gary-kim))
+- Generate version file [\#229](https://github.com/gary-kim/riotchat/pull/229) ([@gary-kim](https://github.com/gary-kim))
+
+### Dependencies
+
+- chore\(deps\): update dependency sass-loader to ^10.1.1 [\#234](https://github.com/gary-kim/riotchat/pull/234) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency nextcloud/coding-standard to ^0.5.0 [\#233](https://github.com/gary-kim/riotchat/pull/233) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- fix\(deps\): update dependency @nextcloud/axios to ^1.6.0 [\#232](https://github.com/gary-kim/riotchat/pull/232) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- fix\(deps\): update dependency core-js to ^3.8.2 [\#231](https://github.com/gary-kim/riotchat/pull/231) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency eslint to ^7.18.0 [\#230](https://github.com/gary-kim/riotchat/pull/230) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency webpack to ^5.15.0 [\#228](https://github.com/gary-kim/riotchat/pull/228) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency webpack-cli to ^4.3.1 [\#226](https://github.com/gary-kim/riotchat/pull/226) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency vue-loader to ^15.9.6 [\#223](https://github.com/gary-kim/riotchat/pull/223) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency eslint-plugin-vue to ^7.4.1 [\#222](https://github.com/gary-kim/riotchat/pull/222) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- fix\(deps\): update dependency @nextcloud/vue to ^3.4.0 [\#214](https://github.com/gary-kim/riotchat/pull/214) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+
 ## [v0.6.18](https://github.com/gary-kim/riotchat/tree/v0.6.18) - 2020-12-30
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.6.17...v0.6.18)
