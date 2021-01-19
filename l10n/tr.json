@@ -9,6 +9,7 @@
     "Default server name:" : "Varsayılan sunucu adı:",
     "Disable custom URLs" : "Özel adresler kullanılmasın",
     "Disable login language selector" : "Oturum açma dil seçicisi kullanılmasın",
+    "Show labs settings" : "Lab ayarlarını görüntüle",
     "Jitsi settings" : "Jitsi ayarları",
     "Configure the Jitsi instance that Element will connect to." : "Element bağlantısının kurulacağı Jitsi kopyasını yapılandırın.",
     "Custom Jitsi instance (leave blank to use default Element Jitsi server):" : "Özel Jitsi kopyası (varsayılan Element Jitsi sunucusunun kullanılması için boş bırakın):",
