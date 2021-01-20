@@ -9,6 +9,7 @@
     "Default server name:" : "Název výchozího serveru:",
     "Disable custom URLs" : "Zakázat uživatelsky určené URL adresy",
     "Disable login language selector" : "Vypnout výběr jazyka při přihlašování",
+    "Show labs settings" : "Zobrazit nastavení laboratoří",
     "Jitsi settings" : "Nastavení Jitsi",
     "Configure the Jitsi instance that Element will connect to." : "Nastavte instanci Jitsi, ke které se Element připojí.",
     "Custom Jitsi instance (leave blank to use default Element Jitsi server):" : "Uživatelsky určená instance Jitsi (pokud chcete použít výchozí Element Jitsi server, nevyplňujte):",
