@@ -11,6 +11,7 @@ OC.L10N.register(
     "Default server name:" : "Nome server predefinito:",
     "Disable custom URLs" : "Disabilita URL personalizzati",
     "Disable login language selector" : "Disattiva selettore della lingua all'accesso",
+    "Show labs settings" : "Mostra le impostazioni dei lab",
     "Jitsi settings" : "Impostazioni Jitsi",
     "Configure the Jitsi instance that Element will connect to." : "Configura l'istanza Jitsi alla quale si connetterà Element.",
     "Custom Jitsi instance (leave blank to use default Element Jitsi server):" : "Istanza Jitsi personalizzata (lascia vuoto per usare il server Jitsi predefinito di Element):",

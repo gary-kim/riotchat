@@ -9,6 +9,7 @@
     "Default server name:" : "Nombre predeterminado del servidor:",
     "Disable custom URLs" : "Deshabilitar URLs personalizadas",
     "Disable login language selector" : "Desactivar selector de idioma del inicio de sesión",
+    "Show labs settings" : "Mostrar configuración de laboratorio",
     "Jitsi settings" : "Configuración de Jitsi",
     "Configure the Jitsi instance that Element will connect to." : "Configura la instancia de Jitsi a la que se conectará Element.",
     "Custom Jitsi instance (leave blank to use default Element Jitsi server):" : "Instancia Jitsi personalizada (dejar en blanco para usar el servidor Element Jitsi por defecto)",
