@@ -33,6 +33,7 @@ use OCP\Defaults;
 use OCP\IConfig;
 use OCP\IL10N;
 use OCP\IRequest;
+use OCP\IURLGenerator;
 
 class ConfigController extends Controller {
 
@@ -45,17 +46,24 @@ class ConfigController extends Controller {
 	/** @var Defaults */
 	private $defaults;
 
+	/** @var IURLGenerator */
+	private $urlGenerator;
+
 	/**
 	 * ConfigController constructor.
 	 *
-	 * @param $appName
+	 * @param IRequest $request
 	 * @param IL10N $l10n
+	 * @param IConfig $config
+	 * @param Defaults $defaults
+	 * @param IURLGenerator $urlGenerator
 	 */
-	public function __construct(IRequest $request, IL10N $l10n, IConfig $config, Defaults $defaults) {
+	public function __construct(IRequest $request, IL10N $l10n, IConfig $config, Defaults $defaults, IURLGenerator $urlGenerator) {
 		parent::__construct(Application::APP_ID, $request);
 		$this->l10n = $l10n;
 		$this->config = $config;
 		$this->defaults = $defaults;
+		$this->urlGenerator = $urlGenerator;
 	}
 
 	/**
@@ -75,7 +83,6 @@ class ConfigController extends Controller {
 			'disable_guests' => true,
 			'piwik' => false,
 			'settingDefaults' => [
-				// TODO: Check if this actually works :)
 				'language' => $lang,
 			],
 			'disable_custom_urls' => $this->config->getAppValue(Application::APP_ID, 'disable_custom_urls', Application::AvailableSettings['disable_custom_urls']) === 'true',
@@ -90,6 +97,7 @@ class ConfigController extends Controller {
 			'branding' => [
 				'authHeaderLogoUrl' => $this->defaults->getLogo(),
 			],
+			'permalinkPrefix' => rtrim($this->urlGenerator->linkToRouteAbsolute("riotchat.app.index"), "/"),
 			'showLabsSettings' => $this->config->getAppValue(Application::APP_ID, 'show_labs_settings', Application::AvailableSettings['show_labs_settings']) === 'true',
 		];
 
