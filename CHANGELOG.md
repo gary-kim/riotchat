@@ -7,6 +7,33 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates likely also include translation updates.
 
+## [v0.7.0](https://github.com/gary-kim/riotchat/tree/v0.7.0) - 2021-01-26
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.6.19...v0.7.0)
+
+### Added
+
+- Support Nextcloud 21 [\#251](https://github.com/gary-kim/riotchat/pull/251) ([@gary-kim](https://github.com/gary-kim))
+- enh: set the permalink prefix [\#245](https://github.com/gary-kim/riotchat/pull/245) ([@gary-kim](https://github.com/gary-kim))
+
+### Changed
+
+- Update to Element Web v1.7.18 [\#249](https://github.com/gary-kim/riotchat/pull/249) ([@gary-kim](https://github.com/gary-kim))
+- Drop support for Nextcloud 17-18 [\#246](https://github.com/gary-kim/riotchat/pull/246) ([@gary-kim](https://github.com/gary-kim))
+
+## [v0.6.20](https://github.com/gary-kim/riotchat/tree/v0.6.20) - 2021-01-26
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.6.19...v0.6.20)
+
+### Added
+
+- enh: set the permalink prefix [\#245](https://github.com/gary-kim/riotchat/pull/245) ([@gary-kim](https://github.com/gary-kim))
+
+### Changed
+
+- \[stable18\] Update to Element Web v1.7.18 [\#250](https://github.com/gary-kim/riotchat/pull/250) ([@gary-kim](https://github.com/gary-kim))
+- Set max version to 18 [\#248](https://github.com/gary-kim/riotchat/pull/248) ([@gary-kim](https://github.com/gary-kim))
+
 ## [v0.6.19](https://github.com/gary-kim/riotchat/tree/v0.6.19) - 2021-01-18
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.6.18...v0.6.19)
