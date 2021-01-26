@@ -37,6 +37,7 @@ steps:
 trigger:
   branch:
     - master
+    - stable*
   event:
     - pull_request
     - push
@@ -93,6 +94,6 @@ trigger:
     - tag
 ---
 kind: signature
-hmac: 7733150c4dbe1b9dd0d86eeaa444921b8902159116080b50776587ff43f82027
+hmac: 935eda74d6f2e3b90b0e06b8fae076d44d468b43b729da5bbee53a952caf7bea
 
 ...
