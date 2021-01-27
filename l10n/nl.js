@@ -11,6 +11,7 @@ OC.L10N.register(
     "Default server name:" : "Standaard servernaam:",
     "Disable custom URLs" : "Uitschakelen maatwerk URLs",
     "Disable login language selector" : "Schakel de inlog taalselector uit",
+    "Show labs settings" : "Toon labs-instellingen",
     "Jitsi settings" : "Jitsi instellingen",
     "Configure the Jitsi instance that Element will connect to." : "Configureer de Jitsi-server waar Element mee zal verbinden.",
     "Custom Jitsi instance (leave blank to use default Element Jitsi server):" : "Aangepaste Jitsi-instantie (laat leeg om de standaard Element Jitsi-server te gebruiken):",
