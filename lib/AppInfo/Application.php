@@ -40,7 +40,7 @@ class Application extends App {
 		'integrations_rest_url' => '',
 		'integrations_widgets_urls' => '',
 		'custom_json' => '',
-		'show_labs_settings' => true,
+		'show_labs_settings' => 'true',
 	];
 
 	public function __construct(array $urlParams = []) {
