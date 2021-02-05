@@ -97,9 +97,12 @@ class ConfigController extends Controller {
 			'branding' => [
 				'authHeaderLogoUrl' => $this->defaults->getLogo(),
 			],
-			'permalinkPrefix' => rtrim($this->urlGenerator->linkToRouteAbsolute("riotchat.app.index"), "/"),
 			'showLabsSettings' => $this->config->getAppValue(Application::APP_ID, 'show_labs_settings', Application::AvailableSettings['show_labs_settings']) === 'true',
 		];
+
+		if ($this->config->getAppValue(Application::APP_ID, 'set_custom_permalink', Application::AvailableSettings['set_custom_permalink']) === 'true') {
+			$config['permalinkPrefix'] = rtrim($this->urlGenerator->linkToRouteAbsolute("riotchat.app.index"), "/");
+		}
 
 		$jitsi_domain = $this->config->getAppValue(Application::APP_ID, 'jitsi_preferred_domain', Application::AvailableSettings['jitsi_preferred_domain']);
 		if ($jitsi_domain !== "") {
