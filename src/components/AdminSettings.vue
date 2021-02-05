@@ -89,6 +89,22 @@
                     ref="show_labs_settings"
                     for="show_labs_settings"
                 >{{ t('riotchat', 'Show labs settings') }}</label>
+                <div
+                    v-tooltip="{ placement: 'bottom', content: t('riotchat', 'Make share room links go to Element for Nextcloud instead of https://matrix.to') }"
+                    class="containing-div"
+                >
+                    <input
+                        id="set_custom_permalink"
+                        v-model="set_custom_permalink"
+                        type="checkbox"
+                        class="checkbox"
+                        @change="updateSetting('set_custom_permalink')"
+                    >
+                    <label
+                        ref="set_custom_permalink"
+                        for="set_custom_permalink"
+                    >{{ t('riotchat', 'Set custom permalink to this Element instance') }}</label>
+                </div>
             </SettingsSection>
             <SettingsSection
                 :title="t('riotchat', 'Jitsi settings')"
@@ -179,12 +195,15 @@ import Axios from '@nextcloud/axios';
 import { showError, showSuccess } from '@nextcloud/dialogs';
 import { generateUrl } from '@nextcloud/router';
 import { loadState } from '@nextcloud/initial-state';
-import { SettingsSection } from '@nextcloud/vue';
+import { SettingsSection, Tooltip } from '@nextcloud/vue';
 
 export default {
     name: "AdminSettings",
     components: {
         SettingsSection,
+    },
+    directives: {
+        Tooltip,
     },
     data () {
         return {
@@ -199,6 +218,7 @@ export default {
             "integrations_widgets_urls": loadState('riotchat', 'integrations_widgets_urls'),
             "show_labs_settings": loadState('riotchat', "show_labs_settings"),
             "custom_json_loading": false,
+            "set_custom_permalink": loadState('riotchat', 'set_custom_permalink') === 'true',
         };
     },
     computed: {
@@ -281,5 +301,8 @@ export default {
 }
 .loading-div {
     height: 3em;
+}
+.containing-div {
+    width: max-content;
 }
 </style>
