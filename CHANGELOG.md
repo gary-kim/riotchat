@@ -7,6 +7,38 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates likely also include translation updates.
 
+## [v0.7.1](https://github.com/gary-kim/riotchat/tree/v0.7.1) - 2021-02-05
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.7.0...v0.7.1)
+
+### Added
+
+- enh: add support for toggling permalink setting [\#258](https://github.com/gary-kim/riotchat/pull/258) ([@gary-kim](https://github.com/gary-kim))
+
+### Changed
+
+- Update to Element Web v1.7.20 [\#259](https://github.com/gary-kim/riotchat/pull/259) ([@gary-kim](https://github.com/gary-kim))
+
+### Fixed
+
+- fix: make sure show labs settings default is correct [\#255](https://github.com/gary-kim/riotchat/pull/255) ([@gary-kim](https://github.com/gary-kim))
+
+## [v0.6.21](https://github.com/gary-kim/riotchat/tree/v0.6.21) - 2021-02-05
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.6.20...v0.6.21)
+
+### Added
+
+- \[stable18\] enh: add support for toggling permalink setting [\#261](https://github.com/gary-kim/riotchat/pull/261) ([@gary-kim](https://github.com/gary-kim))
+
+### Changed
+
+- \[stable18\] Update to Element Web v1.7.20 [\#260](https://github.com/gary-kim/riotchat/pull/260) ([@gary-kim](https://github.com/gary-kim))
+
+### Fixed
+
+- \[stable18\] fix: make sure show labs settings default is correct [\#256](https://github.com/gary-kim/riotchat/pull/256) ([@gary-kim](https://github.com/gary-kim))
+
 ## [v0.7.0](https://github.com/gary-kim/riotchat/tree/v0.7.0) - 2021-01-26
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.6.19...v0.7.0)
