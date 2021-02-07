@@ -12,6 +12,8 @@ OC.L10N.register(
     "Disable custom URLs" : "Disabilita URL personalizzati",
     "Disable login language selector" : "Disattiva selettore della lingua all'accesso",
     "Show labs settings" : "Mostra le impostazioni dei lab",
+    "Make share room links go to Element for Nextcloud instead of https://matrix.to" : "Fai in modo che i collegamenti alle stanze condivise vadano a Element per Nextcloud invece che a https://matrix.to ",
+    "Set custom permalink to this Element instance" : "Imposta il permalink personalizzato su questa istanza di Element ",
     "Jitsi settings" : "Impostazioni Jitsi",
     "Configure the Jitsi instance that Element will connect to." : "Configura l'istanza Jitsi alla quale si connetterà Element.",
     "Custom Jitsi instance (leave blank to use default Element Jitsi server):" : "Istanza Jitsi personalizzata (lascia vuoto per usare il server Jitsi predefinito di Element):",
