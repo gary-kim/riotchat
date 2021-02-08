@@ -12,6 +12,8 @@ OC.L10N.register(
     "Disable custom URLs" : "Özel adresler kullanılmasın",
     "Disable login language selector" : "Oturum açma dil seçicisi kullanılmasın",
     "Show labs settings" : "Lab ayarlarını görüntüle",
+    "Make share room links go to Element for Nextcloud instead of https://matrix.to" : "Oda paylaşma bağlantıları https://matrix.to yerine Nextcloud için Element üzerine gitsin",
+    "Set custom permalink to this Element instance" : "Bu Element kopyasının bağlantısını ayarlayın",
     "Jitsi settings" : "Jitsi ayarları",
     "Configure the Jitsi instance that Element will connect to." : "Element bağlantısının kurulacağı Jitsi kopyasını yapılandırın.",
     "Custom Jitsi instance (leave blank to use default Element Jitsi server):" : "Özel Jitsi kopyası (varsayılan Element Jitsi sunucusunun kullanılması için boş bırakın):",
