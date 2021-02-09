@@ -10,6 +10,8 @@
     "Disable custom URLs" : "Uitschakelen maatwerk URLs",
     "Disable login language selector" : "Schakel de inlog taalselector uit",
     "Show labs settings" : "Toon labs-instellingen",
+    "Make share room links go to Element for Nextcloud instead of https://matrix.to" : "Laat de Deel kamer links verwijzen naar Element voor Nextcloud in plaats van naar https://matrix.to",
+    "Set custom permalink to this Element instance" : "Stel maatwerk permalink in op deze Element server",
     "Jitsi settings" : "Jitsi instellingen",
     "Configure the Jitsi instance that Element will connect to." : "Configureer de Jitsi-server waar Element mee zal verbinden.",
     "Custom Jitsi instance (leave blank to use default Element Jitsi server):" : "Aangepaste Jitsi-instantie (laat leeg om de standaard Element Jitsi-server te gebruiken):",
