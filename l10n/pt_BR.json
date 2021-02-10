@@ -10,6 +10,8 @@
     "Disable custom URLs" : "Desativar URLs personalizadas",
     "Disable login language selector" : "Desativar o seletor de linguagem de login",
     "Show labs settings" : "Mostrar configurações dos laboratórios",
+    "Make share room links go to Element for Nextcloud instead of https://matrix.to" : "Faça os links da sala de compartilhamento irem para Element for Nextcloud em vez de https://matrix.to ",
+    "Set custom permalink to this Element instance" : "Definir permalink personalizado para esta instância do Elemento ",
     "Jitsi settings" : "Configurações do Jitsi",
     "Configure the Jitsi instance that Element will connect to." : "Configure a instância do Jitsi à qual o Element se conectará.",
     "Custom Jitsi instance (leave blank to use default Element Jitsi server):" : "Instância Jitsi customizada (deixe em branco para usar o servidor Element Jitsi padrão):",
