@@ -25,9 +25,13 @@ declare(strict_types=1);
 
 namespace OCA\RiotChat\AppInfo;
 
+use OCA\RiotChat\Dashboard\RiotChatWidget;
 use OCP\AppFramework\App;
+use OCP\AppFramework\Bootstrap\IBootstrap;
+use OCP\AppFramework\Bootstrap\IBootContext;
+use OCP\AppFramework\Bootstrap\IRegistrationContext;
 
-class Application extends App {
+class Application extends App Implements IBootstrap {
 	public const APP_ID = 'riotchat';
 
 	public const AvailableSettings = [
@@ -48,7 +52,14 @@ class Application extends App {
 		parent::__construct(self::APP_ID, $urlParams);
 	}
 
-	public static function AvailableLabs() {
+	public function register(IRegistrationContext $context): void {
+		$context->registerDashboardWidget(RiotChatWidget::class);
+	}
+
+	public function boot(IBootContext $context): void {
+	}
+
+	public static function AvailableLabs(): array {
 		// Element Web has removed the current Labs system. https://github.com/gary-kim/riotchat/issues/139
 		// TODO: Remove the labs feature fully
 		return [];

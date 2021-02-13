@@ -12,6 +12,7 @@
     "globals": {
         "t": true,
         "n": true,
+        "OCA": true,
         "RIOT_WEB_HASH": true,
         "RIOT_WEB_VERSION": true
     },
