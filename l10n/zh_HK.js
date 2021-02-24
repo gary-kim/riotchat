@@ -12,6 +12,8 @@ OC.L10N.register(
     "Disable custom URLs" : "停用自訂 URL",
     "Disable login language selector" : "停用登入語言選取器",
     "Show labs settings" : "顯示實驗室設定",
+    "Make share room links go to Element for Nextcloud instead of https://matrix.to" : "使會議室連結轉到 Element for Nextcloud，而不是https://matrix.to",
+    "Set custom permalink to this Element instance" : "設置自定義永久到此 Element 實例",
     "Jitsi settings" : "Jitsi 設定",
     "Configure the Jitsi instance that Element will connect to." : "設定 Element 要連線到的 Jitsi 站台。",
     "Custom Jitsi instance (leave blank to use default Element Jitsi server):" : "自訂 Jitsi 站台（留空以使用預設的 Element Jitsi 伺服器）：",
