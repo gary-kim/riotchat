@@ -1,5 +1,7 @@
 { "translations": {
+    "Default server URL:" : "默认服务器URL：",
     "Default server name:" : "默认服务器名称：",
+    "Disable custom URLs" : "禁用自定义URL",
     "Disable login language selector" : "禁用登录语言选择器",
     "Jitsi settings" : "Jitsi设置",
     "Experimental feature {feature}" : "实验性功能 {feature}",
