@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates likely also include translation updates.
 
+## [v0.7.3](https://github.com/gary-kim/riotchat/tree/v0.7.3) - 2021-03-09
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.7.2...v0.7.3)
+
+### Changed
+
+- Update to Element Web v1.7.22 [\#275](https://github.com/gary-kim/riotchat/pull/275) ([@gary-kim](https://github.com/gary-kim))
+
+### Dependencies
+
+- fix\(deps\): update dependency @nextcloud/vue to ^3.6.0 [\#241](https://github.com/gary-kim/riotchat/pull/241) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+
 ## [v0.7.2](https://github.com/gary-kim/riotchat/tree/v0.7.2) - 2021-02-19
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.7.1...v0.7.2)
