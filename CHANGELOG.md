@@ -7,6 +7,28 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates likely also include translation updates.
 
+## [v0.7.4](https://github.com/gary-kim/riotchat/tree/v0.7.4) - 2021-03-18
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.7.3...v0.7.4)
+
+### Changed
+
+- Update to Element Web v1.7.23 [\#277](https://github.com/gary-kim/riotchat/pull/277) ([@gary-kim](https://github.com/gary-kim))
+
+### Dependencies
+
+- fix\(deps\): update dependency @nextcloud/vue to ^3.7.2 [\#274](https://github.com/gary-kim/riotchat/pull/274) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency vue-style-loader to ^4.1.3 [\#273](https://github.com/gary-kim/riotchat/pull/273) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency eslint-plugin-vue to ^7.7.0 [\#272](https://github.com/gary-kim/riotchat/pull/272) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency css-loader to ^5.1.2 [\#271](https://github.com/gary-kim/riotchat/pull/271) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency @nextcloud/browserslist-config to v2 [\#269](https://github.com/gary-kim/riotchat/pull/269) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- fix\(deps\): update dependency core-js to ^3.9.1 [\#268](https://github.com/gary-kim/riotchat/pull/268) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency webpack to ^5.25.0 [\#267](https://github.com/gary-kim/riotchat/pull/267) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update babel monorepo to ^7.13.10 [\#266](https://github.com/gary-kim/riotchat/pull/266) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency sass-loader to v11 [\#257](https://github.com/gary-kim/riotchat/pull/257) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency eslint to ^7.22.0 [\#252](https://github.com/gary-kim/riotchat/pull/252) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency webpack-cli to ^4.5.0 [\#239](https://github.com/gary-kim/riotchat/pull/239) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+
 ## [v0.7.3](https://github.com/gary-kim/riotchat/tree/v0.7.3) - 2021-03-09
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.7.2...v0.7.3)
