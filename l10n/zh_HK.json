@@ -8,7 +8,7 @@
     "Default server URL:" : "默認伺服器 URL：",
     "Default server name:" : "默認伺服器名稱：",
     "Disable custom URLs" : "停用自訂 URL",
-    "Disable login language selector" : "停用登入語言選取器",
+    "Disable login language selector" : "停用登入語言選擇器",
     "Show labs settings" : "顯示實驗室設定",
     "Make share room links go to Element for Nextcloud instead of https://matrix.to" : "使會議室連結轉到 Element for Nextcloud，而不是 https://matrix.to",
     "Set custom permalink to this Element instance" : "設置自訂永久連結到此 Element 實例",
