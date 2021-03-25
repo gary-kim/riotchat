@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 /**
- * @copyright Copyright (c) 2020 Gary Kim <gary@garykim.dev>
+ * @copyright Copyright (c) 2020-2021 Gary Kim <gary@garykim.dev>
  * @copyright Copyright (c) 2019 Robin Appelman <robin@icewind.nl>
  *
  * @author 2020 Gary Kim <gary@garykim.dev>
@@ -101,6 +101,21 @@ class StaticController extends Controller {
 		$localPath = __DIR__ . '/../../3rdparty/riot/' . $path;
 
 		return $this->createFileResponse($localPath);
+	}
+
+	/**
+	 * Special route for '/bundles/{hash}/usercontent.js' as that request is made without authentication
+	 *
+	 * @PublicPage
+	 * @NoCSRFRequired
+	 * @NoAdminRequired
+	 *
+	 * @param string $version
+	 * @throws ForbiddenException
+	 * @return FileResponse
+	 */
+	public function usercontent(string $version) {
+		return $this->riot("bundles/" . $version . "/usercontent.js");
 	}
 
 	/**
