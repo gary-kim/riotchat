@@ -24,6 +24,7 @@ return [
 		['name' => 'app#index', 'url' => '/', 'verb' => 'GET'],
 		['name' => 'static#index', 'url' => '/riot/', 'verb' => 'GET'],
 		['name' => 'config#config', 'url' => '/riot/config.json', 'verb' => 'GET'],
+		['name' => 'static#usercontent', 'url' => '/riot/bundles/{version}/usercontent.js', 'verb' => 'GET'],
 		['name' => 'static#riot', 'url' => '/riot/{path}', 'verb' => 'GET', 'requirements' => ['path' => '.+']],
 		['name' => 'settings#setSetting', 'url' => '/settings/{key}', 'verb' => 'PUT'],
 	]
