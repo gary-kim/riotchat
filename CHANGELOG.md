@@ -7,6 +7,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates likely also include translation updates.
 
+## [v0.7.5](https://github.com/gary-kim/riotchat/tree/v0.7.5) - 2021-04-07
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.7.4...v0.7.5)
+
+### Changed
+
+- Update to Element Web v1.7.24 [\#287](https://github.com/gary-kim/riotchat/pull/287) ([@gary-kim](https://github.com/gary-kim))
+
+### Fixed
+
+- Allow unauthenticated requests to usercontent.js [\#282](https://github.com/gary-kim/riotchat/pull/282) ([@gary-kim](https://github.com/gary-kim))
+
+### Dependencies
+
+- chore\(deps\): update dependency eslint to ^7.23.0 [\#284](https://github.com/gary-kim/riotchat/pull/284) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- fix\(deps\): update dependency @nextcloud/vue to ^3.8.0 [\#283](https://github.com/gary-kim/riotchat/pull/283) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency @nextcloud/browserslist-config to ^2.1.0 [\#281](https://github.com/gary-kim/riotchat/pull/281) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency eslint-plugin-vue to ^7.8.0 [\#279](https://github.com/gary-kim/riotchat/pull/279) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+
 ## [v0.7.4](https://github.com/gary-kim/riotchat/tree/v0.7.4) - 2021-03-18
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.7.3...v0.7.4)
