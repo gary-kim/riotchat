@@ -7,6 +7,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates likely also include translation updates.
 
+## [v0.7.6](https://github.com/gary-kim/riotchat/tree/v0.7.6) - 2021-04-18
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.7.5...v0.7.6)
+
+### Changed
+
+- Update to Element Web v1.7.25 [\#294](https://github.com/gary-kim/riotchat/pull/294) ([@gary-kim](https://github.com/gary-kim))
+
+### Dependencies
+
+- fix\(deps\): update dependency @nextcloud/dialogs to ^3.1.2 [\#293](https://github.com/gary-kim/riotchat/pull/293) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency eslint-plugin-vue to ^7.9.0 [\#292](https://github.com/gary-kim/riotchat/pull/292) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency eslint to ^7.24.0 [\#291](https://github.com/gary-kim/riotchat/pull/291) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency eslint-plugin-promise to v5 [\#290](https://github.com/gary-kim/riotchat/pull/290) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- fix\(deps\): update dependency @nextcloud/vue to ^3.9.0 [\#289](https://github.com/gary-kim/riotchat/pull/289) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency webpack-cli to ^4.6.0 [\#285](https://github.com/gary-kim/riotchat/pull/285) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update babel monorepo to ^7.13.15 [\#280](https://github.com/gary-kim/riotchat/pull/280) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency css-loader to ^5.2.1 [\#278](https://github.com/gary-kim/riotchat/pull/278) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency webpack to ^5.31.2 [\#276](https://github.com/gary-kim/riotchat/pull/276) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+
 ## [v0.7.5](https://github.com/gary-kim/riotchat/tree/v0.7.5) - 2021-04-07
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.7.4...v0.7.5)
