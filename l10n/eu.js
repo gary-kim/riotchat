@@ -3,6 +3,7 @@ OC.L10N.register(
     {
     "Element" : "Element",
     "Element common configuration" : "Element konfigurazio komuna",
+    "Here you can configure Element." : "Hemen Element konfiguratu dezakezu.",
     "Default server name:" : "Lehenetsitako zerbitzariaren izena:",
     "Jitsi settings" : "Jitsi ezarpenak",
     "Custom Element config" : "Element konfigurazio pertsonalizatua",
