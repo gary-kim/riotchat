@@ -2,6 +2,7 @@ OC.L10N.register(
     "riotchat",
     {
     "Element" : "Element",
+    "Element for Nextcloud" : "Netclouderako Element",
     "Element common configuration" : "Element konfigurazio komuna",
     "Here you can configure Element." : "Hemen Element konfiguratu dezakezu.",
     "Default server name:" : "Lehenetsitako zerbitzariaren izena:",
