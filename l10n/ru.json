@@ -9,9 +9,26 @@
     "Default server name:" : "Имя сервера по умолчанию:",
     "Disable custom URLs" : "Отключить персонализированные URL",
     "Disable login language selector" : "Отключить выбор языка при входе в систему",
+    "Show labs settings" : "Показать настройки лаборатории",
+    "Make share room links go to Element for Nextcloud instead of https://matrix.to" : "Сделайте так, чтобы ссылки на общие комнаты переходили в Element из Nextcloud вместо https://matrix.to",
+    "Set custom permalink to this Element instance" : "Установить пользовательскую постоянную ссылку для этого сервера Element",
     "Jitsi settings" : "Настройки Jitsi",
     "Configure the Jitsi instance that Element will connect to." : "Настройте экземпляр Jitsi, к которому будет подключаться Element.",
     "Custom Jitsi instance (leave blank to use default Element Jitsi server):" : "Пользовательский экземпляр Jitsi (оставьте поле пустым, чтобы использовать сервер Element Jitsi по умолчанию):",
-    "Experimental feature {feature}" : "Экпериментальная функция {feature} "
+    "Custom integration server" : "Пользовательский сервер интеграции",
+    "Configure a custom integration server for Element (leave empty to use Scalar)." : "Настройте собственный сервер интеграции для Element (оставьте поле пустым, чтобы использовать Scalar).",
+    "Integration UI URL:" : "URL-адрес интерфейса интеграции:",
+    "Integration REST URL:" : "URL-адрес REST интеграции:",
+    "Integration widgets URL:" : "URL виджетов интеграции:",
+    "Custom Element config" : "Пользовательская конфигурация Element",
+    "Specify a custom configuration for Element." : "Укажите пользовательскую конфигурацию для Element.",
+    "Use a custom configuration" : "Использовать пользовательскую конфигурацию",
+    "These are experimental features in Element that you can enable. For information on what each feature is, check out the documentation for it {linkstart}here{linkend}." : "Это экспериментальные функции в Element, которые вы можете включить. Чтобы узнать, что такое каждая функция, ознакомьтесь с её документацией {linkstart}здесь{linkend}.",
+    "This version of Element for Nextcloud is based on Element Web {riotWebVersion}. Check out the source code for Element Web {linkstart}here{linkend}." : "Эта версия Element для Nextcloud основана на Element Web {riotWebVersion}. Ознакомьтесь с исходным кодом Element Web {linkstart}здесь{linkend}. ",
+    "Experimental feature {feature}" : "Экпериментальная функция {feature} ",
+    "Custom config has been set" : "Настроена пользовательская конфигурация",
+    "{settingName} has been set to {value}" : "Для параметра {settingName} установлено значение {value}",
+    "Custom config could not be set. Try reloading the page." : "Не удалось установить пользовательскую конфигурацию. Попробуйте перезагрузить страницу.",
+    "{settingName} could not be set. Try reloading the page." : "Не удалось установить {settingName}. Попробуйте перезагрузить страницу. "
 },"pluralForm" :"nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);"
 }
