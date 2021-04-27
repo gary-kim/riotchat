@@ -67,6 +67,18 @@
                 >{{ t('riotchat', 'Disable custom URLs') }}</label>
                 <br>
                 <input
+                    id="sso_immediate_redirect"
+                    v-model="sso_immediate_redirect"
+                    type="checkbox"
+                    class="checkbox"
+                    @change="updateSetting('sso_immediate_redirect')"
+                >
+                <label
+                    ref="sso_immediate_redirect"
+                    for="sso_immediate_redirect"
+                >{{ t('riotchat', 'Redirect immediately to SSO (requires SSO to be configured on the Matrix Homeserver)') }}</label>
+                <br>
+                <input
                     id="disable_login_language_selector"
                     v-model="disable_login_language_selector"
                     type="checkbox"
@@ -219,6 +231,7 @@ export default {
             "show_labs_settings": loadState('riotchat', "show_labs_settings"),
             "custom_json_loading": false,
             "set_custom_permalink": loadState('riotchat', 'set_custom_permalink') === 'true',
+            "sso_immediate_redirect": loadState('riotchat', 'sso_immediate_redirect') === 'true',
         };
     },
     computed: {
