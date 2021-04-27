@@ -187,8 +187,8 @@ class StaticController extends Controller {
 		$response->setContentSecurityPolicy($csp);
 
 		$featurePolicy = new FeaturePolicy();
-		$featurePolicy->addAllowedCameraDomain('\'self\'');
-		$featurePolicy->addAllowedMicrophoneDomain('\'self\'');
+		$featurePolicy->addAllowedCameraDomain('*');
+		$featurePolicy->addAllowedMicrophoneDomain('*');
 
 		$response->setFeaturePolicy($featurePolicy);
 
