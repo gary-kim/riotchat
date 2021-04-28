@@ -42,6 +42,7 @@ class Application extends App {
 		'custom_json' => '',
 		'show_labs_settings' => 'true',
 		'set_custom_permalink' => 'false',
+		'sso_immediate_redirect' => 'false',
 	];
 
 	public function __construct(array $urlParams = []) {

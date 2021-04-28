@@ -98,6 +98,7 @@ class ConfigController extends Controller {
 				'authHeaderLogoUrl' => $this->defaults->getLogo(),
 			],
 			'showLabsSettings' => $this->config->getAppValue(Application::APP_ID, 'show_labs_settings', Application::AvailableSettings['show_labs_settings']) === 'true',
+			'sso_immediate_redirect' => $this->config->getAppValue(Application::APP_ID, 'sso_immediate_redirect', Application::AvailableSettings['sso_immediate_redirect']) === 'true',
 		];
 
 		if ($this->config->getAppValue(Application::APP_ID, 'set_custom_permalink', Application::AvailableSettings['set_custom_permalink']) === 'true') {
