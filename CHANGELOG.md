@@ -1,4 +1,4 @@
-# Riot Chat for Nextcloud Changelog
+# Element for Nextcloud Changelog
 
 All notable changes to this project will be documented in this file.
 
@@ -6,6 +6,30 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 Updates likely also include translation updates.
+
+## [v0.7.7](https://github.com/gary-kim/riotchat/tree/v0.7.7) - 2021-04-28
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.7.6...v0.7.7)
+
+### Added
+
+- Add sso\_immediate\_redirect option to admin settings [\#301](https://github.com/gary-kim/riotchat/pull/301) ([@gary-kim](https://github.com/gary-kim))
+
+### Changed
+
+- Update to Element Web v1.7.26 [\#299](https://github.com/gary-kim/riotchat/pull/299) ([@gary-kim](https://github.com/gary-kim))
+
+### Fixed
+
+- fix: camera and microphone permissions on Chromium [\#302](https://github.com/gary-kim/riotchat/pull/302) ([@gary-kim](https://github.com/gary-kim))
+
+### Dependencies
+
+- chore\(deps\): update dependency eslint to ^7.25.0 [\#298](https://github.com/gary-kim/riotchat/pull/298) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency @babel/core to ^7.13.16 [\#297](https://github.com/gary-kim/riotchat/pull/297) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency css-loader to ^5.2.4 [\#296](https://github.com/gary-kim/riotchat/pull/296) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency webpack to ^5.36.0 [\#295](https://github.com/gary-kim/riotchat/pull/295) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- fix\(deps\): update dependency core-js to ^3.11.0 [\#286](https://github.com/gary-kim/riotchat/pull/286) ([@gary-kim-bot](https://github.com/gary-kim-bot))
 
 ## [v0.7.6](https://github.com/gary-kim/riotchat/tree/v0.7.6) - 2021-04-18
 
