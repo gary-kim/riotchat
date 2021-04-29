@@ -8,6 +8,7 @@
     "Default server URL:" : "Domyślny adres URL serwera:",
     "Default server name:" : "Domyślna nazwa serwera:",
     "Disable custom URLs" : "Wyłącz niestandardowe adresy URL",
+    "Redirect immediately to SSO (requires SSO to be configured on the Matrix Homeserver)" : "Przekieruj bezpośrednio do SSO (wymaga skonfigurowania SSO na Matrix Homeserver)",
     "Disable login language selector" : "Wyłącz wybór języka przy logowaniu",
     "Show labs settings" : "Pokaż ustawienia laboratoryjne",
     "Make share room links go to Element for Nextcloud instead of https://matrix.to" : "Ustaw linki do udostępnionego pokoju, aby prowadziły do Elementu dla Nextcloud zamiast https://matrix.to",

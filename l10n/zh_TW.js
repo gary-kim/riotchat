@@ -10,6 +10,7 @@ OC.L10N.register(
     "Default server URL:" : "預設伺服器 URL：",
     "Default server name:" : "預設伺服器名稱：",
     "Disable custom URLs" : "停用自訂 URL",
+    "Redirect immediately to SSO (requires SSO to be configured on the Matrix Homeserver)" : "立刻重新導向到 SSO（必須在 Matrix 家伺服器上設定 SSO）",
     "Disable login language selector" : "停用登入語言選取器",
     "Show labs settings" : "顯示實驗室設定",
     "Make share room links go to Element for Nextcloud instead of https://matrix.to" : "確保分享的聊天室連結跳到供 Nextcloud 使用的 Element，而非 https://matrix.to",
