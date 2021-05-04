@@ -8,6 +8,7 @@
     "Default server URL:" : "Standaard server URL:",
     "Default server name:" : "Standaard servernaam:",
     "Disable custom URLs" : "Uitschakelen maatwerk URLs",
+    "Redirect immediately to SSO (requires SSO to be configured on the Matrix Homeserver)" : "Direct omleiden naar SSO (vereist dat SSO geconfigureerd is op de Matrix Homeserver)",
     "Disable login language selector" : "Schakel de inlog taalselector uit",
     "Show labs settings" : "Toon labs-instellingen",
     "Make share room links go to Element for Nextcloud instead of https://matrix.to" : "Laat de Deel kamer links verwijzen naar Element voor Nextcloud in plaats van naar https://matrix.to",
