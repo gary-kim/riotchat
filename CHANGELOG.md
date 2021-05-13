@@ -7,6 +7,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates likely also include translation updates.
 
+## [v0.7.8](https://github.com/gary-kim/riotchat/tree/v0.7.8) - 2021-05-13
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.7.7...v0.7.8)
+
+### Changed
+
+- Update to Element Web v1.7.27 [\#316](https://github.com/gary-kim/riotchat/pull/316) ([@gary-kim](https://github.com/gary-kim))
+
+### Dependencies
+
+- chore\(deps\): update dependency sass-loader to ^11.1.0 [\#313](https://github.com/gary-kim/riotchat/pull/313) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency node-sass to v6 [\#312](https://github.com/gary-kim/riotchat/pull/312) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency eslint to ^7.26.0 [\#310](https://github.com/gary-kim/riotchat/pull/310) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency webpack-cli to ^4.7.0 [\#309](https://github.com/gary-kim/riotchat/pull/309) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update babel monorepo [\#306](https://github.com/gary-kim/riotchat/pull/306) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency webpack to ^5.37.0 [\#305](https://github.com/gary-kim/riotchat/pull/305) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- fix\(deps\): update dependency core-js to ^3.12.1 [\#304](https://github.com/gary-kim/riotchat/pull/304) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- fix\(deps\): update dependency @nextcloud/router to v2 [\#288](https://github.com/gary-kim/riotchat/pull/288) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+
 ## [v0.7.7](https://github.com/gary-kim/riotchat/tree/v0.7.7) - 2021-04-28
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.7.6...v0.7.7)
