@@ -5,6 +5,10 @@
   ],
   "reviewers": ["gary-kim"],
   "labels": ["dependencies"],
+  "git-submodules": {
+    "enabled": true,
+    "labels": ["enhancement"]
+  },
   "rangeStrategy": "bump",
   "semanticCommits": true,
   "masterIssue": true,
