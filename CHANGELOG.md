@@ -7,6 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates likely also include translation updates.
 
+## [v0.7.9](https://github.com/gary-kim/riotchat/tree/v0.7.9) - 2021-05-17
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.7.8...v0.7.9)
+
+### Changed
+
+- chore\(deps\): update Element Web to v1.7.28 [\#321](https://github.com/gary-kim/riotchat/pull/321) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- enh: use renovate to update Element Web [\#320](https://github.com/gary-kim/riotchat/pull/320) ([@gary-kim](https://github.com/gary-kim))
+
+### Dependencies
+
+- chore\(deps\): update dependency eslint-plugin-import to ^2.23.2 [\#318](https://github.com/gary-kim/riotchat/pull/318) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency sass-loader to ^11.1.1 [\#317](https://github.com/gary-kim/riotchat/pull/317) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update babel monorepo to ^7.14.2 [\#315](https://github.com/gary-kim/riotchat/pull/315) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency vue-loader to ^15.9.7 [\#314](https://github.com/gary-kim/riotchat/pull/314) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+
 ## [v0.7.8](https://github.com/gary-kim/riotchat/tree/v0.7.8) - 2021-05-13
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.7.7...v0.7.8)
