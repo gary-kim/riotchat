@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/gary-kim/riotchat#readme",
   "devDependencies": {
-    "@babel/core": "^7.14.2",
+    "@babel/core": "^7.14.3",
     "@babel/preset-env": "^7.14.2",
     "@nextcloud/browserslist-config": "^2.1.0",
     "babel-eslint": "^10.1.0",
