@@ -7,6 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates likely also include translation updates.
 
+## [v0.7.10](https://github.com/gary-kim/riotchat/tree/v0.7.10) - 2021-05-24
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.7.9...v0.7.10)
+
+### Changed
+
+- chore\(deps\): update Element Web to v1.7.29 [\#327](https://github.com/gary-kim/riotchat/pull/327) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+
+### Dependencies
+
+- chore\(deps\): update dependency eslint to ^7.27.0 [\#326](https://github.com/gary-kim/riotchat/pull/326) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update dependency eslint-plugin-import to ^2.23.3 [\#325](https://github.com/gary-kim/riotchat/pull/325) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update dependency css-loader to ^5.2.6 [\#324](https://github.com/gary-kim/riotchat/pull/324) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update dependency webpack to ^5.37.1 [\#323](https://github.com/gary-kim/riotchat/pull/323) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update dependency @babel/core to ^7.14.3 [\#322](https://github.com/gary-kim/riotchat/pull/322) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+
 ## [v0.7.9](https://github.com/gary-kim/riotchat/tree/v0.7.9) - 2021-05-17
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.7.8...v0.7.9)
