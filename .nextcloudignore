@@ -3,7 +3,6 @@
 /webpack.config.js
 /babel.config.js
 /.idea
-/CHANGELOG.md
 /composer.json
 /composer.lock
 /Makefile
@@ -25,3 +24,4 @@
 /.editorconfig
 /CONTRIBUTING.md
 /.tx/
+/.l10nignore
