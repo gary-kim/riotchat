@@ -7,6 +7,32 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates likely also include translation updates.
 
+## [v0.7.11](https://github.com/gary-kim/riotchat/tree/v0.7.11) - 2021-06-07
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.7.10...v0.7.11)
+
+### Changed
+
+- chore\(deps\): update Element Web to v1.7.30 [\#344](https://github.com/gary-kim/riotchat/pull/344) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+
+### Dependencies
+
+- chore\(deps\): update dependency webpack-cli to ^4.7.1 [\#342](https://github.com/gary-kim/riotchat/pull/342) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- fix\(deps\): update vue monorepo to ^2.6.14 [\#341](https://github.com/gary-kim/riotchat/pull/341) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- fix\(deps\): update dependency core-js to ^3.14.0 [\#340](https://github.com/gary-kim/riotchat/pull/340) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update dependency eslint to ^7.28.0 [\#339](https://github.com/gary-kim/riotchat/pull/339) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- fix\(deps\): update dependency @nextcloud/vue to ^3.10.1 [\#338](https://github.com/gary-kim/riotchat/pull/338) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update dependency sass-loader to v12 [\#337](https://github.com/gary-kim/riotchat/pull/337) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- fix\(deps\): update vue monorepo to ^2.6.13 [\#336](https://github.com/gary-kim/riotchat/pull/336) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update dependency eslint-plugin-import to ^2.23.4 [\#335](https://github.com/gary-kim/riotchat/pull/335) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- fix\(deps\): update dependency core-js to ^3.13.1 [\#334](https://github.com/gary-kim/riotchat/pull/334) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update dependency eslint-plugin-vue to ^7.10.0 [\#333](https://github.com/gary-kim/riotchat/pull/333) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update dependency @babel/preset-env to ^7.14.4 [\#332](https://github.com/gary-kim/riotchat/pull/332) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update dependency webpack to ^5.38.1 [\#331](https://github.com/gary-kim/riotchat/pull/331) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- fix\(deps\): update dependency @nextcloud/vue to ^3.10.0 [\#330](https://github.com/gary-kim/riotchat/pull/330) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- fix\(deps\): update dependency core-js to ^3.13.0 [\#329](https://github.com/gary-kim/riotchat/pull/329) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update dependency eslint-config-standard to ^16.0.3 [\#328](https://github.com/gary-kim/riotchat/pull/328) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+
 ## [v0.7.10](https://github.com/gary-kim/riotchat/tree/v0.7.10) - 2021-05-24
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.7.9...v0.7.10)
