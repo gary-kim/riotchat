@@ -29,7 +29,7 @@ OC.L10N.register(
     "These are experimental features in Element that you can enable. For information on what each feature is, check out the documentation for it {linkstart}here{linkend}." : "Toto jsou experimentální funkce v Element, které můžete zapnout. Informace o každé z vlastností naleznete v příslušné {linkstart}dokumentaci{linkend}.",
     "This version of Element for Nextcloud is based on Element Web {riotWebVersion}. Check out the source code for Element Web {linkstart}here{linkend}." : "Tato verze Element pro Nextcloud je založena na Element Web {riotWebVersion}. Zdrojové kódy pro Element Web naleznete {linkstart}zde{linkend}.",
     "Experimental feature {feature}" : "Experimentální funkce {feature}",
-    "Custom config has been set" : "Uživatelsky určené nastavení bylo nastaveno",
+    "Custom config has been set" : "Uživatelsky určené nastavení bylo uplatněno",
     "{settingName} has been set to {value}" : "{settingName} bylo nastaveno na {value}",
     "Custom config could not be set. Try reloading the page." : "Uživatelsky určené nastavení se nepodařilo nastavit. Zkuste stránku znovu načíst.",
     "{settingName} could not be set. Try reloading the page." : "{settingName} se nepodařilo nastavit. Zkuste stránku znovu načíst."
