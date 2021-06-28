@@ -7,6 +7,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates likely also include translation updates.
 
+## [v0.7.13](https://github.com/gary-kim/riotchat/tree/v0.7.13) - 2021-06-28
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.7.12...v0.7.13)
+
+### Fixed
+
+- Update dependencies [\#362](https://github.com/gary-kim/riotchat/pull/362) ([@gary-kim](https://github.com/gary-kim))
+
+### Dependencies
+
+- chore\(deps\): update dependency eslint-plugin-vue to ^7.12.1 [\#359](https://github.com/gary-kim/riotchat/pull/359) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update dependency node-sass to ^6.0.1 [\#358](https://github.com/gary-kim/riotchat/pull/358) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- fix\(deps\): update dependency core-js to ^3.15.1 [\#355](https://github.com/gary-kim/riotchat/pull/355) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update dependency eslint to ^7.29.0 [\#354](https://github.com/gary-kim/riotchat/pull/354) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update dependency webpack to ^5.40.0 [\#353](https://github.com/gary-kim/riotchat/pull/353) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update babel monorepo [\#352](https://github.com/gary-kim/riotchat/pull/352) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update dependency eslint-plugin-vue to ^7.11.1 [\#350](https://github.com/gary-kim/riotchat/pull/350) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+
 ## [v0.7.12](https://github.com/gary-kim/riotchat/tree/v0.7.12) - 2021-06-21
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.7.11...v0.7.12)
