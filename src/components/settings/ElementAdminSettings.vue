@@ -210,7 +210,7 @@ import { loadState } from '@nextcloud/initial-state';
 import { SettingsSection, Tooltip } from '@nextcloud/vue';
 
 export default {
-    name: "AdminSettings",
+    name: "ElementAdminSettings",
     components: {
         SettingsSection,
     },

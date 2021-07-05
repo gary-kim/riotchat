@@ -1,0 +1,9 @@
+.icon-matrix {
+	background-image: url('../img/matrix.svg');
+}
+
+#matrix-integration-room-picker {
+	position: absolute;
+	top: 0;
+	left: 0;
+}

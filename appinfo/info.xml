@@ -2,8 +2,8 @@
 <info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
     <id>riotchat</id>
-    <name>Element for Nextcloud</name>
-    <summary>Element Web integrated into Nextcloud</summary>
+    <name>Matrix Nextcloud Integration</name>
+    <summary>Integrate Matrix into your Nextcloud</summary>
     <description><![CDATA[Element for Nextcloud allows you to install Element Web easily through Nextcloud and join the Matrix decentralized communication network.
 
 This app does not include a Matrix server, only the client. You will have to either set up your own Matrix homeserver, rent one, or use a public one.
@@ -16,6 +16,7 @@ The upstream project can be found at [https://github.com/vector-im/element-web](
     <version>0.7.13</version>
     <licence>agpl</licence>
     <author mail="gary@garykim.dev" homepage="https://garykim.dev">Gary Kim</author>
+    <author mail="mail@sorunome.de" homepage="https://sorunome.de">Sorunome</author>
     <namespace>RiotChat</namespace>
     <category>social</category>
     <category>integration</category>
@@ -28,13 +29,18 @@ The upstream project can be found at [https://github.com/vector-im/element-web](
         <nextcloud min-version="19" max-version="22"/>
     </dependencies>
     <settings>
-        <admin>OCA\RiotChat\Settings\Admin</admin>
-        <admin-section>OCA\RiotChat\Settings\AdminSection</admin-section>
+        <admin>OCA\RiotChat\Settings\ElementAdmin</admin>
+        <admin>OCA\RiotChat\Settings\ShareAdmin</admin>
+        <admin-section>OCA\RiotChat\Settings\ElementAdminSection</admin-section>
+        <personal>OCA\RiotChat\Settings\Personal</personal>
     </settings>
+    <background-jobs>
+		<job>OCA\RiotChat\Cron\RoomSyncTask</job>
+	</background-jobs>
     <navigations>
         <navigation>
             <name>Element</name>
-            <route>riotchat.app.index</route>
+            <route>riotchat.element.index</route>
             <icon>app.svg</icon>
         </navigation>
     </navigations>

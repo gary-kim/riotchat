@@ -1,10 +1,9 @@
 <?php
-
-declare(strict_types=1);
 /**
+ * @copyright Copyright (c) 2021 Sorunome <mail@sorunome.de>
  * @copyright Copyright (c) 2020 Gary Kim <gary@garykim.dev>
- * @copyright Copyright (c) 2019 Robin Appelman <robin@icewind.nl>
  *
+ * @author 2021 Sorunome <mail@sorunome.de>
  * @author 2020 Gary Kim <gary@garykim.dev>
  *
  * @license GNU AGPL version 3 or any later version
@@ -27,15 +26,22 @@ namespace OCA\RiotChat\Controller;
 
 use OCA\RiotChat\AppInfo\Application;
 
+use OC\Security\CSP\ContentSecurityPolicy;
 use OCP\AppFramework\Controller;
+use OCP\AppFramework\Http\FeaturePolicy;
+use OCP\AppFramework\Http\TemplateResponse;
 use OCP\AppFramework\Http\JSONResponse;
 use OCP\Defaults;
 use OCP\IConfig;
 use OCP\IL10N;
 use OCP\IRequest;
 use OCP\IURLGenerator;
+use OCP\IInitialStateService;
 
-class ConfigController extends Controller {
+class ElementController extends Controller {
+
+	/** @var IInitialStateService */
+	private $initialStateService;
 
 	/** @var IL10N */
 	private $l10n;
@@ -50,7 +56,7 @@ class ConfigController extends Controller {
 	private $urlGenerator;
 
 	/**
-	 * ConfigController constructor.
+	 * ElementController constructor.
 	 *
 	 * @param IRequest $request
 	 * @param IL10N $l10n
@@ -58,12 +64,38 @@ class ConfigController extends Controller {
 	 * @param Defaults $defaults
 	 * @param IURLGenerator $urlGenerator
 	 */
-	public function __construct(IRequest $request, IL10N $l10n, IConfig $config, Defaults $defaults, IURLGenerator $urlGenerator) {
+	public function __construct(IRequest $request, IInitialStateService $initialStateService, IL10N $l10n, IConfig $config, Defaults $defaults, IURLGenerator $urlGenerator) {
 		parent::__construct(Application::APP_ID, $request);
+		$this->initialStateService = $initialStateService;
 		$this->l10n = $l10n;
 		$this->config = $config;
 		$this->defaults = $defaults;
 		$this->urlGenerator = $urlGenerator;
+	}
+
+	/**
+	 * @NoAdminRequired
+	 * @NoCSRFRequired
+	 */
+	public function index() {
+		$response = new TemplateResponse('riotchat', 'element');
+
+		$this->initialStateService->provideInitialState(Application::APP_ID, 'disable_custom_urls',
+			$this->config->getAppValue(Application::APP_ID, 'disable_custom_urls', Application::AvailableSettings['disable_custom_urls']));
+
+		$default_server_domain = $this->config->getAppValue(Application::APP_ID, 'base_url', Application::AvailableSettings['base_url']);
+		$csp = new ContentSecurityPolicy();
+		$csp->addAllowedFrameDomain($this->request->getServerHost());
+		$csp->addAllowedFrameDomain($default_server_domain);
+		$response->setContentSecurityPolicy($csp);
+
+		$featurePolicy = new FeaturePolicy();
+		$featurePolicy->addAllowedCameraDomain('*');
+		$featurePolicy->addAllowedMicrophoneDomain('*');
+
+		$response->setFeaturePolicy($featurePolicy);
+
+		return $response;
 	}
 
 	/**
@@ -75,7 +107,6 @@ class ConfigController extends Controller {
 		if ($custom_json !== '') {
 			return new JSONResponse(json_decode(($custom_json)));
 		}
-
 
 		// TODO: fill in branding from theming
 		$lang = $this->l10n->getLanguageCode();

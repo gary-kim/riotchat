@@ -25,7 +25,11 @@ declare(strict_types=1);
 
 namespace OCA\RiotChat\AppInfo;
 
+use OCA\Files\Event\LoadAdditionalScriptsEvent;
 use OCP\AppFramework\App;
+use OCP\EventDispatcher\IEventDispatcher;
+use OCP\Util;
+use OCP\IConfig;
 
 class Application extends App {
 	public const APP_ID = 'riotchat';
@@ -43,10 +47,20 @@ class Application extends App {
 		'show_labs_settings' => 'true',
 		'set_custom_permalink' => 'false',
 		'sso_immediate_redirect' => 'false',
+		'share_domain' => '',
+		'share_prefix' => '',
+		'share_suffix' => '',
 	];
 
 	public function __construct(array $urlParams = []) {
 		parent::__construct(self::APP_ID, $urlParams);
+
+		/** @var IEventDispatcher $eventDispatcher */
+		$dispatcher = $this->getContainer()->query(IEventDispatcher::class);
+		$dispatcher->addListener(LoadAdditionalScriptsEvent::class, function(LoadAdditionalScriptsEvent $event) {
+			Util::addScript(self::APP_ID, 'common');
+			Util::addStyle(self::APP_ID, 'style');
+		});
 	}
 
 	public static function AvailableLabs() {
