@@ -1,7 +1,8 @@
+<?php
 /**
- * @copyright Copyright (c) 2020 Gary Kim <gary@garykim.dev>
+ * @copyright Copyright (c) 2021 Sorunome <mail@sorunome.de>
  *
- * @author Gary Kim <gary@garykim.dev>
+ * @author 2021 Sorunome <mail@sorunome.de>
  *
  * @license GNU AGPL version 3 or any later version
  *
@@ -16,22 +17,19 @@
  * GNU Affero General Public License for more details.
  *
  * You should have received a copy of the GNU Affero General Public License
- * along with this program. If not, see <http://www.gnu.org/licenses/>.
- *
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-import Vue from 'vue';
-import AdminSettings from "./components/AdminSettings";
+namespace OCA\RiotChat\Db;
 
-document.addEventListener('DOMContentLoaded', main);
+use OCP\IDBConnection;
+use OCP\DB\QueryBuilder\IQueryBuilder;
+use OCA\RiotChat\Db\CustomQBMapper;
 
-function main () {
-    Vue.prototype.t = t;
-    Vue.prototype.n = n;
-    Vue.prototype.OC = window.OC;
-    Vue.prototype.OCA = window.OCA;
+class RoomAccountDataMapper extends CustomQBMapper {
+	protected $uniqueColums = ['user_id', 'room_id', 'type'];
 
-    const View = Vue.extend(AdminSettings);
-    const view = new View();
-    view.$mount('#riot-chat-settings');
+	public function __construct(IDBConnection $db) {
+		parent::__construct($db, 'matrix_int_room_acc_data');
+	}
 }

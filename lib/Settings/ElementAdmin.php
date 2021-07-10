@@ -30,7 +30,7 @@ use OCP\IInitialStateService;
 use OCP\IUserSession;
 use OCP\Settings\ISettings;
 
-class Admin implements ISettings {
+class ElementAdmin implements ISettings {
 
 	/** @var IConfig */
 	private $config;
@@ -67,7 +67,7 @@ class Admin implements ISettings {
 			$labstr['lab_' . $k] = $this->config->getAppValue(Application::APP_ID, 'lab_' . $k, 'disable');
 		}
 		$this->initialStateService->provideInitialState(Application::APP_ID, 'labs', json_encode($labstr));
-		return new TemplateResponse(Application::APP_ID, 'settings/admin');
+		return new TemplateResponse(Application::APP_ID, 'settings/element-admin');
 	}
 
 	/**

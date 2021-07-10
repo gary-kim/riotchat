@@ -19,13 +19,69 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-return [
+
+use OC\Route\Router;
+use OCA\RiotChat\RouteConfig;
+use OCA\RiotChat\AppInfo\Application;
+
+$application = \OC::$server->get(Application::class);
+$router = $this;
+
+
+// by using a modified RouteConfig to register the routes we can bypass the root url restrictions placed on most apps
+$routeConfig = new RouteConfig($application->getContainer(), $router,  [
 	'routes' => [
-		['name' => 'app#index', 'url' => '/', 'verb' => 'GET'],
+		// elementweb routes
+		['name' => 'element#index', 'url' => '/', 'verb' => 'GET'],
 		['name' => 'static#index', 'url' => '/riot/', 'verb' => 'GET'],
-		['name' => 'config#config', 'url' => '/riot/config.json', 'verb' => 'GET'],
+		['name' => 'element#config', 'url' => '/riot/config.json', 'verb' => 'GET'],
 		['name' => 'static#usercontent', 'url' => '/riot/bundles/{version}/usercontent.js', 'verb' => 'GET'],
 		['name' => 'static#riot', 'url' => '/riot/{path}', 'verb' => 'GET', 'requirements' => ['path' => '.+']],
 		['name' => 'settings#setSetting', 'url' => '/settings/{key}', 'verb' => 'PUT'],
+		// general personal matrix routes
+		[
+			'name' => 'matrix#whoami',
+			'url' => '/whoami',
+			'verb' => 'GET',
+		],
+		[
+			'name' => 'matrix#login',
+			'url' => '/login',
+			'verb' => 'POST',
+		],
+		[
+			'name' => 'matrix#logout',
+			'url' => '/logout',
+			'verb' => 'POST',
+		],
+		[
+			'name' => 'matrix#roomSummary',
+			'url' => '/room_summary',
+			'verb' => 'GET',
+		],
+		// file sharing routes
+		[
+			'name' => 'fileShare#matrixDownload',
+			'url' => '/_matrix/media/r0/download/{mxc}',
+			'verb' => 'GET',
+			'requirements' => ['mxc' => '.+'],
+			'root' => '',
+		],
+		[
+			'name' => 'fileShare#matrixThumbnail',
+			'url' => '/_matrix/media/r0/thumbnail/{mxc}',
+			'verb' => 'GET',
+			'requirements' => ['mxc' => '.+'],
+			'root' => '',
+		],
+		[
+			'name' => 'fileShare#matrixEvent',
+			'url' => '/_matrix/media/r0/event/{mxc}',
+			'verb' => 'GET',
+			'requirements' => ['mxc' => '.+'],
+			'root' => '',
+		],
+
 	]
-];
+]);
+$routeConfig->register();
