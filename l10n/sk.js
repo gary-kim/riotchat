@@ -11,6 +11,7 @@ OC.L10N.register(
     "Disable login language selector" : "Zakázať výber jazyka pri prihlásení",
     "Jitsi settings" : "Nastavenia Jitsi",
     "Custom Jitsi instance (leave blank to use default Element Jitsi server):" : "Vlastná inštancia Jitsi (nechajte prázdne, ak chcete použiť predvolený server Element Jitsi):",
+    "Custom integration server" : "Užívateľký integračný server",
     "Custom Element config" : "Vlastné nastavenia pre Element",
     "Use a custom configuration" : "Použite vlastnú konfiguráciu",
     "These are experimental features in Element that you can enable. For information on what each feature is, check out the documentation for it {linkstart}here{linkend}." : "Toto sú experimentálne funkcie Element-u, ktoré môžete povoliť. Informácie o jednotlivých funkciách nájdete v príslušnej {linkstart}dokumentácii{linkend}.",
