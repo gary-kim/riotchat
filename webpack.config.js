@@ -6,7 +6,8 @@ const webpack = require('webpack');
 module.exports = {
     entry: {
         adminSettings: path.join(__dirname, 'src', 'adminSettings.js'),
-		main: path.join(__dirname, 'src', 'main.js'),
+        main: path.join(__dirname, 'src', 'main.js'),
+        logout: path.join(__dirname, 'src', 'logout.js'),
     },
     output: {
         path: path.join(__dirname, 'js'),
@@ -37,10 +38,10 @@ module.exports = {
     },
     plugins: [
         new VueLoaderPlugin(),
-		new webpack.DefinePlugin({
+        new webpack.DefinePlugin({
             RIOT_WEB_HASH: JSON.stringify(execSync('git rev-parse HEAD', { cwd: path.resolve(__dirname, './3rdparty/riot-web') }).toString()),
             RIOT_WEB_VERSION: JSON.stringify(execSync('git describe --exact-match HEAD', { cwd: path.resolve(__dirname, './3rdparty/riot-web') }).toString()),
-		}),
+        }),
     ],
     resolve: {
         extensions: ['.js', '.vue'],
