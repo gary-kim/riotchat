@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates likely also include translation updates.
 
+## [v0.8.1](https://github.com/gary-kim/riotchat/tree/v0.8.1) - 2021-07-26
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.8.0...v0.8.1)
+
+### Changed
+
+- chore\(deps\): update Element Web to v1.7.33 [\#379](https://github.com/gary-kim/riotchat/pull/379) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update Element Web to v1.7.31 [\#356](https://github.com/gary-kim/riotchat/pull/356) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+
+### Fixed
+
+- fix: delete indexedDB data on logout [\#383](https://github.com/gary-kim/riotchat/pull/383) ([@gary-kim](https://github.com/gary-kim))
+
 ## [v0.8.0](https://github.com/gary-kim/riotchat/tree/v0.8.0) - 2021-07-06
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.7.13...v0.8.0)
