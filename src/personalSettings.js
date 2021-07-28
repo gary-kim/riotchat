@@ -1,5 +1,5 @@
 /**
- * @copyright Copyright (c) 2020 Gary Kim <gary@garykim.dev>
+ * @copyright Copyright (c) 2020-2021 Gary Kim <gary@garykim.dev>
  *
  * @author Gary Kim <gary@garykim.dev>
  *
@@ -21,7 +21,7 @@
  */
 
 import Vue from 'vue';
-import ElementAdminSettings from "./components/settings/ElementAdminSettings";
+import PersonalSettings from "./components/settings/PersonalSettings";
 
 document.addEventListener('DOMContentLoaded', main);
 
@@ -31,7 +31,7 @@ function main () {
     Vue.prototype.OC = window.OC;
     Vue.prototype.OCA = window.OCA;
 
-    const View = Vue.extend(ElementAdminSettings);
+    const View = Vue.extend(PersonalSettings);
     const view = new View();
-    view.$mount('#riotchat-element-admin-settings');
+    view.$mount('#riotchat-personal-settings');
 }

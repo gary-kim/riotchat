@@ -1,6 +1,6 @@
 <!--
   - @copyright Copyright (c) 2021 Sorunome <mail@sorunome.de>
-  - @copyright Copyright (c) 2020 Gary Kim <gary@garykim.dev>
+  - @copyright Copyright (c) 2020-2021 Gary Kim <gary@garykim.dev>
   - @copyright Copyright (c) 2020 Samuel Llamzon
   -
   - @author Sorunome <mail@sorunome.de>
@@ -24,43 +24,43 @@
 
 <template>
 	<div>
-		<SettingsSection
-			:title="t('roitchat', 'Matrix Sharing')"
-			:description="t('riotchat', 'Configure how to share things into matrix.')"
-		>
-			<label
-				ref="share_domain"
-				for="share_domain"
-			>{{ t('riotchat', 'Domain:') }}</label>
-			<input
-				id="share_domain"
-				v-model="share_domain"
-				type="text"
-				@change="updateSetting('share_domain')"
-			>
-			<br>
-			<label
-				ref="share_prefix"
-				for="share_prefix"
-			>{{ t('riotchat', 'Prefix:') }}</label>
-			<input
-				id="share_prefix"
-				v-model="share_prefix"
-				type="text"
-				@change="updateSetting('share_prefix')"
-			>
-			<br>
-			<label
-				ref="share_suffix"
-				for="share_suffix"
-			>{{ t('riotchat', 'Suffix:') }}</label>
-			<input
-				id="share_suffix"
-				v-model="share_suffix"
-				type="text"
-				@change="updateSetting('share_suffix')"
-			>
-		</SettingsSection>
+        <SettingsSection
+            :title="t('riotchat', 'Matrix Sharing')"
+            :description="t('riotchat', 'Configure how to share things into matrix.')"
+        >
+            <label
+                ref="share_domain"
+                for="share_domain"
+            >{{ t('riotchat', 'Domain:') }}</label>
+            <input
+                id="share_domain"
+                v-model="share_domain"
+                type="text"
+                @change="updateSetting('share_domain')"
+            >
+            <br>
+            <label
+                ref="share_prefix"
+                for="share_prefix"
+            >{{ t('riotchat', 'Prefix:') }}</label>
+            <input
+                id="share_prefix"
+                v-model="share_prefix"
+                type="text"
+                @change="updateSetting('share_prefix')"
+            >
+            <br>
+            <label
+                ref="share_suffix"
+                for="share_suffix"
+            >{{ t('riotchat', 'Suffix:') }}</label>
+            <input
+                id="share_suffix"
+                v-model="share_suffix"
+                type="text"
+                @change="updateSetting('share_suffix')"
+            >
+        </SettingsSection>
 	</div>
 </template>
 
@@ -81,9 +81,9 @@ export default {
 	},
 	data() {
 		return {
-			"share_domain": loadState('riotchat', 'share_domain'),
-			"share_prefix": loadState('riotchat', 'share_prefix'),
-			"share_suffix": loadState('riotchat', 'share_suffix'),
+            "share_domain": loadState('riotchat', 'share_domain'),
+            "share_prefix": loadState('riotchat', 'share_prefix'),
+            "share_suffix": loadState('riotchat', 'share_suffix'),
 		};
 	},
 	methods: {
@@ -98,17 +98,9 @@ export default {
             Axios.put(generateUrl(`apps/riotchat/settings/${setting}`), {
                 value,
             }).then(() => {
-                if (settingName === 'custom_json') {
-                    showSuccess(t('riotchat', 'Custom config has been set'));
-                } else {
-                    showSuccess(t('riotchat', '{settingName} has been set to {value}', { settingName, value }));
-                }
+                showSuccess(t('riotchat', '{settingName} has been set to {value}', { settingName, value }));
             }).catch(() => {
-                if (settingName === 'custom_json') {
-                    showSuccess(t('riotchat', 'Custom config could not be set. Try reloading the page.'));
-                } else {
-                    showError(t('riotchat', '{settingName} could not be set. Try reloading the page.', { settingName }));
-                }
+                showError(t('riotchat', '{settingName} could not be set. Try reloading the page.', { settingName }));
             });
         },
 

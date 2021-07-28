@@ -30,7 +30,7 @@ use OCP\IInitialStateService;
 use OCP\IUserSession;
 use OCP\Settings\ISettings;
 
-class ElementAdmin implements ISettings {
+class Admin implements ISettings {
 
 	/** @var IConfig */
 	private $config;
@@ -58,6 +58,7 @@ class ElementAdmin implements ISettings {
 	 */
 	public function getForm() {
 		foreach (Application::AvailableSettings as $key => $default) {
+			// TODO: Don't send non-Element related settings here
 			$data = $this->config->getAppValue(Application::APP_ID, $key, $default);
 			$this->initialStateService->provideInitialState(Application::APP_ID, $key, $data);
 		}

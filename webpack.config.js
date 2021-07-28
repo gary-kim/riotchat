@@ -5,9 +5,10 @@ const webpack = require('webpack');
 
 module.exports = {
     entry: {
-        elementAdminSettings: path.join(__dirname, 'src', 'elementAdminSettings.js'),
+        adminSettings: path.join(__dirname, 'src', 'adminSettings.js'),
+        personalSettings: path.join(__dirname, 'src', 'personalSettings.js'),
         shareAdminSettings: path.join(__dirname, 'src', 'shareAdminSettings.js'),
-		main: path.join(__dirname, 'src', 'main.js'),
+        main: path.join(__dirname, 'src', 'main.js'),
     },
     output: {
         path: path.join(__dirname, 'js'),

@@ -47,6 +47,8 @@ class Application extends App {
 		'show_labs_settings' => 'true',
 		'set_custom_permalink' => 'false',
 		'sso_immediate_redirect' => 'false',
+
+		// Default is set in the OCA\RiotChat\Settings\ShareAdmin class
 		'share_domain' => '',
 		'share_prefix' => '',
 		'share_suffix' => '',

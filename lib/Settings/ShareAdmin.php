@@ -52,6 +52,7 @@ class ShareAdmin implements ISettings {
 		$this->initialStateService->provideInitialState(Application::APP_ID, 'share_domain', $this->getAppValue('share_domain', $this->config->getSystemValue('trusted_domains')[0]));
 		$this->initialStateService->provideInitialState(Application::APP_ID, 'share_prefix', $this->getAppValue('share_prefix'));
 		$this->initialStateService->provideInitialState(Application::APP_ID, 'share_suffix', $this->getAppValue('share_suffix'));
+
 		return new TemplateResponse(Application::APP_ID, 'settings/share-admin');
 	}
 

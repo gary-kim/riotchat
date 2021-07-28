@@ -1,8 +1,7 @@
-<?php
 /**
- * @copyright Copyright (c) 2021 Sorunome <mail@sorunome.de>
+ * @copyright Copyright (c) 2020 Gary Kim <gary@garykim.dev>
  *
- * @author 2021 Sorunome <mail@sorunome.de>
+ * @author Gary Kim <gary@garykim.dev>
  *
  * @license GNU AGPL version 3 or any later version
  *
@@ -17,28 +16,22 @@
  * GNU Affero General Public License for more details.
  *
  * You should have received a copy of the GNU Affero General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ *
  */
 
-namespace OCA\RiotChat\Settings;
+import Vue from 'vue';
+import AdminSettings from "./components/settings/AdminSettings";
 
-use OCA\RiotChat\AppInfo\Application;
-use OCP\AppFramework\Http\TemplateResponse;
-use OCP\IConfig;
-use OCP\Settings\ISettings;
+document.addEventListener('DOMContentLoaded', main);
 
-class Personal implements ISettings {
+function main () {
+    Vue.prototype.t = t;
+    Vue.prototype.n = n;
+    Vue.prototype.OC = window.OC;
+    Vue.prototype.OCA = window.OCA;
 
-
-	public function getForm() {
-		return new TemplateResponse(Application::APP_ID, 'settings/personal');
-	}
-
-	public function getSection() {
-		return 'personal-info';
-	}
-
-	public function getPriority() {
-		return 70;
-	}
+    const View = Vue.extend(AdminSettings);
+    const view = new View();
+    view.$mount('#riotchat-admin-settings');
 }
