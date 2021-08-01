@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates likely also include translation updates.
 
+## [v0.8.2](https://github.com/gary-kim/riotchat/tree/v0.8.2) - 2021-08-01
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.8.1...v0.8.2)
+
+### Fixed
+
+- Revert "fix: delete indexedDB data on logout" [\#387](https://github.com/gary-kim/riotchat/pull/387) ([@gary-kim](https://github.com/gary-kim))
+
 ## [v0.8.1](https://github.com/gary-kim/riotchat/tree/v0.8.1) - 2021-07-26
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.8.0...v0.8.1)
