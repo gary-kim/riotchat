@@ -26,13 +26,8 @@ declare(strict_types=1);
 namespace OCA\RiotChat\AppInfo;
 
 use OCP\AppFramework\App;
-use OCP\AppFramework\Bootstrap\IBootContext;
-use OCP\AppFramework\Bootstrap\IBootstrap;
-use OCP\AppFramework\Bootstrap\IRegistrationContext;
-use OCP\IRequest;
-use OCP\Util;
 
-class Application extends App implements IBootstrap {
+class Application extends App {
 	public const APP_ID = 'riotchat';
 
 	public const AvailableSettings = [
@@ -58,16 +53,5 @@ class Application extends App implements IBootstrap {
 		// Element Web has removed the current Labs system. https://github.com/gary-kim/riotchat/issues/139
 		// TODO: Remove the labs feature fully
 		return [];
-	}
-
-	public function boot(IBootContext $context): void {
-		$request = $this->getContainer()->get(IRequest::class);
-		// The user is redirected to '/login?clear=1'
-		if ($request->getPathInfo() === '/login') {
-			Util::addScript(self::APP_ID, 'logout');
-		}
-	}
-
-	public function register(IRegistrationContext $context): void {
 	}
 }
