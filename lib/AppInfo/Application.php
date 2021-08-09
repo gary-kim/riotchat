@@ -63,7 +63,7 @@ class Application extends App implements IBootstrap {
 	public function boot(IBootContext $context): void {
 		$request = $this->getContainer()->get(IRequest::class);
 		// The user is redirected to '/login?clear=1'
-		if ($request->getPathInfo() === '/login') {
+		if (PHP_SAPI !== 'cli' && $request->getPathInfo() === '/login') {
 			Util::addScript(self::APP_ID, 'logout');
 		}
 	}
