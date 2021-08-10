@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates likely also include translation updates.
 
+## [v0.9.1](https://github.com/gary-kim/riotchat/tree/v0.9.1) - 2021-08-10
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.9.0...v0.9.1)
+
+### Fixed
+
+- Do not attempt to load script if PHP is running in CLI mode [\#396](https://github.com/gary-kim/riotchat/pull/396) ([@gary-kim](https://github.com/gary-kim))
+
 ## [v0.9.0](https://github.com/gary-kim/riotchat/tree/v0.9.0) - 2021-08-02
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.8.2...v0.9.0)
