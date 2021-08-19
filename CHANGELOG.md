@@ -7,6 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates likely also include translation updates.
 
+## [v0.9.2](https://github.com/gary-kim/riotchat/tree/v0.9.2) - 2021-08-19
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.9.1...v0.9.2)
+
+### Changed
+
+- chore\(deps\): update Element Web to v1.8.1 [\#399](https://github.com/gary-kim/riotchat/pull/399) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+
+### Dependencies
+
+- chore\(deps\): update dependency vue-loader to ^15.9.8 [\#397](https://github.com/gary-kim/riotchat/pull/397) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update node.js to v16 [\#392](https://github.com/gary-kim/riotchat/pull/392) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update babel monorepo to ^7.15.0 [\#382](https://github.com/gary-kim/riotchat/pull/382) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update dependency css-loader to ^5.2.7 [\#377](https://github.com/gary-kim/riotchat/pull/377) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- fix\(deps\): update dependency @nextcloud/vue to ^4.0.3 [\#373](https://github.com/gary-kim/riotchat/pull/373) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+
 ## [v0.9.1](https://github.com/gary-kim/riotchat/tree/v0.9.1) - 2021-08-10
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.9.0...v0.9.1)

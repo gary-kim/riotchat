@@ -94,6 +94,6 @@ trigger:
     - tag
 ---
 kind: signature
-hmac: 935eda74d6f2e3b90b0e06b8fae076d44d468b43b729da5bbee53a952caf7bea
+hmac: be201d18d394b50caa892ad8d2f4e94b780000b1ed909dd67813634ddb7b3db0
 
 ...
