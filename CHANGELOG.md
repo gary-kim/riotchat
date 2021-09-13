@@ -7,6 +7,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates likely also include translation updates.
 
+## [v0.9.3](https://github.com/gary-kim/riotchat/tree/v0.9.3) - 2021-09-13
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.9.2...v0.9.3)
+
+### Changed
+
+- chore\(deps\): update Element Web to v1.8.4 [\#405](https://github.com/gary-kim/riotchat/pull/405) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update Element Web to v1.8.2 [\#402](https://github.com/gary-kim/riotchat/pull/402) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+
+### Dependencies
+
+- fix\(deps\): update dependency core-js to ^3.16.4 [\#401](https://github.com/gary-kim/riotchat/pull/401) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- fix\(deps\): update dependency @nextcloud/vue to ^4.1.0 [\#400](https://github.com/gary-kim/riotchat/pull/400) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency eslint-plugin-import to ^2.24.0 [\#395](https://github.com/gary-kim/riotchat/pull/395) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency eslint-plugin-vue to ^7.17.0 [\#374](https://github.com/gary-kim/riotchat/pull/374) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update dependency eslint to ^7.32.0 [\#367](https://github.com/gary-kim/riotchat/pull/367) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- fix\(deps\): update dependency core-js to ^3.16.3 [\#364](https://github.com/gary-kim/riotchat/pull/364) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+
 ## [v0.9.2](https://github.com/gary-kim/riotchat/tree/v0.9.2) - 2021-08-19
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.9.1...v0.9.2)
