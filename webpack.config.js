@@ -3,6 +3,10 @@ const { execSync } = require('child_process');
 const { VueLoaderPlugin } = require('vue-loader');
 const webpack = require('webpack');
 
+const RIOT_WEB_VERSION = execSync('git describe --abbrev=0 --tags', { cwd: path.resolve(__dirname, './3rdparty/riot-web') }).toString();
+const RIOT_WEB_HASH = execSync(`git rev-parse -- ${RIOT_WEB_VERSION}`, { cwd: path.resolve(__dirname, './3rdparty/riot-web') }).toString();
+
+
 module.exports = {
     entry: {
         adminSettings: path.join(__dirname, 'src', 'adminSettings.js'),
@@ -39,8 +43,8 @@ module.exports = {
     plugins: [
         new VueLoaderPlugin(),
         new webpack.DefinePlugin({
-            RIOT_WEB_HASH: JSON.stringify(execSync('git rev-parse HEAD', { cwd: path.resolve(__dirname, './3rdparty/riot-web') }).toString()),
-            RIOT_WEB_VERSION: JSON.stringify(execSync('git describe --exact-match HEAD', { cwd: path.resolve(__dirname, './3rdparty/riot-web') }).toString()),
+            RIOT_WEB_HASH: JSON.stringify(RIOT_WEB_HASH),
+            RIOT_WEB_VERSION: JSON.stringify(RIOT_WEB_VERSION),
         }),
     ],
     resolve: {
