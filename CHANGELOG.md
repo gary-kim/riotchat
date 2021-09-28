@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates likely also include translation updates.
 
+## [v0.9.5](https://github.com/gary-kim/riotchat/tree/v0.9.5) - 2021-09-28
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.9.4...v0.9.5)
+
+### Changed
+
+- chore\(deps\): update Element Web to v1.9.0 [\#412](https://github.com/gary-kim/riotchat/pull/412) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+
+### Dependencies
+
+- chore\(deps\): update babel monorepo to ^7.15.4 [\#404](https://github.com/gary-kim/riotchat/pull/404) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+
 ## [v0.9.4](https://github.com/gary-kim/riotchat/tree/v0.9.4) - 2021-09-14
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.9.3...v0.9.4)
