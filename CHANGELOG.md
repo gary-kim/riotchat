@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates likely also include translation updates.
 
+## [v0.9.8](https://github.com/gary-kim/riotchat/tree/v0.9.8) - 2021-10-14
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.9.7...v0.9.8)
+
+### Fixed
+
+- fix: ensure exports work [\#426](https://github.com/gary-kim/riotchat/pull/426) ([@gary-kim](https://github.com/gary-kim))
+
 ## [v0.9.7](https://github.com/gary-kim/riotchat/tree/v0.9.7) - 2021-10-12
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.9.6...v0.9.7)
