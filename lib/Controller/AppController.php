@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 /**
- * @copyright Copyright (c) 2020 Gary Kim <gary@garykim.dev>
+ * @copyright Copyright (c) 2020-2021 Gary Kim <gary@garykim.dev>
  *
  * @author Gary Kim <gary@garykim.dev>
  *
@@ -64,6 +64,7 @@ class AppController extends Controller {
 		$csp = new ContentSecurityPolicy();
 		$csp->addAllowedFrameDomain($this->request->getServerHost());
 		$csp->addAllowedFrameDomain($default_server_domain);
+		$csp->addAllowedFrameDomain('blob:');
 		$response->setContentSecurityPolicy($csp);
 
 		$featurePolicy = new FeaturePolicy();
