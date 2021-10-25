@@ -7,6 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates likely also include translation updates.
 
+## [v0.9.9](https://github.com/gary-kim/riotchat/tree/v0.9.9) - 2021-10-25
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.9.8...v0.9.9)
+
+### Changed
+
+- Update to Element Web v1.9.3 [\#429](https://github.com/gary-kim/riotchat/pull/429) ([@gary-kim](https://github.com/gary-kim))
+
+### Dependencies
+
+- chore\(deps\): update dependency sass-loader to ^12.2.0 [\#423](https://github.com/gary-kim/riotchat/pull/423) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency webpack-cli to ^4.9.0 [\#418](https://github.com/gary-kim/riotchat/pull/418) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update babel monorepo to ^7.15.8 [\#417](https://github.com/gary-kim/riotchat/pull/417) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- fix\(deps\): update dependency core-js to ^3.18.2 [\#416](https://github.com/gary-kim/riotchat/pull/416) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency eslint-plugin-vue to ^7.19.0 [\#415](https://github.com/gary-kim/riotchat/pull/415) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+
 ## [v0.9.8](https://github.com/gary-kim/riotchat/tree/v0.9.8) - 2021-10-14
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.9.7...v0.9.8)
