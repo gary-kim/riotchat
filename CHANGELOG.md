@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates likely also include translation updates.
 
+## [v0.9.10](https://github.com/gary-kim/riotchat/tree/v0.9.10) - 2021-11-08
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.9.9...v0.9.10)
+
+### Changed
+
+- chore\(deps\): update 3rdparty/riot-web commit hash to a16dcb8 [\#435](https://github.com/gary-kim/riotchat/pull/435) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+
 ## [v0.9.9](https://github.com/gary-kim/riotchat/tree/v0.9.9) - 2021-10-25
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.9.8...v0.9.9)
