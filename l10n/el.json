@@ -8,7 +8,11 @@
     "Default server URL:" : "Προεπιλεγμένη διεύθυνση URL διακομιστή:",
     "Default server name:" : "Προεπιλεγμένο όνομα διακομιστή:",
     "Disable custom URLs" : "Απενεργοποίηση προσαρμοσμένων διευθύνσεων URLs",
+    "Redirect immediately to SSO (requires SSO to be configured on the Matrix Homeserver)" : "Άμεση ανακατεύθυνση στο SSO (απαιτείται η ρύθμιση παραμέτρων του SSO στον διακομιστή Matrix στο σπίτι)",
     "Disable login language selector" : "Απενεργοποίηση επιλογής γλώσσας κατά την σύνδεση",
+    "Show labs settings" : "Εμφάνιση ρυθμίσεων εργαστηρίων",
+    "Make share room links go to Element for Nextcloud instead of https://matrix.to" : "Φτιάξτε τους συνδέσμους των δωματίων κοινής χρήσης να μεταβείνουν στο Element για το Nextcloud αντί για https://matrix.to",
+    "Set custom permalink to this Element instance" : "Ορίστε προσαρμοσμένο σύνδεσμο διαρκείας permalink σε αυτήν την εγκατάσταση Element",
     "Jitsi settings" : "Ρυθμίσεις του Jitsi",
     "Configure the Jitsi instance that Element will connect to." : "Διαμορφώστε την παρουσία Jitsi στην οποία θα συνδεθεί το Element.",
     "Custom Jitsi instance (leave blank to use default Element Jitsi server):" : "Εξατομικευμένη παρουσία Jitsi (αφήστε κενό για χρήση του προεπιλεγμένου διακομιστή Element Jitsi):",
@@ -25,7 +29,7 @@
     "Experimental feature {feature}" : "Δοκιμαστικές λειτουργίες {feature}",
     "Custom config has been set" : "Η προσαρμοσμένη ρύθμιση έχει οριστεί",
     "{settingName} has been set to {value}" : "Το {settingName} άλλαξε σε {value}",
-    "Custom config could not be set. Try reloading the page." : "Δεν ήταν δυνατή η εφαρμογή της προσαρμοσμένης ρύθμισης. Δοκιμάστε να φορτώσετε ξανά τη σελίδα",
+    "Custom config could not be set. Try reloading the page." : "Αδύνατη η εφαρμογή της προσαρμοσμένης ρύθμισης. Δοκιμάστε να φορτώσετε ξανά τη σελίδα.",
     "{settingName} could not be set. Try reloading the page." : "Το {settingName} δεν μπορεί να ρυθμιστεί. Ανανεώστε την σελίδα."
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

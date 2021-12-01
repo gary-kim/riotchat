@@ -18,7 +18,7 @@
     "Custom Jitsi instance (leave blank to use default Element Jitsi server):" : "自訂 Jitsi 站台（留空以使用預設的 Element Jitsi 伺服器）：",
     "Custom integration server" : "自訂整合伺服器",
     "Configure a custom integration server for Element (leave empty to use Scalar)." : "設定 Element 的自訂整合伺服器（留空以使用 Scalar）。",
-    "Integration UI URL:" : "整合用戶介面 URL：",
+    "Integration UI URL:" : "整合用戶界面 URL：",
     "Integration REST URL:" : "整合 REST URL：",
     "Integration widgets URL:" : "整合小工具 URL：",
     "Custom Element config" : "自訂 Element 設定",

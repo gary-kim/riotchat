@@ -10,6 +10,7 @@ OC.L10N.register(
     "Default server URL:" : "Zadani URL poslužitelja:",
     "Default server name:" : "Zadani naziv poslužitelja:",
     "Disable custom URLs" : "Onemogući prilagođene URL-ove",
+    "Redirect immediately to SSO (requires SSO to be configured on the Matrix Homeserver)" : "Odmah preusmjeri na SSO (potrebno je konfigurirati SSO na poslužitelju Matrix Homeserver)",
     "Disable login language selector" : "Onemogući izbornik jezika prijave",
     "Show labs settings" : "Prikaži postavke labs",
     "Make share room links go to Element for Nextcloud instead of https://matrix.to" : "Poveznice do dijeljenih soba vode na Element za Nextcloud umjesto na https://matrix.to",
