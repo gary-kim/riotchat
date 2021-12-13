@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates likely also include translation updates.
 
+## [v0.9.12](https://github.com/gary-kim/riotchat/tree/v0.9.12) - 2021-12-13
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.9.11...v0.9.12)
+
+**This update addresses a security issue: [https://matrix.org/blog/2021/12/03/pre-disclosure-upcoming-security-release-of-libolm-and-matrix-js-sdk](https://matrix.org/blog/2021/12/03/pre-disclosure-upcoming-security-release-of-libolm-and-matrix-js-sdk)**
+
+### Changed
+
+- chore\(deps\): update Element Web to v1.9.7 [\#443](https://github.com/gary-kim/riotchat/pull/443) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update Element Web to v1.9.6 [\#440](https://github.com/gary-kim/riotchat/pull/440) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+
 ## [v0.9.11](https://github.com/gary-kim/riotchat/tree/v0.9.11) - 2021-11-25
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.9.10...v0.9.11)
