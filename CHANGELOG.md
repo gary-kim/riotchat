@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates likely also include translation updates.
 
+## [v0.10.0](https://github.com/gary-kim/riotchat/tree/v0.10.0) - 2021-12-14
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.9.12...v0.10.0)
+
+### Changed
+
+- Add Nextcloud 23 support [\#445](https://github.com/gary-kim/riotchat/pull/445) ([@gary-kim](https://github.com/gary-kim))
+
+### Fixed
+
+- Set version during build process [\#444](https://github.com/gary-kim/riotchat/pull/444) ([@gary-kim](https://github.com/gary-kim))
+
 ## [v0.9.12](https://github.com/gary-kim/riotchat/tree/v0.9.12) - 2021-12-13
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.9.11...v0.9.12)
