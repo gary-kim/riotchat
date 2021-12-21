@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates likely also include translation updates.
 
+## [v0.10.1](https://github.com/gary-kim/riotchat/tree/v0.10.1) - 2021-12-21
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.10.0...v0.10.1)
+
+### Changed
+
+- chore\(deps\): update Element Web to v1.9.8 [\#448](https://github.com/gary-kim/riotchat/pull/448) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+
+### Dependencies
+
+- chore\(deps\): update dependency eslint-plugin-promise to v6 [\#447](https://github.com/gary-kim/riotchat/pull/447) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update babel monorepo to ^7.16.0 [\#432](https://github.com/gary-kim/riotchat/pull/432) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+- chore\(deps\): update dependency eslint-plugin-vue to v8 [\#431](https://github.com/gary-kim/riotchat/pull/431) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+
 ## [v0.10.0](https://github.com/gary-kim/riotchat/tree/v0.10.0) - 2021-12-14
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.9.12...v0.10.0)
