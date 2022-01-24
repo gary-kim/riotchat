@@ -10,6 +10,7 @@ OC.L10N.register(
     "Default server URL:" : "URL-адрес сервера по умолчанию:",
     "Default server name:" : "Имя сервера по умолчанию:",
     "Disable custom URLs" : "Отключить персонализированные URL",
+    "Redirect immediately to SSO (requires SSO to be configured on the Matrix Homeserver)" : "Немедленное перенаправление на SSO (требуется, чтобы SSO был настроен на сервере Matrix Homeserver)",
     "Disable login language selector" : "Отключить выбор языка при входе в систему",
     "Show labs settings" : "Показать настройки лаборатории",
     "Make share room links go to Element for Nextcloud instead of https://matrix.to" : "Сделайте так, чтобы ссылки на общие комнаты переходили в Element из Nextcloud вместо https://matrix.to",
