@@ -56,16 +56,19 @@ function onIframeLoad () {
         }
     };
 
-    // Watch for the localStorage change that indicates that an SSO sign in is being attempted
-    // eslint-disable-next-line no-proto
-    iframe.contentWindow.localStorage.__proto__.setItem = function (...params) {
-        // It looks like an SSO or CAS login is being attempted
-        if (params[0] === "mx_sso_hs_url" && iframe.contentWindow.location.hash === "#/login") {
-            // Kick them to the non-iframed version. A bit jarring but SSO login most likely won't work in the iframe.
-            window.location.href = generateUrl('/apps/riotchat/riot/#/login');
-        }
-        window.localStorage.setItem.apply(this, params);
-    };
+    // Setting sso_force_iframe (in config) to false forces iframe even if using SSO or CAS login
+    if (loadState('riotchat', 'sso_force_iframe') !== false) {
+        // Watch for the localStorage change that indicates that an SSO sign in is being attempted
+        // eslint-disable-next-line no-proto
+        iframe.contentWindow.localStorage.__proto__.setItem = function (...params) {
+            // It looks like an SSO or CAS login is being attempted
+            if (params[0] === "mx_sso_hs_url" && iframe.contentWindow.location.hash === "#/login") {
+                // Kick them to the non-iframed version. A bit jarring but SSO login most likely won't work in the iframe.
+                window.location.href = generateUrl('/apps/riotchat/riot/#/login');
+            }
+            window.localStorage.setItem.apply(this, params);
+        };
+    }
 }
 
 function iframeHashChanged () {
