@@ -59,6 +59,8 @@ class AppController extends Controller {
 
 		$this->initialStateService->provideInitialState(Application::APP_ID, 'disable_custom_urls',
 			$this->config->getAppValue(Application::APP_ID, 'disable_custom_urls', Application::AvailableSettings['disable_custom_urls']));
+		$this->initialStateService->provideInitialState(Application::APP_ID, 'sso_force_iframe',
+			$this->config->getAppValue(Application::APP_ID, 'sso_force_iframe', Application::AvailableSettings['sso_force_iframe']));
 
 		$default_server_domain = $this->config->getAppValue(Application::APP_ID, 'base_url', Application::AvailableSettings['base_url']);
 		$csp = new ContentSecurityPolicy();
