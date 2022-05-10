@@ -80,7 +80,7 @@
                 <br>
                 <input
                     id="sso_force_iframe"
-                    v-model="sso_immediate_redirect"
+                    v-model="sso_force_iframe"
                     type="checkbox"
                     class="checkbox"
                     @change="updateSetting('sso_force_iframe')"
