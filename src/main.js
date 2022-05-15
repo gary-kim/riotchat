@@ -57,7 +57,7 @@ function onIframeLoad () {
     };
 
     // Setting sso_force_iframe (in config) to true forces iframe even if using SSO or CAS login
-    if (loadState('riotchat', 'sso_force_iframe') !== false) {
+    if (loadState('riotchat', 'sso_force_iframe') !== 'false') {
         // Watch for the localStorage change that indicates that an SSO sign in is being attempted
         // eslint-disable-next-line no-proto
         iframe.contentWindow.localStorage.__proto__.setItem = function (...params) {
