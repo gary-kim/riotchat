@@ -13,7 +13,7 @@ This project is not affiliated, associated, authorized, endorsed by, or in any w
 The name Element as well as related names, marks, emblems and images are registered trademarks of their respective owners.
 
 The upstream project can be found at [https://github.com/vector-im/element-web](https://github.com/vector-im/element-web).]]></description>
-    <version>0.11.4</version>
+    <version>0.12.0</version>
     <licence>agpl</licence>
     <author mail="gary@garykim.dev" homepage="https://garykim.dev">Gary Kim</author>
     <namespace>RiotChat</namespace>
@@ -25,7 +25,7 @@ The upstream project can be found at [https://github.com/vector-im/element-web](
     <screenshot>https://garykim.dev/res/large/riotchat-for-nextcloud/screenshot-2.png</screenshot>
     <screenshot>https://garykim.dev/res/large/riotchat-for-nextcloud/screenshot-3.png</screenshot>
     <dependencies>
-        <nextcloud min-version="20" max-version="23"/>
+        <nextcloud min-version="20" max-version="24"/>
     </dependencies>
     <settings>
         <admin>OCA\RiotChat\Settings\Admin</admin>
