@@ -88,7 +88,7 @@
                 <label
                     ref="sso_force_iframe"
                     for="sso_force_iframe"
-                >{{ t('riotchat', 'Force iframe (to use with SSO or CAS set the headers to let it be iframed in nextcloud)') }}</label>
+                >{{ t('riotchat', 'Disable redirect to non-iframed version for SSO (make sure to set the headers to allow the SSO or CAS to be iframed)') }}</label>
                 <br>
                 <input
                     id="disable_login_language_selector"
