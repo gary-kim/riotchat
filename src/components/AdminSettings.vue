@@ -79,6 +79,18 @@
                 >{{ t('riotchat', 'Redirect immediately to SSO (requires SSO to be configured on the Matrix Homeserver)') }}</label>
                 <br>
                 <input
+                    id="sso_force_iframe"
+                    v-model="sso_force_iframe"
+                    type="checkbox"
+                    class="checkbox"
+                    @change="updateSetting('sso_force_iframe')"
+                >
+                <label
+                    ref="sso_force_iframe"
+                    for="sso_force_iframe"
+                >{{ t('riotchat', 'Disable redirect to non-iframed version for SSO (make sure to set the headers to allow the SSO or CAS to be iframed)') }}</label>
+                <br>
+                <input
                     id="disable_login_language_selector"
                     v-model="disable_login_language_selector"
                     type="checkbox"
@@ -232,6 +244,7 @@ export default {
             "custom_json_loading": false,
             "set_custom_permalink": loadState('riotchat', 'set_custom_permalink') === 'true',
             "sso_immediate_redirect": loadState('riotchat', 'sso_immediate_redirect') === 'true',
+            "sso_force_iframe": loadState('riotchat', 'sso_force_iframe') === 'true',
         };
     },
     computed: {
