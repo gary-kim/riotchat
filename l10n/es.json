@@ -31,5 +31,5 @@
     "{settingName} has been set to {value}" : "{settingName} se ha configurado como {value}",
     "Custom config could not be set. Try reloading the page." : "No se ha podido realizar la configuración personalizada. Prueba a recargar la página.",
     "{settingName} could not be set. Try reloading the page." : "No se ha podido configurar {settingName}. Prueba a recargar la página."
-},"pluralForm" :"nplurals=2; plural=(n != 1);"
+},"pluralForm" :"nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;"
 }

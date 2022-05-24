@@ -34,4 +34,4 @@ OC.L10N.register(
     "Custom config could not be set. Try reloading the page." : "Não foi possível definir a configuração personalizada. Tente recarregar a página.",
     "{settingName} could not be set. Try reloading the page." : "{settingName} não pôde ser definido. Tente recarregar a página."
 },
-"nplurals=2; plural=(n > 1);");
+"nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;");
