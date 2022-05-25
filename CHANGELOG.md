@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates likely also include translation updates.
 
+## [v0.13.0](https://github.com/gary-kim/riotchat/tree/v0.13.0) - 2022-05-25
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.12.0...v0.13.0)
+
+### Added
+
+- config parameter disabling forcing sso iframe [\#463](https://github.com/gary-kim/riotchat/pull/463) ([@jonathanmmm](https://github.com/jonathanmmm))
+
+### Changed
+
+- Update to Element Web v1.10.13 [\#472](https://github.com/gary-kim/riotchat/pull/472) ([@gary-kim](https://github.com/gary-kim))
+
 ## [v0.12.0](https://github.com/gary-kim/riotchat/tree/v0.12.0) - 2022-05-21
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.11.4...v0.12.0)
