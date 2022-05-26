@@ -9,6 +9,7 @@
     "Default server name:" : "默認伺服器名稱：",
     "Disable custom URLs" : "停用自訂 URL",
     "Redirect immediately to SSO (requires SSO to be configured on the Matrix Homeserver)" : "立即重定向到SSO（要求在Matrix Homeserver上配置SSO）",
+    "Disable redirect to non-iframed version for SSO (make sure to set the headers to allow the SSO or CAS to be iframed)" : "為 SSO 禁用重定向到非 iframed 版本（確保將標頭設置為允許 SSO 或 CAS 為 iframed）",
     "Disable login language selector" : "停用登入語言選擇器",
     "Show labs settings" : "顯示實驗室設定",
     "Make share room links go to Element for Nextcloud instead of https://matrix.to" : "使會議室連結轉到 Element for Nextcloud，而不是 https://matrix。to",

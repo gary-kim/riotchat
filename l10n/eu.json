@@ -9,6 +9,7 @@
     "Default server name:" : "Lehenetsitako zerbitzariaren izena:",
     "Disable custom URLs" : "Desgaitu URL pertsonalizatuak",
     "Redirect immediately to SSO (requires SSO to be configured on the Matrix Homeserver)" : "Birbideratu berehala SSOra (SSO Matrix Homeserver zerbitzarian konfiguratzea eskatzen du)",
+    "Disable redirect to non-iframed version for SSO (make sure to set the headers to allow the SSO or CAS to be iframed)" : "Desgaitu iframed gabeko bertsiora birbideratzea SSOrako (ziurtatu goiburuak konfiguratzen dituzula SSO edo CAS iframed izan dadin)",
     "Disable login language selector" : "Desgaitu saioa hasteko hizkuntza hautatzailea",
     "Show labs settings" : "Erakutsi laborategien ezarpenak",
     "Make share room links go to Element for Nextcloud instead of https://matrix.to" : "Partekatu gela estekak Nextcloud-erako Element-era joateko https://matrix.to -ra joan beharrean",
