@@ -11,7 +11,7 @@ OC.L10N.register(
     "Default server name:" : "Domyślna nazwa serwera:",
     "Disable custom URLs" : "Wyłącz niestandardowe adresy URL",
     "Redirect immediately to SSO (requires SSO to be configured on the Matrix Homeserver)" : "Przekieruj bezpośrednio do SSO (wymaga skonfigurowania SSO na Matrix Homeserver)",
-    "Disable redirect to non-iframed version for SSO (make sure to set the headers to allow the SSO or CAS to be iframed)" : "Wyłącz przekierowanie do wersji bez wbudowanej ramki dla SSO (upewnij się, że ustawiłeś nagłówki, aby umożliwić SSO lub CAS, aby było ramką wbudowaną)",
+    "Disable redirect to non-iframed version for SSO (make sure to set the headers to allow the SSO or CAS to be iframed)" : "Wyłącz przekierowanie do wersji bez wbudowanej ramki (iframe) dla SSO (upewnij się, że ustawiłeś nagłówki, aby umożliwić SSO lub CAS, aby było ramką wbudowaną)",
     "Disable login language selector" : "Wyłącz wybór języka przy logowaniu",
     "Show labs settings" : "Pokaż ustawienia laboratoryjne",
     "Make share room links go to Element for Nextcloud instead of https://matrix.to" : "Ustaw linki do udostępnionego pokoju, aby prowadziły do Elementu dla Nextcloud zamiast https://matrix.to",
