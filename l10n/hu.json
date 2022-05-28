@@ -9,6 +9,7 @@
     "Default server name:" : "Alapértelmezett kiszolgálónév:",
     "Disable custom URLs" : "Egyéni URL-ek letiltása",
     "Redirect immediately to SSO (requires SSO to be configured on the Matrix Homeserver)" : "Azonnali átirányítás az SSO-hoz (szükséges az SSO beállítása a Matrix-kiszolgálón)",
+    "Disable redirect to non-iframed version for SSO (make sure to set the headers to allow the SSO or CAS to be iframed)" : "Az SSO nem iframe-alapú verziójára történő átirányítás letiltása (győződjön meg róla, hogy engedélyezte-e, hogy az SSO vagy a CAS iframe-be tehető legyen)",
     "Disable login language selector" : "A nyelvválasztó letiltása bejelentkezésnél",
     "Show labs settings" : "A labor beállítások megjelenítése",
     "Make share room links go to Element for Nextcloud instead of https://matrix.to" : "A szoba megosztási hivatkozások a https://matrix.to helyett az Element a Nextcloudhoz alkalmazáshoz mutassanak",
