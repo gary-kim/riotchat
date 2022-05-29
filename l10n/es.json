@@ -9,6 +9,7 @@
     "Default server name:" : "Nombre predeterminado del servidor:",
     "Disable custom URLs" : "Deshabilitar URLs personalizadas",
     "Redirect immediately to SSO (requires SSO to be configured on the Matrix Homeserver)" : "Redirigir inmediatamente al SSO (requiere que SSO esté configurado en el Matrix Homeserver)",
+    "Disable redirect to non-iframed version for SSO (make sure to set the headers to allow the SSO or CAS to be iframed)" : "Desactivar la redirección a la versión no iframed para SSO (asegúrese de configurar las cabeceras para permitir que el SSO o CAS sea iframed)",
     "Disable login language selector" : "Desactivar selector de idioma del inicio de sesión",
     "Show labs settings" : "Mostrar configuración de laboratorio",
     "Make share room links go to Element for Nextcloud instead of https://matrix.to" : "Hacer que los enlaces de las salas compartidas vayan a Element para Nextcloud en lugar de a https://matrix.to",
