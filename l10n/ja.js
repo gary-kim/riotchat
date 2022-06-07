@@ -3,6 +3,7 @@ OC.L10N.register(
     {
     "Element" : "Element",
     "Element for Nextcloud" : "Nextcloud為のElement",
+    "Default server URL:" : "既定なサーバーURL：",
     "Default server name:" : "既定のサーバー名：",
     "Jitsi settings" : "Jitsi設定",
     "Use a custom configuration" : "カスタム設定を使う"
