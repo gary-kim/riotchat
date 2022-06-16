@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates likely also include translation updates.
 
+## [v0.13.2](https://github.com/gary-kim/riotchat/tree/v0.13.2) - 2022-06-16
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.13.1...v0.13.2)
+
+### Changed
+
+- enh: remove now unnecessary browserslist addition [\#482](https://github.com/gary-kim/riotchat/pull/482) ([@gary-kim](https://github.com/gary-kim))
+
 ## [v0.13.1](https://github.com/gary-kim/riotchat/tree/v0.13.1) - 2022-06-16
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.13.0...v0.13.1)
