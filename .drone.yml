@@ -16,7 +16,7 @@ steps:
       - npm run eslint
 
   - name: php-lint
-    image: composer:1.10
+    image: composer:2
     commands:
       - composer i > /dev/null 2>&1
       - composer run lint
