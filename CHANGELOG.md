@@ -7,6 +7,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates likely also include translation updates.
 
+## [v0.13.1](https://github.com/gary-kim/riotchat/tree/v0.13.1) - 2022-06-16
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.13.0...v0.13.1)
+
+### Changed
+
+- enh: Update to Element Web v1.10.15 [\#476](https://github.com/gary-kim/riotchat/pull/476) ([@gary-kim](https://github.com/gary-kim))
+
+### Fixed
+
+- fix: build dependency resolution failure [\#475](https://github.com/gary-kim/riotchat/pull/475) ([@gary-kim](https://github.com/gary-kim))
+
+### Dependencies
+
+- chore\(deps\): various dependency updates [\#478](https://github.com/gary-kim/riotchat/pull/478) ([@gary-kim](https://github.com/gary-kim))
+- fix\(deps\): update dependency @nextcloud/axios to ^1.10.0 [\#477](https://github.com/gary-kim/riotchat/pull/477) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update dependency @nextcloud/browserslist-config to ^2.2.0 [\#413](https://github.com/gary-kim/riotchat/pull/413) ([@gary-kim-bot](https://github.com/gary-kim-bot))
+
 ## [v0.13.0](https://github.com/gary-kim/riotchat/tree/v0.13.0) - 2022-05-25
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.12.0...v0.13.0)
