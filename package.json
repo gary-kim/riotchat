@@ -1,6 +1,6 @@
 {
   "name": "riotchat",
-  "version": "0.13.5",
+  "version": "0.13.6",
   "description": "Still in development",
   "main": "index.js",
   "directories": {
