@@ -131,4 +131,12 @@ class ConfigController extends Controller {
 
 		return new JSONResponse($config);
 	}
+
+	/**
+	 * @NoCSRFRequired
+	 * @NoAdminRequired
+	 */
+	public function rootConfig(): JSONResponse {
+		return $this->config();
+	}
 }
