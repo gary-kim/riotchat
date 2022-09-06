@@ -22,6 +22,7 @@
 return [
 	'routes' => [
 		['name' => 'app#index', 'url' => '/', 'verb' => 'GET'],
+		['name' => 'config#rootConfig', 'url' => '/config.json', 'verb' => 'GET'],
 		['name' => 'static#index', 'url' => '/riot/', 'verb' => 'GET'],
 		['name' => 'config#config', 'url' => '/riot/config.json', 'verb' => 'GET'],
 		['name' => 'static#usercontent', 'url' => '/riot/bundles/{version}/usercontent.js', 'verb' => 'GET'],
