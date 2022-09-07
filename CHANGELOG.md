@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates likely also include translation updates.
 
+## [v0.13.7](https://github.com/gary-kim/riotchat/tree/v0.13.7) - 2022-09-07
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.13.6...v0.13.7)
+
+### Fixed
+
+- fix: make Jitsi load properly [\#495](https://github.com/gary-kim/riotchat/pull/495) ([@gary-kim](https://github.com/gary-kim))
+
 ## [v0.13.6](https://github.com/gary-kim/riotchat/tree/v0.13.6) - 2022-09-01
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.13.5...v0.13.6)
