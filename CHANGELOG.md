@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates may also include translation updates.
 
+## [v0.13.10](https://github.com/gary-kim/riotchat/tree/v0.13.10) - 2022-09-29
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.13.9...v0.13.10)
+
+### Fixed
+
+- Ignore engine requirement from browserslist-config [\#498](https://github.com/gary-kim/riotchat/pull/498) ([@gary-kim](https://github.com/gary-kim))
+
 ## [v0.13.9](https://github.com/gary-kim/riotchat/tree/v0.13.9) - 2022-09-28
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.13.8...v0.13.9)
