@@ -8,6 +8,7 @@
     "Default server URL:" : "URL par défaut du serveur :",
     "Default server name:" : "Nom par défaut du serveur :",
     "Disable custom URLs" : "Désactiver les adresses web personnalisés",
+    "Redirect immediately to SSO (requires SSO to be configured on the Matrix Homeserver)" : "Redirection immédiate vers SSO (SSO doit être configuré sur le Homeserver Matrix)",
     "Disable login language selector" : "Désactiver la sélection de la langue à la connexion",
     "Jitsi settings" : "Paramètres Jitsi",
     "Configure the Jitsi instance that Element will connect to." : "Configurer l'instance Jitsi à laquelle cet Element se connectera.",
