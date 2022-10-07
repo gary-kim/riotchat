@@ -11,6 +11,7 @@ OC.L10N.register(
     "Default server name:" : "Προεπιλεγμένο όνομα διακομιστή:",
     "Disable custom URLs" : "Απενεργοποίηση προσαρμοσμένων διευθύνσεων URLs",
     "Redirect immediately to SSO (requires SSO to be configured on the Matrix Homeserver)" : "Άμεση ανακατεύθυνση στο SSO (απαιτείται η ρύθμιση παραμέτρων του SSO στον διακομιστή Matrix στο σπίτι)",
+    "Disable redirect to non-iframed version for SSO (make sure to set the headers to allow the SSO or CAS to be iframed)" : "Απενεργοποιήστε την ανακατεύθυνση σε έκδοση χωρίς iframe για το SSO (βεβαιωθείτε ότι έχετε ορίσει τις επικεφαλίδες για να επιτρέψετε το SSO ή το CAS να είναι iframed)",
     "Disable login language selector" : "Απενεργοποίηση επιλογής γλώσσας κατά την σύνδεση",
     "Show labs settings" : "Εμφάνιση ρυθμίσεων εργαστηρίων",
     "Make share room links go to Element for Nextcloud instead of https://matrix.to" : "Φτιάξτε τους συνδέσμους των δωματίων κοινής χρήσης να μεταβείνουν στο Element για το Nextcloud αντί για https://matrix.to",
