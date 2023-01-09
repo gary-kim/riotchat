@@ -7,13 +7,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates may also include translation updates.
 
-## [v0.13.12](https://github.com/gary-kim/riotchat/tree/v0.13.12) - 2022-11-10
+## [v0.14.0](https://github.com/gary-kim/riotchat/tree/v0.14.0) - 2023-01-09
 
-[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.13.11...v0.13.12)
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.13.11...v0.14.0)
+
+### Added
+
+- Add support for Nextcloud 25 [\#508](https://github.com/gary-kim/riotchat/pull/508) ([@gary-kim](https://github.com/gary-kim))
 
 ### Changed
 
+- Update to Element Web v1.11.17 [\#507](https://github.com/gary-kim/riotchat/pull/507) ([@gary-kim](https://github.com/gary-kim))
+- Update to Element Web v1.11.15 [\#506](https://github.com/gary-kim/riotchat/pull/506) ([@gary-kim](https://github.com/gary-kim))
 - Update Element Web to v1.11.14 [\#505](https://github.com/gary-kim/riotchat/pull/505) ([@gary-kim](https://github.com/gary-kim))
+
+### Dependencies
+
+- chore\(deps\): update dependency eslint to ^8.31.0 [\#484](https://github.com/gary-kim/riotchat/pull/484) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update babel monorepo [\#480](https://github.com/gary-kim/riotchat/pull/480) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
 
 ## [v0.13.11](https://github.com/gary-kim/riotchat/tree/v0.13.11) - 2022-10-27
 
