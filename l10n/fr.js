@@ -1,7 +1,7 @@
 OC.L10N.register(
     "riotchat",
     {
-    "Element" : "Élément",
+    "Element" : "Element",
     "Element for Nextcloud" : "Element pour Nextcloud",
     "Element Web integrated into Nextcloud" : "Element Web intégré à Nextcloud",
     "Element for Nextcloud allows you to install Element Web easily through Nextcloud and join the Matrix decentralized communication network.\n\nThis app does not include a Matrix server, only the client. You will have to either set up your own Matrix homeserver, rent one, or use a public one.\n\nThis project is not affiliated, associated, authorized, endorsed by, or in any way officially connected with Element or the Element project, or any of its subsidiaries or its affiliates.\n\nThe name Element as well as related names, marks, emblems and images are registered trademarks of their respective owners.\n\nThe upstream project can be found at [https://github.com/vector-im/element-web](https://github.com/vector-im/element-web)." : "Element pour Nextcloud vous permet d’installer facilement Element Web via Nextcloud et de rejoindre le réseau de communication décentralisé Matrix.\n\nCette application n’inclut pas de serveur Matrix, mais seulement le client. Vous devrez soit installer votre propre serveur Matrix, soit en louer un, soit utiliser un serveur public.\n\nCe projet n'est pas affilié, associé, autorisé, approuvé par, ou de quelque manière que ce soit officiellement connecté à Element ou au projet Element, ou à l'une de ses filiales ou de ses affiliés.\n\nLe nom Element ainsi que les noms, marques, emblèmes et images associés sont des marques déposées de leurs propriétaires respectifs.\n\nLe projet en amont peut être consulté à l'adresse suivante : [https://github.com/vector-im/element-web](https://github.com/vector-im/element-web).",
@@ -11,6 +11,7 @@ OC.L10N.register(
     "Default server name:" : "Nom par défaut du serveur :",
     "Disable custom URLs" : "Désactiver les adresses web personnalisés",
     "Redirect immediately to SSO (requires SSO to be configured on the Matrix Homeserver)" : "Redirection immédiate vers SSO (SSO doit être configuré sur le Homeserver Matrix)",
+    "Disable redirect to non-iframed version for SSO (make sure to set the headers to allow the SSO or CAS to be iframed)" : "Désaciver la redirection vers la version sans iframe pour l'authentification unique ( assurez-vous de configurer les en-têtes pour permettre à l'authentification unique, SSO, ou centralisée, CAS, d'être embarquée dans une iframe)",
     "Disable login language selector" : "Désactiver la sélection de la langue à la connexion",
     "Show labs settings" : "Afficher les réglages expérimentaux",
     "Make share room links go to Element for Nextcloud instead of https://matrix.to" : "Faites que les liens des salles pointent vers Element pour NextCloud plutôt que vers https://matrix.to",
