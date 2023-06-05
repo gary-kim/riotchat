@@ -13,7 +13,7 @@ OC.L10N.register(
     "Redirect immediately to SSO (requires SSO to be configured on the Matrix Homeserver)" : "Preusmeri takoj na enovito prijavo SSO (zahteva nastavitev SSO na strežniku Matrix)",
     "Disable login language selector" : "Onemogoči izbirnik jezika ob prijavi",
     "Show labs settings" : "Pokaži preizkusne nastavitve",
-    "Make share room links go to Element for Nextcloud instead of https://matrix.to" : "Povezave so klepetalnic morajo voditi do programa Element za Nextcloud in ne do https://matrix.to",
+    "Make share room links go to Element for Nextcloud instead of https://matrix.to" : "Povezave do klepetalnic morajo voditi do programa Element za Nextcloud in ne do https://matrix.to",
     "Set custom permalink to this Element instance" : "Nastavi trajno povezavo po meri za ta primerek programa Element",
     "Jitsi settings" : "Nastavitve Jitsi",
     "Configure the Jitsi instance that Element will connect to." : "Nastavitve strežnika Jitsi, s katerim se povezuje Element.",
