@@ -8,7 +8,7 @@
     "Default server URL:" : "기본 서버 URL:",
     "Default server name:" : "기본 서버 이름:",
     "Disable custom URLs" : "사용자 지정 URL 비활성화",
-    "Redirect immediately to SSO (requires SSO to be configured on the Matrix Homeserver)" : "SSO로 즉시 리디렉션 (매트릭스 홈 서버에서 SSO를 구성해야 합니다)",
+    "Redirect immediately to SSO (requires SSO to be configured on the Matrix Homeserver)" : "SSO로 즉시 리디렉션 (매트릭스 홈 서버에서 SSO를 구성해야 합니다.)",
     "Disable login language selector" : "로그인 언어 선택기 사용 안 함",
     "Show labs settings" : "실험실 설정 표시",
     "Make share room links go to Element for Nextcloud instead of https://matrix.to" : "Share Room 링크를 https://matrix.to 대신 Element for Next Cloud로 이동하도록 합니다.",
