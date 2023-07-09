@@ -8,6 +8,7 @@
     "Default server URL:" : "عنوان URL الخادم الافتراضي:",
     "Default server name:" : "اسم الخادم الافتراضي:",
     "Disable custom URLs" : "تعطيل عناوين URL المخصصة",
+    "Redirect immediately to SSO (requires SSO to be configured on the Matrix Homeserver)" : "إعادة التوجيه على الفور إلى SSO (يتطلب تكوين SSO على سيرفير ماتريكس المنزلي)",
     "Disable login language selector" : "تعطيل محدد لغة تسجيل الدخول",
     "Show labs settings" : "عرض إعدادات التمرينات المعملية",
     "Make share room links go to Element for Nextcloud instead of https://matrix.to" : "اجعل روابط غرفة المشاركة تنتقل إلى تطبيق Element for Nextcloud بدلاً من https://matrix.to",
