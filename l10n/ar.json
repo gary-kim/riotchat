@@ -9,6 +9,7 @@
     "Default server name:" : "اسم الخادم الافتراضي:",
     "Disable custom URLs" : "تعطيل عناوين URL المخصصة",
     "Redirect immediately to SSO (requires SSO to be configured on the Matrix Homeserver)" : "إعادة التوجيه على الفور إلى SSO (يتطلب تكوين SSO على سيرفير ماتريكس المنزلي)",
+    "Disable redirect to non-iframed version for SSO (make sure to set the headers to allow the SSO or CAS to be iframed)" : "تعطيل إعادة التوجيه إلى الإصدار عديم عنصر الإن لاين فرام iframed لـ SSO (تأكد من تعيين العناوين الرئيسية للسماح لـ SSO أو CAS بتكوين وتهيئة عنصر iframed)",
     "Disable login language selector" : "تعطيل محدد لغة تسجيل الدخول",
     "Show labs settings" : "عرض إعدادات التمرينات المعملية",
     "Make share room links go to Element for Nextcloud instead of https://matrix.to" : "اجعل روابط غرفة المشاركة تنتقل إلى تطبيق Element for Nextcloud بدلاً من https://matrix.to",
