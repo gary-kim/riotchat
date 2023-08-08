@@ -26,7 +26,7 @@
     "Specify a custom configuration for Element." : "Especifique unha configuración personalizada para o Element.",
     "Use a custom configuration" : "Usar unha configuración personalizada",
     "These are experimental features in Element that you can enable. For information on what each feature is, check out the documentation for it {linkstart}here{linkend}." : "Estas son funcións experimentais no Element que pode activar. Para obter información sobre que é cada función, consulte a documentación da mesma {linkstart}aquí{linkend}.",
-    "This version of Element for Nextcloud is based on Element Web {riotWebVersion}. Check out the source code for Element Web {linkstart}here{linkend}." : "Esta versión do Element para Nextcloud está baseada no ElementWeb {riotWebVersion}. Consulte o código fonte do Element Web {linkstart}aquí{linkend}.",
+    "This version of Element for Nextcloud is based on Element Web {riotWebVersion}. Check out the source code for Element Web {linkstart}here{linkend}." : "Esta versión de Element para Nextcloud está baseada no ElementWeb {riotWebVersion}. Consulte o código fonte do Element Web {linkstart}aquí{linkend}.",
     "Experimental feature {feature}" : "Función experimental {feature}",
     "Custom config has been set" : "Estabeleceuse  a configuración personalizada",
     "{settingName} has been set to {value}" : "{settingName} foi estabelecido a {value}",
