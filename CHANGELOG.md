@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates may also include translation updates.
 
+## [v0.16.0](https://github.com/gary-kim/riotchat/tree/v0.16.0) - 2023-08-14
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.15.2...v0.16.0)
+
+### Added
+
+- Support for Nextcloud 27 [\#527](https://github.com/gary-kim/riotchat/pull/527) ([@gary-kim](https://github.com/gary-kim))
+
+### Changed
+
+- Update to using Node 18 for build [\#524](https://github.com/gary-kim/riotchat/pull/524) ([@gary-kim](https://github.com/gary-kim))
+- Update to Element Web v1.11.38 [\#523](https://github.com/gary-kim/riotchat/pull/523) ([@gary-kim](https://github.com/gary-kim))
+
 ## [v0.15.2](https://github.com/gary-kim/riotchat/tree/v0.15.2) - 2023-07-15
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.15.1...v0.15.2)
