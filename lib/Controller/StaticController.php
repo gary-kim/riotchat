@@ -180,6 +180,7 @@ class StaticController extends Controller {
 		$csp->addAllowedMediaDomain('blob: ');
 		$csp->addAllowedObjectDomain('*');
 		$csp->addAllowedFrameDomain('blob: ');
+		$csp->addAllowedFrameAncestorDomain($this->request->getServerHost());
 
 		// Needs to include current domain and the Jitsi instance being used
 		$csp->addAllowedFrameDomain('*');
