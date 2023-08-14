@@ -28,17 +28,24 @@ use OC\AppFramework\Http;
 use OCP\AppFramework\Http\ICallbackResponse;
 use OCP\AppFramework\Http\IOutput;
 use OCP\AppFramework\Http\Response;
+use TypeError;
 
 class FileResponse extends Response implements ICallbackResponse {
 	private $data;
 	private $name;
 
 	public function __construct($data, int $length, int $lastModified, string $mimeType, string $name, int $statusCode = Http::STATUS_OK,
-								$headers = []) {
+								array $headers = []) {
 		$this->data = $data;
 		$this->name = $name;
 		$this->setStatus($statusCode);
-		$this->setHeaders(array_merge($this->getHeaders(), $headers));
+
+		try {
+			$this->setHeaders(array_merge($this->getHeaders(), $headers));
+		} catch (TypeError) {
+			$this->setHeaders($headers);
+		}
+
 		$this->addHeader('Content-Length', $length);
 		$this->addHeader('Content-Type', $mimeType);
 
