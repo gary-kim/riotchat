@@ -7,6 +7,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates may also include translation updates.
 
+## [v0.16.1](https://github.com/gary-kim/riotchat/tree/v0.16.1) - 2023-09-23
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.16.0...v0.16.1)
+
+### Changed
+
+- Update to Element Web v1.11.43 [\#538](https://github.com/gary-kim/riotchat/pull/538) ([@gary-kim](https://github.com/gary-kim))
+- Update to Element Web v1.11.39 [\#536](https://github.com/gary-kim/riotchat/pull/536) ([@gary-kim](https://github.com/gary-kim))
+
+### Dependencies
+
+- chore\(deps\): update dependency eslint-config-standard to ^17.1.0 [\#529](https://github.com/gary-kim/riotchat/pull/529) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update dependency eslint to ^8.47.0 [\#528](https://github.com/gary-kim/riotchat/pull/528) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update babel monorepo to ^7.22.10 [\#526](https://github.com/gary-kim/riotchat/pull/526) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update dependency eslint-plugin-vue to ^9.17.0 [\#510](https://github.com/gary-kim/riotchat/pull/510) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- fix\(deps\): update dependency @nextcloud/router to ^2.1.2 [\#509](https://github.com/gary-kim/riotchat/pull/509) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update dependency eslint-plugin-promise to ^6.1.1 [\#502](https://github.com/gary-kim/riotchat/pull/502) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update dependency @nextcloud/browserslist-config to ^2.3.0 [\#501](https://github.com/gary-kim/riotchat/pull/501) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+
 ## [v0.16.0](https://github.com/gary-kim/riotchat/tree/v0.16.0) - 2023-08-14
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.15.2...v0.16.0)
