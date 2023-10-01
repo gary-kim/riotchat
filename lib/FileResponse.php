@@ -42,7 +42,7 @@ class FileResponse extends Response implements ICallbackResponse {
 
 		try {
 			$this->setHeaders(array_merge($this->getHeaders(), $headers));
-		} catch (TypeError) {
+		} catch (TypeError $ex) {
 			$this->setHeaders($headers);
 		}
 
