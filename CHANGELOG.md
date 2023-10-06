@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates may also include translation updates.
 
+## [v0.16.2](https://github.com/gary-kim/riotchat/tree/v0.16.2) - 2023-10-06
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.16.1...v0.16.2)
+
+### Changed
+
+- Update to Element v1.11.45 [\#541](https://github.com/gary-kim/riotchat/pull/541) ([@gary-kim](https://github.com/gary-kim))
+
+### Fixed
+
+- Fix ParseError for Nextcloud 25 [\#539](https://github.com/gary-kim/riotchat/pull/539) ([@robertoszek](https://github.com/robertoszek))
+
 ## [v0.16.1](https://github.com/gary-kim/riotchat/tree/v0.16.1) - 2023-09-23
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.16.0...v0.16.1)
