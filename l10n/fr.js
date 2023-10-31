@@ -13,7 +13,7 @@ OC.L10N.register(
     "Redirect immediately to SSO (requires SSO to be configured on the Matrix Homeserver)" : "Redirection immédiate vers SSO (SSO doit être configuré sur le Homeserver Matrix)",
     "Disable redirect to non-iframed version for SSO (make sure to set the headers to allow the SSO or CAS to be iframed)" : "Désaciver la redirection vers la version sans iframe pour l'authentification unique ( assurez-vous de configurer les en-têtes pour permettre à l'authentification unique, SSO, ou centralisée, CAS, d'être embarquée dans une iframe)",
     "Disable login language selector" : "Désactiver la sélection de la langue à la connexion",
-    "Show labs settings" : "Afficher les réglages expérimentaux",
+    "Show labs settings" : "Afficher les paramètres expérimentaux",
     "Make share room links go to Element for Nextcloud instead of https://matrix.to" : "Faites que les liens des salles pointent vers Element pour NextCloud plutôt que vers https://matrix.to",
     "Set custom permalink to this Element instance" : "Donner un lien personnalisé permanent à cet instance d'Element",
     "Jitsi settings" : "Paramètres Jitsi",
