@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates may also include translation updates.
 
+## [v0.16.4](https://github.com/gary-kim/riotchat/tree/v0.16.4) - 2023-11-24
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.16.3...v0.16.4)
+
+### Changed
+
+- Update to Element Web v1.11.50 [\#547](https://github.com/gary-kim/riotchat/pull/547) ([@gary-kim](https://github.com/gary-kim))
+- Update to Element Web v1.11.47 [\#544](https://github.com/gary-kim/riotchat/pull/544) ([@gary-kim](https://github.com/gary-kim))
+
+### Dependencies
+
+- chore\(deps\): update babel monorepo [\#543](https://github.com/gary-kim/riotchat/pull/543) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update dependency eslint-plugin-import to ^2.29.0 [\#530](https://github.com/gary-kim/riotchat/pull/530) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+
 ## [v0.16.3](https://github.com/gary-kim/riotchat/tree/v0.16.3) - 2023-10-11
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.16.2...v0.16.3)
