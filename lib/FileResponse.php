@@ -35,7 +35,7 @@ class FileResponse extends Response implements ICallbackResponse {
 	private $name;
 
 	public function __construct($data, int $length, int $lastModified, string $mimeType, string $name, int $statusCode = Http::STATUS_OK,
-								array $headers = []) {
+		array $headers = []) {
 		$this->data = $data;
 		$this->name = $name;
 		$this->setStatus($statusCode);
