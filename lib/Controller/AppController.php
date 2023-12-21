@@ -26,15 +26,15 @@ declare(strict_types=1);
 
 namespace OCA\RiotChat\Controller;
 
-use OCA\RiotChat\AppInfo\Application;
-
 use OC\Security\CSP\ContentSecurityPolicy;
+
+use OCA\RiotChat\AppInfo\Application;
+use OCP\AppFramework\Controller;
+use OCP\AppFramework\Http\FeaturePolicy;
+use OCP\AppFramework\Http\TemplateResponse;
 use OCP\IConfig;
 use OCP\IInitialStateService;
 use OCP\IRequest;
-use OCP\AppFramework\Http\FeaturePolicy;
-use OCP\AppFramework\Http\TemplateResponse;
-use OCP\AppFramework\Controller;
 
 class AppController extends Controller {
 
