@@ -7,6 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates may also include translation updates.
 
+## [v0.16.5](https://github.com/gary-kim/riotchat/tree/v0.16.5) - 2023-12-24
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.16.4...v0.16.5)
+
+### Changed
+
+- Update to Element Web v1.11.52 [\#548](https://github.com/gary-kim/riotchat/pull/548) ([@gary-kim](https://github.com/gary-kim))
+
+### Fixed
+
+- Composer update [\#549](https://github.com/gary-kim/riotchat/pull/549) ([@gary-kim](https://github.com/gary-kim))
+
+### Dependencies
+
+- fix\(deps\): update vue monorepo [\#487](https://github.com/gary-kim/riotchat/pull/487) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+
 ## [v0.16.4](https://github.com/gary-kim/riotchat/tree/v0.16.4) - 2023-11-24
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.16.3...v0.16.4)
