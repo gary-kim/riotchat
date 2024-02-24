@@ -29,4 +29,4 @@ OC.L10N.register(
     "Custom config could not be set. Try reloading the page." : "לא ניתן להגדיר תצורה מותאמת אישית. כדאי לנסות לרענן את העמוד.",
     "{settingName} could not be set. Try reloading the page." : "לא ניתן להגדיר את {settingName}. כדאי לנסות לרענן את העמוד."
 },
-"nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;");
+"nplurals=3; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;");
