@@ -36,7 +36,7 @@ make
 
 ### License
 
-Copyright © 2020 Gary Kim &lt;<gary@garykim.dev>&gt;
+Copyright © 2020-2024 Gary Kim &lt;<gary@garykim.dev>&gt;
 
 Licensed under [AGPL-3.0-or-later](LICENSE).
 
