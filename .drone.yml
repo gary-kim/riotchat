@@ -5,13 +5,13 @@ name: test
 
 steps:
   - name: modules
-    image: node:20
+    image: node:21
     commands:
       - npm ci > /dev/null
       - git submodule update --init --recursive
 
   - name: eslint
-    image: node:20
+    image: node:21
     commands:
       - npm run eslint
 
@@ -23,12 +23,12 @@ steps:
       - composer run cs:check
 
   - name: test-js-build
-    image: node:20
+    image: node:21
     commands:
       - NODE_ENV=production npx webpack
 
   - name: test-full-build
-    image: node:20
+    image: node:21
     pull: always
     commands:
       - npm ci > /dev/null
