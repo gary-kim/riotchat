@@ -7,6 +7,28 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates may also include translation updates.
 
+## [v0.16.7](https://github.com/gary-kim/riotchat/tree/v0.16.7) - 2024-03-04
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.16.6...v0.16.7)
+
+### Changed
+
+- Update to Element Web v1.11.59 [\#558](https://github.com/gary-kim/riotchat/pull/558) ([@gary-kim](https://github.com/gary-kim))
+
+### Dependencies
+
+- chore\(deps\): update dependency @nextcloud/browserslist-config to v3 [\#564](https://github.com/gary-kim/riotchat/pull/564) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- fix\(deps\): update dependency @nextcloud/router to ^2.2.1 [\#563](https://github.com/gary-kim/riotchat/pull/563) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- Update to Node 20 [\#562](https://github.com/gary-kim/riotchat/pull/562) ([@gary-kim](https://github.com/gary-kim))
+- chore\(deps\): update dependency webpack to ^5.90.3 [\#561](https://github.com/gary-kim/riotchat/pull/561) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update dependency eslint-plugin-import to ^2.29.1 [\#554](https://github.com/gary-kim/riotchat/pull/554) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update dependency eslint-plugin-vue to ^9.22.0 [\#546](https://github.com/gary-kim/riotchat/pull/546) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- fix\(deps\): update dependency nextcloud/coding-standard to ^1.2.1 [\#535](https://github.com/gary-kim/riotchat/pull/535) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- fix\(deps\): update dependency core-js to ^3.36.0 [\#534](https://github.com/gary-kim/riotchat/pull/534) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- fix\(deps\): update dependency @nextcloud/vue to ^5.4.0 [\#533](https://github.com/gary-kim/riotchat/pull/533) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- fix\(deps\): update dependency @nextcloud/axios to ^1.11.0 [\#531](https://github.com/gary-kim/riotchat/pull/531) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+
+
 ## [v0.16.6](https://github.com/gary-kim/riotchat/tree/v0.16.6) - 2024-02-25
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.16.5...v0.16.6)
