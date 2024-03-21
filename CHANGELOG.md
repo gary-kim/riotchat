@@ -7,6 +7,38 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates may also include translation updates.
 
+## [v0.16.8](https://github.com/gary-kim/riotchat/tree/v0.16.8) - 2024-03-21
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.16.7...v0.16.8)
+
+### Changed
+
+- chore\(deps\): update Element Web to v1.11.61 [\#580](https://github.com/gary-kim/riotchat/pull/580) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update Element Web to v1.11.60 [\#579](https://github.com/gary-kim/riotchat/pull/579) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+
+### Fixed
+
+- Make compatible with @nextcloud/vue update [\#584](https://github.com/gary-kim/riotchat/pull/584) ([@gary-kim](https://github.com/gary-kim))
+
+### Dependencies
+
+- chore\(deps\): update babel monorepo [\#582](https://github.com/gary-kim/riotchat/pull/582) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- fix\(deps\): update dependency @nextcloud/vue to ^8.11.1 [\#577](https://github.com/gary-kim/riotchat/pull/577) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- fix\(deps\): update dependency @nextcloud/vue to ^8.9.1 [\#576](https://github.com/gary-kim/riotchat/pull/576) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- fix\(deps\): update dependency @nextcloud/vue to v8 [\#575](https://github.com/gary-kim/riotchat/pull/575) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- fix\(deps\): update dependency @nextcloud/router to v3 [\#574](https://github.com/gary-kim/riotchat/pull/574) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- fix\(deps\): update dependency @nextcloud/initial-state to v2 [\#573](https://github.com/gary-kim/riotchat/pull/573) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- fix\(deps\): update dependency @nextcloud/axios to v2 [\#571](https://github.com/gary-kim/riotchat/pull/571) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update dependency webpack-cli to v5 [\#569](https://github.com/gary-kim/riotchat/pull/569) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update dependency sass-loader to v14 [\#567](https://github.com/gary-kim/riotchat/pull/567) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update dependency node-sass to v9 [\#566](https://github.com/gary-kim/riotchat/pull/566) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update dependency babel-loader to v9 [\#565](https://github.com/gary-kim/riotchat/pull/565) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update babel monorepo [\#560](https://github.com/gary-kim/riotchat/pull/560) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- fix\(deps\): update vue monorepo to ^2.7.16 [\#555](https://github.com/gary-kim/riotchat/pull/555) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update dependency eslint to ^8.57.0 [\#545](https://github.com/gary-kim/riotchat/pull/545) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- fix\(deps\): update dependency @nextcloud/dialogs to ^3.2.0 [\#532](https://github.com/gary-kim/riotchat/pull/532) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update dependency css-loader to v6 [\#378](https://github.com/gary-kim/riotchat/pull/378) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+
 ## [v0.16.7](https://github.com/gary-kim/riotchat/tree/v0.16.7) - 2024-03-04
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.16.6...v0.16.7)
