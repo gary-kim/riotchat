@@ -24,8 +24,8 @@
 <template>
     <div>
         <template v-if="!customConfigEnabled">
-            <SettingsSection
-                :title="t('riotchat', 'Element common configuration')"
+            <NcSettingsSection
+                :name="t('riotchat', 'Element common configuration')"
                 :description="t('riotchat', 'Here you can configure Element.')"
             >
                 <p
@@ -129,9 +129,9 @@
                         for="set_custom_permalink"
                     >{{ t('riotchat', 'Set custom permalink to this Element instance') }}</label>
                 </div>
-            </SettingsSection>
-            <SettingsSection
-                :title="t('riotchat', 'Jitsi settings')"
+            </NcSettingsSection>
+            <NcSettingsSection
+                :name="t('riotchat', 'Jitsi settings')"
                 :description="t('riotchat', 'Configure the Jitsi instance that Element will connect to.')"
             >
                 <label
@@ -144,9 +144,9 @@
                     type="text"
                     @change="updateSetting('jitsi_preferred_domain')"
                 >
-            </SettingsSection>
-            <SettingsSection
-                :title="t('riotchat', 'Custom integration server')"
+            </NcSettingsSection>
+            <NcSettingsSection
+                :name="t('riotchat', 'Custom integration server')"
                 :description="t('riotchat', 'Configure a custom integration server for Element (leave empty to use Scalar).')"
             >
                 <label
@@ -181,10 +181,10 @@
                     type="text"
                     @change="updateSetting('integrations_widgets_urls')"
                 >
-            </SettingsSection>
+            </NcSettingsSection>
         </template>
-        <SettingsSection
-            :title="t('riotchat', 'Custom Element config')"
+        <NcSettingsSection
+            :name="t('riotchat', 'Custom Element config')"
             :description="t('riotchat', 'Specify a custom configuration for Element.')"
         >
             <input
@@ -210,7 +210,7 @@
                 v-else-if="custom_json_loading"
                 class="icon-loading loading-div"
             />
-        </SettingsSection>
+        </NcSettingsSection>
     </div>
 </template>
 
@@ -219,12 +219,12 @@ import Axios from '@nextcloud/axios';
 import { showError, showSuccess } from '@nextcloud/dialogs';
 import { generateUrl } from '@nextcloud/router';
 import { loadState } from '@nextcloud/initial-state';
-import { SettingsSection, Tooltip } from '@nextcloud/vue';
+import { NcSettingsSection, Tooltip } from '@nextcloud/vue';
 
 export default {
     name: "AdminSettings",
     components: {
-        SettingsSection,
+        NcSettingsSection,
     },
     directives: {
         Tooltip,
