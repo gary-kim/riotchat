@@ -37,7 +37,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-standard": "^5.0.0",
-    "eslint-plugin-vue": "^9.22.0",
+    "eslint-plugin-vue": "^9.24.0",
     "node-sass": "^9.0.0",
     "sass-loader": "^14.1.1",
     "vue-loader": "^15.11.1",
