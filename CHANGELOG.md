@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates may also include translation updates.
 
+## [v0.16.9](https://github.com/gary-kim/riotchat/tree/v0.16.9) - 2024-03-28
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.16.8...v0.16.9)
+
+### Changed
+
+- chore\(deps\): update Element Web to v1.11.63 [\#585](https://github.com/gary-kim/riotchat/pull/585) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+
+### Dependencies
+
+- chore\(deps\): update dependency webpack to ^5.91.0 [\#583](https://github.com/gary-kim/riotchat/pull/583) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- fix\(deps\): update dependency core-js to ^3.36.1 [\#581](https://github.com/gary-kim/riotchat/pull/581) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update dependency eslint-plugin-vue to ^9.24.0 [\#578](https://github.com/gary-kim/riotchat/pull/578) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+
 ## [v0.16.8](https://github.com/gary-kim/riotchat/tree/v0.16.8) - 2024-03-21
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.16.7...v0.16.8)
