@@ -7,6 +7,30 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates may also include translation updates.
 
+## [v0.17.0](https://github.com/gary-kim/riotchat/tree/v0.17.0) - 2024-05-05
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.16.9...v0.17.0)
+
+### Added
+
+- enh: Support Nextcloud 29 and Drop Nextcloud 25 [\#606](https://github.com/gary-kim/riotchat/pull/606) ([@gary-kim](https://github.com/gary-kim))
+
+### Changed
+
+- chore\(deps\): update Element Web to v1.11.65 [\#601](https://github.com/gary-kim/riotchat/pull/601) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update Element Web to v1.11.64 [\#593](https://github.com/gary-kim/riotchat/pull/593) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+
+### Dependencies
+
+- fix\(deps\): update dependency @nextcloud/initial-state to ^2.2.0 [\#603](https://github.com/gary-kim/riotchat/pull/603) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update dependency @nextcloud/browserslist-config to ^3.0.1 [\#600](https://github.com/gary-kim/riotchat/pull/600) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- fix\(deps\): update dependency @nextcloud/router to ^3.0.1 [\#599](https://github.com/gary-kim/riotchat/pull/599) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- fix\(deps\): update dependency @nextcloud/vue to ^8.11.2 [\#594](https://github.com/gary-kim/riotchat/pull/594) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update dependency eslint-plugin-vue to ^9.24.1 [\#592](https://github.com/gary-kim/riotchat/pull/592) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update dependency css-loader to ^6.11.0 [\#588](https://github.com/gary-kim/riotchat/pull/588) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update babel monorepo to ^7.24.4 [\#587](https://github.com/gary-kim/riotchat/pull/587) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- lockfile update [\#586](https://github.com/gary-kim/riotchat/pull/586) ([@gary-kim](https://github.com/gary-kim))
+
 ## [v0.16.9](https://github.com/gary-kim/riotchat/tree/v0.16.9) - 2024-03-28
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.16.8...v0.16.9)
