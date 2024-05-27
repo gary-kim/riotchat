@@ -7,6 +7,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates may also include translation updates.
 
+## [v0.17.2](https://github.com/gary-kim/riotchat/tree/v0.17.2) - 2024-05-27
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.17.1...v0.17.2)
+
+### Changed
+
+- chore: use personal-tools-image for CI [\#614](https://github.com/gary-kim/riotchat/pull/614) ([@gary-kim](https://github.com/gary-kim))
+- chore\(deps\): update Element Web to v1.11.67 [\#610](https://github.com/gary-kim/riotchat/pull/610) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+
+### Dependencies
+
+- chore\(deps\): update dependency eslint-plugin-promise to ^6.2.0 [\#613](https://github.com/gary-kim/riotchat/pull/613) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update babel monorepo to ^7.24.6 [\#612](https://github.com/gary-kim/riotchat/pull/612) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- fix\(deps\): update dependency @nextcloud/vue to ^8.12.0 [\#609](https://github.com/gary-kim/riotchat/pull/609) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update node.js to v22 [\#602](https://github.com/gary-kim/riotchat/pull/602) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update dependency css-loader to v7 [\#589](https://github.com/gary-kim/riotchat/pull/589) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+
 ## [v0.17.1](https://github.com/gary-kim/riotchat/tree/v0.17.1) - 2024-05-15
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.17.0...v0.17.1)
