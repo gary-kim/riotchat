@@ -5,30 +5,30 @@ name: test
 
 steps:
   - name: modules
-    image: node:22
+    image: garykim/personal-tools-image:latest
     commands:
       - npm ci > /dev/null
       - git submodule update --init --recursive
 
   - name: eslint
-    image: node:22
+    image: garykim/personal-tools-image:latest
     commands:
       - npm run eslint
 
   - name: php-lint
-    image: composer:2
+    image: garykim/personal-tools-image:latest
     commands:
       - composer i > /dev/null 2>&1
       - composer run lint
       - composer run cs:check
 
   - name: test-js-build
-    image: node:22
+    image: garykim/personal-tools-image:latest
     commands:
       - NODE_ENV=production npx webpack
 
   - name: test-full-build
-    image: node:22
+    image: garykim/personal-tools-image:latest
     pull: always
     commands:
       - npm ci > /dev/null
@@ -94,6 +94,6 @@ trigger:
     - tag
 ---
 kind: signature
-hmac: 759db0efd3d6ec0b50a05a1e02b3e1881e2594a6d28f0fcc07d4b06a761bb80e
+hmac: d5d20558ab6be286b3df9b94b79974d13cedae7e105c36b5201d313eb69d11a8
 
 ...
