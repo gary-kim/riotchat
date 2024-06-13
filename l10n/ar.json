@@ -1,7 +1,7 @@
 { "translations": {
-    "Element" : "تطبيق Element",
-    "Element for Nextcloud" : "تطبيق إليمنت فور نكست كلود \"Element for Nextcloud\"",
-    "Element Web integrated into Nextcloud" : "مصفوفة Element Web متكاملة مع نكست كلود",
+    "Element" : "تطبيق إليمنت Element",
+    "Element for Nextcloud" : "تطبيق إليمنت لنكست كلاود \"Element for Nextcloud\"",
+    "Element Web integrated into Nextcloud" : "إليمنت وب Element Web متكاملة مع نكست كلاود",
     "Element for Nextcloud allows you to install Element Web easily through Nextcloud and join the Matrix decentralized communication network.\n\nThis app does not include a Matrix server, only the client. You will have to either set up your own Matrix homeserver, rent one, or use a public one.\n\nThis project is not affiliated, associated, authorized, endorsed by, or in any way officially connected with Element or the Element project, or any of its subsidiaries or its affiliates.\n\nThe name Element as well as related names, marks, emblems and images are registered trademarks of their respective owners.\n\nThe upstream project can be found at [https://github.com/vector-im/element-web](https://github.com/vector-im/element-web)." : "يتيح لك تطبيق Element for Nextcloud تثبيت مصفوفة Element Web بسهولة من خلال نكست كلود والانضمام إلى شبكة الاتصالات اللامركزية Matrix. \n\nلا يتضمن هذا التطبيق خادم ماتركيس، بل خادم العميل فقط. سيتعين عليك إما إعداد خادم Matrix المنزلي الخاص بك أو استئجار خادم أو استخدام خادم عام. \n\nهذا المشروع ليس تابعًا أو مرتبطًا أو مصرحًا به أو معتمدًا أو مرتبطًا رسميًا بأي شكل من الأشكال بتطبيق Element أو مشروع Element، أو أي من الشركات التابعة أو الشركات المنتسبة لها. \n\nكما أن اسم Element وكذلك الأسماء والعلامات والشعارات والصور ذات الصلة هي علامات تتجارية مسجلة لأصحابها. \n\nيمكن العثور على مشروع  upstream على [https://github.com/vector-im/element-web](https://github.com/vector-im/element-web)",
     "Element common configuration" : "التهيئة الشائعة لتطبيق Element",
     "Here you can configure Element." : "هنا يمكنك تهيئة تطبيق Element.",
