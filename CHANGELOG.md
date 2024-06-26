@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates may also include translation updates.
 
+## [v0.17.4](https://github.com/gary-kim/riotchat/tree/v0.17.4) - 2024-06-26
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.17.3...v0.17.4)
+
+### Changed
+
+- chore\(deps\): update Element Web to v1.11.69 [\#619](https://github.com/gary-kim/riotchat/pull/619) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+
+### Dependencies
+
+- chore\(deps\): update dependency webpack to ^5.92.1 [\#620](https://github.com/gary-kim/riotchat/pull/620) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update dependency webpack to ^5.92.0 [\#618](https://github.com/gary-kim/riotchat/pull/618) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+
 ## [v0.17.3](https://github.com/gary-kim/riotchat/tree/v0.17.3) - 2024-06-06
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.17.2...v0.17.3)
