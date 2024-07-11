@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates may also include translation updates.
 
+## [v0.17.5](https://github.com/gary-kim/riotchat/tree/v0.17.5) - 2024-07-11
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.17.4...v0.17.5)
+
+### Changed
+
+- chore\(deps\): update Element Web to v1.11.70 [\#624](https://github.com/gary-kim/riotchat/pull/624) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+
+### Dependencies
+
+- chore\(deps\): update dependency eslint-plugin-vue to ^9.27.0 [\#623](https://github.com/gary-kim/riotchat/pull/623) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update dependency eslint-plugin-promise to ^6.4.0 [\#622](https://github.com/gary-kim/riotchat/pull/622) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- fix\(deps\): update dependency @nextcloud/vue to ^8.14.0 [\#621](https://github.com/gary-kim/riotchat/pull/621) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+
 ## [v0.17.4](https://github.com/gary-kim/riotchat/tree/v0.17.4) - 2024-06-26
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.17.3...v0.17.4)
