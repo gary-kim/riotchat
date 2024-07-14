@@ -13,7 +13,7 @@
     "Disable login language selector" : "Desactivar o selector de idioma de acceso",
     "Show labs settings" : "Amosar os axustes de laboratorios",
     "Make share room links go to Element for Nextcloud instead of https://matrix.to" : "Facer que as ligazóns para compartir compartimentos vaian a Element for Nextcloud no canto de https://matrix.to",
-    "Set custom permalink to this Element instance" : "Estabelecer unha ligazón permanente personalizada a esta instancia de Element",
+    "Set custom permalink to this Element instance" : "Definir unha ligazón permanente personalizada a esta instancia de Element",
     "Jitsi settings" : "Axustes do Jitsi",
     "Configure the Jitsi instance that Element will connect to." : "Configure a instancia de Jitsi á que se conectará Element.",
     "Custom Jitsi instance (leave blank to use default Element Jitsi server):" : "Instancia personalizada de Jitsi (deixe en branco o uso do servidor Element Jitsi predeterminado):",
@@ -28,9 +28,9 @@
     "These are experimental features in Element that you can enable. For information on what each feature is, check out the documentation for it {linkstart}here{linkend}." : "Estas son funcións experimentais no Element que pode activar. Para obter información sobre que é cada función, consulte a documentación da mesma {linkstart}aquí{linkend}.",
     "This version of Element for Nextcloud is based on Element Web {riotWebVersion}. Check out the source code for Element Web {linkstart}here{linkend}." : "Esta versión de Element para Nextcloud está baseada no ElementWeb {riotWebVersion}. Consulte o código fonte do Element Web {linkstart}aquí{linkend}.",
     "Experimental feature {feature}" : "Función experimental {feature}",
-    "Custom config has been set" : "Estabeleceuse  a configuración personalizada",
+    "Custom config has been set" : "Definiuse a configuración personalizada",
     "{settingName} has been set to {value}" : "{settingName} foi estabelecido a {value}",
-    "Custom config could not be set. Try reloading the page." : "Non foi posíbel estabelecer a configuración personalizada. Probe a cargar de novo a páxina.",
-    "{settingName} could not be set. Try reloading the page." : "Non foi posíbel estabelecer {settingName}. Probe a cargar de novo a páxina."
+    "Custom config could not be set. Try reloading the page." : "Non foi posíbel definir a configuración personalizada. Probe a cargar de novo a páxina.",
+    "{settingName} could not be set. Try reloading the page." : "Non foi posíbel definir {settingName}. Probe a cargar de novo a páxina."
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }
