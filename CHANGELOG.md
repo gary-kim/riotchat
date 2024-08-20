@@ -7,6 +7,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates may also include translation updates.
 
+## [v0.18.0](https://github.com/gary-kim/riotchat/tree/v0.18.0) - 2024-08-20
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.17.6...v0.18.0)
+
+### Added
+
+- Add Nextcloud 30 support [\#634](https://github.com/gary-kim/riotchat/pull/634) ([@gary-kim](https://github.com/gary-kim))
+
+### Changed
+
+- chore\(deps\): update Element Web to  v1.11.74 [\#635](https://github.com/gary-kim/riotchat/pull/635) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+
+### Dependencies
+
+- fix\(deps\): update dependency core-js to ^3.38.0 [\#636](https://github.com/gary-kim/riotchat/pull/636) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update babel monorepo [\#632](https://github.com/gary-kim/riotchat/pull/632) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+
 ## [v0.17.6](https://github.com/gary-kim/riotchat/tree/v0.17.6) - 2024-07-18
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.17.5...v0.17.6)
