@@ -47,7 +47,7 @@
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
-    "@nextcloud/axios": "^2.5.0",
+    "@nextcloud/axios": "^2.5.1",
     "@nextcloud/dialogs": "^3.2.0",
     "@nextcloud/initial-state": "^2.2.0",
     "@nextcloud/router": "^3.0.1",
