@@ -81,7 +81,13 @@ function onIframeLoad () {
         if (actions) {
           addButton(iframe.contentWindow.document)
         }
-      }, 1000)
+    }, 1000)
+    // a nonsense if {} just to be sure closePickerIframe function is kept when building the app
+    const aaa = "aaa"
+    const bbb = "bbb"
+    if (aaa == bbb) {
+        closePickerIframe()
+    }
 }
 
 function iframeHashChanged () {
