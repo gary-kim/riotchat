@@ -5,7 +5,7 @@ const webpack = require('webpack');
 
 const RIOT_WEB_VERSION = execSync('git describe --abbrev=0 --tags', { cwd: path.resolve(__dirname, './3rdparty/riot-web') }).toString();
 const RIOT_WEB_HASH = execSync(`git rev-parse -- ${RIOT_WEB_VERSION}`, { cwd: path.resolve(__dirname, './3rdparty/riot-web') }).toString();
-
+const TerserPlugin = require('terser-webpack-plugin');
 
 module.exports = {
     entry: {
