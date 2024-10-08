@@ -19,6 +19,17 @@ module.exports = {
     },
     devtool: 'source-map',
     mode: process.env.NODE_ENV === 'production' ? 'production' : 'development',
+    optimization: {
+        minimize: true,
+        minimizer: [
+            new TerserPlugin({
+                terserOptions: {
+                    keep_classnames: true,
+                    keep_fnames: true
+                }
+              })
+            ]
+      },
     module: {
         rules: [
             {
