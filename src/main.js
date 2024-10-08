@@ -83,9 +83,7 @@ function onIframeLoad () {
         }
     }, 1000)
     // a nonsense if {} just to be sure closePickerIframe function is kept when building the app
-    const aaa = "aaa"
-    const bbb = "bbb"
-    if (aaa == bbb) {
+    if (iframe.contentWindow.location.hash === "aaaaaaaaaaaaa") {
         closePickerIframe()
     }
 }
