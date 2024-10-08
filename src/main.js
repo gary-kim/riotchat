@@ -82,10 +82,6 @@ function onIframeLoad () {
           addButton(iframe.contentWindow.document)
         }
     }, 1000)
-    // a nonsense if {} just to be sure closePickerIframe function is kept when building the app
-    if (iframe.contentWindow.location.hash === "aaaaaaaaaaaaa") {
-        closePickerIframe()
-    }
 }
 
 function iframeHashChanged () {
@@ -171,3 +167,6 @@ function closePickerIframe() {
     const pickerFrame = document.getElementById('pickerFrame');
     document.body.removeChild(pickerFrame); // Remove the iframe
 }
+
+// To keep the function closePickerIframe when building
+window.closePickerIframe = closePickerIframe;
