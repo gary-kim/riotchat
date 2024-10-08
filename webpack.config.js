@@ -27,9 +27,9 @@ module.exports = {
                     keep_classnames: true,
                     keep_fnames: true
                 }
-              })
-            ]
-      },
+            })
+        ]
+    },
     module: {
         rules: [
             {
