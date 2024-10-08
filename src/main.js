@@ -168,6 +168,7 @@ function addButton(iframeDocument) {
         }
     }, 100);
 }
+
 function closePickerIframe() {
     const pickerFrame = document.getElementById('pickerFrame');
     document.body.removeChild(pickerFrame); // Remove the iframe
