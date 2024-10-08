@@ -28,7 +28,7 @@ module.exports = {
                         reserved: ['closePickerIframe'],
                         keep_fnames: true,
                     },
-                    dead_code: false,
+                    unused: false,
                     keep_fnames: true,
                 },
             }),
