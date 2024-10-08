@@ -26,7 +26,10 @@ module.exports = {
                 terserOptions: {
                     mangle: {
                         reserved: ['closePickerIframe'],
+                        keep_fnames: true,
                     },
+                    dead_code: false,
+                    keep_fnames: true,
                 },
             }),
         ],
