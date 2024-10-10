@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates may also include translation updates.
 
+## [v0.18.2](https://github.com/gary-kim/riotchat/tree/v0.18.2) - 2024-10-10
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.18.1...v0.18.2)
+
+### Changed
+
+- chore\(deps\): update Element Web to v1.11.80 [\#653](https://github.com/gary-kim/riotchat/pull/653) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- enh: drop Nextcloud 27 support [\#650](https://github.com/gary-kim/riotchat/pull/650) ([@gary-kim](https://github.com/gary-kim))
+
+### Dependencies
+
+- chore\(deps\): update dependency eslint-plugin-vue to ^9.28.0 [\#651](https://github.com/gary-kim/riotchat/pull/651) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update dependency babel-loader to ^9.2.1 [\#649](https://github.com/gary-kim/riotchat/pull/649) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+
 ## [v0.18.1](https://github.com/gary-kim/riotchat/tree/v0.18.1) - 2024-09-24
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.18.0...v0.18.1)
