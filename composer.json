@@ -2,7 +2,7 @@
     "name": "gary-kim/riotchat",
     "type": "project",
     "require": {
-        "nextcloud/coding-standard": "^1.2.1"
+        "nextcloud/coding-standard": "^1.3.2"
     },
     "license": "AGPL-3.0-or-later",
     "authors": [
