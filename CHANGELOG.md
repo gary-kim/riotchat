@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates may also include translation updates.
 
+## [v0.18.3](https://github.com/gary-kim/riotchat/tree/v0.18.3) - 2024-11-02
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.18.2...v0.18.3)
+
+### Changed
+
+- chore\(deps\): update Element Web to v1.11.83 [\#657](https://github.com/gary-kim/riotchat/pull/657) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+
+### Dependencies
+
+- chore\(deps\): update dependency eslint-plugin-import to ^2.31.0 [\#655](https://github.com/gary-kim/riotchat/pull/655) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- fix\(deps\): update dependency @nextcloud/axios to ^2.5.1 [\#648](https://github.com/gary-kim/riotchat/pull/648) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update dependency eslint-plugin-promise to ^6.6.0 [\#628](https://github.com/gary-kim/riotchat/pull/628) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+
 ## [v0.18.2](https://github.com/gary-kim/riotchat/tree/v0.18.2) - 2024-10-10
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.18.1...v0.18.2)
