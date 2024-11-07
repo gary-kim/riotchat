@@ -7,6 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates may also include translation updates.
 
+## [v0.18.4](https://github.com/gary-kim/riotchat/tree/v0.18.4) - 2024-11-07
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.18.3...v0.18.4)
+
+### Changed
+
+- chore\(deps\): update Element Web to v1.11.84 [\#662](https://github.com/gary-kim/riotchat/pull/662) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+
+### Dependencies
+
+- fix\(deps\): update dependency core-js to ^3.39.0 [\#660](https://github.com/gary-kim/riotchat/pull/660) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update dependency webpack to ^5.96.1 [\#659](https://github.com/gary-kim/riotchat/pull/659) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update dependency eslint-plugin-vue to ^9.30.0 [\#658](https://github.com/gary-kim/riotchat/pull/658) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update babel monorepo [\#654](https://github.com/gary-kim/riotchat/pull/654) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+
 ## [v0.18.3](https://github.com/gary-kim/riotchat/tree/v0.18.3) - 2024-11-02
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.18.2...v0.18.3)
