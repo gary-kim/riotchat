@@ -7,6 +7,49 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates may also include translation updates.
 
+## [v0.18.4](https://github.com/gary-kim/riotchat/tree/v0.18.4) - 2024-11-07
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.18.3...v0.18.4)
+
+### Changed
+
+- chore\(deps\): update Element Web to v1.11.84 [\#662](https://github.com/gary-kim/riotchat/pull/662) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+
+### Dependencies
+
+- fix\(deps\): update dependency core-js to ^3.39.0 [\#660](https://github.com/gary-kim/riotchat/pull/660) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update dependency webpack to ^5.96.1 [\#659](https://github.com/gary-kim/riotchat/pull/659) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update dependency eslint-plugin-vue to ^9.30.0 [\#658](https://github.com/gary-kim/riotchat/pull/658) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update babel monorepo [\#654](https://github.com/gary-kim/riotchat/pull/654) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+
+## [v0.18.3](https://github.com/gary-kim/riotchat/tree/v0.18.3) - 2024-11-02
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.18.2...v0.18.3)
+
+### Changed
+
+- chore\(deps\): update Element Web to v1.11.83 [\#657](https://github.com/gary-kim/riotchat/pull/657) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+
+### Dependencies
+
+- chore\(deps\): update dependency eslint-plugin-import to ^2.31.0 [\#655](https://github.com/gary-kim/riotchat/pull/655) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- fix\(deps\): update dependency @nextcloud/axios to ^2.5.1 [\#648](https://github.com/gary-kim/riotchat/pull/648) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update dependency eslint-plugin-promise to ^6.6.0 [\#628](https://github.com/gary-kim/riotchat/pull/628) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+
+## [v0.18.2](https://github.com/gary-kim/riotchat/tree/v0.18.2) - 2024-10-10
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.18.1...v0.18.2)
+
+### Changed
+
+- chore\(deps\): update Element Web to v1.11.80 [\#653](https://github.com/gary-kim/riotchat/pull/653) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- enh: drop Nextcloud 27 support [\#650](https://github.com/gary-kim/riotchat/pull/650) ([@gary-kim](https://github.com/gary-kim))
+
+### Dependencies
+
+- chore\(deps\): update dependency eslint-plugin-vue to ^9.28.0 [\#651](https://github.com/gary-kim/riotchat/pull/651) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update dependency babel-loader to ^9.2.1 [\#649](https://github.com/gary-kim/riotchat/pull/649) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+
 ## [v0.18.1](https://github.com/gary-kim/riotchat/tree/v0.18.1) - 2024-09-24
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.18.0...v0.18.1)

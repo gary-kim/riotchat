@@ -12,7 +12,7 @@
     "Disable redirect to non-iframed version for SSO (make sure to set the headers to allow the SSO or CAS to be iframed)" : "Desactivar a redirección á versión «non-iframed» para SSO (asegúrese de configurar as cabeceiras para permitir que a SSO ou a CAS sexan «iframed»)",
     "Disable login language selector" : "Desactivar o selector de idioma de acceso",
     "Show labs settings" : "Amosar os axustes de laboratorios",
-    "Make share room links go to Element for Nextcloud instead of https://matrix.to" : "Facer que as ligazóns para compartir compartimentos vaian a Element for Nextcloud no canto de https://matrix.to",
+    "Make share room links go to Element for Nextcloud instead of https://matrix.to" : "Facer que as ligazóns para compartir compartimentos vaian a Element for Nextcloud en troques de https://matrix.to",
     "Set custom permalink to this Element instance" : "Definir unha ligazón permanente personalizada a esta instancia de Element",
     "Jitsi settings" : "Axustes do Jitsi",
     "Configure the Jitsi instance that Element will connect to." : "Configure a instancia de Jitsi á que se conectará Element.",
