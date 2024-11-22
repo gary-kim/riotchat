@@ -4,7 +4,8 @@ source_build_directory=$(CURDIR)/build/artifacts/source
 source_package_name=$(source_build_directory)/$(app_name)
 appstore_build_directory=$(CURDIR)/build/artifacts/appstore
 appstore_package_name=$(appstore_build_directory)/$(app_name)
-npm=$(shell which npm 2> /dev/null)
+npm?=$(shell which npm 2> /dev/null)
+node?=$(shell which node 2> /dev/null)
 SHELL = /bin/bash
 
 all: dev-setup build
