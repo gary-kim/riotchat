@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates may also include translation updates.
 
+## [v0.18.5](https://github.com/gary-kim/riotchat/tree/v0.18.5) - 2024-11-24
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.18.4...v0.18.5)
+
+### Changed
+
+- enh: switch to sass [\#666](https://github.com/gary-kim/riotchat/pull/666) ([@gary-kim](https://github.com/gary-kim))
+- chore\(deps\): update Element Web to v1.11.86 [\#664](https://github.com/gary-kim/riotchat/pull/664) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+
 ## [v0.18.4](https://github.com/gary-kim/riotchat/tree/v0.18.4) - 2024-11-07
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.18.3...v0.18.4)
