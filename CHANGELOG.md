@@ -7,6 +7,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates may also include translation updates.
 
+## [v0.18.6](https://github.com/gary-kim/riotchat/tree/v0.18.6) - 2024-12-13
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.18.5...v0.18.6)
+
+### Changed
+
+- Update to Element Web v1.11.87 [\#672](https://github.com/gary-kim/riotchat/pull/672) ([@gary-kim](https://github.com/gary-kim))
+
+### Fixed
+
+- Revert PR \#668 [\#676](https://github.com/gary-kim/riotchat/pull/676) ([@gary-kim](https://github.com/gary-kim))
+
+### Dependencies
+
+- chore\(deps\): update dependency webpack to ^5.97.1 [\#673](https://github.com/gary-kim/riotchat/pull/673) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): replace dependency eslint-plugin-node with eslint-plugin-n ^14.0.0 [\#668](https://github.com/gary-kim/riotchat/pull/668) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- fix\(deps\): update dependency nextcloud/coding-standard to ^1.3.2 [\#643](https://github.com/gary-kim/riotchat/pull/643) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+
 ## [v0.18.5](https://github.com/gary-kim/riotchat/tree/v0.18.5) - 2024-11-24
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.18.4...v0.18.5)
