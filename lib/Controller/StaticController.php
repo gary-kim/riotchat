@@ -67,7 +67,7 @@ class StaticController extends Controller {
 		IMimeTypeDetector $mimeTypeHelper,
 		ContentSecurityPolicyNonceManager $nonceManager,
 		IL10N $l10n,
-		IConfig $config
+		IConfig $config,
 	) {
 		parent::__construct($appName, $request);
 
@@ -82,7 +82,7 @@ class StaticController extends Controller {
 	 * @NoAdminRequired
 	 */
 	public function index() {
-		return $this->riot("index.html");
+		return $this->riot('index.html');
 	}
 
 	/**
@@ -115,7 +115,7 @@ class StaticController extends Controller {
 	 * @return FileResponse
 	 */
 	public function usercontent(string $version) {
-		return $this->riot("bundles/" . $version . "/usercontent.js");
+		return $this->riot('bundles/' . $version . '/usercontent.js');
 	}
 
 	/**
@@ -124,8 +124,8 @@ class StaticController extends Controller {
 	 */
 	private function createFileResponse($path) {
 		// Maybe need to send an index.html file
-		if (substr($path, -1) === "/") {
-			return $this->createFileResponse($path . "index.html");
+		if (substr($path, -1) === '/') {
+			return $this->createFileResponse($path . 'index.html');
 		}
 
 		if (!file_exists($path)) {
