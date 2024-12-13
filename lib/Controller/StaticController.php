@@ -4,6 +4,7 @@ declare(strict_types=1);
 /**
  * @copyright Copyright (c) 2020-2021 Gary Kim <gary@garykim.dev>
  * @copyright Copyright (c) 2019 Robin Appelman <robin@icewind.nl>
+ * @copyright Copyright (c) 2024 Vincent Siebert <vincent@siebert.ovh>
  *
  * @author 2020 Gary Kim <gary@garykim.dev>
  *
@@ -181,6 +182,7 @@ class StaticController extends Controller {
 		$csp->addAllowedObjectDomain('*');
 		$csp->addAllowedFrameDomain('blob: ');
 		$csp->addAllowedFrameAncestorDomain($this->request->getServerHost());
+		$csp->addAllowedWorkerSrcDomain($this->request->getServerHost());
 
 		// Needs to include current domain and the Jitsi instance being used
 		$csp->addAllowedFrameDomain('*');
