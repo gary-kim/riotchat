@@ -51,7 +51,7 @@ class SettingsController extends Controller {
 	public function setSetting(string $key, string $value): JSONResponse {
 		$labSettingNames = [];
 		foreach (Application::AvailableLabs() as $k) {
-			$labSettingNames[] = "lab_" . $k;
+			$labSettingNames[] = 'lab_' . $k;
 		}
 		if (!array_key_exists($key, Application::AvailableSettings) && !in_array($key, $labSettingNames)) {
 			return new JSONResponse([
