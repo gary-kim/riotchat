@@ -26,10 +26,10 @@
     "Specify a custom configuration for Element." : "ئېلېمېنتنىڭ ئىختىيارى سەپلىمىسىنى بەلگىلەڭ.",
     "Use a custom configuration" : "ئىختىيارى سەپلىمىنى ئىشلىتىڭ",
     "These are experimental features in Element that you can enable. For information on what each feature is, check out the documentation for it {linkstart}here{linkend}." : "بۇلار سىز قوزغىتالايدىغان ئېلېمېنتتىكى تەجرىبە ئىقتىدارلىرى. ھەر بىر ئىقتىدارنىڭ نېمە ئىكەنلىكى توغرىسىدىكى ئۇچۇرلارنى بۇ يەردىن {linkstart} دىن {linkend} دىن كۆرۈڭ.",
-    "This version of Element for Nextcloud is based on Element Web {riotWebVersion}. Check out the source code for Element Web {linkstart}here{linkend}." : "Nextcloud نىڭ بۇ نەشرى Element Web {riotWebVersion on نى ئاساس قىلغان. بۇ يەردىكى {linkend Element Element Web {linkstart} نىڭ ئەسلى كودىنى تەكشۈرۈپ بېقىڭ.",
-    "Experimental feature {feature}" : "تەجرىبە ئالاھىدىلىكى {ئىقتىدار}",
+    "This version of Element for Nextcloud is based on Element Web {riotWebVersion}. Check out the source code for Element Web {linkstart}here{linkend}." : "Nextcloud نىڭ بۇ نەشرى Element Web {riotWebVersion} on نى ئاساس قىلغان. بۇ يەردىكى {linkend} Element Element Web {linkstart} نىڭ ئەسلى كودىنى تەكشۈرۈپ بېقىڭ.",
+    "Experimental feature {feature}" : "تەجرىبە ئالاھىدىلىكى {feature}",
     "Custom config has been set" : "ئىختىيارى تەڭشەش تەڭشەلدى",
-    "{settingName} has been set to {value}" : "{settingName} {قىممەت قىلىپ تەڭشەلدى",
+    "{settingName} has been set to {value}" : "{settingName} {value} قىلىپ تەڭشەلدى",
     "Custom config could not be set. Try reloading the page." : "Custom config نى تەڭشىگىلى بولمايدۇ. بەتنى قايتا يۈكلەپ سىناپ بېقىڭ.",
     "{settingName} could not be set. Try reloading the page." : "{settingName} نى تەڭشىگىلى بولمىدى. بەتنى قايتا يۈكلەپ سىناپ بېقىڭ."
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
