@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates may also include translation updates.
 
+## [v0.18.7](https://github.com/gary-kim/riotchat/tree/v0.18.7) - 2024-12-17
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.18.6...v0.18.7)
+
+### Fixed
+
+- fix: worker CSP issue [\#678](https://github.com/gary-kim/riotchat/pull/678) ([@koanya](https://github.com/koanya))
+
 ## [v0.18.6](https://github.com/gary-kim/riotchat/tree/v0.18.6) - 2024-12-13
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.18.5...v0.18.6)
