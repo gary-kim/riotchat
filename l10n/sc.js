@@ -27,7 +27,7 @@ OC.L10N.register(
     "Specify a custom configuration for Element." : "Ispetzìfica una cunfiguratzione personalizada pro Element.",
     "Use a custom configuration" : "Imprea una cunfiguratzione personalizada",
     "These are experimental features in Element that you can enable. For information on what each feature is, check out the documentation for it {linkstart}here{linkend}." : "Custas sunt funtzionalidades isperimentales in Element chi podes ativare. Pro informatziones in contu de is sìngulas funtzionalidades, controlla sa documentatzione {linkstart}qui{linkend}.",
-    "This version of Element for Nextcloud is based on Element Web {riotWebVersion}. Check out the source code for Element Web {linkstart}here{linkend}." : "Custa versione de Element pro Nextcloud est basada subra de Element Web {riotWebVersion}. Controlla su còdighe sorgente pro Element Web {linkstart}qui{linkend}.",
+    "This version of Element for Nextcloud is based on Element Web {riotWebVersion}. Check out the source code for Element Web {linkstart}here{linkend}." : "Custa versione de Element pro Nextcloud est basada subra de Element Web {riotWebVersion}. Controlla su còdighe de orìgine pro Element Web {linkstart}inoghe{linkend}.",
     "Experimental feature {feature}" : "Funtzionalidade isperimentale {feature}",
     "Custom config has been set" : "Sa cunfiguratzione personalizada est istada sarvada",
     "{settingName} has been set to {value}" : "{settingName} est istadu cunfiguradu comente {value}",

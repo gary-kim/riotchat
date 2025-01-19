@@ -102,11 +102,11 @@ class ConfigController extends Controller {
 		];
 
 		if ($this->config->getAppValue(Application::APP_ID, 'set_custom_permalink', Application::AvailableSettings['set_custom_permalink']) === 'true') {
-			$config['permalinkPrefix'] = rtrim($this->urlGenerator->linkToRouteAbsolute("riotchat.app.index"), "/");
+			$config['permalinkPrefix'] = rtrim($this->urlGenerator->linkToRouteAbsolute('riotchat.app.index'), '/');
 		}
 
 		$jitsi_domain = $this->config->getAppValue(Application::APP_ID, 'jitsi_preferred_domain', Application::AvailableSettings['jitsi_preferred_domain']);
-		if ($jitsi_domain !== "") {
+		if ($jitsi_domain !== '') {
 			$config['jitsi'] = [
 				'preferredDomain' => $jitsi_domain,
 			];
