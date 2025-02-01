@@ -38,6 +38,15 @@ module.exports = {
                 loader: 'babel-loader',
                 exclude: /node_modules/
             },
+			{
+				test: /\.pcss$/, 
+				use: ['style-loader', 'css-loader', 'postcss-loader'],
+			},
+			{
+				test: /\.tsx?$/,
+				use: 'ts-loader',
+				exclude: /node_modules/,
+			}
         ],
     },
     plugins: [
@@ -46,8 +55,16 @@ module.exports = {
             RIOT_WEB_HASH: JSON.stringify(RIOT_WEB_HASH),
             RIOT_WEB_VERSION: JSON.stringify(RIOT_WEB_VERSION),
         }),
+		new webpack.NormalModuleReplacementPlugin(
+            /_MessageComposer\.pcss$/,
+            path.resolve(__dirname, 'css/_MessageComposer.pcss')
+          ),
+          new webpack.NormalModuleReplacementPlugin(
+            /MessageComposerButtons\.tsx$/,
+            path.resolve(__dirname, 'src/MessageComposerButtons.tsx')
+          )
     ],
     resolve: {
-        extensions: ['.js', '.vue'],
+        extensions: ['.tsx', '.js', '.vue', '.pcss'],
     },
 };
