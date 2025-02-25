@@ -52,7 +52,7 @@
     "@nextcloud/router": "^3.0.1",
     "@nextcloud/vue": "^8.14.0",
     "core-js": "^3.39.0",
-    "sass": "^1.81.0",
+    "sass": "^1.85.1",
     "vue": "^2.7.16"
   },
   "browserslist": [
