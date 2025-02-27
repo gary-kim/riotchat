@@ -5,6 +5,11 @@ OC.L10N.register(
     "Element for Nextcloud" : "Element a Nextcloudhoz",
     "Element Web integrated into Nextcloud" : "Element Web a Nextcloudba integrálva",
     "Element for Nextcloud allows you to install Element Web easily through Nextcloud and join the Matrix decentralized communication network.\n\nThis app does not include a Matrix server, only the client. You will have to either set up your own Matrix homeserver, rent one, or use a public one.\n\nThis project is not affiliated, associated, authorized, endorsed by, or in any way officially connected with Element or the Element project, or any of its subsidiaries or its affiliates.\n\nThe name Element as well as related names, marks, emblems and images are registered trademarks of their respective owners.\n\nThe upstream project can be found at [https://github.com/vector-im/element-web](https://github.com/vector-im/element-web)." : "Az Element a Nextcloudhoz lehetővé teszi az Element Web egyszerű telepítését a Nextcloudon keresztül, és a csatlakozást a Matrix decentralizált kommunikációs hálózathoz.\n\nEz az alkalmazás nem tartalmaz Matrix-kiszolgálót, csak a klienst. Vagy be kell állítania saját Matrix-kiszolgálót, bérelnie egyet vagy egy nyilvánosat használnia.\n\nEz a projekt nem áll kapcsolatban, nincs engedélyezve vagy jóváhagyva, illetve semmilyen hivatalos módon sem kapcsolódik az Elementhez vagy az Element projekthez, vagy annak leányvállalatához.\n\nAz Element név, valamint a kapcsolódó nevek, védjegyek, emblémák és képek a tulajdonosok bejegyzett védjegyei.\n\nAz upstream projekt megtalálható a [https://github.com/vector-im/element-web](https://github.com/vector-im/element-web) címen.",
+    "These are experimental features in Element that you can enable. For information on what each feature is, check out the documentation for it {linkstart}here{linkend}." : "Ezek az Elementben engedélyezhető kísérleti funkciók. Az egyes funkciók információiért nézze meg a dokumentációt {linkstart}itt{linkend}.",
+    "Custom config has been set" : "Egyéni konfiguráció beállítva",
+    "{settingName} has been set to {value}" : "{settingName} beállítva erre: {value}",
+    "Custom config could not be set. Try reloading the page." : "Az egyéni konfigurációt nem sikerült beállítani. Próbálja újratölteni az oldalt.",
+    "{settingName} could not be set. Try reloading the page." : "A(z) {settingName} nem állítható be. Próbálja újratölteni az oldalt.",
     "Element common configuration" : "Általános Element beállítások",
     "Here you can configure Element." : "Itt konfigurálhatja az Elementet.",
     "Default server URL:" : "Alapértelmezett kiszolgáló URL:",
@@ -26,13 +31,6 @@ OC.L10N.register(
     "Integration widgets URL:" : "Integrációs felületi elemek URL-je:",
     "Custom Element config" : "Egyéni Element konfiguráció",
     "Specify a custom configuration for Element." : "Adjon meg egyedi konfigurációt az Element számára.",
-    "Use a custom configuration" : "Egyéni konfiguráció használata",
-    "These are experimental features in Element that you can enable. For information on what each feature is, check out the documentation for it {linkstart}here{linkend}." : "Ezek az Elementben engedélyezhető kísérleti funkciók. Az egyes funkciók információiért nézze meg a dokumentációt {linkstart}itt{linkend}.",
-    "This version of Element for Nextcloud is based on Element Web {riotWebVersion}. Check out the source code for Element Web {linkstart}here{linkend}." : "A Riot csevegő nextcloudos verziója az Element Web {riotWebVersion} alapjaira épül. Nézze meg az Element Web forráskódját {linkstart}itt{linkend}.",
-    "Experimental feature {feature}" : "„{feature}” kísérleti funkció",
-    "Custom config has been set" : "Egyéni konfiguráció beállítva",
-    "{settingName} has been set to {value}" : "{settingName} beállítva erre: {value}",
-    "Custom config could not be set. Try reloading the page." : "Az egyéni konfigurációt nem sikerült beállítani. Próbálja újratölteni az oldalt.",
-    "{settingName} could not be set. Try reloading the page." : "A(z) {settingName} nem állítható be. Próbálja újratölteni az oldalt."
+    "Use a custom configuration" : "Egyéni konfiguráció használata"
 },
 "nplurals=2; plural=(n != 1);");

@@ -3,6 +3,11 @@
     "Element for Nextcloud" : "Element per Nextcloud",
     "Element Web integrated into Nextcloud" : "Element Web integrat en Nextcloud",
     "Element for Nextcloud allows you to install Element Web easily through Nextcloud and join the Matrix decentralized communication network.\n\nThis app does not include a Matrix server, only the client. You will have to either set up your own Matrix homeserver, rent one, or use a public one.\n\nThis project is not affiliated, associated, authorized, endorsed by, or in any way officially connected with Element or the Element project, or any of its subsidiaries or its affiliates.\n\nThe name Element as well as related names, marks, emblems and images are registered trademarks of their respective owners.\n\nThe upstream project can be found at [https://github.com/vector-im/element-web](https://github.com/vector-im/element-web)." : "Element per a Nextcloud us permet instal·lar Element Web fàcilment a través de Nextcloud i unir-vos a la xarxa de comunicació descentralitzada de Matrix.\n\nAquesta aplicació no inclou un servidor Matrix, només el client. Haureu de configurar el vostre propi servidor Matrix domèstic, llogar-ne un o utilitzar-ne un de públic.\n\nAquest projecte no està afiliat, associat, autoritzat, avalat ni de cap manera relacionat oficialment amb Element o el projecte Element, o cap de les seves subsidiàries o les seves filials.\n\nEl nom Element, així com els noms, marques, emblemes i imatges relacionats són marques registrades dels seus respectius propietaris.\n\nEl projecte amunt es pot trobar a [https://github.com/vector-im/element-web](https://github.com/vector-im/element-web).",
+    "These are experimental features in Element that you can enable. For information on what each feature is, check out the documentation for it {linkstart}here{linkend}." : "Aquestes són característiques experimentals a Element que podeu habilitar. Per obtenir informació sobre què és cada característica, consulteu la documentació per a això {linkstart}aquí{linkend}.",
+    "Custom config has been set" : "S'ha definit la configuració personalitzada",
+    "{settingName} has been set to {value}" : "{settingName} ha estat definit com a {Value}",
+    "Custom config could not be set. Try reloading the page." : "No s'ha pogut definir la configuració personalitzada. Proveu de tornar a carregar la pàgina.",
+    "{settingName} could not be set. Try reloading the page." : "{settingName} no s'ha pogut definir. Proveu de tornar a carregar la pàgina.",
     "Element common configuration" : "Configuració comuna d’Element",
     "Here you can configure Element." : "Aquí podeu configurar Element.",
     "Default server URL:" : "URL del servidor per defecte:",
@@ -24,13 +29,6 @@
     "Integration widgets URL:" : "URL dels estris d' integració:",
     "Custom Element config" : "Configuració personalitzada d’Element",
     "Specify a custom configuration for Element." : "Especifiqueu una configuració personalitzada per a Element.",
-    "Use a custom configuration" : "Utilitzar una configuració personalitzada",
-    "These are experimental features in Element that you can enable. For information on what each feature is, check out the documentation for it {linkstart}here{linkend}." : "Aquestes són característiques experimentals a Element que podeu habilitar. Per obtenir informació sobre què és cada característica, consulteu la documentació per a això {linkstart}aquí{linkend}.",
-    "This version of Element for Nextcloud is based on Element Web {riotWebVersion}. Check out the source code for Element Web {linkstart}here{linkend}." : "Aquesta versió d'Element per a Nextcloud es basa en Element Web {riotWebVersion}. Comprovi el codi font per a Element Web {linkstart}aquí{linkend}.",
-    "Experimental feature {feature}" : "Funció experimental {feature}",
-    "Custom config has been set" : "S'ha definit la configuració personalitzada",
-    "{settingName} has been set to {value}" : "{settingName} ha estat definit com a {Value}",
-    "Custom config could not be set. Try reloading the page." : "No s'ha pogut definir la configuració personalitzada. Proveu de tornar a carregar la pàgina.",
-    "{settingName} could not be set. Try reloading the page." : "{settingName} no s'ha pogut definir. Proveu de tornar a carregar la pàgina."
+    "Use a custom configuration" : "Utilitzar una configuració personalitzada"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

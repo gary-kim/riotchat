@@ -5,6 +5,11 @@ OC.L10N.register(
     "Element for Nextcloud" : "Eilimint do Nextcloud",
     "Element Web integrated into Nextcloud" : "Element Web comhtháite i Nextcloud",
     "Element for Nextcloud allows you to install Element Web easily through Nextcloud and join the Matrix decentralized communication network.\n\nThis app does not include a Matrix server, only the client. You will have to either set up your own Matrix homeserver, rent one, or use a public one.\n\nThis project is not affiliated, associated, authorized, endorsed by, or in any way officially connected with Element or the Element project, or any of its subsidiaries or its affiliates.\n\nThe name Element as well as related names, marks, emblems and images are registered trademarks of their respective owners.\n\nThe upstream project can be found at [https://github.com/vector-im/element-web](https://github.com/vector-im/element-web)." : "Ligeann Element for Nextcloud duit Element Web a shuiteáil go héasca trí Nextcloud agus páirt a ghlacadh sa líonra cumarsáide díláraithe Matrix.\n\nNí chuimsíonn an aip seo freastalaí Maitrís, an cliant amháin. Beidh ort do fhreastalaí tí Matrix féin a bhunú, ceann a fháil ar cíos nó ceann poiblí a úsáid.\n\nNíl an tionscadal seo cleamhnaithe, comhlachaithe, údaraithe, formhuinithe ag, nó ceangailte go hoifigiúil ar bhealach ar bith le tionscadal Eilimint nó leis an Eilimint, nó le haon cheann dá fhochuideachtaí nó dá chleamhnaithe.\n\nIs trádmharcanna cláraithe de chuid a n-úinéirí faoi seach iad an t-ainm Element chomh maith le hainmneacha, marcanna, feathail agus íomhánna gaolmhara.\n\nIs féidir an tionscadal in aghaidh an tsrutha a fháil ag [https://github.com/vector-im/element-web](https://github.com/vector-im/element-web).",
+    "These are experimental features in Element that you can enable. For information on what each feature is, check out the documentation for it {linkstart}here{linkend}." : "Is gnéithe turgnamhacha iad seo in Element is féidir leat a chumasú. Chun eolas a fháil ar cad é gach gné, seiceáil na doiciméid dó {linkstart}anseo{linkend}.",
+    "Custom config has been set" : "Tá cumraíocht shaincheaptha socraithe",
+    "{settingName} has been set to {value}" : "Tá {settingName} socraithe go {value}",
+    "Custom config could not be set. Try reloading the page." : "Níorbh fhéidir cumraíocht shaincheaptha a shocrú. Bain triail as an leathanach a athlódáil.",
+    "{settingName} could not be set. Try reloading the page." : "Níorbh fhéidir {settingName} a shocrú. Bain triail as an leathanach a athlódáil.",
     "Element common configuration" : "Cumraíocht choitianta eilimint",
     "Here you can configure Element." : "Anseo is féidir leat Element a chumrú.",
     "Default server URL:" : "URL an fhreastalaí réamhshocraithe:",
@@ -26,13 +31,6 @@ OC.L10N.register(
     "Integration widgets URL:" : "URL na ngiuirléidí comhtháthaithe:",
     "Custom Element config" : "Cumraíocht Eilimint Chustaim",
     "Specify a custom configuration for Element." : "Sonraigh cumraíocht shaincheaptha don Element.",
-    "Use a custom configuration" : "Bain úsáid as cumraíocht saincheaptha",
-    "These are experimental features in Element that you can enable. For information on what each feature is, check out the documentation for it {linkstart}here{linkend}." : "Is gnéithe turgnamhacha iad seo in Element is féidir leat a chumasú. Chun eolas a fháil ar cad é gach gné, seiceáil na doiciméid dó {linkstart}anseo{linkend}.",
-    "This version of Element for Nextcloud is based on Element Web {riotWebVersion}. Check out the source code for Element Web {linkstart}here{linkend}." : "Tá an leagan seo de Element for Nextcloud bunaithe ar Element Web {riotWebVersion}. Seiceáil an cód foinse do Element Web {linkstart}anseo{linkend}.",
-    "Experimental feature {feature}" : "Gné thurgnamhach {feature}",
-    "Custom config has been set" : "Tá cumraíocht shaincheaptha socraithe",
-    "{settingName} has been set to {value}" : "Tá {settingName} socraithe go {value}",
-    "Custom config could not be set. Try reloading the page." : "Níorbh fhéidir cumraíocht shaincheaptha a shocrú. Bain triail as an leathanach a athlódáil.",
-    "{settingName} could not be set. Try reloading the page." : "Níorbh fhéidir {settingName} a shocrú. Bain triail as an leathanach a athlódáil."
+    "Use a custom configuration" : "Bain úsáid as cumraíocht saincheaptha"
 },
 "nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : 4);");

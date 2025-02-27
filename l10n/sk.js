@@ -5,6 +5,11 @@ OC.L10N.register(
     "Element for Nextcloud" : "Element pre Nextcloud",
     "Element Web integrated into Nextcloud" : "Element Web integrovaný do Nextcloudu",
     "Element for Nextcloud allows you to install Element Web easily through Nextcloud and join the Matrix decentralized communication network.\n\nThis app does not include a Matrix server, only the client. You will have to either set up your own Matrix homeserver, rent one, or use a public one.\n\nThis project is not affiliated, associated, authorized, endorsed by, or in any way officially connected with Element or the Element project, or any of its subsidiaries or its affiliates.\n\nThe name Element as well as related names, marks, emblems and images are registered trademarks of their respective owners.\n\nThe upstream project can be found at [https://github.com/vector-im/element-web](https://github.com/vector-im/element-web)." : "Element pre Nextcloud vám umožňuje ľahko nainštalovať Element Web cez Nextcloud a pripojiť sa k decentralizovanej komunikačnej sieti Matrix.\n\nTáto aplikácia neobsahuje server Matrix, iba klienta. Budete si musieť buď vytvoriť svoj vlastný Matrix homeserver, prenajať si ho alebo použiť verejný.\n\nTento projekt nie je pridruženým, autorizovaným, schváleným alebo žiadnym spôsobom oficiálne súvisiacim s Element-om alebo projektom Element-u, ani žiadnou pobočkou alebo pridruženim.\n\nNázov Element, ako aj súvisiace názvy, značky, emblémy a obrázky sú registrované ochranné známky príslušných vlastníkov.\n\nProjekt sa nachádza na stránke [https://github.com/vector-im/element-web](https://github.com/vector-im/element-web).",
+    "These are experimental features in Element that you can enable. For information on what each feature is, check out the documentation for it {linkstart}here{linkend}." : "Toto sú experimentálne funkcie Element-u, ktoré môžete povoliť. Informácie o jednotlivých funkciách nájdete v príslušnej {linkstart}dokumentácii{linkend}.",
+    "Custom config has been set" : "Vlastná konfigurácia bola nastavená",
+    "{settingName} has been set to {value}" : "{settingName} bolo nastavené na {value}",
+    "Custom config could not be set. Try reloading the page." : "Vlastnú konfiguráciu nebolo možné nastaviť. Skúste znova načítať stránku.",
+    "{settingName} could not be set. Try reloading the page." : "{settingName} nebolo možné nastaviť. Skúste stránku načítať znova.",
     "Element common configuration" : "Bežné natavenie pre Element",
     "Here you can configure Element." : "Tu môžete nastaviť Element",
     "Default server URL:" : "Predvolená URL servera:",
@@ -26,13 +31,6 @@ OC.L10N.register(
     "Integration widgets URL:" : "URL adresa ovládacích prvkov napojenia:",
     "Custom Element config" : "Vlastné nastavenia pre Element",
     "Specify a custom configuration for Element." : "Zadajte užívateľské nastavenie pre Element.",
-    "Use a custom configuration" : "Použite vlastnú konfiguráciu",
-    "These are experimental features in Element that you can enable. For information on what each feature is, check out the documentation for it {linkstart}here{linkend}." : "Toto sú experimentálne funkcie Element-u, ktoré môžete povoliť. Informácie o jednotlivých funkciách nájdete v príslušnej {linkstart}dokumentácii{linkend}.",
-    "This version of Element for Nextcloud is based on Element Web {riotWebVersion}. Check out the source code for Element Web {linkstart}here{linkend}." : "Táto verzia Element for Nextcloud je založená na Element Web {riotWebVersion}. Zdrojový kód pre web Element {linkstart}nájdete tu{linkend}.",
-    "Experimental feature {feature}" : "Experimentálna funkcia {feature}",
-    "Custom config has been set" : "Vlastná konfigurácia bola nastavená",
-    "{settingName} has been set to {value}" : "{settingName} bolo nastavené na {value}",
-    "Custom config could not be set. Try reloading the page." : "Vlastnú konfiguráciu nebolo možné nastaviť. Skúste znova načítať stránku.",
-    "{settingName} could not be set. Try reloading the page." : "{settingName} nebolo možné nastaviť. Skúste stránku načítať znova."
+    "Use a custom configuration" : "Použite vlastnú konfiguráciu"
 },
 "nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);");

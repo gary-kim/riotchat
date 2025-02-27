@@ -3,6 +3,11 @@
     "Element for Nextcloud" : "Element za Nextcloud",
     "Element Web integrated into Nextcloud" : "Podpora Nextcloud za Element Web",
     "Element for Nextcloud allows you to install Element Web easily through Nextcloud and join the Matrix decentralized communication network.\n\nThis app does not include a Matrix server, only the client. You will have to either set up your own Matrix homeserver, rent one, or use a public one.\n\nThis project is not affiliated, associated, authorized, endorsed by, or in any way officially connected with Element or the Element project, or any of its subsidiaries or its affiliates.\n\nThe name Element as well as related names, marks, emblems and images are registered trademarks of their respective owners.\n\nThe upstream project can be found at [https://github.com/vector-im/element-web](https://github.com/vector-im/element-web)." : "Program Element za Nextcloud omogoča enostavno namestitev okolja Elementa Web prek Nextcloud za dostop do decentraliziranega omrežja Matrix.\n\nProgram ne vključuje celotnega strežnika Matrix, temveč le programsko povezavo za dostop. nastaviti je treba torej lasten strežnik, gostovati ali pa uporabiti javnega.\n\nProjekt sicer ni na nikakršen način povezan ali podprt s strani skupnosti ali projektom Element oziroma s katerokoli povezano skupino ali podjetjem.\n\nIme Element in povezana imena, znamke, logotipi in slike so zaščitene blagovne znamke.\n\nVeč o projektu je na voljo na spletni strani [https://github.com/vector-im/element-web](https://github.com/vector-im/element-web).",
+    "These are experimental features in Element that you can enable. For information on what each feature is, check out the documentation for it {linkstart}here{linkend}." : "Na voljo so tudi nekatere preizkusne možnosti okolja Element. Za več podrobnosti o posamezni možnosti, preverite {linkstart}dokumentacijo{linkend}.",
+    "Custom config has been set" : "Nastavitve po meri so omogočene",
+    "{settingName} has been set to {value}" : "Nastavitev {settingName} je bila nastavljena na vrednost {value}",
+    "Custom config could not be set. Try reloading the page." : "Nastavitev po meri ni mogoče shraniti. Poskusite ponovno naložiti stran.",
+    "{settingName} could not be set. Try reloading the page." : "Možnosti {settingName} ni mogoče nastaviti. Poskusite ponovno naložiti stran.",
     "Element common configuration" : "Splošne nastavitve okolja Element",
     "Here you can configure Element." : "Možnosti nastavitev okolja Element",
     "Default server URL:" : "Privzeti naslov URL strežnika:",
@@ -23,13 +28,6 @@
     "Integration widgets URL:" : "Naslov URL gradnikov združevalnika:",
     "Custom Element config" : "Nastavitve Element po meri",
     "Specify a custom configuration for Element." : "Določitev nastavitev strežnika Element po meri",
-    "Use a custom configuration" : "Uporabi nastavitve po meri",
-    "These are experimental features in Element that you can enable. For information on what each feature is, check out the documentation for it {linkstart}here{linkend}." : "Na voljo so tudi nekatere preizkusne možnosti okolja Element. Za več podrobnosti o posamezni možnosti, preverite {linkstart}dokumentacijo{linkend}.",
-    "This version of Element for Nextcloud is based on Element Web {riotWebVersion}. Check out the source code for Element Web {linkstart}here{linkend}." : "Različica programa Element za Nextcloud je zasnovana na okolju Element Web {riotWebVersion}. Koda programa je na voljona  {linkstart}spletni strani programa{linkend}.",
-    "Experimental feature {feature}" : "Preizkusna možnost {nestabilno}",
-    "Custom config has been set" : "Nastavitve po meri so omogočene",
-    "{settingName} has been set to {value}" : "Nastavitev {settingName} je bila nastavljena na vrednost {value}",
-    "Custom config could not be set. Try reloading the page." : "Nastavitev po meri ni mogoče shraniti. Poskusite ponovno naložiti stran.",
-    "{settingName} could not be set. Try reloading the page." : "Možnosti {settingName} ni mogoče nastaviti. Poskusite ponovno naložiti stran."
+    "Use a custom configuration" : "Uporabi nastavitve po meri"
 },"pluralForm" :"nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);"
 }

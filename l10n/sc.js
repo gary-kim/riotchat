@@ -5,6 +5,11 @@ OC.L10N.register(
     "Element for Nextcloud" : "Element pro Nextcloud",
     "Element Web integrated into Nextcloud" : "Element Web integradu in Nextcloud",
     "Element for Nextcloud allows you to install Element Web easily through Nextcloud and join the Matrix decentralized communication network.\n\nThis app does not include a Matrix server, only the client. You will have to either set up your own Matrix homeserver, rent one, or use a public one.\n\nThis project is not affiliated, associated, authorized, endorsed by, or in any way officially connected with Element or the Element project, or any of its subsidiaries or its affiliates.\n\nThe name Element as well as related names, marks, emblems and images are registered trademarks of their respective owners.\n\nThe upstream project can be found at [https://github.com/vector-im/element-web](https://github.com/vector-im/element-web)." : "Element pro Nextcloud ti cunsentit de installare in manera fàtzile Element Web tràmite Nextcloud e de intrare a sa rete de comunicatzione detzentralizada Matrix.\n\nCusta aplicatzione no includet unu serbidore Matrix, isceti su cliente. As a dèpere cunfigurare unu serbidore domèsticu Matrix, nde pigare in afitu unu o nde impreare unu pùblicu.\n\nCustu progetu no est afiliadu, assotziadu, autorizadu, sustènnidu o connètidu in peruna manera cun Element o cun su progetu Element, o cun una de is sussidiàrias suas o afiliadas.\n\nSu nùmene Element e is nùmenes assotziados, is marcos, is sìmbulos e is immàgines sunt marcos registrados de is rispetivos meres.\n\nSu progetu ufitziale si podet agatare in [https://github.com/vector-im/element-web](https://github.com/vector-im/element-web).",
+    "These are experimental features in Element that you can enable. For information on what each feature is, check out the documentation for it {linkstart}here{linkend}." : "Custas sunt funtzionalidades isperimentales in Element chi podes ativare. Pro informatziones in contu de is sìngulas funtzionalidades, controlla sa documentatzione {linkstart}qui{linkend}.",
+    "Custom config has been set" : "Sa cunfiguratzione personalizada est istada sarvada",
+    "{settingName} has been set to {value}" : "{settingName} est istadu cunfiguradu comente {value}",
+    "Custom config could not be set. Try reloading the page." : "Impossìbile sarvare sa cunfiguratzione personalizada. Proa a torrare a carrigare sa pàgina.",
+    "{settingName} could not be set. Try reloading the page." : "Impossìbile cunfigurare {settingName}. Proa a torrare a carrigare sa pàgina.",
     "Element common configuration" : "Cunfiguratzione comuna Element",
     "Here you can configure Element." : "Inoghe podes cunfigurare Element.",
     "Default server URL:" : "URL serbidore predefinidu:",
@@ -25,13 +30,6 @@ OC.L10N.register(
     "Integration widgets URL:" : "URL widget de Integration:",
     "Custom Element config" : "Cunfiguratzione Element personalizada",
     "Specify a custom configuration for Element." : "Ispetzìfica una cunfiguratzione personalizada pro Element.",
-    "Use a custom configuration" : "Imprea una cunfiguratzione personalizada",
-    "These are experimental features in Element that you can enable. For information on what each feature is, check out the documentation for it {linkstart}here{linkend}." : "Custas sunt funtzionalidades isperimentales in Element chi podes ativare. Pro informatziones in contu de is sìngulas funtzionalidades, controlla sa documentatzione {linkstart}qui{linkend}.",
-    "This version of Element for Nextcloud is based on Element Web {riotWebVersion}. Check out the source code for Element Web {linkstart}here{linkend}." : "Custa versione de Element pro Nextcloud est basada subra de Element Web {riotWebVersion}. Controlla su còdighe de orìgine pro Element Web {linkstart}inoghe{linkend}.",
-    "Experimental feature {feature}" : "Funtzionalidade isperimentale {feature}",
-    "Custom config has been set" : "Sa cunfiguratzione personalizada est istada sarvada",
-    "{settingName} has been set to {value}" : "{settingName} est istadu cunfiguradu comente {value}",
-    "Custom config could not be set. Try reloading the page." : "Impossìbile sarvare sa cunfiguratzione personalizada. Proa a torrare a carrigare sa pàgina.",
-    "{settingName} could not be set. Try reloading the page." : "Impossìbile cunfigurare {settingName}. Proa a torrare a carrigare sa pàgina."
+    "Use a custom configuration" : "Imprea una cunfiguratzione personalizada"
 },
 "nplurals=2; plural=(n != 1);");

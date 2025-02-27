@@ -5,6 +5,11 @@ OC.L10N.register(
     "Element for Nextcloud" : "Element для Nextcloud",
     "Element Web integrated into Nextcloud" : "Element Web интегрирован в Nextcloud",
     "Element for Nextcloud allows you to install Element Web easily through Nextcloud and join the Matrix decentralized communication network.\n\nThis app does not include a Matrix server, only the client. You will have to either set up your own Matrix homeserver, rent one, or use a public one.\n\nThis project is not affiliated, associated, authorized, endorsed by, or in any way officially connected with Element or the Element project, or any of its subsidiaries or its affiliates.\n\nThe name Element as well as related names, marks, emblems and images are registered trademarks of their respective owners.\n\nThe upstream project can be found at [https://github.com/vector-im/element-web](https://github.com/vector-im/element-web)." : "Element для Nextcloud позволяет легко установить Element Web через Nextcloud и присоединиться к децентрализованной сети связи Matrix.\n\nЭто приложение не включает в себя сервер Matrix, только клиент. Вам придется либо настроить собственный домашний сервер Matrix, либо арендовать, либо использовать общедоступный.\n\nЭтот проект не является аффилированным, ассоциированным, авторизованным, одобренным или каким-либо образом официально связан с Element или проектом Element, или какими-либо его дочерними или аффилированными компаниями.\n\nНазвание Element, а также связанные с ним названия, знаки, эмблемы и изображения являются зарегистрированными товарными знаками соответствующих владельцев.\n\nПроект upstream можно найти на [https://github.com/vector-im/element-web](https://github.com/vector-im/element-web).",
+    "These are experimental features in Element that you can enable. For information on what each feature is, check out the documentation for it {linkstart}here{linkend}." : "Это экспериментальные функции в Element, которые вы можете включить. Чтобы узнать, что такое каждая функция, ознакомьтесь с её документацией {linkstart}здесь{linkend}.",
+    "Custom config has been set" : "Настроена пользовательская конфигурация",
+    "{settingName} has been set to {value}" : "Для параметра {settingName} установлено значение {value}",
+    "Custom config could not be set. Try reloading the page." : "Не удалось установить пользовательскую конфигурацию. Попробуйте перезагрузить страницу.",
+    "{settingName} could not be set. Try reloading the page." : "Не удалось установить {settingName}. Попробуйте перезагрузить страницу. ",
     "Element common configuration" : "Element Общая конфигурация",
     "Here you can configure Element." : "Здесь вы можете настроить Element.",
     "Default server URL:" : "URL-адрес сервера по умолчанию:",
@@ -26,13 +31,6 @@ OC.L10N.register(
     "Integration widgets URL:" : "URL виджетов интеграции:",
     "Custom Element config" : "Пользовательская конфигурация Element",
     "Specify a custom configuration for Element." : "Укажите пользовательскую конфигурацию для Element.",
-    "Use a custom configuration" : "Использовать пользовательскую конфигурацию",
-    "These are experimental features in Element that you can enable. For information on what each feature is, check out the documentation for it {linkstart}here{linkend}." : "Это экспериментальные функции в Element, которые вы можете включить. Чтобы узнать, что такое каждая функция, ознакомьтесь с её документацией {linkstart}здесь{linkend}.",
-    "This version of Element for Nextcloud is based on Element Web {riotWebVersion}. Check out the source code for Element Web {linkstart}here{linkend}." : "Эта версия Element для Nextcloud основана на Element Web {riotWebVersion}. Ознакомьтесь с исходным кодом Element Web {linkstart}здесь{linkend}. ",
-    "Experimental feature {feature}" : "Экпериментальная функция {feature} ",
-    "Custom config has been set" : "Настроена пользовательская конфигурация",
-    "{settingName} has been set to {value}" : "Для параметра {settingName} установлено значение {value}",
-    "Custom config could not be set. Try reloading the page." : "Не удалось установить пользовательскую конфигурацию. Попробуйте перезагрузить страницу.",
-    "{settingName} could not be set. Try reloading the page." : "Не удалось установить {settingName}. Попробуйте перезагрузить страницу. "
+    "Use a custom configuration" : "Использовать пользовательскую конфигурацию"
 },
 "nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);");

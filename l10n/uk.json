@@ -3,6 +3,11 @@
     "Element for Nextcloud" : "Елемент для Nextcloud",
     "Element Web integrated into Nextcloud" : "Element Web інтегровано в Nextcloud",
     "Element for Nextcloud allows you to install Element Web easily through Nextcloud and join the Matrix decentralized communication network.\n\nThis app does not include a Matrix server, only the client. You will have to either set up your own Matrix homeserver, rent one, or use a public one.\n\nThis project is not affiliated, associated, authorized, endorsed by, or in any way officially connected with Element or the Element project, or any of its subsidiaries or its affiliates.\n\nThe name Element as well as related names, marks, emblems and images are registered trademarks of their respective owners.\n\nThe upstream project can be found at [https://github.com/vector-im/element-web](https://github.com/vector-im/element-web)." : "Element for Nextcloud дозволяє легко інсталювати Element Web через Nextcloud і приєднатися до децентралізованої комунікаційної мережі Matrix. Цей застосунок не включає сервер Matrix, лише клієнт. Вам доведеться або створити власний домашній сервер Matrix, орендувати його або використовувати загальнодоступний. Цей проект не афілійований, не пов’язаний, не авторизований, схвалений або будь-яким чином офіційно пов’язаний з Element або проектом Element, або будь-якою з його дочірніх компаній або філій. Назва Element, а також пов’язані з нею назви, знаки, емблеми та зображення є зареєстрованими товарними знаками відповідних власників. Вихідний проект можна знайти на [https://github.com/vector-im/element-web](https://github.com/vector-im/element-web).",
+    "These are experimental features in Element that you can enable. For information on what each feature is, check out the documentation for it {linkstart}here{linkend}." : "Це експериментальні функції в Element, які ви можете ввімкнути. Щоб отримати інформацію про кожну функцію, ознайомтеся з її документацією {linkstart}тут{linkend}.",
+    "Custom config has been set" : "Спеціальну конфігурацію встановлено",
+    "{settingName} has been set to {value}" : "{settingName} встановлено на {value}",
+    "Custom config could not be set. Try reloading the page." : "Неможливо встановити спеціальну конфігурацію. Спробуйте перезавантажити сторінку.",
+    "{settingName} could not be set. Try reloading the page." : "{settingName} не вдалося встановити. Спробуйте перезавантажити сторінку.",
     "Element common configuration" : "Загальна конфігурація елемента",
     "Here you can configure Element." : "Тут ви можете налаштувати елемент.",
     "Default server URL:" : "Типова адреса сервера:",
@@ -24,13 +29,6 @@
     "Integration widgets URL:" : "URL-адреса віджетів інтеграції:",
     "Custom Element config" : "Конфігурація спеціального елемента",
     "Specify a custom configuration for Element." : "Укажіть спеціальну конфігурацію для Element.",
-    "Use a custom configuration" : "Використовуйте спеціальну конфігурацію",
-    "These are experimental features in Element that you can enable. For information on what each feature is, check out the documentation for it {linkstart}here{linkend}." : "Це експериментальні функції в Element, які ви можете ввімкнути. Щоб отримати інформацію про кожну функцію, ознайомтеся з її документацією {linkstart}тут{linkend}.",
-    "This version of Element for Nextcloud is based on Element Web {riotWebVersion}. Check out the source code for Element Web {linkstart}here{linkend}." : "Ця версія Element for Nextcloud заснована на Element Web {riotWebVersion}. Перегляньте вихідний код Element Web {linkstart}тут{linkend}.",
-    "Experimental feature {feature}" : "Експериментальна функція {feature}",
-    "Custom config has been set" : "Спеціальну конфігурацію встановлено",
-    "{settingName} has been set to {value}" : "{settingName} встановлено на {value}",
-    "Custom config could not be set. Try reloading the page." : "Неможливо встановити спеціальну конфігурацію. Спробуйте перезавантажити сторінку.",
-    "{settingName} could not be set. Try reloading the page." : "{settingName} не вдалося встановити. Спробуйте перезавантажити сторінку."
+    "Use a custom configuration" : "Використовуйте спеціальну конфігурацію"
 },"pluralForm" :"nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);"
 }

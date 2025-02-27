@@ -4,6 +4,11 @@ OC.L10N.register(
     "Element" : "Element",
     "Element for Nextcloud" : "Element ל־Nextcloud",
     "Element Web integrated into Nextcloud" : "שילוב דפדפני של Element בתוך Nextcloud",
+    "These are experimental features in Element that you can enable. For information on what each feature is, check out the documentation for it {linkstart}here{linkend}." : "אלו תכונות ניסיוניות ב־Element שניתן להפעיל. למידע נוסף על מה זו כל תכונה, יש לעיין בתיעוד עליה {linkstart}כאן{linkend}.",
+    "Custom config has been set" : "הוגדרה תצורה מותאמת אישית",
+    "{settingName} has been set to {value}" : "{settingName} הוגדרה לערך {value}",
+    "Custom config could not be set. Try reloading the page." : "לא ניתן להגדיר תצורה מותאמת אישית. כדאי לנסות לרענן את העמוד.",
+    "{settingName} could not be set. Try reloading the page." : "לא ניתן להגדיר את {settingName}. כדאי לנסות לרענן את העמוד.",
     "Element common configuration" : "הגדרות נפוצות של Element",
     "Here you can configure Element." : "כאן ניתן להגדיר את Element.",
     "Default server URL:" : "כתובת שרת כבררת מחדל:",
@@ -20,13 +25,6 @@ OC.L10N.register(
     "Integration widgets URL:" : "כתובת שילוב וידג׳טים:",
     "Custom Element config" : "הגדרות מותאמות של Element",
     "Specify a custom configuration for Element." : "ציון הגדרות משלך עבור Element.",
-    "Use a custom configuration" : "להשתמש בהגדרות מותאמות אישית",
-    "These are experimental features in Element that you can enable. For information on what each feature is, check out the documentation for it {linkstart}here{linkend}." : "אלו תכונות ניסיוניות ב־Element שניתן להפעיל. למידע נוסף על מה זו כל תכונה, יש לעיין בתיעוד עליה {linkstart}כאן{linkend}.",
-    "This version of Element for Nextcloud is based on Element Web {riotWebVersion}. Check out the source code for Element Web {linkstart}here{linkend}." : "גרסה זו של Element ל־Nextcloud מבוססת על Element לדפדפן {riotWebVersion}. ניתן לעיין בקוד המקור של Element לדפדפן {linkstart}כאן{linkend}.",
-    "Experimental feature {feature}" : "התכונה הניסיונית {feature}",
-    "Custom config has been set" : "הוגדרה תצורה מותאמת אישית",
-    "{settingName} has been set to {value}" : "{settingName} הוגדרה לערך {value}",
-    "Custom config could not be set. Try reloading the page." : "לא ניתן להגדיר תצורה מותאמת אישית. כדאי לנסות לרענן את העמוד.",
-    "{settingName} could not be set. Try reloading the page." : "לא ניתן להגדיר את {settingName}. כדאי לנסות לרענן את העמוד."
+    "Use a custom configuration" : "להשתמש בהגדרות מותאמות אישית"
 },
 "nplurals=3; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: 2;");

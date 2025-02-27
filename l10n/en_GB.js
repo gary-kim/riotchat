@@ -5,6 +5,11 @@ OC.L10N.register(
     "Element for Nextcloud" : "Element for Nextcloud",
     "Element Web integrated into Nextcloud" : "Element Web integrated into Nextcloud",
     "Element for Nextcloud allows you to install Element Web easily through Nextcloud and join the Matrix decentralized communication network.\n\nThis app does not include a Matrix server, only the client. You will have to either set up your own Matrix homeserver, rent one, or use a public one.\n\nThis project is not affiliated, associated, authorized, endorsed by, or in any way officially connected with Element or the Element project, or any of its subsidiaries or its affiliates.\n\nThe name Element as well as related names, marks, emblems and images are registered trademarks of their respective owners.\n\nThe upstream project can be found at [https://github.com/vector-im/element-web](https://github.com/vector-im/element-web)." : "Element for Nextcloud allows you to install Element Web easily through Nextcloud and join the Matrix decentralized communication network.\n\nThis app does not include a Matrix server, only the client. You will have to either set up your own Matrix homeserver, rent one, or use a public one.\n\nThis project is not affiliated, associated, authorised, endorsed by, or in any way officially connected with Element or the Element project, or any of its subsidiaries or its affiliates.\n\nThe name Element as well as related names, marks, emblems and images are registered trademarks of their respective owners.\n\nThe upstream project can be found at [https://github.com/vector-im/element-web](https://github.com/vector-im/element-web).",
+    "These are experimental features in Element that you can enable. For information on what each feature is, check out the documentation for it {linkstart}here{linkend}." : "These are experimental features in Element that you can enable. For information on what each feature is, check out the documentation for it {linkstart}here{linkend}.",
+    "Custom config has been set" : "Custom config has been set",
+    "{settingName} has been set to {value}" : "{settingName} has been set to {value}",
+    "Custom config could not be set. Try reloading the page." : "Custom config could not be set. Try reloading the page.",
+    "{settingName} could not be set. Try reloading the page." : "{settingName} could not be set. Try reloading the page.",
     "Element common configuration" : "Element common configuration",
     "Here you can configure Element." : "Here you can configure Element.",
     "Default server URL:" : "Default server URL:",
@@ -26,13 +31,6 @@ OC.L10N.register(
     "Integration widgets URL:" : "Integration widgets URL:",
     "Custom Element config" : "Custom Element config",
     "Specify a custom configuration for Element." : "Specify a custom configuration for Element.",
-    "Use a custom configuration" : "Use a custom configuration",
-    "These are experimental features in Element that you can enable. For information on what each feature is, check out the documentation for it {linkstart}here{linkend}." : "These are experimental features in Element that you can enable. For information on what each feature is, check out the documentation for it {linkstart}here{linkend}.",
-    "This version of Element for Nextcloud is based on Element Web {riotWebVersion}. Check out the source code for Element Web {linkstart}here{linkend}." : "This version of Element for Nextcloud is based on Element Web {riotWebVersion}. Check out the source code for Element Web {linkstart}here{linkend}.",
-    "Experimental feature {feature}" : "Experimental feature {feature}",
-    "Custom config has been set" : "Custom config has been set",
-    "{settingName} has been set to {value}" : "{settingName} has been set to {value}",
-    "Custom config could not be set. Try reloading the page." : "Custom config could not be set. Try reloading the page.",
-    "{settingName} could not be set. Try reloading the page." : "{settingName} could not be set. Try reloading the page."
+    "Use a custom configuration" : "Use a custom configuration"
 },
 "nplurals=2; plural=(n != 1);");

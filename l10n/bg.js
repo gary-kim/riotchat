@@ -5,6 +5,11 @@ OC.L10N.register(
     "Element for Nextcloud" : "Element за Nextcloud",
     "Element Web integrated into Nextcloud" : "Element Web, интегриран в Nextcloud",
     "Element for Nextcloud allows you to install Element Web easily through Nextcloud and join the Matrix decentralized communication network.\n\nThis app does not include a Matrix server, only the client. You will have to either set up your own Matrix homeserver, rent one, or use a public one.\n\nThis project is not affiliated, associated, authorized, endorsed by, or in any way officially connected with Element or the Element project, or any of its subsidiaries or its affiliates.\n\nThe name Element as well as related names, marks, emblems and images are registered trademarks of their respective owners.\n\nThe upstream project can be found at [https://github.com/vector-im/element-web](https://github.com/vector-im/element-web)." : "Element за Nextcloud ви позволява лесно да инсталирате Element Web чрез Nextcloud и да се присъедините към децентрализираната комуникационна мрежа на Matrix.\n\nТова приложение не включва Matrix сървър, а само клиента. Ще трябва или да настроите свой собствен домашен сървър на Matrix, да наемете такъв или да използвате публичен.\n\nТози проект не е свързан, асоцииран, упълномощен, одобрен от или по какъвто и да е начин официално свързан с Element или проекта Element, или с някое от неговите дъщерни дружества или негови филиали.\n\nИмето Element, както и свързаните с тях имена, марки, емблеми и изображения са регистрирани търговски марки на съответните им собственици.\n\nПроектът, споменат по-горе, може да бъде намерен на адрес [https://github.com/vector-im/element-web](https://github.com/vector-im/element-web).",
+    "These are experimental features in Element that you can enable. For information on what each feature is, check out the documentation for it {linkstart}here{linkend}." : "Това са експериментални функции в Element, които можете да активирате. За информация какво представлява всяка функция, вижте документацията за нея {linkstart}тук{linkend}.",
+    "Custom config has been set" : "Зададена е персонализирана конфигурация",
+    "{settingName} has been set to {value}" : "{settingName} е зададено на {value}",
+    "Custom config could not be set. Try reloading the page." : "Персонализираната конфигурация не може да бъде зададена. Опитайте да презаредите страницата.",
+    "{settingName} could not be set. Try reloading the page." : "{settingName} не можа да бъде зададено. Опитайте да презаредите страницата.",
     "Element common configuration" : "Обща конфигурация на Element",
     "Here you can configure Element." : "Тук можете да конфигурирате Element.",
     "Default server URL:" : "URL адрес на сървъра по подразбиране:",
@@ -26,13 +31,6 @@ OC.L10N.register(
     "Integration widgets URL:" : "URL адрес на изпълними модули за интеграция:",
     "Custom Element config" : "Конфигурация на персонализиран Element",
     "Specify a custom configuration for Element." : "Посочете персонализирана конфигурация за Element.",
-    "Use a custom configuration" : "Използвайте персонализирана конфигурация",
-    "These are experimental features in Element that you can enable. For information on what each feature is, check out the documentation for it {linkstart}here{linkend}." : "Това са експериментални функции в Element, които можете да активирате. За информация какво представлява всяка функция, вижте документацията за нея {linkstart}тук{linkend}.",
-    "This version of Element for Nextcloud is based on Element Web {riotWebVersion}. Check out the source code for Element Web {linkstart}here{linkend}." : "Тази версия на Element за Nextcloud е базирана на Element Web {riotWebVersion}. Вижте изходния код за Element Web {linkstart}тук{linkend}.",
-    "Experimental feature {feature}" : "Експериментална функция {feature}",
-    "Custom config has been set" : "Зададена е персонализирана конфигурация",
-    "{settingName} has been set to {value}" : "{settingName} е зададено на {value}",
-    "Custom config could not be set. Try reloading the page." : "Персонализираната конфигурация не може да бъде зададена. Опитайте да презаредите страницата.",
-    "{settingName} could not be set. Try reloading the page." : "{settingName} не можа да бъде зададено. Опитайте да презаредите страницата."
+    "Use a custom configuration" : "Използвайте персонализирана конфигурация"
 },
 "nplurals=2; plural=(n != 1);");

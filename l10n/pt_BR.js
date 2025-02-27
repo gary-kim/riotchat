@@ -5,6 +5,11 @@ OC.L10N.register(
     "Element for Nextcloud" : "Element para Nextcloud",
     "Element Web integrated into Nextcloud" : "Element Web integrado ao Nextcloud",
     "Element for Nextcloud allows you to install Element Web easily through Nextcloud and join the Matrix decentralized communication network.\n\nThis app does not include a Matrix server, only the client. You will have to either set up your own Matrix homeserver, rent one, or use a public one.\n\nThis project is not affiliated, associated, authorized, endorsed by, or in any way officially connected with Element or the Element project, or any of its subsidiaries or its affiliates.\n\nThe name Element as well as related names, marks, emblems and images are registered trademarks of their respective owners.\n\nThe upstream project can be found at [https://github.com/vector-im/element-web](https://github.com/vector-im/element-web)." : "O Element for Nextcloud permite que você instale o Element Web facilmente através do Nextcloud e se junte à rede de comunicação descentralizada Matrix.\n\nEste aplicativo não inclui um servidor Matrix, apenas o cliente. Você terá que configurar seu próprio servidor doméstico Matrix, alugar um ou usar um público.\n\nEste projeto não é afiliado, associado, autorizado, endossado por ou de qualquer forma oficialmente conectado com a Element ou com o projeto da Element, ou qualquer uma de suas subsidiárias ou afiliadas.\n\nO nome Element, bem como nomes, marcas, emblemas e imagens relacionados, são marcas registradas de seus respectivos proprietários.\n\nO projeto upstream pode ser encontrado em [https://github.com/vector-im/element-web](https://github.com/vector-im/element-web).",
+    "These are experimental features in Element that you can enable. For information on what each feature is, check out the documentation for it {linkstart}here{linkend}." : "Esses são recursos experimentais do Element que você pode ativar. Para obter informações sobre o que é cada recurso, consulte a documentação {linkstart}aqui{linkend}.",
+    "Custom config has been set" : "A configuração personalizada foi definida",
+    "{settingName} has been set to {value}" : "{settingName} foi definido como {value}",
+    "Custom config could not be set. Try reloading the page." : "Não foi possível definir a configuração personalizada. Tente recarregar a página.",
+    "{settingName} could not be set. Try reloading the page." : "{settingName} não pôde ser definido. Tente recarregar a página.",
     "Element common configuration" : "Configuração comum do Element",
     "Here you can configure Element." : "Configurar o Element aqui.",
     "Default server URL:" : "URL padrão do servidor:",
@@ -26,13 +31,6 @@ OC.L10N.register(
     "Integration widgets URL:" : "URL de widgets da integração:",
     "Custom Element config" : "Configuração do Element personalizado",
     "Specify a custom configuration for Element." : "Especifique uma configuração personalizada para Element.",
-    "Use a custom configuration" : "Usar uma configuração personalizada",
-    "These are experimental features in Element that you can enable. For information on what each feature is, check out the documentation for it {linkstart}here{linkend}." : "Esses são recursos experimentais do Element que você pode ativar. Para obter informações sobre o que é cada recurso, consulte a documentação {linkstart}aqui{linkend}.",
-    "This version of Element for Nextcloud is based on Element Web {riotWebVersion}. Check out the source code for Element Web {linkstart}here{linkend}." : "Esta versão do Element for Nextcloud é baseada no Element Web {riotWebVersion}. Confira o código-fonte do Element Web {linkstart}aqui{linkend}.",
-    "Experimental feature {feature}" : "Recurso experimental {feature}",
-    "Custom config has been set" : "A configuração personalizada foi definida",
-    "{settingName} has been set to {value}" : "{settingName} foi definido como {value}",
-    "Custom config could not be set. Try reloading the page." : "Não foi possível definir a configuração personalizada. Tente recarregar a página.",
-    "{settingName} could not be set. Try reloading the page." : "{settingName} não pôde ser definido. Tente recarregar a página."
+    "Use a custom configuration" : "Usar uma configuração personalizada"
 },
 "nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;");
