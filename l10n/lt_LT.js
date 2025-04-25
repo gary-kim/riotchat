@@ -7,6 +7,7 @@ OC.L10N.register(
     "{settingName} could not be set. Try reloading the page." : "Nepavyko nustatyti {settingName}. Pabandykite įkelti puslapį iš naujo.",
     "Default server URL:" : "Numatytojo serverio URL:",
     "Default server name:" : "Numatytojo serverio pavadinimas:",
+    "Disable login language selector" : "Išjungti kalbos pasirinkimą prisijungimo lange",
     "Jitsi settings" : "Jitsi nustatymai",
     "Use a custom configuration" : "Naudoti tinkintą konfigūraciją"
 },

@@ -5,6 +5,7 @@
     "{settingName} could not be set. Try reloading the page." : "Nepavyko nustatyti {settingName}. Pabandykite įkelti puslapį iš naujo.",
     "Default server URL:" : "Numatytojo serverio URL:",
     "Default server name:" : "Numatytojo serverio pavadinimas:",
+    "Disable login language selector" : "Išjungti kalbos pasirinkimą prisijungimo lange",
     "Jitsi settings" : "Jitsi nustatymai",
     "Use a custom configuration" : "Naudoti tinkintą konfigūraciją"
 },"pluralForm" :"nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);"
