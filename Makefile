@@ -16,7 +16,7 @@ dev-setup: 3rdparty/riot
 	npm i
 
 3rdparty/riot: 3rdparty/riot-web
-	(cd 3rdparty/riot-web && rm -rf ../riot && yarn && yarn add @nextcloud/browserslist-config --ignore-engines && (VERSION=$$(git describe --abbrev=0 --tags) yarn build) && cp config.sample.json webapp/ && cp element.io/develop/config.json webapp/develop.config.json && git describe --abbrev=0 --tags | cut -c 2- > webapp/version && mv webapp ../riot && yarn remove @nextcloud/browserslist-config) || (cd 3rdparty/riot-web && yarn remove @nextcloud/browserslist-config && exit 1)
+	tmpdir=$$(mktemp -d); (git clone 3rdparty/riot-web $${tmpdir}/riot-web && rm -rf 3rdparty/riot && ( cd $${tmpdir}/riot-web && yarn && (VERSION=$$(git describe --abbrev=0 --tags) yarn build) && cp config.sample.json webapp/ && cp element.io/develop/config.json webapp/develop.config.json && git describe --abbrev=0 --tags | cut -c 2- > webapp/version) && mv $${tmpdir}/riot-web/webapp 3rdparty/riot) || (cd 3rdparty/riot-web && yarn remove @nextcloud/browserslist-config && exit 1); rm -rf $$(tmpdir)
 
 .PHONY: build
 build:
