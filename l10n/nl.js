@@ -16,6 +16,7 @@ OC.L10N.register(
     "Default server name:" : "Standaard servernaam:",
     "Disable custom URLs" : "Uitschakelen maatwerk URLs",
     "Redirect immediately to SSO (requires SSO to be configured on the Matrix Homeserver)" : "Direct omleiden naar SSO (vereist dat SSO geconfigureerd is op de Matrix Homeserver)",
+    "Disable redirect to non-iframed version for SSO (make sure to set the headers to allow the SSO or CAS to be iframed)" : "Omleiding naar de niet-iframed versie voor SSO uitschakelen (zorg ervoor dat je de headers instelt om de SSO of CAS in een iframe toe te staan)",
     "Disable login language selector" : "Schakel de inlog taalselector uit",
     "Show labs settings" : "Toon labs-instellingen",
     "Make share room links go to Element for Nextcloud instead of https://matrix.to" : "Laat de Deel kamer links verwijzen naar Element voor Nextcloud in plaats van naar https://matrix.to",
