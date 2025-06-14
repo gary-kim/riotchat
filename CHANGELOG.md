@@ -7,6 +7,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates may also include translation updates.
 
+## [v0.19.0](https://github.com/gary-kim/riotchat/tree/v0.19.0) - 2025-06-14
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.18.8...v0.19.0)
+
+### Added
+
+- feat: support Nextcloud 31 [\#692](https://github.com/gary-kim/riotchat/pull/692) ([@gary-kim](https://github.com/gary-kim))
+-
+### Changed
+
+- enh: do Element Web build in tmpdir [\#694](https://github.com/gary-kim/riotchat/pull/694) ([@gary-kim](https://github.com/gary-kim))
+- chore\(deps\): update to Element Web v1.11.102 [\#693](https://github.com/gary-kim/riotchat/pull/693) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- Update to Element Web v1.11.100 [\#691](https://github.com/gary-kim/riotchat/pull/691) ([@gary-kim](https://github.com/gary-kim))
+- chore\(deps\): update Element Web to v1.11.97 [\#685](https://github.com/gary-kim/riotchat/pull/685) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+
+### Dependencies
+
+- fix\(deps\): update dependency core-js to ^3.41.0 [\#687](https://github.com/gary-kim/riotchat/pull/687) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update dependency webpack to ^5.99.5 [\#684](https://github.com/gary-kim/riotchat/pull/684) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update babel monorepo [\#683](https://github.com/gary-kim/riotchat/pull/683) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+
 ## [v0.18.8](https://github.com/gary-kim/riotchat/tree/v0.18.8) - 2025-03-08
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.18.7...v0.18.8)
