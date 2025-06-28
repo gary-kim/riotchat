@@ -1,6 +1,7 @@
 OC.L10N.register(
     "riotchat",
     {
+    "Experimental feature {feature}" : "Eksperimentalfunktion {feature}",
     "{settingName} has been set to {value}" : "{settingName} er blevet indstillet til {value}",
     "{settingName} could not be set. Try reloading the page." : "{settingName} kunne ikke indstilles. Prøv at indlæse siden igen.",
     "Default server name:" : "Standard servernavn:",

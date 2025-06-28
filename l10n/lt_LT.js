@@ -1,6 +1,7 @@
 OC.L10N.register(
     "riotchat",
     {
+    "Experimental feature {feature}" : "Eksperimentinė ypatybė {feature}",
     "Custom config has been set" : "Tinkinta konfigūracija nustatyta",
     "{settingName} has been set to {value}" : "{settingName} nustatytas į {value}",
     "Custom config could not be set. Try reloading the page." : "Nepavyko nustatyti tinkintos konfigūracijos. Pabandykite įkelti puslapį iš naujo.",

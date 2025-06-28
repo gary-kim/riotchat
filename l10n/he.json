@@ -3,6 +3,8 @@
     "Element for Nextcloud" : "Element ל־Nextcloud",
     "Element Web integrated into Nextcloud" : "שילוב דפדפני של Element בתוך Nextcloud",
     "These are experimental features in Element that you can enable. For information on what each feature is, check out the documentation for it {linkstart}here{linkend}." : "אלו תכונות ניסיוניות ב־Element שניתן להפעיל. למידע נוסף על מה זו כל תכונה, יש לעיין בתיעוד עליה {linkstart}כאן{linkend}.",
+    "This version of Element for Nextcloud is based on Element Web {riotWebVersion}. Check out the source code for Element Web {linkstart}here{linkend}." : "גרסה זו של Element ל־Nextcloud מבוססת על Element לדפדפן {riotWebVersion}. ניתן לעיין בקוד המקור של Element לדפדפן {linkstart}כאן{linkend}.",
+    "Experimental feature {feature}" : "התכונה הניסיונית {feature}",
     "Custom config has been set" : "הוגדרה תצורה מותאמת אישית",
     "{settingName} has been set to {value}" : "{settingName} הוגדרה לערך {value}",
     "Custom config could not be set. Try reloading the page." : "לא ניתן להגדיר תצורה מותאמת אישית. כדאי לנסות לרענן את העמוד.",

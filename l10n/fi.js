@@ -3,6 +3,7 @@ OC.L10N.register(
     {
     "Element" : "Element",
     "Element for Nextcloud" : "Element Nextcloudille",
+    "Experimental feature {feature}" : "Kokeellinen ominaisuus {feature}",
     "{settingName} has been set to {value}" : "{settingName} on asetettu arvoon {value}",
     "{settingName} could not be set. Try reloading the page." : "Asetusta {settingName} ei voitu asettaa. Yritä päivittää sivu.",
     "Element common configuration" : "Elementin yleiset määritykset",
