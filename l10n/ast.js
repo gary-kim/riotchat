@@ -5,6 +5,8 @@ OC.L10N.register(
     "Element for Nextcloud" : "Element pa Nextcloud",
     "Element Web integrated into Nextcloud" : "Element Web integráu en Nextcloud",
     "These are experimental features in Element that you can enable. For information on what each feature is, check out the documentation for it {linkstart}here{linkend}." : "Estes son les funciones esperimentales d'Element que pues activar. Pa consiguir más información tocante a qué fai cada función, revisa la documentación {linkstart}equí{linkend}.",
+    "This version of Element for Nextcloud is based on Element Web {riotWebVersion}. Check out the source code for Element Web {linkstart}here{linkend}." : "Esta versión d'Element pa Nextcloud básase n'Element Web {riotWebVersion}. Revisa'l códigu fonte d'Element Web {linkstart}equí{linkend}.",
+    "Experimental feature {feature}" : "Función esperimental «{feature}»",
     "Element common configuration" : "Configuración común d'Element",
     "Here you can configure Element." : "Equí pues configurar Element.",
     "Default server URL:" : "URL del sirvidor predetermináu:",
