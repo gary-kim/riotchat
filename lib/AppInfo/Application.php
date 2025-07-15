@@ -49,6 +49,7 @@ class Application extends App implements IBootstrap {
 		'set_custom_permalink' => 'false',
 		'sso_immediate_redirect' => 'false',
 		'sso_force_iframe' => 'false',
+                'sso_iframe_domain' => '',
 	];
 
 	public function __construct(array $urlParams = []) {
