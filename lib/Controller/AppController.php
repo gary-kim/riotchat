@@ -63,9 +63,18 @@ class AppController extends Controller {
 			$this->config->getAppValue(Application::APP_ID, 'sso_force_iframe', Application::AvailableSettings['sso_force_iframe']));
 
 		$default_server_domain = $this->config->getAppValue(Application::APP_ID, 'base_url', Application::AvailableSettings['base_url']);
+		$custom_sso_iframe_domain = $this->config->getAppValue(Application::APP_ID, 'sso_iframe_domain', Application::AvailableSettings['sso_iframe_domain']);
 		$csp = new ContentSecurityPolicy();
 		$csp->addAllowedFrameDomain($this->request->getServerHost());
 		$csp->addAllowedFrameDomain($default_server_domain);
+
+		if ($custom_sso_iframe_domain !== '') {
+			$custom_domain_arr = preg_split('/\s+/', $custom_sso_iframe_domain, PREG_SPLIT_NO_EMPTY);
+			foreach ($custom_domain_arr as $tmp_domain) {
+				$csp->addAllowedFrameDomain($tmp_domain);
+			}
+		}
+
 		$csp->addAllowedFrameDomain('blob:');
 		$response->setContentSecurityPolicy($csp);
 
