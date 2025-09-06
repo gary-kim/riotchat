@@ -1,19 +1,19 @@
 {
-    "name": "gary-kim/riotchat",
-    "type": "project",
-    "require": {
-        "nextcloud/coding-standard": "^1.3.2"
-    },
-    "license": "AGPL-3.0-or-later",
-    "authors": [
-        {
-            "name": "Gary Kim",
-            "email": "gary@garykim.dev"
-        }
-    ],
-	"scripts": {
-		"cs:fix": "php-cs-fixer fix",
-		"cs:check": "php-cs-fixer fix --dry-run --diff",
-		"lint": "find . -name \\*.php -not -path './vendor/*' -not -path './build/.phan/*' -print0 | xargs -0 -n1 php -l"
-	}
+  "name": "gary-kim/riotchat",
+  "type": "project",
+  "require": {
+    "nextcloud/coding-standard": "^1.3.2"
+  },
+  "license": "AGPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Gary Kim",
+      "email": "gary@garykim.dev"
+    }
+  ],
+  "scripts": {
+    "cs:fix": "php-cs-fixer fix",
+    "cs:check": "php-cs-fixer fix --dry-run --diff",
+    "lint": "find . -name \\*.php -not -path './vendor/*' -not -path './build/.phan/*' -print0 | xargs -0 -n1 php -l"
+  }
 }
