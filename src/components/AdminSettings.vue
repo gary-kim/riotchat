@@ -90,6 +90,17 @@
                     for="sso_force_iframe"
                 >{{ t('riotchat', 'Disable redirect to non-iframed version for SSO (make sure to set the headers to allow the SSO or CAS to be iframed)') }}</label>
                 <br>
+                <label
+                    ref="sso_iframe_domain"
+                    for="sso_iframe_domain"
+                >{{ t('riotchat', 'External domains allowed to be iframed:') }}</label>
+                <input
+                    id="sso_iframe_domain"
+                    v-model="sso_iframe_domain"
+                    type="text"
+                    @change="updateSetting('sso_iframe_domain')"
+                >
+                <br>
                 <input
                     id="disable_login_language_selector"
                     v-model="disable_login_language_selector"
@@ -245,6 +256,7 @@ export default {
             "set_custom_permalink": loadState('riotchat', 'set_custom_permalink') === 'true',
             "sso_immediate_redirect": loadState('riotchat', 'sso_immediate_redirect') === 'true',
             "sso_force_iframe": loadState('riotchat', 'sso_force_iframe') === 'true',
+            "sso_iframe_domain": loadState('riotchat', 'sso_iframe_domain'),
         };
     },
     computed: {
