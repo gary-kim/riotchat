@@ -19,6 +19,7 @@ OC.L10N.register(
     "Disable custom URLs" : "Díchumasaigh URLanna saincheaptha",
     "Redirect immediately to SSO (requires SSO to be configured on the Matrix Homeserver)" : "Atreoraigh láithreach chuig SSO (gá SSO a chumrú ar an Matrix Homeserver)",
     "Disable redirect to non-iframed version for SSO (make sure to set the headers to allow the SSO or CAS to be iframed)" : "Díchumasaigh an t-atreorú chuig leagan neamh-iframed do SSO (déan cinnte na ceanntásca a shocrú le gur féidir an SSO nó an CAS a leagan amach)",
+    "External domains allowed to be iframed:" : "Fearainn sheachtracha a cheadaítear a chur i bhfrámaí ifhrámaithe:",
     "Disable login language selector" : "Díchumasaigh an roghnóir teanga logáil isteach",
     "Show labs settings" : "Taispeáin socruithe saotharlanna",
     "Make share room links go to Element for Nextcloud instead of https://matrix.to" : "Déan naisc seomra comhroinnte téigh go dtí Element for Nextcloud in ionad https://matrix.to",
