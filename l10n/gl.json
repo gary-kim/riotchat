@@ -17,6 +17,7 @@
     "Disable custom URLs" : "Desactivar URL personalizados",
     "Redirect immediately to SSO (requires SSO to be configured on the Matrix Homeserver)" : "Redirixe inmediatamente a SSO (precisa que a SSO se configure no servidor local de Matrix)",
     "Disable redirect to non-iframed version for SSO (make sure to set the headers to allow the SSO or CAS to be iframed)" : "Desactivar a redirección á versión «non-iframed» para SSO (asegúrese de configurar as cabeceiras para permitir que a SSO ou a CAS sexan «iframed»)",
+    "External domains allowed to be iframed:" : "Os dominios externos permitidos para ser «iframed»:",
     "Disable login language selector" : "Desactivar o selector de idioma de acceso",
     "Show labs settings" : "Amosar os axustes de laboratorios",
     "Make share room links go to Element for Nextcloud instead of https://matrix.to" : "Facer que as ligazóns para compartir compartimentos vaian a Element for Nextcloud en troques de https://matrix.to",
