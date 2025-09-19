@@ -17,6 +17,7 @@
     "Disable custom URLs" : "Zima URL maalum",
     "Redirect immediately to SSO (requires SSO to be configured on the Matrix Homeserver)" : "Elekeza upya mara moja kwa SSO (inahitaji SSO kusanidiwa kwenye Matrix Homeserver)",
     "Disable redirect to non-iframed version for SSO (make sure to set the headers to allow the SSO or CAS to be iframed)" : "Lemaza uelekezaji upya kwa toleo lisilo la fremu la SSO (hakikisha umeweka vichwa ili kuruhusu SSO au CAS kupigwa picha)",
+    "External domains allowed to be iframed:" : "Vikoa vya nje vinaruhusiwa kuwekwa fremu:",
     "Disable login language selector" : "Lemaza kiteuzi cha lugha ya kuingia",
     "Show labs settings" : "Onyesha mipangilio ya maabara",
     "Make share room links go to Element for Nextcloud instead of https://matrix.to" : "Fanya viungo vya vyumba vya kushiriki viende kwenye Element for Nextcloud badala ya https://matrix.to",

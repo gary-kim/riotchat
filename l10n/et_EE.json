@@ -10,6 +10,8 @@
     "Default server URL:" : "Vaikimisi serveri võrguaadress:",
     "Default server name:" : "Vaikimisi serveri nimi:",
     "External domains allowed to be iframed:" : "Välised domeenid, mida võib iframe'i lisada:",
+    "Show labs settings" : "Näita katselisi seadistusi",
+    "Make share room links go to Element for Nextcloud instead of https://matrix.to" : "Muuda siiseviitavate linkide aadressiks Element lõimitud Nextcloudi standardse https://matrix.to asemel",
     "Jitsi settings" : "Jitsi seadistused",
     "Configure the Jitsi instance that Element will connect to." : "Seadista Jitsi serverit, mida Element kasutab.",
     "Custom integration server" : "Valitud lõiminguserver",
