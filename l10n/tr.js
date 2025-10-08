@@ -19,6 +19,7 @@ OC.L10N.register(
     "Disable custom URLs" : "Özel adresler kullanılmasın",
     "Redirect immediately to SSO (requires SSO to be configured on the Matrix Homeserver)" : "Hemen tek oturum açmaya yönlendirilsin (Matrix Homeserver üzerinde tek oturum açma açık olmalıdır)",
     "Disable redirect to non-iframed version for SSO (make sure to set the headers to allow the SSO or CAS to be iframed)" : "Tek oturum açma için iFrame kullanılmayan sürüme yönlendirmeyi kapatın (üst bilgileri TOA veya CAS için iFrame kullanılacak şekilde ayarladığınızdan emin olun)",
+    "External domains allowed to be iframed:" : "iFrame içinde görüntülenmesine izin verilen dış etki alanları:",
     "Disable login language selector" : "Oturum açma dil seçicisi kullanılmasın",
     "Show labs settings" : "Lab ayarlarını görüntüle",
     "Make share room links go to Element for Nextcloud instead of https://matrix.to" : "Oda paylaşma bağlantıları https://matrix.to yerine Nextcloud için Element üzerine gitsin",
