@@ -25,10 +25,12 @@ OC.L10N.register(
     "Configure the Jitsi instance that Element will connect to." : "Seadista Jitsi serverit, mida Element kasutab.",
     "Custom Jitsi instance (leave blank to use default Element Jitsi server):" : "Sinu määratud Jitsi server (vaikimisi Element'i Jitsi serveri kasutamiseks jäta väli tühjaks):",
     "Custom integration server" : "Valitud lõiminguserver",
+    "Configure a custom integration server for Element (leave empty to use Scalar)." : "Seadista enda valitud lõiminguserver (kui jätad tühjaks, siis on kasutusel Scalar).",
     "Integration UI URL:" : "Kasutajaliidese võrguaadress lõimingu jaoks:",
     "Integration REST URL:" : "REST-teenuste võrguaadress lõimingu jaoks:",
     "Integration widgets URL:" : "Vidinate võrguaadress lõimingu jaoks:",
     "Custom Element config" : "Element'i sinu valitud seadistus",
+    "Specify a custom configuration for Element." : "Määratle oma seadistus Element'i jaoks.",
     "Use a custom configuration" : "Kasuta oma määratud seadistust"
 },
 "nplurals=2; plural=(n != 1);");
