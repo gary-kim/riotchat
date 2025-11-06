@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8e7a7c03362b972db48618393a91fd65",
+    "content-hash": "8931a9321171ccc039a5ba56bcb74343",
     "packages": [
         {
             "name": "kubawerlos/php-cs-fixer-custom-fixers",
