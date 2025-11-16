@@ -7,6 +7,29 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates may also include translation updates.
 
+## [v0.20.0](https://github.com/gary-kim/riotchat/tree/v0.20.0) - 2025-11-16
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.19.0...v0.20.0)
+
+### Changed
+
+- chore\(deps\): update Element Web to v1.12.3 [\#702](https://github.com/gary-kim/riotchat/pull/702) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update Element Web to v1.12.0 [\#699](https://github.com/gary-kim/riotchat/pull/699) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update Element Web to v1.11.108 [\#697](https://github.com/gary-kim/riotchat/pull/697) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- Allow adding external domains to CSP header [\#695](https://github.com/gary-kim/riotchat/pull/695) ([@seii](https://github.com/seii))
+
+### Dependencies
+
+- chore\(deps\): update dependency eslint-plugin-import to ^2.32.0 [\#707](https://github.com/gary-kim/riotchat/pull/707) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update dependency @nextcloud/browserslist-config to ^3.1.1 [\#706](https://github.com/gary-kim/riotchat/pull/706) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore\(deps\): update babel monorepo to ^7.28.5 [\#705](https://github.com/gary-kim/riotchat/pull/705) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- fix\(deps\): update dependency nextcloud/coding-standard to ^1.4.0 [\#704](https://github.com/gary-kim/riotchat/pull/704) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- fix\(deps\): update dependency @nextcloud/axios to ^2.5.2 [\#703](https://github.com/gary-kim/riotchat/pull/703) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- chore: update composer.lock [\#701](https://github.com/gary-kim/riotchat/pull/701) ([@gary-kim](https://github.com/gary-kim))
+- fix\(deps\): update dependency core-js to ^3.46.0 [\#700](https://github.com/gary-kim/riotchat/pull/700) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- fix\(deps\): update dependency core-js to ^3.45.0 [\#698](https://github.com/gary-kim/riotchat/pull/698) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+- fix\(deps\): update dependency sass to ^1.91.0 [\#688](https://github.com/gary-kim/riotchat/pull/688) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+
 ## [v0.19.0](https://github.com/gary-kim/riotchat/tree/v0.19.0) - 2025-06-14
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.18.8...v0.19.0)
