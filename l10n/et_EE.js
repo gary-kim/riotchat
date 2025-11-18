@@ -16,6 +16,8 @@ OC.L10N.register(
     "Default server URL:" : "Serveri vaikimisi võrguaadress:",
     "Default server name:" : "Vaikimisi serveri nimi:",
     "Disable custom URLs" : "Serveri sinu määratud võrguaadress:",
+    "Redirect immediately to SSO (requires SSO to be configured on the Matrix Homeserver)" : "Suuna kohe edasi ühekordne sisselogimise teenusesse (eeldab, et teenus on Matrixi koduserveris seadistatud)",
+    "Disable redirect to non-iframed version for SSO (make sure to set the headers to allow the SSO or CAS to be iframed)" : "Ära luba ümbersuunamist iframe'i välisesse ühekordse sisselogimise teenusesse (palun kontrolli, et iframe'i lisamiseks vajalikud päisekirjed on teenuses olemas)",
     "External domains allowed to be iframed:" : "Välised domeenid, mida võib iframe'i lisada:",
     "Disable login language selector" : "Lülita välja keele valimine sisselogimisel",
     "Show labs settings" : "Näita katselisi seadistusi",
