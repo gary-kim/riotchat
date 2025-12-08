@@ -19,6 +19,7 @@ OC.L10N.register(
     "Disable custom URLs" : "ئىختىيارى URL نى چەكلەڭ",
     "Redirect immediately to SSO (requires SSO to be configured on the Matrix Homeserver)" : "دەرھال SSO غا قايتا نىشانلاڭ (SSO نىڭ Matrix Homeserver دا تەڭشىلىشىنى تەلەپ قىلىدۇ)",
     "Disable redirect to non-iframed version for SSO (make sure to set the headers to allow the SSO or CAS to be iframed)" : "SSO نىڭ iframed بولمىغان نەشرىگە قايتا ئۇلىنىشنى چەكلەڭ (باش بەتنى SSO ياكى CAS نىڭ iframed بولۇشىغا يول قويۇڭ).",
+    "External domains allowed to be iframed:" : "بىر گەۋدىلەشتۈرگىلى بولىدىغان تاشقىي دائىرىلەر:",
     "Disable login language selector" : "كىرىش تىل تاللىغۇچنى چەكلەڭ",
     "Show labs settings" : "تەجرىبىخانا تەڭشىكىنى كۆرسەت",
     "Make share room links go to Element for Nextcloud instead of https://matrix.to" : "ھەمبەھىر ئۆي ئۇلانمىلىرىنى https://matrix.to نىڭ ئورنىغا Nextcloud نىڭ ئېلېمېنتىغا بېرىڭ",
