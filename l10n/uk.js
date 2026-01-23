@@ -25,7 +25,7 @@ OC.L10N.register(
     "Set custom permalink to this Element instance" : "Установіть власне постійне посилання на цей примірник сервера Element",
     "Jitsi settings" : "Налаштування Jitsi",
     "Configure the Jitsi instance that Element will connect to." : "Налаштуйте сервер Jitsi, до якого під'єднуватиметься Element.",
-    "Custom Jitsi instance (leave blank to use default Element Jitsi server):" : "Власна конфігурація серверу Jitsi (залиште поле порожнім, щоби типово використовувати сервер Element Jitsi):",
+    "Custom Jitsi instance (leave blank to use default Element Jitsi server):" : "Власна конфігурація сервера Jitsi (залиште поле порожнім, щоби типово використовувати сервер Element Jitsi):",
     "Custom integration server" : "Спеціальний сервер інтеграції",
     "Configure a custom integration server for Element (leave empty to use Scalar)." : "Налаштуйте спеціальний сервер інтеграції для Element (залиште поле пустим, щоб використовувати Scalar).",
     "Integration UI URL:" : "URL-адреса інтерфейсу користувача інтеграції:",
