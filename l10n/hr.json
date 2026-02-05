@@ -16,6 +16,8 @@
     "Default server name:" : "Zadani naziv poslužitelja:",
     "Disable custom URLs" : "Onemogući prilagođene URL-ove",
     "Redirect immediately to SSO (requires SSO to be configured on the Matrix Homeserver)" : "Odmah preusmjeri na SSO (potrebno je konfigurirati SSO na poslužitelju Matrix Homeserver)",
+    "Disable redirect to non-iframed version for SSO (make sure to set the headers to allow the SSO or CAS to be iframed)" : "Onemogući preusmjeravanje na verziju bez iframea za SSO (obavezno postavite zaglavlja tako da dopuštaju prikaz SSO-a ili CAS-a u iframeu)",
+    "External domains allowed to be iframed:" : "Vanjske domene kojima je dopušten prikaz u iframeu:",
     "Disable login language selector" : "Onemogući izbornik jezika prijave",
     "Show labs settings" : "Prikaži postavke labs",
     "Make share room links go to Element for Nextcloud instead of https://matrix.to" : "Poveznice do dijeljenih soba vode na Element za Nextcloud umjesto na https://matrix.to",
