@@ -9,6 +9,7 @@ OC.L10N.register(
     "Default server URL:" : "Numatytojo serverio URL:",
     "Default server name:" : "Numatytojo serverio pavadinimas:",
     "Disable login language selector" : "Išjungti kalbos pasirinkimą prisijungimo lange",
+    "Make share room links go to Element for Nextcloud instead of https://matrix.to" : "Nustatykite, kad bendrinamų kambarių nuorodos vestų į „Element for Nextcloud“, o ne į https://matrix.to",
     "Jitsi settings" : "Jitsi nustatymai",
     "Use a custom configuration" : "Naudoti tinkintą konfigūraciją"
 },
