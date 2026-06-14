@@ -12,7 +12,7 @@ OC.L10N.register(
     "{settingName} has been set to {value}" : "{settingName} foi estabelecido a {value}",
     "Custom config could not be set. Try reloading the page." : "Non foi posíbel definir a configuración personalizada. Probe a cargar de novo a páxina.",
     "{settingName} could not be set. Try reloading the page." : "Non foi posíbel definir {settingName}. Probe a cargar de novo a páxina.",
-    "Element common configuration" : "Configuración habitual do Element",
+    "Element common configuration" : "Configuración habitual de Element",
     "Here you can configure Element." : "Aquí pode configurar Element.",
     "Default server URL:" : "URL predeterminado do servidor:",
     "Default server name:" : "Nome predeterminado do servidor:",
@@ -24,7 +24,7 @@ OC.L10N.register(
     "Show labs settings" : "Amosar os axustes de laboratorios",
     "Make share room links go to Element for Nextcloud instead of https://matrix.to" : "Facer que as ligazóns para compartir compartimentos vaian a Element for Nextcloud en troques de https://matrix.to",
     "Set custom permalink to this Element instance" : "Definir unha ligazón permanente personalizada a esta instancia de Element",
-    "Jitsi settings" : "Axustes do Jitsi",
+    "Jitsi settings" : "Axustes de Jitsi",
     "Configure the Jitsi instance that Element will connect to." : "Configure a instancia de Jitsi á que se conectará Element.",
     "Custom Jitsi instance (leave blank to use default Element Jitsi server):" : "Instancia personalizada de Jitsi (deixe en branco o uso do servidor Element Jitsi predeterminado):",
     "Custom integration server" : "Servidor de integración personalizado",
@@ -32,8 +32,8 @@ OC.L10N.register(
     "Integration UI URL:" : "URL da IU de integración:",
     "Integration REST URL:" : "URL do REST de integración:",
     "Integration widgets URL:" : "URL dos trebellos de integración:",
-    "Custom Element config" : "Configuración personalizada do Element",
-    "Specify a custom configuration for Element." : "Especifique unha configuración personalizada para o Element.",
+    "Custom Element config" : "Configuración personalizada de Element",
+    "Specify a custom configuration for Element." : "Especifique unha configuración personalizada para Element.",
     "Use a custom configuration" : "Usar unha configuración personalizada"
 },
 "nplurals=2; plural=(n != 1);");
