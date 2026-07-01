@@ -5,10 +5,17 @@ OC.L10N.register(
     "Element for Nextcloud" : "Elementos para Nextcloud",
     "Element Web integrated into Nextcloud" : "Elemento Web integrado na Nextcloud",
     "Element for Nextcloud allows you to install Element Web easily through Nextcloud and join the Matrix decentralized communication network.\n\nThis app does not include a Matrix server, only the client. You will have to either set up your own Matrix homeserver, rent one, or use a public one.\n\nThis project is not affiliated, associated, authorized, endorsed by, or in any way officially connected with Element or the Element project, or any of its subsidiaries or its affiliates.\n\nThe name Element as well as related names, marks, emblems and images are registered trademarks of their respective owners.\n\nThe upstream project can be found at [https://github.com/vector-im/element-web](https://github.com/vector-im/element-web)." : "Element for Nextcloud permite-lhe instalar facilmente a Element Web através do Nextcloud e aderir à rede de comunicação descentralizada da Matrix.\n\nEsta aplicação não inclui um servidor Matrix, apenas o cliente. Terá de configurar o seu próprio servidor Matrix, alugar um, ou utilizar um servidor público.\n\nEste projeto não é afiliado, associado, autorizado, endossado por, ou de qualquer forma oficialmente ligado à Element ou ao projeto Element, ou a qualquer uma das suas subsidiárias ou afiliadas.\n\nO nome Element, bem como os nomes, marcas, emblemas e imagens relacionadas são marcas registadas dos seus respetivos proprietários.\n\nO projeto a montante pode ser encontrado em [https://github.com/vector-im/element-web](https://github.com/vector-im/element-web).",
+    "These are experimental features in Element that you can enable. For information on what each feature is, check out the documentation for it {linkstart}here{linkend}." : "Esses são recursos experimentais do Element que você pode ativar. Para obter informações sobre o que é cada recurso, consulte a documentação {linkstart}aqui{linkend}.",
     "Experimental feature {feature}" : "Recurso experimental {feature}",
     "Custom config has been set" : "A configuração personalizada foi definida",
     "Element common configuration" : "Elemento de configuração comum",
     "Here you can configure Element." : "Aqui pode configurar o Element.",
-    "Default server URL:" : "URL predefinido do servidor:"
+    "Default server URL:" : "URL predefinido do servidor:",
+    "Disable custom URLs" : "Desativar URLs personalizadas",
+    "External domains allowed to be iframed:" : "Domínios externos autorizados para iframe:",
+    "Make share room links go to Element for Nextcloud instead of https://matrix.to" : "Faça os links da sala de compartilhamento irem para Element para Nextcloud em vez de https://matrix.to ",
+    "Custom Jitsi instance (leave blank to use default Element Jitsi server):" : "Instância Jitsi customizada (deixe em branco para usar o servidor Element Jitsi padrão):",
+    "Integration UI URL:" : "URL da UI da integração:",
+    "Custom Element config" : "Configuração do Element personalizado"
 },
 "nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;");
