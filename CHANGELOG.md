@@ -7,6 +7,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates may also include translation updates.
 
+## [v0.21.0](https://github.com/gary-kim/riotchat/tree/v0.21.0) - 2026-08-02
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.20.0...v0.21.0)
+
+### Added
+
+- feat: support Nextcloud 33 [\#723](https://github.com/gary-kim/riotchat/pull/723) ([@Thatoo](https://github.com/Thatoo))
+
+### Changed
+
+- enh: Update Element Web to v1.12.24 [\#724](https://github.com/gary-kim/riotchat/pull/724) ([@gary-kim](https://github.com/gary-kim))
+- chore\(deps\): update Element Web to v1.12.9 [\#713](https://github.com/gary-kim/riotchat/pull/713) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+
+### Fixed
+
+- fix: auto-redirect to non-iframed version for SSO on more pages [\#716](https://github.com/gary-kim/riotchat/pull/716) ([@gary-kim](https://github.com/gary-kim))
+
+### Dependencies
+
+- chore\(deps\): update dependency webpack to v5.104.1 \[security\] [\#714](https://github.com/gary-kim/riotchat/pull/714) ([@garykim-dev-renovate[bot]](https://github.com/apps/garykim-dev-renovate))
+
 ## [v0.20.0](https://github.com/gary-kim/riotchat/tree/v0.20.0) - 2025-11-16
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.19.0...v0.20.0)
