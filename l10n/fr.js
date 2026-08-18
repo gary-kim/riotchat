@@ -18,7 +18,7 @@ OC.L10N.register(
     "Default server name:" : "Nom par défaut du serveur :",
     "Disable custom URLs" : "Désactiver les adresses web personnalisés",
     "Redirect immediately to SSO (requires SSO to be configured on the Matrix Homeserver)" : "Redirection immédiate vers SSO (SSO doit être configuré sur le Homeserver Matrix)",
-    "Disable redirect to non-iframed version for SSO (make sure to set the headers to allow the SSO or CAS to be iframed)" : "Désaciver la redirection vers la version sans iframe pour l'authentification unique ( assurez-vous de configurer les en-têtes pour permettre à l'authentification unique, SSO, ou centralisée, CAS, d'être embarquée dans une iframe)",
+    "Disable redirect to non-iframed version for SSO (make sure to set the headers to allow the SSO or CAS to be iframed)" : "Désactiver la redirection vers la version sans iframe pour l'authentification unique (assurez-vous de configurer les en-têtes pour permettre à l'authentification unique, SSO, ou centralisée, CAS, d'être embarquée dans une iframe)",
     "External domains allowed to be iframed:" : "Domaines externes autorisés dans les iframes :",
     "Disable login language selector" : "Désactiver la sélection de la langue à la connexion",
     "Show labs settings" : "Afficher les paramètres expérimentaux",
