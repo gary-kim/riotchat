@@ -18,7 +18,7 @@ OC.L10N.register(
     "Default server name:" : "Predvolený názov servera:",
     "Disable custom URLs" : "Zakázať vlastné URL",
     "Redirect immediately to SSO (requires SSO to be configured on the Matrix Homeserver)" : "Okamžité presmerovanie na SSO (vyžaduje sa konfigurácia SSO na serveri Matrix Homeserver)",
-    "Disable redirect to non-iframed version for SSO (make sure to set the headers to allow the SSO or CAS to be iframed)" : "Zakázať presmerovanie na verziu bez prvkov iframe pre jednotné prihlásenie (nezabudnite nastaviť hlavičky tak, aby bolo možné pre jednorazové prihlásenie (SSO) alebo CAS použiť prvky iframe)",
+    "Disable redirect to non-iframed version for SSO (make sure to set the headers to allow the SSO or CAS to be iframed)" : "Zakázať presmerovanie na verziu bez iframe pre jednotné prihlásenie (nezabudnite nastaviť hlavičky tak, aby bolo možné SSO alebo CAS zobraziť v iframe)",
     "External domains allowed to be iframed:" : "Externé domény, ktoré je povolené vložiť do rámca iframe:",
     "Disable login language selector" : "Zakázať výber jazyka pri prihlásení",
     "Show labs settings" : "Zobraziť nastavenia experimentálnych funkcií",
