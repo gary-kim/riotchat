@@ -21,7 +21,7 @@
     "Disable login language selector" : "Zakázať výber jazyka pri prihlásení",
     "Show labs settings" : "Zobraziť nastavenia experimentálnych funkcií",
     "Make share room links go to Element for Nextcloud instead of https://matrix.to" : "Pre vytvorenie odkazov pre zdieľanie prejisť na Element pre Nextcloud namiesto https://matrix.to",
-    "Set custom permalink to this Element instance" : "Nastaviť užívateľský trvalý odkaz na túto inštanciu Element",
+    "Set custom permalink to this Element instance" : "Nastaviť vlastný trvalý odkaz na túto inštanciu Element",
     "Jitsi settings" : "Nastavenia Jitsi",
     "Configure the Jitsi instance that Element will connect to." : "Nastavte inštanciu Jitsi, ku ktorej sa Element pripojí.",
     "Custom Jitsi instance (leave blank to use default Element Jitsi server):" : "Vlastná inštancia Jitsi (nechajte prázdne, ak chcete použiť predvolený server Element Jitsi):",
