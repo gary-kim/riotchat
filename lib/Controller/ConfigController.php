@@ -26,7 +26,6 @@ declare(strict_types=1);
 namespace OCA\RiotChat\Controller;
 
 use OCA\RiotChat\AppInfo\Application;
-
 use OCP\AppFramework\Controller;
 use OCP\AppFramework\Http\JSONResponse;
 use OCP\Defaults;
@@ -75,7 +74,6 @@ class ConfigController extends Controller {
 		if ($custom_json !== '') {
 			return new JSONResponse(json_decode(($custom_json)));
 		}
-
 
 		// TODO: fill in branding from theming
 		$lang = $this->l10n->getLanguageCode();
