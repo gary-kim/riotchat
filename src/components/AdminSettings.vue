@@ -328,6 +328,8 @@ export default {
 };
 </script>
 
+<style lang="scss" src="@nextcloud/dialogs/styles/toast.scss"></style>
+
 <style lang="scss" scoped>
 #riotchat-custom {
     width: 100%;

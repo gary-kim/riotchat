@@ -15,7 +15,7 @@ module.exports = {
     },
     output: {
         path: path.join(__dirname, 'js'),
-        publicPath: '/js/',
+        publicPath: 'auto',
     },
     devtool: 'source-map',
     mode: process.env.NODE_ENV === 'production' ? 'production' : 'development',
