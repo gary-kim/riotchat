@@ -23,11 +23,9 @@ declare(strict_types=1);
  *
  */
 
-
 namespace OCA\RiotChat\Controller;
 
 use OC\Security\CSP\ContentSecurityPolicy;
-
 use OCA\RiotChat\AppInfo\Application;
 use OCP\AppFramework\Controller;
 use OCP\AppFramework\Http\FeaturePolicy;
