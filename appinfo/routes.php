@@ -26,7 +26,10 @@ return [
 		['name' => 'config#rootConfig', 'url' => '/config.json', 'verb' => 'GET'],
 		['name' => 'static#index', 'url' => '/riot/', 'verb' => 'GET'],
 		['name' => 'config#config', 'url' => '/riot/config.json', 'verb' => 'GET'],
+		['name' => 'static#pdfSandbox', 'url' => '/riot/usercontent/pdf/', 'verb' => 'GET'],
+		['name' => 'static#pdfSandbox', 'url' => '/riot/usercontent/pdf/index.html', 'verb' => 'GET', 'postfix' => '.index'],
 		['name' => 'static#usercontent', 'url' => '/riot/bundles/{version}/usercontent.js', 'verb' => 'GET'],
+		['name' => 'static#usercontentPdf', 'url' => '/riot/bundles/{version}/usercontent-pdf.{extension}', 'verb' => 'GET', 'requirements' => ['extension' => 'js|css']],
 		['name' => 'static#riot', 'url' => '/riot/{path}', 'verb' => 'GET', 'requirements' => ['path' => '.+']],
 		['name' => 'settings#setSetting', 'url' => '/settings/{key}', 'verb' => 'PUT'],
 	]

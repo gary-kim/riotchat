@@ -120,6 +120,31 @@ class StaticController extends Controller {
 	}
 
 	/**
+	 * @NoCSRFRequired
+	 * @NoAdminRequired
+	 */
+	public function pdfSandbox() {
+		$response = $this->riot('usercontent/pdf/index.html');
+		$csp = $response->getContentSecurityPolicy();
+		$csp->addAllowedWorkerSrcDomain('blob:');
+		$csp->addAllowedStyleDomain($this->request->getServerProtocol() . '://' . $this->request->getServerHost());
+		return $response;
+	}
+
+	/**
+	 * @PublicPage
+	 * @NoCSRFRequired
+	 * @NoAdminRequired
+	 */
+	public function usercontentPdf(string $version, string $extension) {
+		if (!in_array($extension, ['js', 'css'], true)) {
+			return new NotFoundResponse();
+		}
+
+		return $this->riot('bundles/' . $version . '/usercontent-pdf.' . $extension);
+	}
+
+	/**
 	 * @param $path
 	 * @return FileResponse|NotFoundResponse
 	 */
