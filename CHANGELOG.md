@@ -7,6 +7,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Updates may also include translation updates.
 
+## [v0.22.0](https://github.com/gary-kim/riotchat/tree/v0.22.0) - 2026-11-08
+
+[Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.21.0...v0.22.0)
+
+### Added
+
+- feat: support Nextcloud 35 [\#725](https://github.com/gary-kim/riotchat/pull/725) ([@Thatoo](https://github.com/Thatoo))
+
+### Changed
+
+- enh: Update Element Web to v1.12.33 [\#731](https://github.com/gary-kim/riotchat/pull/731) ([@gary-kim](https://github.com/gary-kim))
+
+### Fixed
+
+- fix: pdf sandbox loads without auth [\#732](https://github.com/gary-kim/riotchat/pull/732) ([@gary-kim](https://github.com/gary-kim))
+- fix: import toast styling so dialogs show properly on Nextcloud 25+ [\#729](https://github.com/gary-kim/riotchat/pull/729) ([@gary-kim](https://github.com/gary-kim))
+
+### Dependencies
+
+- chore\(deps\): refresh composer.lock [\#730](https://github.com/gary-kim/riotchat/pull/730) ([@gary-kim](https://github.com/gary-kim))
+
 ## [v0.21.0](https://github.com/gary-kim/riotchat/tree/v0.21.0) - 2026-08-02
 
 [Full Changelog](https://github.com/gary-kim/riotchat/compare/v0.20.0...v0.21.0)
