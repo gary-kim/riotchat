@@ -67,13 +67,11 @@ steps:
     image: garykim/personal-tools-image:latest
     pull: always
     environment:
-      GITHUB_USER: gary-kim
-      GITHUB_TOKEN:
+      GH_TOKEN:
         from_secret: github_token
     commands:
       - (cd build/artifacts && tar -czf riotchat.tar.gz riotchat)
-      - echo -en "$DRONE_TAG\n\n[See changelog here](https://github.com/gary-kim/riotchat/blob/master/CHANGELOG.md)" > releasemessage.txt
-      - hub release create -a build/artifacts/riotchat.tar.gz -F releasemessage.txt $DRONE_TAG
+      - gh release create "$DRONE_TAG" build/artifacts/riotchat.tar.gz --repo "$DRONE_REPO" --verify-tag --title "$DRONE_TAG" --notes '[See changelog here](https://github.com/gary-kim/riotchat/blob/master/CHANGELOG.md)'
   - name: release
     image: garykim/personal-tools-image:latest
     pull: always
